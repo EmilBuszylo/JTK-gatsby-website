@@ -21,6 +21,17 @@ const MobileSearchWrapper = styled.div`
   }
 `
 
+const Categories = styled.div`
+  margin: 0.5em 0 2.5em 0;
+  display: flex;
+  align-items: center;
+`
+
+const Tag = styled.span`
+  cursor: pointer;
+  margin-left: .5em;
+`
+
 export default class ProductsPage extends Component {
 
   state = {
@@ -37,7 +48,6 @@ export default class ProductsPage extends Component {
   getProductsByCategory = (products) => {
     const {location} = this.props;
     const {category} = this.state;
-
 
     if(category === 'all') {
       return products
@@ -60,7 +70,7 @@ export default class ProductsPage extends Component {
   render () {
     const {data} = this.props
     const {edges: products} = data.allMarkdownRemark
-console.log(this.state.category, 65)
+
     return (
       <div>
         <Helmet>
@@ -75,29 +85,30 @@ console.log(this.state.category, 65)
 
             <div className="columns is-mobile" style={{justifyContent: 'space-around'}}>
               <div className="column is-full-mobile is-four-fifths">
-              <div >
-              Kategorie:
-              <div  class="tags are-medium">
-                <span
-                  class={`tag ${this.state.category === 'all' ? 'is-primary' : 'is-light'} `}
-                  onClick={() => this.setState(prevState => ({category: 'all'}))}
-                >
-                  Wszystkie
-                </span>
-                {this.arrayWithProductProps(products,'categories').map( element => (
-                  <span
-                    class={`tag ${element === this.state.category ? 'is-primary' : 'is-light'} `}
-                    onClick={() => this.setState(prevState => ({category: element}))}
-                  >
-                    {element}
-                  </span>
-                ))}
-              </div>
-            </div>
-            {Boolean(products && products.length > 0) &&
-              <ProductCard products={this.getProductsByCategory(products)} isHot={false} />
-            }
-              </div>
+                  <Categories>
+                      Kategorie:
+                    <div className="tags">
+                      <Tag
+                        className={`tag ${this.state.category === 'all' ? 'is-primary' : 'is-light'} is-medium`}
+                        onClick={() => this.setState(prevState => ({category: 'all'}))}
+                      >
+                        Wszystkie
+                      </Tag>
+                      {this.arrayWithProductProps(products,'categories').map( element => (
+                        <Tag
+                          key={element}
+                          className={`tag ${element === this.state.category ? 'is-primary' : 'is-light'} is-medium`}
+                          onClick={() => this.setState(prevState => ({category: element}))}
+                        >
+                          {element}
+                        </Tag>
+                      ))}
+                    </div>
+                  </Categories>
+                  {Boolean(products && products.length > 0) &&
+                    <ProductCard products={this.getProductsByCategory(products)} isHot={false} justify="flex-start" />
+                  }
+                </div>
               <SidebarColumn className="column is-one-fifth" >
                 <Sidebar products={products}/>
               </SidebarColumn>
