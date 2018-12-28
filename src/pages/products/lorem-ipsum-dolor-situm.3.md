@@ -4,19 +4,16 @@ title: Klimatyzator Daikin
 slug: klimatyzator-daikin
 date: 2018-03-29T03:55:49.370Z
 cover: /img/daikin.png
-meta_title: Klimatyzator Daikin
-meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
 tags:
-  - lorem
   - tests
+meta_title: Klimatyzator Daikin
 categories: multi-split
-hotProductsSelect: true
 producent: Daikin
-amount: 1500
+hotProductsSelect: true
+amount: 1540
+images:
+  - caption: klima
+    image: /img/kaisai.jpg
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
