@@ -4,20 +4,15 @@ title: Klimatyzator
 slug: klimatyzator
 date: 2018-03-29T03:55:49.370Z
 cover: /img/klimatyzacja.png
-meta_title: Klimatyzator
-meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
 tags:
   - lorem
   - tests
+meta_title: Klimatyzator
 categories: multi-split
-hotProductsSelect: true
 producent: Kaisai
-images:
+hotProductsSelect: true
 amount: 1000
+images: /img/kaisai.jpg
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
