@@ -44,7 +44,6 @@ class Search extends Component {
         product => product.node.frontmatter.title.search(query) > -1 &&
         (product.node.frontmatter.tags && product.node.frontmatter.tags.length > 0)
       );
-
     return searchProducts.map(product => { return ({value: product.node.fields.slug, label: product.node.frontmatter.title})});
   }
 
@@ -64,11 +63,16 @@ onKeyDown = (event, queryLink) => {
 }
 
 componentDidMount = ( prevProps,prevState) => {
-  window.addEventListener('scroll',(event) => setTimeout(this.handleScroll, 600));
+  window.addEventListener('scroll', (event) => setTimeout(this.handleScroll, 600));
 }
 
 handleScroll = event => {
   this.setState(prevState => ({autocompleteIsActive: false}));
+}
+
+componentWillUnmount = () => {
+  window.removeEventListener('scroll', (event) => this.handleScroll);
+  this.setState(prevState => ({query: '', suggestions: []}));
 }
 
   render(){

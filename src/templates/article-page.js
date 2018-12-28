@@ -112,7 +112,7 @@ export const pageQuery = graphql`
             slug
           }
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MM.DD.YYYY")
         title
         cover
         meta_title

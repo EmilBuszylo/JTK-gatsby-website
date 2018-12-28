@@ -5,6 +5,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled, { ThemeProvider } from 'styled-components';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'

@@ -46,7 +46,7 @@ export const blogPageQuery = graphql`
             title
             cover
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM.DD.YYYY")
           }
         }
       }

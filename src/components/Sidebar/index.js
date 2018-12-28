@@ -15,7 +15,7 @@ const ListBlock = styled.div`
 
 const ListTitle = styled.h4`
   background-color: #4ba4e7;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 1em;
   margin-bottom: 0 !important;
 `

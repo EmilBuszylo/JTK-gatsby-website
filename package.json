@@ -7,6 +7,7 @@
     "@emotion/styled": "^10.0.4",
     "bulma": "^0.6.2",
     "gatsby": "^1.9.241",
+    "gatsby-image": "^2.0.25",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-feed": "^1.3.20",
     "gatsby-plugin-google-tagmanager": "^1.0.17",
@@ -21,6 +22,7 @@
     "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-plugin-sitemap": "^1.2.20",
     "gatsby-remark-images": "^1.5.60",
+    "gatsby-remark-relative-images": "^0.2.1",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.39",
     "gatsby-transformer-sharp": "^1.6.22",
@@ -30,6 +32,7 @@
     "ramda": "^0.26.1",
     "react-disqus-comments": "^1.1.1",
     "react-helmet": "^5.2.0",
+    "react-image-lightbox": "^5.1.0",
     "react-light-carousel": "^1.2.1",
     "react-share": "2.1.0",
     "styled-components": "^4.1.2"

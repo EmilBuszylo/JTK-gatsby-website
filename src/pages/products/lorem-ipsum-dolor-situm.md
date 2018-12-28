@@ -1,10 +1,10 @@
 ---
 templateKey: product-page
-title: Products test
-slug: products-test
+title: Klimatyzator
+slug: klimatyzator
 date: 2018-03-29T03:55:49.370Z
-cover: /img/products-grid3.jpg
-meta_title: Products test
+cover: /img/klimatyzacja.png
+meta_title: Klimatyzator
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -15,6 +15,8 @@ tags:
   - tests
 categories: multi-split
 hotProductsSelect: true
+producent: Kaisai
+images:
 amount: 1000
 ---
 

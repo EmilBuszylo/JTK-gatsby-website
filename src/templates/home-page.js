@@ -97,7 +97,10 @@ export default HomePage
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+    	filter: {frontmatter: {templateKey: {eq: "product-page"}}}
+    ) {
       edges {
         node {
           excerpt(pruneLength: 80)
@@ -112,7 +115,7 @@ export const pageQuery = graphql`
             hotProductsSelect
             amount
             categories
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM.DD.YYYY")
           }
         }
       }

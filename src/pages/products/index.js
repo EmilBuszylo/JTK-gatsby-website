@@ -130,7 +130,10 @@ ProductsPage.propTypes = {
 
 export const productsPageQuery = graphql`
   query ProductsPage {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+    	filter: {frontmatter: {templateKey: {eq: "product-page"}}}
+    ) {
       edges {
         node {
           excerpt(pruneLength: 80)
@@ -146,7 +149,7 @@ export const productsPageQuery = graphql`
             amount
             tags
             categories
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM.DD.YYYY")
           }
         }
       }

@@ -1,10 +1,10 @@
 ---
 templateKey: product-page
-title: Products test4
-slug: products-test4
+title: Klimatyzator Daikin
+slug: klimatyzator-daikin
 date: 2018-03-29T03:55:49.370Z
-cover: /img/products-grid3.jpg
-meta_title: Products test
+cover: /img/daikin.png
+meta_title: Klimatyzator Daikin
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -15,7 +15,9 @@ tags:
   - tests
 categories: multi-split
 hotProductsSelect: true
-amount: 3000
+producent: Daikin
+images:
+amount: 1500
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

@@ -1,10 +1,10 @@
 ---
 templateKey: product-page
-title: Products test2
-slug: products-test2
+title: Zestaw Kaisai
+slug: zestaw-kaisai
 date: 2018-03-29T03:55:49.370Z
-cover: /img/products-grid3.jpg
-meta_title: Products test
+cover: /img/zestaw_klimatyzacja.jpg
+meta_title: Zestaw Kaisai
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -15,6 +15,8 @@ tags:
   - tests
 categories: split
 hotProductsSelect: true
+producent: Kaisai
+images: /img/zestaw_klimatyzacja.jpg
 amount: 3000
 ---
 

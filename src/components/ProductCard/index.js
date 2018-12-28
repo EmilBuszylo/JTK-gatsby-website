@@ -48,12 +48,12 @@ const ProductCard = ({products, isHot, justify}) => {
             <Card className="card">
               <div className="card-image">
                 <figure className="image is-2by1">
-                  <img src="/img/klimatyzacja.png" alt="Placeholder image"/>
+                  <img src={product.frontmatter.cover} alt="Placeholder image"/>
                 </figure>
               </div>
               <div className="card-informations has-text-centered">
                 <h3 className="title is-4" style={{margin: ".5rem 0"}}>{product.frontmatter.title}</h3>
-                <p className={`title is-4 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.amount}</p>
+                <p className={`title is-4 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.amount} zł</p>
               </div>
               <div className="content" style={{padding: ".5rem", marginBottom: ".5rem"}}>
                 <p>{product.excerpt}</p>
