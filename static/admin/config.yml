@@ -85,4 +85,4 @@ collections:
       - {label: "Producent", name: "producent", widget: "text"}
       - {label: "Wyróżnij produkt", name: "hotProductsSelect", widget: "select", options: [{label: "Tak", value: true}, {label: "Nie", value: false}]}
       - {label: "Kwota", name: "amount", widget: "number", default: 0, valueType: "float"}
-      - {label: "Zdjęcia", name: "images", widget: "image"}
+      - {label: "Zdjęcia", name: "images", widget: "image", allow_multiple: true, media_library: {config: {multiple: true}}}
