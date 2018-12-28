@@ -16,7 +16,6 @@ tags:
 categories: multi-split
 hotProductsSelect: true
 producent: Daikin
-images:
 amount: 1500
 ---
 

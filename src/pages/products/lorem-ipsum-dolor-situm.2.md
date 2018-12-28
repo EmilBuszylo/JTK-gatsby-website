@@ -16,7 +16,6 @@ tags:
 categories: split
 hotProductsSelect: true
 producent: Kaisai
-images:
 amount: 2200
 ---
 

@@ -16,7 +16,6 @@ tags:
 categories: split
 hotProductsSelect: true
 producent: Kaisai
-images: /img/zestaw_klimatyzacja.jpg
 amount: 3000
 ---
 

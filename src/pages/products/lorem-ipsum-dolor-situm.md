@@ -16,7 +16,6 @@ tags:
 categories: multi-split
 hotProductsSelect: true
 producent: Kaisai
-images:
 amount: 1000
 ---
 
