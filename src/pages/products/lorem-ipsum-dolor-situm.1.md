@@ -4,19 +4,21 @@ title: Zestaw Kaisai
 slug: zestaw-kaisai
 date: 2018-03-29T03:55:49.370Z
 cover: /img/zestaw_klimatyzacja.jpg
-meta_title: Zestaw Kaisai
-meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
 tags:
   - lorem
   - tests
+meta_title: Zestaw Kaisai
 categories: split
-hotProductsSelect: true
 producent: Kaisai
+hotProductsSelect: true
 amount: 3000
+images:
+  - caption: klimatyzacja
+    image: /img/klimatyzacja.png
+  - caption: klimatyzator
+    image: /img/kaisai.jpg
+  - caption: zestaw
+    image: /img/zestaw_klimatyzacja.jpg
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
