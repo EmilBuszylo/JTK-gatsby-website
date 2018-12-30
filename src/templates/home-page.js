@@ -18,8 +18,6 @@ const arrayWithProductProps = (products, property ) => {
 
 export const HomePageTemplate = ({
   title,
-  heading,
-  description,
   offerings,
   meta_title,
   meta_description,
