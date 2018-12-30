@@ -19,9 +19,13 @@ const PageContent = styled.div`
   min-height: 85vh;
 `
 
+const PageLayout = styled.div`
+  position: relative;
+`
+
 const TemplateWrapper = ({children}) => (
   <ThemeProvider theme={theme}>
-    <div className="page-layout">
+    <PageLayout className="page-layout">
       <Helmet>
         <title>{config.siteTitle}</title>
         <meta name='description' content={config.siteDescription} />
@@ -29,7 +33,7 @@ const TemplateWrapper = ({children}) => (
       <NavBar />
       <PageContent>{children()}</PageContent>
       <Footer title={config.siteTitle} slug={config.siteUrl} excerpt={config.siteDescription}/>
-    </div>
+    </PageLayout>
   </ThemeProvider>
 )
 

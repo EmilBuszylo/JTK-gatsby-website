@@ -1,6 +1,3 @@
-/**
- * Created by vaibhav on 31/3/18
- */
 import React, {Component} from 'react'
 import favicon from './img/favicon.ico'
 
@@ -41,7 +38,6 @@ export default class HTML extends Component {
             dangerouslySetInnerHTML={{__html: this.props.body}}
           />
           {this.props.postBodyComponents}
-          <script src={__PATH_PREFIX__ + '/js/toggle.js'} />
         </body>
       </html>
     )
