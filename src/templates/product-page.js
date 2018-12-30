@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components';
 import Lightbox from 'react-image-lightbox';
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 import Content, {HTMLContent} from '../components/Content'
 import SE0 from '../components/SEO'
