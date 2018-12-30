@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components';
+import ReactDOM from 'react-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const InfoCardHeader = styled.p`
     margin-bottom: 0 !important;
 `
 
-const CardButton = styled.button`
+const CardButton = styled(AnchorLink)`
   border-color: ${props => props.theme.accentColor} !important;
   transition: all .1s linear;
 
@@ -36,9 +38,9 @@ export const ProductInfoCard = ({title, amount, date, hotProduct, producent}) =>
             </a>
             }
             <div className="panel-block">
-            <CardButton className="button is-link is-outlined is-fullwidth">
-                Zamów ten produkt
-            </CardButton>
+                <CardButton className="button is-link is-outlined is-fullwidth" href='#productForm'>
+                    Zamów ten produkt
+                </CardButton>
             </div>
       </div>
     )

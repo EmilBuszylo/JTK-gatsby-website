@@ -1,28 +1,23 @@
-/**
- * Created by vaibhav on 31/3/18
- */
-import React from 'react'
-import config from '../../../meta/config'
+import React from 'react';
+import config from '../../../meta/config';
+import Share from '../Share';
+import styled from 'styled-components';
 
-const Footer = () => {
+const FooterWrapper = styled.footer`
+  padding: 3rem 1rem !important;
+`
+
+const Footer = ({title, slug, excerpt}) => {
   return (
-    <footer className='footer'>
+    <FooterWrapper className='footer'>
       <div className='container'>
-        <div className='content has-text-centered'>
-          <div className="columns is-tablet is-centered">
-            <div className="column  is-one-quarter-tablet">
-                konntakt
-            </div>
-            <div className="column is-one-quarter-tablet">
-              socialmedia
-            </div>
-          </div>
+        <div className='content'>
           <p>
-            {config.copyright}
+            Copyright © JT Klima wszystkie prawa zastrzeżone.
           </p>
         </div>
       </div>
-    </footer>
+    </FooterWrapper>
   )
 }
 

@@ -10,7 +10,7 @@ const DropdownItem = styled.a`
     color: #ffffff;
     border-color: transparent;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
 `
@@ -23,7 +23,7 @@ const DropdownSubItem = styled(Link)`
     color: #ffffff;
     border-color: transparent;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
 `
@@ -35,7 +35,7 @@ const NavbarItem = styled(Link)`
       color: #ffffff;
       border-color: transparent;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
 `

@@ -1,14 +1,10 @@
-/**
- * Created by vaibhav on 31/3/18
- */
 import React from 'react'
 import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
-import Link from 'gatsby-link'
 import Content, {HTMLContent} from '../components/Content'
 import SE0 from '../components/SEO'
 import Disqus from '../components/Disqus'
 import Share from '../components/Share'
+import TagsList from '../components/TagsList';
 
 export const ArticleTemplate = ({
   content,
@@ -39,18 +35,9 @@ export const ArticleTemplate = ({
             </h1>
             <img src={cover} alt={title} />
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{marginTop: `4rem`}}>
-                <h4>Tags</h4>
-                <ul className='taglist'>
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+            {tags && tags.length ?
+              <TagsList tags={tags}/> : null
+            }
             <hr />
             <Share
               title={title}
@@ -58,10 +45,10 @@ export const ArticleTemplate = ({
               excerpt={meta_desc}
             />
             <hr />
-            <Disqus
+            {/* <Disqus
               title={title}
               slug={slug}
-            />
+            /> */}
           </div>
         </div>
       </div>

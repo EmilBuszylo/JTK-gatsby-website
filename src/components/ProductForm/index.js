@@ -21,18 +21,14 @@ export const ProductForm = ({title}) =>
             </div>
             <div className="field">
                 <label className="label" htmlFor="email">Email</label>
-                <div className="control has-icons-left has-icons-right">
-                <input className="input is-danger" name="email" type="email" id="email" placeholder="Twój email" />
-                <span className="icon is-small is-right">
-                    <i className="fas fa-exclamation-triangle"></i>
-                </span>
+                <div className="control">
+                    <input className="input" name="email" type="email" id="email" placeholder="Twój email" />
                 </div>
-                <p className="help is-danger">This email is invalid</p>
             </div>
             <div className="field">
                 <label className="label" htmlFor="tel">Telefon kontaktowy</label>
                 <div className="control">
-                <input className="input" name="tel" id="tel" type="tel" placeholder="Nr telefonu"/>
+                    <input className="input" name="tel" id="tel" type="tel" placeholder="Nr telefonu"/>
                 </div>
             </div>
             <div className="field">
@@ -43,10 +39,10 @@ export const ProductForm = ({title}) =>
             </div>
             <div className="field is-grouped">
                 <div className="control">
-                <button className="button is-link">Wyślij</button>
+                    <button className="button is-link">Wyślij</button>
                 </div>
                 <div className="control">
-                <button className="button is-text">Wyczyść</button>
+                    <button className="button is-text">Wyczyść</button>
                 </div>
             </div>
         </Form>

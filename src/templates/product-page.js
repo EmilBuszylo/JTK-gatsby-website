@@ -1,12 +1,8 @@
-/**
- * Created by vaibhav on 31/3/18
- */
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
-import Link from 'gatsby-link'
 import styled from 'styled-components';
 import Lightbox from 'react-image-lightbox';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import Content, {HTMLContent} from '../components/Content'
 import SE0 from '../components/SEO'
@@ -14,17 +10,50 @@ import Share from '../components/Share'
 import Sidebar from '../components/Sidebar';
 import ProductForm from '../components/ProductForm';
 import ProductInfoCard from '../components/ProductInfoCard';
+import TagsList from '../components/TagsList';
 
 const SidebarColumn = styled.div`
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     display: none !important;
   }
 `
 
 const Cover = styled.figure`
   padding: 0 1.5em 1.5em;
-  max-width: 35em;
+  max-width: 30em;
+  min-width: 10em;
   margin: 0 1em 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 1023px) {
+    padding: .5em;
+    margin: .5em;
+  }
+`
+
+const ProductImageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const ProductImage = styled.figure`
+  padding: .3em !important;
+  background: #eee;
+  max-width: 7em;
+  margin: .5em !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+const MainContent = styled.div`
+  width: 80%;
+    @media (max-width: 1023px) {
+    width: 100%;
+  }
 `
 
 export class ProductTemplate extends Component {
@@ -33,6 +62,25 @@ export class ProductTemplate extends Component {
     photoIndex: 0,
     isOpen: false,
   };
+
+  getProductImages  = (coverImage, productImages = []) => {
+    let images = [];
+
+
+    if(!productImages || productImages.length === 0 && coverImage) {
+      images.push(coverImage);
+
+      return images;
+    }
+
+    if(!productImages || productImages.length === 0 && !coverImage) {
+      return images;
+    }
+
+    images.push(coverImage);
+
+    return images.concat( productImages.map( image => image.image));
+  }
 
   render() {
     const {
@@ -48,15 +96,15 @@ export class ProductTemplate extends Component {
       amount,
       date,
       hotProduct,
-      producent
+      producent,
+      images
     } = this.props;
 
     const {isOpen, photoIndex} = this.state;
 
     const PostContent = contentComponent || Content;
 
-    const images = [];
-    images.push(cover)
+    const ProductImages = this.getProductImages(cover, images);
 
     return (
       <section className='section'>
@@ -67,73 +115,70 @@ export class ProductTemplate extends Component {
           cover={cover}
           slug={slug}
         />
-            <button type="button" onClick={() => this.setState({ isOpen: true })}>
-          Open Lightbox
-        </button>
+        <div className="container">
         <div className="columns is-mobile" style={{justifyContent: 'space-around'}}>
-          <div className="column is-full-mobile is-four-fifths">
-            <div className='container content'>
-              <div className='columns'>
-                <div className='column is-10 is-offset-1'>
-                  <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
-                    {title}
-                  </h1>
-                  <header className='columns'>
-                    <div className="column is-6">
-                      <Cover>
-                        <img src={cover} alt={title} />
-                      </Cover>
-                    </div>
-                    <div className="column is-5">
-                      <ProductInfoCard title={title} amount={amount} date={date} hotProduct={hotProduct} producent={producent}/>
-                    </div>
-                  </header>
-                  <PostContent content={content} />
-                  <ProductForm title={title} />
-                  {tags && tags.length ? (
-                    <div style={{marginTop: `4rem`}}>
-                      <h4>Tagi</h4>
-                      <ul className='taglist'>
-                        {tags.map(tag => (
-                          <li key={tag + `tag`}>
-                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ) : null}
-                  <hr />
-                  <Share
-                    title={title}
-                    slug={slug}
-                    excerpt={meta_desc}
-                  />
-                </div>
+          <MainContent className="column is-full-mobile is-four-fifths">
+            <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
+              {title}
+            </h1>
+            <header className='columns'>
+              <div className="column is-6">
+                <Cover onClick={() => this.setState({ isOpen: true })}>
+                  <img src={cover} alt={title} />
+                </Cover>
+                {images && images.length > 0 ?
+                  <ProductImageWrapper>
+                    {images.map(image => (
+                      <ProductImage onClick={() => this.setState({ isOpen: true })}>
+                        <img src={image.image} alt={image.caption}/>
+                      </ProductImage>
+                    ))}
+                  </ProductImageWrapper>
+                  :
+                  null
+                }
               </div>
+              <div className="column is-5">
+                <ProductInfoCard title={title} amount={amount} date={date} hotProduct={hotProduct} producent={producent}/>
+              </div>
+            </header>
+            <PostContent content={content} />
+            <div id='productForm'>
+              <ProductForm title={title} />
             </div>
-          </div>
+            {tags && tags.length ?
+              <TagsList tags={tags}/> : null
+            }
+            <hr />
+            <Share
+              title={title}
+              slug={slug}
+              excerpt={meta_desc}
+            />
+          </MainContent>
           <SidebarColumn className="column is-one-fifth" >
             <Sidebar products={products}/>
           </SidebarColumn>
         </div>
         {isOpen && (
           <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            mainSrc={ProductImages[photoIndex]}
+            nextSrc={ProductImages[(photoIndex + 1) % ProductImages.length]}
+            prevSrc={ProductImages[(photoIndex + ProductImages.length - 1) % ProductImages.length]}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMovePrevRequest={() =>
               this.setState({
-                photoIndex: (photoIndex + images.length - 1) % images.length,
+                photoIndex: (photoIndex + ProductImages.length - 1) % ProductImages.length,
               })
             }
             onMoveNextRequest={() =>
               this.setState({
-                photoIndex: (photoIndex + 1) % images.length,
+                photoIndex: (photoIndex + 1) % ProductImages.length,
               })
             }
           />
         )}
+        </div>
       </section>
     )
   }
@@ -150,6 +195,12 @@ ProductTemplate.propTypes = {
   date: PropTypes.string,
   producent: PropTypes.string,
   hotProduct: PropTypes.bool,
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string,
+      caption: PropTypes.string
+    })
+  )
 }
 
 const ProductPage = ({data}) => {
@@ -171,6 +222,7 @@ const ProductPage = ({data}) => {
       date={post.frontmatter.date}
       hotProduct={post.frontmatter.hotProductsSelect}
       producent={post.frontmatter.producent}
+      images={post.frontmatter.images}
     />
   )
 }
@@ -200,6 +252,10 @@ export const pageQuery = graphql`
         amount
         hotProductsSelect
         tags
+        images {
+          caption
+          image
+        }
         producent
       }
     }

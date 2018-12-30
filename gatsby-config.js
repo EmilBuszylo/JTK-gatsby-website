@@ -156,7 +156,8 @@ module.exports = {
                                       hotProductsSelect
                                       amount
                                       categories
-                                      date(formatString: "MMMM DD, YYYY")
+                                      images
+                                      date(formatString: "MM.DD.YYYY")
                                       tags
                                     }
                                   }
