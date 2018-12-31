@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Form = styled.form`
   margin-top: 2em;
@@ -11,7 +13,7 @@ export const ProductForm = ({title}) =>
         <Form>
             <div className="field">
                 <label className="label" htmlFor="product">Produkt</label>
-                <p className="control has-icons-left">
+                <p className="control">
                 <span className="select">
                     <select name="product" id="product">
                     <option selected>{title}</option>
@@ -21,14 +23,20 @@ export const ProductForm = ({title}) =>
             </div>
             <div className="field">
                 <label className="label" htmlFor="email">Email</label>
-                <div className="control">
+                <div className="control has-icons-left">
                     <input className="input" name="email" type="email" id="email" placeholder="Twój email" />
+                    <span className="icon is-small is-left">
+                        <FontAwesomeIcon icon={faEnvelope}/>
+                    </span>
                 </div>
             </div>
             <div className="field">
                 <label className="label" htmlFor="tel">Telefon kontaktowy</label>
-                <div className="control">
+                <div className="control has-icons-left">
                     <input className="input" name="tel" id="tel" type="tel" placeholder="Nr telefonu"/>
+                    <span className="icon is-small is-left">
+                        <FontAwesomeIcon icon={faPhone}/>
+                    </span>
                 </div>
             </div>
             <div className="field">
