@@ -8,7 +8,7 @@ const Form = styled.form`
   margin-top: 2em;
 `
 
-export const ProductForm = ({title}) =>
+export const ProductForm = ({title, chosenVersion}) =>
     (
         <Form>
             <div className="field">
@@ -16,7 +16,17 @@ export const ProductForm = ({title}) =>
                 <p className="control">
                 <span className="select">
                     <select name="product" id="product">
-                    <option selected>{title}</option>
+                    <option selected value={title}>{title}</option>
+                    </select>
+                </span>
+                </p>
+            </div>
+            <div className="field">
+                <label className="label" htmlFor="version">Wersja</label>
+                <p className="control">
+                <span className="select">
+                    <select name="version" id="version">
+                    <option selected value={chosenVersion.power}>{chosenVersion.power}</option>
                     </select>
                 </span>
                 </p>

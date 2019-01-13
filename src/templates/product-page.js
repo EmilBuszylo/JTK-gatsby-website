@@ -60,7 +60,14 @@ export class ProductTemplate extends Component {
   state = {
     photoIndex: 0,
     isOpen: false,
+    chosenVersion: ''
   };
+
+  componentDidMount() {
+    if (this.state.chosenVersion === '') {
+      this.setState({ chosenVersion: 0 })
+    }
+  }
 
   getProductImages  = (coverImage, productImages = []) => {
     let images = [];
@@ -81,6 +88,19 @@ export class ProductTemplate extends Component {
     return images.concat( productImages.map( image => image.image));
   }
 
+  onVersionChange = e => {
+    const value = e.target.value
+    this.setState(prevState => ({chosenVersion: value}))
+  }
+
+  setProductPrice = () => {
+    if(this.state.chosenVersion === '' || this.state.chosenVersion === 0) {
+      return this.props.version[0].price;
+    } else {
+      return this.props.version[this.state.chosenVersion].price;
+    }
+  }
+
   render() {
     const {
       content,
@@ -92,14 +112,14 @@ export class ProductTemplate extends Component {
       title,
       slug,
       products,
-      amount,
       date,
       hotProduct,
       producent,
-      images
+      images,
+      version
     } = this.props;
 
-    const {isOpen, photoIndex} = this.state;
+    const {isOpen, photoIndex, chosenVersion} = this.state;
 
     const PostContent = contentComponent || Content;
 
@@ -138,13 +158,15 @@ export class ProductTemplate extends Component {
                 }
               </div>
               <div className="column is-5">
-                <ProductInfoCard title={title} amount={amount} date={date} hotProduct={hotProduct} producent={producent}/>
+                <ProductInfoCard onVersionChange={this.onVersionChange} title={title} version={version} amount={this.setProductPrice()} date={date} hotProduct={hotProduct} producent={producent}/>
               </div>
             </header>
             <PostContent content={content} />
-            <div id='productForm'>
-              <ProductForm title={title} />
-            </div>
+            {Boolean(chosenVersion !== '' && version) &&
+              <div id='productForm'>
+                <ProductForm title={title} chosenVersion={version[chosenVersion]} />
+              </div>
+            }
             {tags && tags.length ?
               <TagsList tags={tags}/> : null
             }
@@ -217,11 +239,11 @@ const ProductPage = ({data}) => {
       title={post.frontmatter.title}
       slug={post.fields.slug}
       products={products}
-      amount={post.frontmatter.amount}
       date={post.frontmatter.date}
       hotProduct={post.frontmatter.hotProductsSelect}
       producent={post.frontmatter.producent}
       images={post.frontmatter.images}
+      version={post.frontmatter.version}
     />
   )
 }
@@ -243,12 +265,15 @@ export const pageQuery = graphql`
             slug
           }
       frontmatter {
-        date(formatString: "MM.DD.YYYY")
+        date(formatString: "DD.MM.YYYY")
         title
         cover
         meta_title
         meta_description
-        amount
+        version {
+          power
+          price
+        }
         hotProductsSelect
         tags
         images {
@@ -274,10 +299,13 @@ export const pageQuery = graphql`
             cover
             templateKey
             hotProductsSelect
-            amount
             categories
             tags
-            date(formatString: "MM.DD.YYYY")
+            version {
+              power
+              price
+            }
+            date(formatString: "DD.MM.YYYY")
           }
         }
       }

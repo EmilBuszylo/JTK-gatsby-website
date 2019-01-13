@@ -136,7 +136,7 @@ export const productsPageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 80)
+          excerpt(pruneLength: 60)
           id
           fields {
             slug
@@ -146,10 +146,13 @@ export const productsPageQuery = graphql`
             cover
             templateKey
             hotProductsSelect
-            amount
             tags
             categories
-            date(formatString: "MM.DD.YYYY")
+            version {
+              power
+              price
+            }
+            date(formatString: "DD.MM.YYYY")
           }
         }
       }

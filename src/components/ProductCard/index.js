@@ -44,7 +44,7 @@ const ProductCard = ({products, isHot, justify}) => {
         .filter(product => product.node.frontmatter.templateKey === 'product-page' && (isHot ? product.node.frontmatter.hotProductsSelect === true : true))
         .slice(isHot ? (4, 0) : 0)
         .map(({node: product}) => (
-          <Column key={product.frontmatter.title + product.frontmatter.amount} className="column is-narrow" isHot={isHot}>
+          <Column key={product.frontmatter.title + product.frontmatter.version[0].price} className="column is-narrow" isHot={isHot}>
             <Card className="card">
               <div className="card-image">
                 <figure className="image is-2by1">
@@ -53,7 +53,7 @@ const ProductCard = ({products, isHot, justify}) => {
               </div>
               <div className="card-informations has-text-centered">
                 <h3 className="title is-4" style={{margin: ".5rem 0"}}>{product.frontmatter.title}</h3>
-                <p className={`title is-4 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.amount} zł</p>
+                <p className={`title is-4 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
               </div>
               <div className="content" style={{padding: ".5rem", marginBottom: ".5rem"}}>
                 <p>{product.excerpt}</p>

@@ -154,7 +154,6 @@ module.exports = {
                                       templateKey
                                       cover
                                       hotProductsSelect
-                                      amount
                                       categories
                                       images {
                                         caption

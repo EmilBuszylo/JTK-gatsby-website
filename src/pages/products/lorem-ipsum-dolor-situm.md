@@ -16,7 +16,13 @@ tags:
 categories: multi-split
 hotProductsSelect: true
 producent: Kaisai
-amount: 1000
+version:
+  - power: 2kw
+    price: 1000
+  - power: 2,5kw
+    price: 1200
+  - power: 3,5kw
+    price: 1500
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

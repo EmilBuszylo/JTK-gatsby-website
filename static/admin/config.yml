@@ -84,5 +84,5 @@ collections:
       - {label: "Kategoria", name: "categories", widget: "text"}
       - {label: "Producent", name: "producent", widget: "text"}
       - {label: "Wyróżnij produkt", name: "hotProductsSelect", widget: "select", options: [{label: "Tak", value: true}, {label: "Nie", value: false}]}
-      - {label: "Kwota", name: "amount", widget: "number", default: 0, valueType: "float"}
       - {label: Zdjęcia, name: images, widget: list, fields: [{label: Zdjęcie, name: image, widget: image}, {label: Podpis, name: caption, widget: string}]}
+      - {label: Wersje, name: version, widget: list, fields: [{label: Moc, name: power, widget: string}, {label: Cena, name: price, widget: string}]}

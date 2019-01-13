@@ -16,7 +16,7 @@ const CardButton = styled(AnchorLink)`
   }
 `
 
-export const ProductInfoCard = ({title, amount, date, hotProduct, producent}) =>
+export const ProductInfoCard = ({title, onVersionChange, amount, date, hotProduct, producent, version}) =>
     (
         <div className="panel">
             <InfoCardHeader className="panel-heading">
@@ -24,6 +24,25 @@ export const ProductInfoCard = ({title, amount, date, hotProduct, producent}) =>
             </InfoCardHeader>
             <a className="panel-block">
                 Cena: {amount} zł
+            </a>
+            <a className="panel-block">
+                <div className="field">
+                    <label className="label" htmlFor="topic">Wersja</label>
+                    <p className="control">
+                    <span className="select">
+                        <select name="topic" id="topic" onChange={(e) => onVersionChange(e)}>
+                            {version.map((item, index) => {
+                                if(index === 0) {
+                                    return <option selected key={item.power + index} value={index}>{item.power}</option>
+                                } else {
+                                    return <option key={item.power + index} value={index}>{item.power}</option>
+                                }
+                            }
+                            )}
+                        </select>
+                    </span>
+                    </p>
+                </div>
             </a>
             <a className="panel-block">
                 Producent: {producent}

@@ -11,7 +11,13 @@ meta_title: Zestaw Kaisai
 categories: split
 producent: Kaisai
 hotProductsSelect: true
-amount: 3000
+version:
+  - power: 2kw
+    price: 1000
+  - power: 2,5kw
+    price: 1200
+  - power: 3,5kw
+    price: 1500
 images:
   - caption: klimatyzacja
     image: /img/klimatyzacja.png

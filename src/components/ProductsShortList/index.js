@@ -23,7 +23,7 @@ const ProductsShorList = ({products, condition, itemsNum = 3}) => {
                         </figure>
                         <section className="products-short-list-item-content"></section>
                         <h6 className="title is-6" style={{marginBottom: ".5rem"}}>{product.frontmatter.title}</h6>
-                        <p className="title is-6 has-text-danger" style={{marginBottom: ".5rem"}}>{product.frontmatter.amount} zł</p>
+                        <p className="title is-6 has-text-danger" style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
                     </Product>
                 )}),
             ['date']: products
@@ -36,7 +36,7 @@ const ProductsShorList = ({products, condition, itemsNum = 3}) => {
                         </figure>
                         <section className="products-short-list-item-content"></section>
                         <h5 className="title is-6" style={{marginBottom: ".5rem"}}>{product.frontmatter.title}</h5>
-                        <p className="title is-6" style={{marginBottom: ".5rem"}}>{product.frontmatter.amount} zł</p>
+                        <p className="title is-6" style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
                         <p>Dodano: <span className="is-italic">{product.frontmatter.date}</span> </p>
                     </Product>
                 ))

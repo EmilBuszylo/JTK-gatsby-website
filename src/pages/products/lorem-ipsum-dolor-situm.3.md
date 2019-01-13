@@ -10,7 +10,13 @@ meta_title: Klimatyzator Daikin
 categories: multi-split
 producent: Daikin
 hotProductsSelect: true
-amount: 1540
+version:
+  - power: 2kw
+    price: 1000
+  - power: 2,5kw
+    price: 1200
+  - power: 3,5kw
+    price: 1500
 images:
   - caption: klima
     image: /img/kaisai.jpg
