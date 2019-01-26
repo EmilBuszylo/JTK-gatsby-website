@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby'
 import styled from 'styled-components';
 
 const Product = styled(Link)`
@@ -13,7 +13,6 @@ const ProductsShorList = ({products, condition, itemsNum = 3}) => {
     <div className='products-short-list' style={{padding: '1.5rem', textAlign: 'center'}}>
         {{
             ['hot']: products
-                .filter(product => product.node.frontmatter.templateKey === 'product-page' && product.node.frontmatter.hotProductsSelect === true)
                 .slice(0, itemsNum)
                 .map(({node: product}, index) => {
                     return (
@@ -27,7 +26,6 @@ const ProductsShorList = ({products, condition, itemsNum = 3}) => {
                     </Product>
                 )}),
             ['date']: products
-                .filter(product => product.node.frontmatter.templateKey === 'product-page')
                 .slice(0, itemsNum)
                 .map(({node: product}) => (
                     <Product className="products-short-list-item" to={product.fields.slug} key={product.frontmatter.title + product.frontmatter.date} >
@@ -45,4 +43,4 @@ const ProductsShorList = ({products, condition, itemsNum = 3}) => {
   )
 }
 
-export default ProductsShorList
+export default ProductsShorList;

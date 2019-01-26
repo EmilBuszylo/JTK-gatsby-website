@@ -1,25 +1,33 @@
-/**
- * Created by vaibhav on 31/3/18
- */
 const _ = require('lodash')
 const path = require('path')
-const { createFilePath } = require('gatsby-source-filesystem')
+const {createFilePath} = require('gatsby-source-filesystem')
+const createPaginatedPages = require('gatsby-paginate')
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({actions, graphql, arg}) => {
+  const {createPage} = actions
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(limit: 1000, sort: { order: DESC, fields: [frontmatter___date] }) {
         edges {
           node {
+            excerpt(pruneLength: 60)
             id
             fields {
               slug
             }
             frontmatter {
-              tags
+              title
+              cover
               templateKey
+              hotProductsSelect
+              tags
+              categories
+              version {
+                power
+                price
+              }
+              date(formatString: "DD.MM.YYYY")
             }
           }
         }
@@ -32,6 +40,42 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    const blogPosts = result.data.allMarkdownRemark.edges.filter( edge => edge.node.frontmatter.templateKey === 'article-page' || edge.node.frontmatter.templateKey === 'article-page2')
+    createPaginatedPages({
+      edges: blogPosts,
+      createPage: createPage,
+      pageTemplate: 'src/templates/blog.js',
+      pageLength: 6, // This is optional and defaults to 10 if not used
+      pathPrefix: 'blog', // This is optional and defaults to an empty string if not used
+      context: {}, // This is optional and defaults to an empty object if not used
+    })
+
+    const products = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'product-page')
+    createPaginatedPages({
+      edges: products,
+      createPage: createPage,
+      pageTemplate: 'src/templates/products.js',
+      pageLength: 20, // This is optional and defaults to 10 if not used
+      pathPrefix: 'produkty', // This is optional and defaults to an empty string if not used
+      context: {
+        lastProducts: products.slice(0, 4),
+        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+      }, // This is optional and defaults to an empty object if not used
+    })
+
+    const productsByCategories = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'product-page')
+    createPaginatedPages({
+      edges: productsByCategories,
+      createPage: createPage,
+      pageTemplate: 'src/templates/categories.js',
+      pageLength: 20, // This is optional and defaults to 10 if not used
+      pathPrefix: 'produkty/kategoria/:slug', // This is optional and defaults to an empty string if not used
+      context: {
+        lastProducts: products.slice(0, 4),
+        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+        test: arg
+      }, // This is optional and defaults to an empty object if not used
+    })
 
     posts.forEach(edge => {
       const id = edge.node.id
@@ -44,6 +88,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+          lastProducts: products.slice(0, 4),
+          productCategories: products.filter(product => product.node.frontmatter.categories)
+            .map((product, index) => product.node.frontmatter.categories)
+            .reduce((a,b) => {
+              if (a.indexOf(b) < 0 ) a.push(b);
+              return a;
+            },[]),
+          poductsTitleList: products.map(product => product.node.frontmatter.title)
         },
       })
     })
@@ -74,11 +127,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   })
 }
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({node, actions, getNode}) => {
+  const {createNodeField} = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({node, getNode})
     createNodeField({
       name: `slug`,
       node,

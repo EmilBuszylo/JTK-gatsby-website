@@ -14,7 +14,7 @@ import {
 } from 'react-share';
 import styled from 'styled-components';
 
-import config from '../../../meta/config';
+import config from '../../../data/config'
 
 const SocialLinks = styled.div`
   display: flex;
@@ -84,4 +84,4 @@ class Share extends Component {
   }
 }
 
-export default Share
+export default Share;

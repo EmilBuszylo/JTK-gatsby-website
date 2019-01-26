@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import ProductsList from '../ProductsShortList';
-import Searcher from '../Searcher';
 
 const ListBlock = styled.div`
   text-align: center;
@@ -20,30 +19,27 @@ const ListTitle = styled.h4`
   margin-bottom: 0 !important;
 `
 
-const Sidebar = ({products}) => {
+const Sidebar = ({ lastProducts, hotProducts }) => {
   return (
     <section style={{maxWidth: '15rem'}}>
-      <ListBlock>
-        <Searcher products={products}/>
-      </ListBlock>
+      {/* <ListBlock>
+        Searcher
+      </ListBlock> */}
       <ListBlock>
         <ListTitle className="title is-5">Polecane:</ListTitle>
-        <ProductsList products={products} condition='hot' itemsNum={3}/>
+        <ProductsList products={hotProducts} condition='hot' itemsNum={3}/>
       </ListBlock>
       <ListBlock className="has-text-centered">
         <ListTitle className="title is-5">Najnowsze:</ListTitle>
-        <ProductsList products={products} condition='date' itemsNum={3}/>
+        <ProductsList products={lastProducts} condition='date' itemsNum={3}/>
       </ListBlock>
     </section>
   )
 }
 
 Sidebar.propTypes = {
-
-}
-
-Sidebar.defaultProps = {
-
-}
+  lastProducts: PropTypes.array,
+  hotProducts: PropTypes.array,
+};
 
 export default Sidebar;

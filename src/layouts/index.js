@@ -1,13 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import styled, { ThemeProvider } from 'styled-components';
-import 'react-image-lightbox/style.css';
 
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import './styles.sass'
-import config from '../../meta/config'
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import '../assets/sass/styles.sass';
+import config from '../../data/config';
+import 'react-image-lightbox/style.css';
 
 const theme = {
   accentColor: '#389ae5',
@@ -23,22 +22,35 @@ const PageLayout = styled.div`
   position: relative;
 `
 
-const TemplateWrapper = ({children}) => (
-  <ThemeProvider theme={theme}>
-    <PageLayout className="page-layout">
-      <Helmet>
-        <title>{config.siteTitle}</title>
-        <meta name='description' content={config.siteDescription} />
-      </Helmet>
-      <NavBar />
-      <PageContent>{children()}</PageContent>
-      <Footer title={config.siteTitle} slug={config.siteUrl} excerpt={config.siteDescription}/>
-    </PageLayout>
-  </ThemeProvider>
-)
+class TemplateWrapper extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {isActive: false}
+    this.toggleNavbar = this.toggleNavbar.bind(this)
+  }
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  toggleNavbar () {
+    this.setState({isActive: !this.state.isActive})
+  }
+
+
+  render () {
+    console.log(this.props)
+
+    return (
+      <ThemeProvider theme={theme}>
+        <PageLayout>
+          <Helmet>
+            <title>{config.siteTitle}</title>
+            <meta name='description' content={config.siteDescription} />
+          </Helmet>
+          <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
+          <PageContent>{this.props.children}</PageContent>
+          <Footer />
+        </PageLayout>
+      </ThemeProvider>
+    )
+  }
 }
 
 export default TemplateWrapper

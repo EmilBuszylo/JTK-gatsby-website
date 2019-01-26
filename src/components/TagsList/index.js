@@ -18,7 +18,7 @@ const TagsList = ({tags}) =>  (
     )
 
 TagsList.propTypes = {
-
+    tags: PropTypes.array,
 }
 
 export default TagsList;

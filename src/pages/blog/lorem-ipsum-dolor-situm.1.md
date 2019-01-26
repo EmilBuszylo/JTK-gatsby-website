@@ -1,10 +1,10 @@
 ---
-templateKey: product-page
-title: Klimatyzator
-slug: klimatyzator
+templateKey: article-page
+title: Lorem3
+slug: lorem3
 date: 2018-03-29T03:55:49.370Z
-cover: /img/klimatyzacja.png
-meta_title: Klimatyzator
+cover: /img/products-grid3.jpg
+meta_title: Lorem Ipsum Dolor Situm
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -12,17 +12,7 @@ meta_description: >-
   consectetur purus sit amet fermentum.
 tags:
   - lorem
-  - tests
-categories: multi-split
-hotProductsSelect: true
-producent: Kaisai
-version:
-  - power: 2kw
-    price: 1000
-  - power: 2,5kw
-    price: 1200
-  - power: 3,5kw
-    price: 1500
+  - ipsum
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

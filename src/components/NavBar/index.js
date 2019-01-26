@@ -1,5 +1,6 @@
-import React, {Component, Fragment} from 'react'
-import Link from 'gatsby-link'
+import React from 'react'
+import {Link, graphql, StaticQuery} from 'gatsby'
+import SearchBox from '../SearchBox'
 import styled from 'styled-components';
 
 const NavBarWrapper = styled.nav`
@@ -69,66 +70,66 @@ const Overlay = styled.span`
   z-index: 100;
 `
 
-export default class NavBar extends Component {
-
-  state = {
-    openMenu: false
-  }
-
-  onToggleMenu = () => {
-    this.setState(prevState => ({openMenu: !this.state.openMenu}))
-  }
-
-  render(){
-    const {openMenu} = this.state;
-
-    return (
-      <Fragment>
-        <NavBarWrapper className='navbar is-fixed-top' aria-label='main navigation'>
-          <section className='container  ' >
-            <div className='navbar-brand'>
-              <Link to='/' className='navbar-item'>
+const NavBar = ({toggleNavbar, isActive}) => (
+  <StaticQuery
+    query={graphql`
+            query SearchIndexQuery {
+                siteSearchIndex {
+                    index
+                }
+            }
+        `}
+    render={data => (
+      <NavBarWrapper className='navbar is-fixed-top' aria-label='main navigation'>
+        <section className='container'>
+          <div className='navbar-brand'>
+            <Link to='/' className='navbar-item'>
                 JT Klima logo
-              </Link>
-              <NavBtn className={`button navbar-burger ${openMenu ? 'is-active' : ''}`} data-target='navMenu' onClick={() => this.onToggleMenu()}>
-                <span />
-                <span />
-                <span />
-              </NavBtn>
-            </div>
-            <div className={`navbar-menu ${openMenu ? 'is-active' : ''}`} id='navMenu'>
-              <div className='navbar-end'>
-                <div className="navbar-item has-dropdown is-hoverable">
-                  <DropdownItem className='navbar-item'>
-                    Produkty
-                  </DropdownItem>
-                  <Dropdown className="navbar-dropdown">
-                    <DropdownSubItem className='navbar-item' to='/products'>
-                      Katalog producentów
-                    </DropdownSubItem>
-                    <DropdownSubItem className='navbar-item' to='/products'>
-                      Katalog wentylatorów
-                    </DropdownSubItem>
-                  </Dropdown>
-                </div>
-                <NavbarItem className='navbar-item' to='/firma'>
-                  O firmie
-                </NavbarItem>
-                <NavbarItem className='navbar-item' to='/uslugi'>
-                  Usługi
-                </NavbarItem>
-                <NavbarItem className='navbar-item' to='/blog'>
-                  Blog
-                </NavbarItem>
-                <NavbarItem className='navbar-item' to='/kontakt'>
-                  Kontakt
-                </NavbarItem>
+            </Link>
+            <button
+              className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
+              data-target='navMenu'
+              onClick={toggleNavbar}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
+          <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
+            <div className='navbar-end'>
+              <SearchBox searchIndex={data.siteSearchIndex.index} />
+              <div className="navbar-item has-dropdown is-hoverable">
+                <DropdownItem className='navbar-item'>
+                  Produkty
+                </DropdownItem>
+                <Dropdown className="navbar-dropdown">
+                  <DropdownSubItem className='navbar-item' to='/producenci'>
+                    Katalog producentów
+                  </DropdownSubItem>
+                  <DropdownSubItem className='navbar-item' to='/produkty'>
+                    Katalog wentylatorów
+                  </DropdownSubItem>
+                </Dropdown>
               </div>
+              <NavbarItem className='navbar-item' to='/firma'>
+                O firmie
+              </NavbarItem>
+              <NavbarItem className='navbar-item' to='/uslugi'>
+                Usługi
+              </NavbarItem>
+              <NavbarItem className='navbar-item' to='/blog'>
+                Blog
+              </NavbarItem>
+              <NavbarItem className='navbar-item' to='/kontakt'>
+                Kontakt
+              </NavbarItem>
             </div>
-          </section>
-        </NavBarWrapper>
-        {openMenu ? <Overlay onClick={() => this.onToggleMenu()}/> : null}
-      </Fragment>
-    )
-  }
-}
+          </div>
+        </section>
+      </NavBarWrapper>
+    )}
+  />
+)
+
+export default NavBar

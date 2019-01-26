@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import Carousel from '../TextSlider';
 
 import background from '../../../static/img/architektura.jpg';
-import { width } from 'window-size';
 
 const Overlay = styled.span`
   position: absolute;
@@ -19,8 +18,6 @@ const Overlay = styled.span`
 
 const Hero = ({title, large, carousel}) => {
   if(background) {
-    console.log(background)
-
     return (
       <section className={`hero is-info has-bg-image ${large ? 'is-large' : 'is-medium'}`}
         style={{ background: `url('${background}') center bottom`, backgroundSize: 'cover', position: 'relative', zIndex: '0' }}

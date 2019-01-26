@@ -70,4 +70,4 @@ ProductInfoCard.propTypes = {
   hotProduct: PropTypes.bool,
 }
 
-export default ProductInfoCard
+export default ProductInfoCard;

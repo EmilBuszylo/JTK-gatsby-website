@@ -70,4 +70,4 @@ ProductForm.propTypes = {
   title: PropTypes.string,
 }
 
-export default ProductForm
+export default ProductForm;

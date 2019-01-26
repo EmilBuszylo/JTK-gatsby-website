@@ -1,70 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Content, {HTMLContent} from '../components/Content'
-import SE0 from '../components/SEO'
-import Disqus from '../components/Disqus'
-import Share from '../components/Share'
-import TagsList from '../components/TagsList';
-
-export const ArticleTemplate = ({
-  content,
-  contentComponent,
-  cover,
-  meta_title,
-  meta_desc,
-  tags,
-  title,
-  slug,
-}) => {
-  const PostContent = contentComponent || Content
-
-  return (
-    <section className='section'>
-      <SE0
-        title={title}
-        meta_title={meta_title}
-        meta_desc={meta_desc}
-        cover={cover}
-        slug={slug}
-      />
-      <div className='container content'>
-        <div className='columns'>
-          <div className='column is-10 is-offset-1'>
-            <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
-              {title}
-            </h1>
-            <img src={cover} alt={title} />
-            <PostContent content={content} />
-            {tags && tags.length ?
-              <TagsList tags={tags}/> : null
-            }
-            <hr />
-            <Share
-              title={title}
-              slug={slug}
-              excerpt={meta_desc}
-            />
-            <hr />
-            {/* <Disqus
-              title={title}
-              slug={slug}
-            /> */}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-ArticleTemplate.propTypes = {
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.func,
-  cover: PropTypes.string,
-  meta_title: PropTypes.string,
-  meta_desc: PropTypes.string,
-  title: PropTypes.string,
-  slug: PropTypes.string,
-}
+import {graphql} from 'gatsby'
+import {HTMLContent} from '../components/Content'
+import ArticleTemplate from '../components/ArticleTemplate'
 
 const ArticlePage = ({data}) => {
   const {markdownRemark: post} = data
@@ -99,7 +37,7 @@ export const pageQuery = graphql`
             slug
           }
       frontmatter {
-        date(formatString: "MM.DD.YYYY")
+        date(formatString: "MMMM DD, YYYY")
         title
         cover
         meta_title

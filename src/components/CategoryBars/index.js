@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {navigateTo} from 'gatsby-link';
+import { navigate } from 'gatsby';
 
 const EvenRow = styled.section`
     background-color: ${props => props.theme.accentColor};
@@ -71,9 +71,8 @@ const ProductCard = ({categories}) => {
             if(index + 1 % 1 === 0) {
                 return (
                     <EvenRow key={category}>
-                    <CategoryLinkEven onClick={() => navigateTo({
-                        pathname: '/products',
-                        state: {
+                    <CategoryLinkEven onClick={() => navigate('/produkty/kategoria/split',
+                        {state: {
                             category: category
                         }
                     })}>
@@ -84,9 +83,8 @@ const ProductCard = ({categories}) => {
             } else {
                 return (
                     <OddRow key={category}>
-                        <CategoryLinkOdd onClick={() => navigateTo({
-                            pathname: '/products',
-                            state: {
+                        <CategoryLinkOdd onClick={() => navigate('/produkty/kategoria/multi-split',
+                            {state: {
                                 category: category
                             }
                         })}>

@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from 'react'
+import {Link} from 'gatsby'
 import styled from 'styled-components';
 
 const ProductsWrapper = styled.div`
@@ -14,6 +14,7 @@ const LinkButton = styled(Link)`
   text-align: center;
   border-color: transparent;
   color: #fff !important;
+  margin-bottom: 1rem;
   transition: all .1s linear;
 
     &:hover {
@@ -37,11 +38,23 @@ const Column = styled.div`
   }
 `
 
+const CardInformations = styled.div`
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: .05rem solid rgba(219,219,219, .8)
+`
+
+const CardDescription = styled.div`
+  padding: .7rem;
+  margin-bottom: .5rem;
+`
+
 const ProductCard = ({products, isHot, justify}) => {
   return (
     <ProductsWrapper className="columns is-mobile is-multiline" justify={justify ? justify : 'center'}>
       {products
-        .filter(product => product.node.frontmatter.templateKey === 'product-page' && (isHot ? product.node.frontmatter.hotProductsSelect === true : true))
+        .filter(product => isHot ? product.node.frontmatter.hotProductsSelect === true : true)
         .slice(isHot ? (4, 0) : 0)
         .map(({node: product}) => (
           <Column key={product.frontmatter.title + product.frontmatter.version[0].price} className="column is-narrow" isHot={isHot}>
@@ -51,13 +64,13 @@ const ProductCard = ({products, isHot, justify}) => {
                   <img src={product.frontmatter.cover} alt="Placeholder image"/>
                 </figure>
               </div>
-              <div className="card-informations has-text-centered">
-                <h3 className="title is-4" style={{margin: ".5rem 0"}}>{product.frontmatter.title}</h3>
-                <p className={`title is-4 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
-              </div>
-              <div className="content" style={{padding: ".5rem", marginBottom: ".5rem"}}>
+              <CardInformations className="card-informations has-text-centered">
+                <h3 className="title is-5" style={{margin: ".5rem 0"}}>{product.frontmatter.title}</h3>
+                <p className={`title is-5 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
+              </CardInformations>
+              <CardDescription>
                 <p>{product.excerpt}</p>
-              </div>
+              </CardDescription>
               <div className="has-text-centered">
                 <LinkButton className="button is-rounded has-text-centered" to={product.fields.slug}>
                   Szczegóły →
@@ -70,4 +83,4 @@ const ProductCard = ({products, isHot, justify}) => {
   )
 }
 
-export default ProductCard
+export default ProductCard;

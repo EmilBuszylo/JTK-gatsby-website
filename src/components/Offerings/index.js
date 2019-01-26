@@ -1,8 +1,5 @@
-/**
- * Created by vaibhav on 1/4/18
- */
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Offerings = ({ gridItems }) => (
   <div className='container hot-products-container'>
@@ -30,4 +27,4 @@ Offerings.propTypes = {
   ),
 }
 
-export default Offerings
+export default Offerings;

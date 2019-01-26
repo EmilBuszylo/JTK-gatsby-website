@@ -1,15 +1,21 @@
 ---
 templateKey: product-page
-title: Klimatyzator Daikin
-slug: klimatyzator-daikin
+title: Klimatyzator
+slug: klimatyzator
 date: 2018-03-29T03:55:49.370Z
-cover: /img/daikin.png
+cover: /img/klimatyzacja.png
+meta_title: Klimatyzator
+meta_description: >-
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
+  consectetur purus sit amet fermentum.
 tags:
+  - lorem
   - tests
-meta_title: Klimatyzator Daikin
 categories: multi-split
-producent: Daikin
-hotProductsSelect: true
+hotProductsSelect: false
+producent: Kaisai
 version:
   - power: 2kw
     price: 1000
@@ -17,9 +23,6 @@ version:
     price: 1200
   - power: 3,5kw
     price: 1500
-images:
-  - caption: klima
-    image: /img/kaisai.jpg
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

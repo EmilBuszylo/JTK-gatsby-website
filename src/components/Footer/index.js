@@ -1,23 +1,17 @@
-import React from 'react';
-import config from '../../../meta/config';
-import Share from '../Share';
-import styled from 'styled-components';
+import React from 'react'
+import config from '../../../data/config'
 
-const FooterWrapper = styled.footer`
-  padding: 3rem 1rem !important;
-`
-
-const Footer = ({title, slug, excerpt}) => {
+const Footer = () => {
   return (
-    <FooterWrapper className='footer'>
+    <footer className='footer'>
       <div className='container'>
-        <div className='content'>
+        <div className='content has-text-centered'>
           <p>
-            Copyright © JT Klima wszystkie prawa zastrzeżone.
+            {config.copyright}
           </p>
         </div>
       </div>
-    </FooterWrapper>
+    </footer>
   )
 }
 

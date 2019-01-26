@@ -21,15 +21,7 @@ collections:
           - {label: Tekst SEO, name: offerings, widget: object, fields: [{label: Sekcja, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
-      - file: "src/pages/firma/index.md"
-        label: "Strona o firmie"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: Slider , name: slider_captions, widget: list, fields: [{label: Tytuł, name: title, widget: string}, {label: Opis, name: caption, widget: string}]}
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"
@@ -38,6 +30,15 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+      - file: "src/pages/firma/index.md"
+        label: "Strona o firmie"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
       - file: "src/pages/kontakt/index.md"
@@ -67,7 +68,7 @@ collections:
       - {label: "Meta Title", name: "meta_title", widget: "string"}
       - {label: "Meta Description", name: "meta_description", widget: "text"}
   - name: "products"
-    label: "Products"
+    label: "Produkty"
     folder: "src/pages/products"
     create: true
     slug: "{{slug}}"

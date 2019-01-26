@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 
 const PostCard = ({posts}) => {
   return (
@@ -24,7 +24,7 @@ const PostCard = ({posts}) => {
               <br />
               <br />
               <Link className='button is-small' to={post.fields.slug}>
-                Czytaj więcej →
+                                Keep Reading →
               </Link>
             </p>
           </div>
