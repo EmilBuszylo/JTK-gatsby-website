@@ -14,7 +14,7 @@ tags:
   - lorem
   - tests
 categories: multi-split
-hotProductsSelect: false
+hotProductsSelect: nie
 producent: Kaisai
 version:
   - power: 2kw

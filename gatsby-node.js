@@ -59,7 +59,7 @@ exports.createPages = ({actions, graphql, arg}) => {
       pathPrefix: 'produkty', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
-        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
       }, // This is optional and defaults to an empty object if not used
     })
 
@@ -72,7 +72,7 @@ exports.createPages = ({actions, graphql, arg}) => {
       pathPrefix: 'produkty/kategoria/:slug', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
-        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
         test: arg
       }, // This is optional and defaults to an empty object if not used
     })
@@ -88,7 +88,7 @@ exports.createPages = ({actions, graphql, arg}) => {
         // additional data can be passed via context
         context: {
           id,
-          hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === true).slice(0, 4),
+          hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
           lastProducts: products.slice(0, 4),
           productCategories: products.filter(product => product.node.frontmatter.categories)
             .map((product, index) => product.node.frontmatter.categories)

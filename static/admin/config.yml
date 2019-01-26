@@ -85,15 +85,14 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Meta Title", name: "meta_title", widget: "string"}
-      - {label: "Kategoria", name: "categories", widget: "text"}
-      - {label: "Producent", name: "producent", widget: "text"}
-      - {label: "Wyróżnij produkt", name: "hotProductsSelect", widget: "select", options: [{label: "Tak", value: true}, {label: "Nie", value: false}]}
+      - {label: "Kategoria", name: "categories", widget: "string"}
+      - {label: "Producent", name: "producent", widget: "string"}
+      - {label: "Wyróżnij produkt", name: "hotProductsSelect", widget: "select", options: [{label: "Tak", value: 'tak'}, {label: "Nie", value: 'nie'}]}
       - {label: Zdjęcia, name: images, widget: list, fields: [{label: Zdjęcie, name: image, widget: image}, {label: Podpis, name: caption, widget: string}]}
-      - {label: Wersje, name: version, widget: list, fields: [{label: Moc, name: power, widget: string}, {label: Cena, name: price, widget: string}]}
+      - {label: Wersje, name: version, widget: list, fields: [{label: Moc, name: power, widget: string}, {label: Cena, name: price, widget: number}]}

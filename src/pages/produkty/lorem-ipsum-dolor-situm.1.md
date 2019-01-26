@@ -14,7 +14,7 @@ tags:
   - lorem
   - tests
 categories: split
-hotProductsSelect: true
+hotProductsSelect: tak
 producent: Kaisai
 version:
   - power: 2kw

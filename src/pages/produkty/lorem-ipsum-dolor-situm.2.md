@@ -10,7 +10,7 @@ tags:
 meta_title: Zestaw Kaisai
 categories: split
 producent: Kaisai
-hotProductsSelect: true
+hotProductsSelect: tak
 version:
   - power: 2kw
     price: 1000

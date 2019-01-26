@@ -54,7 +54,7 @@ const ProductCard = ({products, isHot, justify}) => {
   return (
     <ProductsWrapper className="columns is-mobile is-multiline" justify={justify ? justify : 'center'}>
       {products
-        .filter(product => isHot ? product.node.frontmatter.hotProductsSelect === true : true)
+        .filter(product => isHot ? product.node.frontmatter.hotProductsSelect === 'tak' : 'tak')
         .slice(isHot ? (4, 0) : 0)
         .map(({node: product}) => (
           <Column key={product.frontmatter.title + product.frontmatter.version[0].price} className="column is-narrow" isHot={isHot}>
@@ -66,7 +66,7 @@ const ProductCard = ({products, isHot, justify}) => {
               </div>
               <CardInformations className="card-informations has-text-centered">
                 <h3 className="title is-5" style={{margin: ".5rem 0"}}>{product.frontmatter.title}</h3>
-                <p className={`title is-5 ${product.frontmatter.hotProductsSelect ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
+                <p className={`title is-5 ${product.frontmatter.hotProductsSelect === 'tak' ? 'has-text-danger' : '' }`} style={{marginBottom: ".5rem"}}>{product.frontmatter.version[0].price} zł</p>
               </CardInformations>
               <CardDescription>
                 <p>{product.excerpt}</p>
