@@ -41,6 +41,16 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
+      - file: "src/pages/producenci/index.md"
+        label: "Strona producenci"
+        name: " producents-page"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "producents-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: Producenci, name: producents, widget: list, fields: [{label: Obraz, name: cover, widget: image}, {label: Nazwa, name: name, widget: string}, {label: Opis, name: description, widget: string}, {label: Adres www, name: link, widget: string}]}
       - file: "src/pages/kontakt/index.md"
         label: "Strona Kontakt"
         name: "contact"
@@ -69,7 +79,7 @@ collections:
       - {label: "Meta Description", name: "meta_description", widget: "text"}
   - name: "products"
     label: "Produkty"
-    folder: "src/pages/products"
+    folder: "src/pages/produkty"
     create: true
     slug: "{{slug}}"
     fields:
