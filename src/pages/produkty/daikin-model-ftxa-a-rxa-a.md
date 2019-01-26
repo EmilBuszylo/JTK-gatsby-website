@@ -1,15 +1,15 @@
 ---
 templateKey: product-page
 title: Daikin model FTXA-A/RXA-A
+meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
 date: 2019-01-26T13:39:22.311Z
 cover: /img/ftxa-at_l.jpg
 tags:
   - Daikin
-meta_title: Daikin model FTXA-A/RXA-A
 categories: split
 producent: Daikin
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: prezentacja klimatyzatora Daikin FTXA–A + RXA–A
     image: /img/ftxa-at_ip_1.jpg
