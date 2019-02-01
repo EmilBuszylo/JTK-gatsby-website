@@ -8,7 +8,7 @@ tags:
   - lorem
   - tests
 meta_title: Zestaw Kaisai
-categories: split
+categories: multi-split
 producent: Kaisai
 hotProductsSelect: tak
 version:

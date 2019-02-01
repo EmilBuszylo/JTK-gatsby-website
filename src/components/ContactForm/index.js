@@ -1,75 +1,135 @@
-import React, {Component} from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "gatsby";
 
 export default class ContactForm extends Component {
-
   render() {
-    const { topic, products, onTopicChange, threads} = this.props;
+    const { topic, products, onTopicChange, threads } = this.props;
 
     return (
-        <form>
+      <form>
+        <div className="field">
+          <label className="label" htmlFor="topic">
+            Temat
+          </label>
+          <p className="control">
+            <span className="select">
+              <select
+                name="topic"
+                id="topic"
+                required
+                onChange={e => onTopicChange(e)}
+              >
+                {threads.map(thread => (
+                  <option key={thread.thread} value={thread.thread}>
+                    {thread.thread}
+                  </option>
+                ))}
+                <option value="product">Produkt/pakiet</option>
+              </select>
+            </span>
+          </p>
+        </div>
+        {topic === "product" ? (
           <div className="field">
-            <label className="label" htmlFor="topic">Temat</label>
+            <label className="label" htmlFor="product">
+              Temat
+            </label>
             <p className="control">
               <span className="select">
-                <select name="topic" id="topic" onChange={(e) => onTopicChange(e)}>
-                    {threads.map(thread => (
-                        <option key={thread.thread} value={thread.thread}>{thread.thread}</option>
-                    ))}
-                  <option value="product">Produkt/pakiet</option>
+                <select name="product" id="product">
+                  {products.map(({ node: product }) => (
+                    <option
+                      key={product.frontmatter.title}
+                      value={product.frontmatter.title}
+                    >
+                      {product.frontmatter.title}
+                    </option>
+                  ))}
                 </select>
               </span>
             </p>
-        </div>
-        {topic === 'product' ?
-          <div className="field">
-              <label className="label" htmlFor="product">Temat</label>
-              <p className="control">
-                <span className="select">
-                  <select name="product" id="product">
-                    {products.map(({node: product}) => (
-                      <option key={product.frontmatter.title} value={product.frontmatter.title}>{product.frontmatter.title}</option>
-                    ))}
-                  </select>
-                </span>
-              </p>
           </div>
-          : null
-        }
+        ) : null}
         <div className="field">
-            <label className="label" htmlFor="email">Email</label>
-            <div className="control has-icons-left">
-                <input className="input" name="email" type="email" id="email" placeholder="Twój email" />
-                <span className="icon is-small is-left">
-                    <FontAwesomeIcon icon={faEnvelope}/>
-                </span>
-            </div>
+          <label className="label" htmlFor="email">
+            Email
+          </label>
+          <div className="control has-icons-left">
+            <input
+              className="input"
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Twój email"
+              required
+            />
+            <span className="icon is-small is-left">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </span>
+          </div>
         </div>
         <div className="field">
-            <label className="label" htmlFor="tel">Telefon kontaktowy</label>
-            <div className="control has-icons-left">
-                <input className="input" name="tel" id="tel" type="tel" placeholder="Nr telefonu"/>
-                <span className="icon is-small is-left">
-                    <FontAwesomeIcon icon={faPhone}/>
-                </span>
-            </div>
+          <label className="label" htmlFor="tel">
+            Telefon kontaktowy
+          </label>
+          <div className="control has-icons-left">
+            <input
+              className="input"
+              name="tel"
+              id="tel"
+              type="tel"
+              placeholder="Nr telefonu"
+            />
+            <span className="icon is-small is-left">
+              <FontAwesomeIcon icon={faPhone} />
+            </span>
+          </div>
         </div>
         <div className="field">
-            <label className="label" htmlFor="msg">Wiadomość</label>
-            <div className="control">
-            <textarea className="textarea" id="msg" placeholder="Textarea"></textarea>
-            </div>
+          <label className="label" htmlFor="msg">
+            Wiadomość
+          </label>
+          <div className="control">
+            <textarea
+              className="textarea"
+              id="msg"
+              placeholder="Textarea"
+              required
+            />
+          </div>
+        </div>
+        <div className="field">
+          <div className="control">
+            <label className="checkbox">
+              <input type="checkbox" required /> akceptuję{" "}
+              <a href="/polityka-prywatnosci" target="_blank">
+                Politykę Prywatności serwisu
+              </a>
+            </label>
+          </div>
+        </div>
+        <div className="field">
+          <div className="control">
+            <label className="checkbox">
+              <input type="checkbox" required /> zapoznałem się z{" "}
+              <a href="/rodo" target="_blank">
+                {" "}
+                RODO{" "}
+              </a>
+            </label>
+          </div>
         </div>
         <div className="field is-grouped">
-            <div className="control">
-                <button className="button is-link">Wyślij</button>
-            </div>
-            <div className="control">
-                <button className="button is-text">Wyczyść</button>
-            </div>
+          <div className="control">
+            <button className="button is-link">Wyślij</button>
+          </div>
+          <div className="control">
+            <button className="button is-text">Wyczyść</button>
+          </div>
         </div>
-    </form>
-    )
+      </form>
+    );
   }
 }

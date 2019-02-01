@@ -14,85 +14,285 @@ collections:
         label: "Strona główna"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Tekst SEO, name: offerings, widget: object, fields: [{label: Sekcja, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-          - {label: Slider , name: slider_captions, widget: list, fields: [{label: Tytuł, name: title, widget: string}, {label: Opis, name: caption, widget: string}]}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: string }
+          - {
+              label: Tekst SEO,
+              name: offerings,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Sekcja,
+                    name: blurbs,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: Slider,
+              name: slider_captions,
+              widget: list,
+              fields:
+                [
+                  { label: Tytuł, name: title, widget: string },
+                  { label: Opis, name: caption, widget: string },
+                ],
+            }
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pricing-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "pricing-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - {
+              label: Pricing,
+              name: pricing,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Description, name: description, widget: string },
+                  {
+                    label: Plans,
+                    name: plans,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Plan, name: plan, widget: string },
+                        { label: Price, name: price, widget: string },
+                        {
+                          label: Description,
+                          name: description,
+                          widget: string,
+                        },
+                        { label: Items, name: items, widget: list },
+                      ],
+                  },
+                ],
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
       - file: "src/pages/firma/index.md"
         label: "Strona o firmie"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+      - file: "src/pages/rodo/index.md"
+        label: "Strona o firmie"
+        name: "about"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "rodo-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+      - file: "src/pages/polityka-prywatnosci/index.md"
+        label: "Strona o firmie"
+        name: "about"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "privacy-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
       - file: "src/pages/producenci/index.md"
         label: "Strona producenci"
         name: " producents-page"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "producents-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-          - {label: Producenci, name: producents, widget: list, fields: [{label: Obraz, name: cover, widget: image}, {label: Nazwa, name: name, widget: string}, {label: Opis, name: description, widget: string}, {label: Adres www, name: link, widget: string}]}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "producents-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: Producenci,
+              name: producents,
+              widget: list,
+              fields:
+                [
+                  { label: Obraz, name: cover, widget: image },
+                  { label: Nazwa, name: name, widget: string },
+                  { label: Opis, name: description, widget: string },
+                  { label: Adres www, name: link, widget: string },
+                ],
+            }
       - file: "src/pages/kontakt/index.md"
         label: "Strona Kontakt"
         name: "contact"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Tematy, name: threads, widget: list, fields: [{label: Temat, name: thread, widget: string}]}
-          - {label: Dane kontaktowe, name: contacts, widget: list, fields: [{label: Kontakt, name: contact, widget: string}, {label: "Typ", name: "type", widget: "select", options: [{label: "Mail", value: 'mail'}, {label: "Telefon", value: 'phone'}]}]}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - {
+              label: Tematy,
+              name: threads,
+              widget: list,
+              fields: [{ label: Temat, name: thread, widget: string }],
+            }
+          - {
+              label: Dane kontaktowe,
+              name: contacts,
+              widget: list,
+              fields:
+                [
+                  { label: Kontakt, name: contact, widget: string },
+                  {
+                    label: "Typ",
+                    name: "type",
+                    widget: "select",
+                    options:
+                      [
+                        { label: "Mail", value: "mail" },
+                        { label: "Telefon", value: "phone" },
+                      ],
+                  },
+                ],
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Cover", name: "cover", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Meta Title", name: "meta_title", widget: "string"}
-      - {label: "Meta Description", name: "meta_description", widget: "text"}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "article-page",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover", name: "cover", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Meta Title", name: "meta_title", widget: "string" }
+      - { label: "Meta Description", name: "meta_description", widget: "text" }
   - name: "products"
     label: "Produkty"
     folder: "src/pages/produkty"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Title", name: "meta_title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Cover", name: "cover", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Kategoria", name: "categories", widget: "string"}
-      - {label: "Producent", name: "producent", widget: "string"}
-      - {label: "Wyróżnij produkt", name: "hotProductsSelect", widget: "select", options: [{label: "Tak", value: 'tak'}, {label: "Nie", value: 'nie'}]}
-      - {label: Zdjęcia, name: images, widget: list, fields: [{label: Zdjęcie, name: image, widget: image}, {label: Podpis, name: caption, widget: string}]}
-      - {label: Wersje, name: version, widget: list, fields: [{label: Moc, name: power, widget: string}, {label: Cena, name: price, widget: number}]}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "product-page",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover", name: "cover", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Kategoria", name: "categories", widget: "string" }
+      - { label: "Producent", name: "producent", widget: "string" }
+      - {
+          label: "Wyróżnij produkt",
+          name: "hotProductsSelect",
+          widget: "select",
+          options:
+            [{ label: "Tak", value: "tak" }, { label: "Nie", value: "nie" }],
+        }
+      - {
+          label: Zdjęcia,
+          name: images,
+          widget: list,
+          fields:
+            [
+              { label: Zdjęcie, name: image, widget: image },
+              { label: Podpis, name: caption, widget: string },
+            ],
+        }
+      - {
+          label: Wersje,
+          name: version,
+          widget: list,
+          fields:
+            [
+              { label: Moc, name: power, widget: string },
+              { label: Cena, name: price, widget: number },
+            ],
+        }

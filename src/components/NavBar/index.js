@@ -1,12 +1,13 @@
-import React from 'react'
-import {Link, graphql, StaticQuery} from 'gatsby'
-import SearchBox from '../SearchBox'
-import styled from 'styled-components';
+import React from "react";
+import { Link, graphql, StaticQuery } from "gatsby";
+import SearchBox from "../SearchBox";
+import styled from "styled-components";
+import Logo from "../../../static/img/logo1.png";
 
 const NavBarWrapper = styled.nav`
   background-color: #389ae5 !important;
   z-index: 110 !important;
-`
+`;
 
 const DropdownItem = styled.a`
   color: #fff !important;
@@ -19,7 +20,7 @@ const DropdownItem = styled.a`
   @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
-`
+`;
 
 const DropdownSubItem = styled(Link)`
   color: #fff !important;
@@ -32,33 +33,33 @@ const DropdownSubItem = styled(Link)`
   @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
-`
+`;
 
 const NavbarItem = styled(Link)`
   color: #fff !important;
   &:hover {
-      background-color: ${props => props.theme.accentColorHover} !important;
-      color: #ffffff;
-      border-color: transparent;
+    background-color: ${props => props.theme.accentColorHover} !important;
+    color: #ffffff;
+    border-color: transparent;
   }
   @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
-`
+`;
 
 const Dropdown = styled.div`
   background-color: ${props => props.theme.accentColorHover} !important;
   @media (max-width: 1024px) {
     background-color: #fff !important;
   }
-`
+`;
 
 const NavBtn = styled.button`
   &:focus,
   &:active {
     background: #fff !important;
   }
-`
+`;
 
 const Overlay = styled.span`
   position: absolute;
@@ -66,29 +67,32 @@ const Overlay = styled.span`
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.4);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 100;
-`
+`;
 
-const NavBar = ({toggleNavbar, isActive}) => (
+const NavBar = ({ toggleNavbar, isActive }) => (
   <StaticQuery
     query={graphql`
-            query SearchIndexQuery {
-                siteSearchIndex {
-                    index
-                }
-            }
-        `}
+      query SearchIndexQuery {
+        siteSearchIndex {
+          index
+        }
+      }
+    `}
     render={data => (
-      <NavBarWrapper className='navbar is-fixed-top' aria-label='main navigation'>
-        <section className='container'>
-          <div className='navbar-brand'>
-            <Link to='/' className='navbar-item'>
-                JT Klima logo
+      <NavBarWrapper
+        className="navbar is-fixed-top"
+        aria-label="main navigation"
+      >
+        <section className="container">
+          <div className="navbar-brand">
+            <Link to="/" className="navbar-item">
+              <img src={Logo} />
             </Link>
             <button
-              className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
-              data-target='navMenu'
+              className={`button navbar-burger ${isActive ? "is-active" : ""}`}
+              data-target="navMenu"
               onClick={toggleNavbar}
             >
               <span />
@@ -96,32 +100,33 @@ const NavBar = ({toggleNavbar, isActive}) => (
               <span />
             </button>
           </div>
-          <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
-            <div className='navbar-end'>
+          <div
+            className={`navbar-menu ${isActive ? "is-active" : ""}`}
+            id="navMenu"
+          >
+            <div className="navbar-end">
               <SearchBox searchIndex={data.siteSearchIndex.index} />
               <div className="navbar-item has-dropdown is-hoverable">
-                <DropdownItem className='navbar-item'>
-                  Produkty
-                </DropdownItem>
+                <DropdownItem className="navbar-item">Produkty</DropdownItem>
                 <Dropdown className="navbar-dropdown">
-                  <DropdownSubItem className='navbar-item' to='/producenci'>
+                  <DropdownSubItem className="navbar-item" to="/producenci">
                     Katalog producentów
                   </DropdownSubItem>
-                  <DropdownSubItem className='navbar-item' to='/produkty'>
+                  <DropdownSubItem className="navbar-item" to="/produkty">
                     Katalog wentylatorów
                   </DropdownSubItem>
                 </Dropdown>
               </div>
-              <NavbarItem className='navbar-item' to='/firma'>
+              <NavbarItem className="navbar-item" to="/firma">
                 O firmie
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/uslugi'>
+              <NavbarItem className="navbar-item" to="/uslugi">
                 Usługi
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/blog'>
+              <NavbarItem className="navbar-item" to="/blog">
                 Blog
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/kontakt'>
+              <NavbarItem className="navbar-item" to="/kontakt">
                 Kontakt
               </NavbarItem>
             </div>
@@ -130,6 +135,6 @@ const NavBar = ({toggleNavbar, isActive}) => (
       </NavBarWrapper>
     )}
   />
-)
+);
 
-export default NavBar
+export default NavBar;
