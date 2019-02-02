@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
-title: Nowy produkt
-meta_title: Nowy produkt
+title: Nowy produkt2
+meta_title: Nowy produkt2
 slug: nowy-produkt
 date: 2019-02-02T09:20:49.599Z
 cover: /img/ftxa-at_detail_3.jpg
@@ -14,8 +14,10 @@ images:
   - caption: test
     image: /img/zestaw_klimatyzacja.jpg
 version:
-  - power: 2kw
+  - power: 2kW
     price: '2000'
+  - power: 3.5kW
+    price: '5000'
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu eros facilisis, tincidunt nisi quis, semper ligula. Sed mattis velit ut augue ultricies placerat. Ut sodales dapibus gravida. Aliquam lacus velit, egestas vel augue ac, bibendum congue ipsum. Maecenas ut sem id magna porttitor luctus eget id dui. Aenean fringilla molestie risus, ut faucibus orci euismod id. Nunc nulla orci, rutrum vehicula imperdiet vel, lobortis ut sapien.
 
