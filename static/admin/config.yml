@@ -20,6 +20,22 @@ collections:
               widget: "hidden",
               default: "home-page",
             }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: Slider,
+              name: slider_captions,
+              widget: list,
+              fields:
+                [
+                  { label: Tytuł, name: title, widget: string },
+                  { label: Opis, name: caption, widget: string },
+                ],
+            }
           - {
               label: Tekst SEO,
               name: offerings,
@@ -38,22 +54,6 @@ collections:
                   },
                 ],
             }
-          - { label: "Meta Title", name: "meta_title", widget: "string" }
-          - {
-              label: "Meta Description",
-              name: "meta_description",
-              widget: "text",
-            }
-          - {
-              label: Slider,
-              name: slider_captions,
-              widget: list,
-              fields:
-                [
-                  { label: Tytuł, name: title, widget: string },
-                  { label: Opis, name: caption, widget: string },
-                ],
-            }
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"
@@ -65,20 +65,14 @@ collections:
               default: "services-page",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Meta Title", name: "meta_title", widget: "string" }
-          - {
-              label: "Meta Description",
-              name: "meta_description",
-              widget: "text",
-            }
 
-          - { label: "Meta Title", name: "meta_title", widget: "string" }
-          - {
-              label: "Meta Description",
-              name: "meta_description",
-              widget: "text",
-            }
       - file: "src/pages/firma/index.md"
         label: "Strona o firmie"
         name: "about"
@@ -90,13 +84,13 @@ collections:
               default: "about-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/rodo/index.md"
         label: "Strona RODO"
         name: "rodo"
@@ -108,13 +102,13 @@ collections:
               default: "rodo-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/polityka-prywatnosci/index.md"
         label: "Strona Polityka prywatności"
         name: "privacy"
@@ -126,13 +120,13 @@ collections:
               default: "privacy-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/producenci/index.md"
         label: "Strona producenci"
         name: " producents-page"
@@ -143,14 +137,14 @@ collections:
               widget: "hidden",
               default: "producents-page",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: Producenci,
               name: producents,
@@ -175,6 +169,12 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
           - {
               label: Tematy,
               name: threads,
@@ -200,12 +200,6 @@ collections:
                   },
                 ],
             }
-          - { label: "Meta Title", name: "meta_title", widget: "string" }
-          - {
-              label: "Meta Description",
-              name: "meta_description",
-              widget: "text",
-            }
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -218,14 +212,14 @@ collections:
           widget: "hidden",
           default: "article-page",
         }
+      - { label: "Meta Title", name: "meta_title", widget: "string" }
+      - { label: "Meta Description", name: "meta_description", widget: "text" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover", name: "cover", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Meta Title", name: "meta_title", widget: "string" }
-      - { label: "Meta Description", name: "meta_description", widget: "text" }
   - name: "products"
     label: "Produkty"
     folder: "src/pages/produkty"
