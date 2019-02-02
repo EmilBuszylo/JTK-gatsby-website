@@ -121,7 +121,7 @@ collections:
             }
       - file: "src/pages/rodo/index.md"
         label: "Strona RODO"
-        name: "about"
+        name: "rodo"
         fields:
           - {
               label: "Template Key",
@@ -139,7 +139,7 @@ collections:
             }
       - file: "src/pages/polityka-prywatnosci/index.md"
         label: "Strona Polityka prywatności"
-        name: "about"
+        name: "privacy"
         fields:
           - {
               label: "Template Key",
