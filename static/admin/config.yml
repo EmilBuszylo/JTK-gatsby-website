@@ -20,9 +20,6 @@ collections:
               widget: "hidden",
               default: "home-page",
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
           - {
               label: Tekst SEO,
               name: offerings,
@@ -65,36 +62,17 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "pricing-page",
+              default: "services-page",
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: string,
-                        },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
             }
+
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",
@@ -293,6 +271,6 @@ collections:
           fields:
             [
               { label: Moc, name: power, widget: string },
-              { label: Cena, name: price, widget: number },
+              { label: Cena, name: price, widget: string },
             ],
         }

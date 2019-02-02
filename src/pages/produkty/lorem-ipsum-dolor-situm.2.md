@@ -13,11 +13,11 @@ producent: Kaisai
 hotProductsSelect: tak
 version:
   - power: 2kw
-    price: 1000
+    price: "1000"
   - power: 2,5kw
-    price: 1200
+    price: "1200"
   - power: 3,5kw
-    price: 1500
+    price: "1500"
 images:
   - caption: klimatyzacja
     image: /img/klimatyzacja.png
