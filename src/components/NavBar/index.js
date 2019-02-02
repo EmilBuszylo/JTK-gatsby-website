@@ -88,7 +88,10 @@ const NavBar = ({ toggleNavbar, isActive }) => (
         <section className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
-              <img src={Logo} />
+              <img
+                src={Logo}
+                alt="JTLS, klimatyzacje, systemy chłodnicze, logo"
+              />
             </Link>
             <button
               className={`button navbar-burger ${isActive ? "is-active" : ""}`}

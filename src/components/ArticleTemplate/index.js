@@ -1,11 +1,18 @@
-import React from 'react'
-import Content from '../Content'
-import SE0 from '../SEO'
-import {kebabCase} from 'lodash'
-import {Link} from 'gatsby'
-import Share from '../Share'
-import Disqus from '../Disqus'
-import PropTypes from 'prop-types'
+import React from "react";
+import styled from "styled-components";
+import PropTypes from "prop-types";
+import { kebabCase } from "lodash";
+
+import Content from "../Content";
+import SE0 from "../SEO";
+import { Link } from "gatsby";
+import Share from "../Share";
+import Disqus from "../Disqus";
+
+const Divider = styled.hr`
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+`;
 
 const ArticleTemplate = ({
   content,
@@ -15,12 +22,12 @@ const ArticleTemplate = ({
   meta_desc,
   tags,
   title,
-  slug,
+  slug
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
-    <section className='section'>
+    <section className="section">
       <SE0
         title={title}
         meta_title={meta_title}
@@ -28,18 +35,18 @@ const ArticleTemplate = ({
         cover={cover}
         slug={slug}
       />
-      <div className='container content'>
-        <div className='columns'>
-          <div className='column is-10 is-offset-1'>
-            <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
             <img src={cover} alt={title} />
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{marginTop: `4rem`}}>
+              <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
-                <ul className='taglist'>
+                <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
@@ -48,23 +55,16 @@ const ArticleTemplate = ({
                 </ul>
               </div>
             ) : null}
-            <hr />
-            <Share
-              title={title}
-              slug={slug}
-              excerpt={meta_desc}
-            />
-            <hr />
-            <Disqus
-              title={title}
-              slug={slug}
-            />
+            <Divider />
+            <Share title={title} slug={slug} excerpt={meta_desc} />
+            <Divider />
+            <Disqus title={title} slug={slug} />
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 ArticleTemplate.propTypes = {
   content: PropTypes.string.isRequired,
@@ -73,7 +73,7 @@ ArticleTemplate.propTypes = {
   meta_title: PropTypes.string,
   meta_desc: PropTypes.string,
   title: PropTypes.string,
-  slug: PropTypes.string,
-}
+  slug: PropTypes.string
+};
 
-export default ArticleTemplate
+export default ArticleTemplate;
