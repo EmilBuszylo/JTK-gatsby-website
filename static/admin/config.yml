@@ -120,7 +120,7 @@ collections:
               widget: "text",
             }
       - file: "src/pages/rodo/index.md"
-        label: "Strona o firmie"
+        label: "Strona RODO"
         name: "about"
         fields:
           - {
@@ -138,7 +138,7 @@ collections:
               widget: "text",
             }
       - file: "src/pages/polityka-prywatnosci/index.md"
-        label: "Strona o firmie"
+        label: "Strona Polityka prywatności"
         name: "about"
         fields:
           - {
