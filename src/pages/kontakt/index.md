@@ -1,8 +1,7 @@
 ---
 templateKey: contact-page
 title: Kontakt
-subtitle: 'Chcielibyśmy Ci pomóc, nie krępuj się, aby wysłać wiadomość'
-meta_title: 'Kontakt| Klimatyzacje, Jakub Traczyk'
+meta_title: "Kontakt| Klimatyzacje, Jakub Traczyk"
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -18,4 +17,3 @@ contacts:
   - contact: 777 666 777
     type: phone
 ---
-

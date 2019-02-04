@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
 
 import NavBar from '../components/NavBar';
@@ -25,18 +25,15 @@ const PageLayout = styled.div`
 class TemplateWrapper extends Component {
   constructor (props) {
     super(props)
-    this.state = {isActive: false}
+    this.state = { isActive: false }
     this.toggleNavbar = this.toggleNavbar.bind(this)
   }
 
   toggleNavbar () {
-    this.setState({isActive: !this.state.isActive})
+    this.setState({ isActive: !this.state.isActive })
   }
 
-
   render () {
-    console.log(this.props)
-
     return (
       <ThemeProvider theme={theme}>
         <PageLayout>
@@ -44,7 +41,10 @@ class TemplateWrapper extends Component {
             <title>{config.siteTitle}</title>
             <meta name='description' content={config.siteDescription} />
           </Helmet>
-          <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
+          <NavBar
+            isActive={this.state.isActive}
+            toggleNavbar={() => this.toggleNavbar()}
+          />
           <PageContent>{this.props.children}</PageContent>
           <Footer />
         </PageLayout>

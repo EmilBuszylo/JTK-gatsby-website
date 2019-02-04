@@ -1,23 +1,19 @@
-import React, {Component} from 'react'
-import PropTypes from 'prop-types'
-import {graphql} from 'gatsby'
-import HomePageTemplate from '../components/HomePageTemplate'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import HomePageTemplate from '../components/HomePageTemplate';
 
-class HomePage extends Component  {
-  render(){
-    const {frontmatter} = this.props.data.markdownRemark;
-    const {pageContext} = this.props;
-
-console.log(this.props)
+class HomePage extends Component {
+  render () {
+    const { frontmatter } = this.props.data.markdownRemark
+    const { pageContext } = this.props
     return (
       <HomePageTemplate
         title={frontmatter.title}
         meta_title={frontmatter.meta_title}
         meta_description={frontmatter.meta_description}
-        heading={frontmatter.heading}
         description={frontmatter.description}
         offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
         slider_captions={frontmatter.slider_captions}
         hotProducts={pageContext.hotProducts}
         categories={pageContext.productCategories}
@@ -34,7 +30,7 @@ HomePage.propTypes = {
   }),
 }
 
-export default HomePage;
+export default HomePage
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
@@ -43,8 +39,6 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        heading
-        description
         slider_captions {
           title
           caption
@@ -54,10 +48,6 @@ export const pageQuery = graphql`
             image
             text
           }
-        }
-        testimonials {
-          author
-          quote
         }
       }
     }

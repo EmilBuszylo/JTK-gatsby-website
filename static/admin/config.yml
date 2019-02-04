@@ -168,7 +168,6 @@ collections:
               default: "home-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
           - {
               label: "Meta Description",

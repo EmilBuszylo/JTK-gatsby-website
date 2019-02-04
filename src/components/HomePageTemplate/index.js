@@ -1,20 +1,19 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
-import PropTypes from 'prop-types'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Offerings from '../Offerings';
+import PropTypes from 'prop-types';
 import Hero from '../Hero';
 import CategoriesBars from '../CategoryBars';
 import ProductCard from '../ProductCard';
 
 const HomePageTemplate = ({
   title,
-  heading,
   offerings,
   meta_title,
   meta_description,
   slider_captions,
   hotProducts,
-  categories
+  categories,
 }) => (
   <div>
     <Helmet>
@@ -23,20 +22,24 @@ const HomePageTemplate = ({
     </Helmet>
     <Hero
       title={title}
-      large={true}
+      large
       carousel={{
         isSlider: true,
-        elements: slider_captions
-      }}/>
+        elements: slider_captions,
+      }}
+    />
     <section className='section'>
-        <div className='container hot-products-container' style={{padding: '3rem 0'}}>
-          <ProductCard products={hotProducts} isHot={true}/>
-        </div>
-      </section>
-      <section className='section' style={{backgroundColor: '#dbe0e4'}}>
-        <Offerings gridItems={offerings.blurbs}/>
-      </section>
-      <CategoriesBars categories={categories} />
+      <div
+        className='container hot-products-container'
+        style={{ padding: '3rem 0' }}
+      >
+        <ProductCard products={hotProducts} isHot />
+      </div>
+    </section>
+    <section className='section' style={{ backgroundColor: '#dbe0e4' }}>
+      <Offerings gridItems={offerings.blurbs} />
+    </section>
+    <CategoriesBars categories={categories} />
   </div>
 )
 
@@ -44,8 +47,6 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
   offerings: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -53,4 +54,4 @@ HomePageTemplate.propTypes = {
   hotProducts: PropTypes.array,
 }
 
-export default HomePageTemplate;
+export default HomePageTemplate

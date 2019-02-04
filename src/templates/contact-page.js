@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {graphql} from 'gatsby'
-import ContactPageTemplate from '../components/ContactPageTemplate'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import ContactPageTemplate from '../components/ContactPageTemplate';
 
-const ContactPage = ({data}) => {
-  const {frontmatter} = data.markdownRemark;
-  const {edges: products} = data.allMarkdownRemark;
+const ContactPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  const { edges: products } = data.allMarkdownRemark
 
   return (
     <ContactPageTemplate
@@ -18,7 +18,7 @@ const ContactPage = ({data}) => {
       contacts={frontmatter.contacts}
     />
   )
-}
+};
 
 ContactPage.propTypes = {
   data: PropTypes.shape({
@@ -37,7 +37,6 @@ export const contactPageQuery = graphql`
         title
         meta_title
         meta_description
-        heading
         threads {
           thread
         }
@@ -49,7 +48,7 @@ export const contactPageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-    	filter: {frontmatter: {templateKey: {eq: "product-page"}}}
+      filter: { frontmatter: { templateKey: { eq: "product-page" } } }
     ) {
       edges {
         node {
