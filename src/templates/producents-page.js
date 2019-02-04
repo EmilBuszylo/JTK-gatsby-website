@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import ProducentsPageTemplate from '../components/ProducentsPageTemplate';
-import Helmet from 'react-helmet';
 
 export default class ProducentsPage extends Component {
   render () {
@@ -9,9 +8,6 @@ export default class ProducentsPage extends Component {
 
     return (
       <div>
-        <Helmet>
-          <title>Producenci</title>
-        </Helmet>
         <ProducentsPageTemplate
           title={frontmatter.title}
           meta_description={frontmatter.meta_description}
