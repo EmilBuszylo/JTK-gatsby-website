@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { graphql } from 'gatsby';
 
 import ProducentsPageTemplate from '../components/ProducentsPageTemplate';
 
