@@ -17,7 +17,7 @@ const ProducentsPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        content=""
+        content={post.html}
       />
     </div>
   );
