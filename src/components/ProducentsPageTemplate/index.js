@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
 
 import Hero from "../Hero";
 import ProducentCard from "../ProducentCard";
@@ -16,26 +15,14 @@ export default class ProducentsPageTemplate extends Component {
         description: PropTypes.string.isRequired
       }).isRequired
     ).isRequired,
-    content: PropTypes.string.isRequired,
-    meta_title: PropTypes.string,
-    meta_description: PropTypes.string
+    content: PropTypes.string.isRequired
   };
 
   render() {
-    const {
-      title,
-      producents,
-      content,
-      meta_title,
-      meta_description
-    } = this.props;
+    const { title, producents, content } = this.props;
 
     return (
       <div>
-        <Helmet>
-          <title>{meta_title}</title>
-          <meta name="description" content={meta_description} />
-        </Helmet>
         <Hero title={title} />
         <div className="section">
           <div className="container">
