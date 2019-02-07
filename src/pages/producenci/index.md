@@ -1,6 +1,6 @@
 ---
 templateKey: producents-page
-title: Nasi Producenci
+title: Producenci katalog
 meta_title: Producenci | Katalog producentów
 meta_description: >-
   Katalog producentów - Montaż klimatyzacji Warszawa, najlepsza klimatyzacja,
@@ -9,8 +9,22 @@ meta_description: >-
 producents:
   - cover: /img/daikin.png
     description: daikin
-    link: daikin
+    link: 'https://www.daikin.pl/pl_pl/customers.html'
     name: daikin
+  - cover: /img/kaisai.jpg
+    description: >-
+      Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+      sit amet orci eget eros faucibus tincidunt.
+
+      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
+      magna. Sed consequat, leo eget bibendum sodales,
+
+      augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate
+      eleifend sapien. Vestibulum purus quam, scelerisque ut,
+
+      mollis sed, nonummy id, metus.
+    link: 'https://kaisai.pl/'
+    name: Kaisai
 ---
 
 ## Kilka słów o nas, czyli jak to się zaczęło
