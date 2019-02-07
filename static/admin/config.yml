@@ -72,7 +72,24 @@ collections:
               widget: "text",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-
+      - file: "src/pages/test/index.md"
+        label: "Strona Test"
+        name: "test-page"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "test-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/firma/index.md"
         label: "Strona o firmie"
         name: "about"
