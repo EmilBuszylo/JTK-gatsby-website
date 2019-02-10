@@ -5,11 +5,8 @@ meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji
 slider_captions:
-  - caption: >-
-      Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed
-      diam luctus pretium. Sed quis egestas libero. Vestibulum nec venenatis
-      ligula.
-    title: Vaibhav Sharma
+  - caption: ''
+    title: Klimatyzacja z montażem 8% VAT
   - caption: >-
       Jednostka Stylish marki Daikin o mocy 2,5kW teraz w promocji - 8900 zł
       netto z montażem!
