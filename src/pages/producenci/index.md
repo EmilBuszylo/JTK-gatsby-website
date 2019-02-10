@@ -1,17 +1,18 @@
 ---
 templateKey: producents-page
-title: Producenci katalog
+title: 'Producenci '
 meta_title: Producenci | Katalog producentów
 meta_description: >-
   Katalog producentów - Montaż klimatyzacji Warszawa, najlepsza klimatyzacja,
   systemy split i multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa
   jakość w dobrej cenie
 producents:
-  - cover: /img/daikin.png
+  - cover: /img/daikin_5.jpg
     description: >-
       Marka premium - nikt nie ma takich rozwiązań jak Daikin, najwyższa
-      innowacyjność, najwyższa jakość, świetne rozwiązania poprawiające
-      komfort. 
+      innowacyjność, najwyższa jakość, świetne rozwiązania poprawiające komfort.
+      Marka pochodząca z Japonii, stawiająca na jakość i technologiczne
+      nowinki. 
     link: 'https://www.daikin.pl/pl_pl/customers.html'
     name: Daikin
   - cover: /img/kaisai.jpg
@@ -40,4 +41,4 @@ producents:
 ---
 ## Producenci - czyli z kim współpracujemy
 
-Branża klimatyzacji, jak każda inna, bogata jest w wielu producentów, tych lepszych i gorszych.
+Branża klimatyzacji, jak każda inna, bogata jest w wielu producentów, tych lepszych i gorszych. My dla waszego i naszego bezpieczeństwa zdecydowaliśmy się na tych najlepszych. Z doświadczenia wiemy, że warto stawiać na jakość i pewne rozwiązania.
