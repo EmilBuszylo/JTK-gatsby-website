@@ -1,38 +1,23 @@
 ---
 templateKey: services-page
 title: Usługi
-meta_title: Nasze usługi | Gatsby Starter Business
+meta_title: Nasze usługi | Montaż klimatyzacji
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Montaż klimatyzacji - najtańszy i najlepszy montaż w Warszawie, najlepsza cena
+  na montaż klimatyzacji, super jakość za rozsądne pieniądze
 ---
-## Lorem ipsum dolor sit amet, consectetuer
+## Usługi - czyli co dla Was możemy zrobić
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+Zajmujemy się przede wszystkim montażem klimatyzacji na terenie Warszawy i jej okolic. Zanim jednak zamontujemy urządzenie, doradzamy w prawidłowym wyborze urządzeń. Staramy się odpowiedzieć na Wasze potrzeby i skierować na produkt spełniający Wasze wymagania. 
 
-##In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Jeżeli nie jesteś pewny/a, jakie urządzenie sprawdzi się najlepiej, jakiej mocy potrzebujesz lub generalnie jak to wszystko działa, dzwoń i pytaj, chętnie pomożemy. Część podstawowych informacji o klimatyzacji znajdziesz na naszym blogu <https://admiring-hodgkin-530733.netlify.com/blog> , inne możesz zadać przez formularz kontaktowy (tak odpiszemy lub zadzwonimy) lub zadzwonić, kontakt znajdziesz tu: https://admiring-hodgkin-530733.netlify.com/kontakt .
 
-Nullam dictum felis eu pede mollis
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-Nam quam nunc, blandit vel, luctus pulvinar
+Podsumowując, zajmujemy się:
 
-###Curabitur ullamcorper ultricies nisi.
+* doradztwem w doborze klimatyzacji 
+* montażem klimatyzacji na terenie Warszawy i okolic
+* serwisem urządzeń klimatyzacyjnych
+* naprawą urządzeń klimatyzacyjnych
+* projektowaniem klimatyzacji 
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
-* Cras ultricies mi eu turpis hendrerit fringilla.
-* Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-* In ac dui quis mi consectetuer lacinia.
-
-**Etiam ultricies nisi vel augue!**
+Zapraszamy do kontaktu.
