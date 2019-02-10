@@ -1,7 +1,6 @@
 ---
 templateKey: contact-page
 title: Kontakt
-slug: kontakt
 meta_title: JTLS | Kontakt
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -9,8 +8,8 @@ meta_description: >-
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
 threads:
-  - thread: Przegląd
-  - thread: Awaria
+  - thread: Obsługa
+  - thread: Usterki/problemy
   - thread: Inne
 contacts:
   - contact: klimatyzacjeTraczyk@gmail.com
@@ -18,3 +17,4 @@ contacts:
   - contact: 777 666 777
     type: phone
 ---
+
