@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Daikin STYLISH - imitacja czarnego drewna
+title: Daikin STYLISH - czarne drewno
 meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
 meta_description: >-
@@ -22,13 +22,17 @@ images:
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
 version:
   - power: '2,00kW'
-    price: '9060'
+    price: 9060 netto ze standardowym montażem
   - power: '2,50kW'
-    price: '9370'
+    price: 9370 netto ze standardowym montażem
   - power: '3,4kW'
-    price: '10460'
+    price: 10460 netto ze standardowym montażem
+  - power: '4,2kW'
+    price: 14940 netto ze standardowym montażem
+  - power: '5,0kW'
+    price: 16150 netto ze standardowym montażem
 ---
-# Daikin Stylish 
+# Daikin Stylish
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
 
@@ -46,3 +50,4 @@ Cechy produktu:
 * efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
 * 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
 * praca na ekologiczny czynnik R32
+*
