@@ -12,7 +12,7 @@ tags:
   - Daikin
 categories: split
 producent: Daikin
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: prezentacja klimatyzatora Daikin FTXA–A + RXA–A
     image: /img/ftxa-at_ip_1.jpg
