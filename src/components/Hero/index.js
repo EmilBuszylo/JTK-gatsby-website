@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-import Carousel from '../TextSlider';
+import Carousel from '../TextSlider'
 
-import background from '../../../static/img/architektura.jpg';
+import background from '../../../static/img/architektura.jpg'
 
 const Overlay = styled.span`
   position: absolute;
@@ -16,23 +16,22 @@ const Overlay = styled.span`
   background: rgba(0,0,0,.4);
 `
 
-const Hero = ({title, large, carousel}) => {
-  if(background) {
+const Hero = ({title, large, carousel, bigImage}) => {
+  if (background) {
     return (
       <section className={`hero is-info has-bg-image ${large ? 'is-large' : 'is-medium'}`}
-        style={{ background: `url('${background}') center bottom`, backgroundSize: 'cover', position: 'relative', zIndex: '0' }}
+        style={{ background: `url('${bigImage || background}') center bottom`, backgroundSize: 'cover', position: 'relative', zIndex: '0' }}
       >
         <div className='hero-body' style={{zIndex: '2'}}>
           <div className='container has-text-centered'>
-          {carousel.isSlider ?
-            <div className='container container__slider'>
-              <Carousel config={carousel}/>
-            </div>
-            :
-            <h1 className='title is-1'>
-              {title}
-            </h1>
-          }
+            {carousel.isSlider
+              ? <div className='container container__slider'>
+                <Carousel config={carousel} />
+              </div>
+              : <h1 className='title is-1'>
+                {title}
+              </h1>
+            }
           </div>
         </div>
         <Overlay />
@@ -50,18 +49,19 @@ Hero.propTypes = {
     elements: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string,
-        caption: PropTypes.string.isRequired
+        caption: PropTypes.string.isRequired,
       })
-    )
-  })
+    ),
+  }),
+  bigImage: PropTypes.string,
 }
 
 Hero.defaultProps = {
   large: false,
   carousel: {
     isSlider: false,
-    elements: []
-  }
+    elements: [],
+  },
 }
 
-export default Hero;
+export default Hero

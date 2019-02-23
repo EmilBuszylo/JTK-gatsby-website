@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+
+import Content from '../Content'
 
 const Wrapper = styled.div`
   background-color: #fff;
@@ -55,7 +57,7 @@ const CardContent = styled.div`
   }
 `
 
-const CardDescription = styled.p`
+const CardDescription = styled(Content)`
   font-size: 0.9rem;
   line-height: 1.4;
   overflow-y: auto;
@@ -93,7 +95,7 @@ const ProducentCard = ({ data }) => {
       </FeaturedImageWrapper>
       <CardContent>
         <h3 className='title is-5'>{data.name}</h3>
-        <CardDescription>{data.description}</CardDescription>
+        <CardDescription className='content' content={data.description} />
         <LinkButton
           className='button is-rounded has-text-centered'
           href={data.link}
@@ -104,7 +106,7 @@ const ProducentCard = ({ data }) => {
       </CardContent>
     </Wrapper>
   )
-};
+}
 
 ProducentCard.propTypes = {
   data: PropTypes.shape({

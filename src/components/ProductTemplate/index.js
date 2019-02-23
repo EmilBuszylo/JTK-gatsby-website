@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import Lightbox from "react-image-lightbox";
-import styled from "styled-components";
+import React, { Component } from 'react'
+import Lightbox from 'react-image-lightbox'
+import styled from 'styled-components'
 
-import Share from "../Share";
-import PropTypes from "prop-types";
-import Content from "../Content";
-import SE0 from "../SEO";
-import Sidebar from "../Sidebar";
-import ProductForm from "../ProductForm";
-import ProductInfoCard from "../ProductInfoCard";
-import TagsList from "../TagsList";
+import Share from '../Share'
+import PropTypes from 'prop-types'
+import Content from '../Content'
+import SE0 from '../SEO'
+import Sidebar from '../Sidebar'
+import ProductForm from '../ProductForm'
+import ProductInfoCard from '../ProductInfoCard'
+import TagsList from '../TagsList'
 
 const SidebarColumn = styled.div`
   @media (max-width: 1023px) {
     display: none !important;
   }
-`;
+`
 
 const Cover = styled.figure`
   padding: 0 1.5em 1.5em;
@@ -30,12 +30,12 @@ const Cover = styled.figure`
     padding: 0.5em;
     margin: 0.5em;
   }
-`;
+`
 
 const ProductImageWrapper = styled.div`
   display: flex;
   justify-content: center;
-`;
+`
 
 const ProductImage = styled.figure`
   padding: 0.3em !important;
@@ -46,19 +46,19 @@ const ProductImage = styled.figure`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const MainContent = styled.div`
   width: 80%;
   @media (max-width: 1023px) {
     width: 100%;
   }
-`;
+`
 
 const Divider = styled.hr`
   height: 1px;
   background-color: rgba(0, 0, 0, 0.1);
-`;
+`
 
 export default class ProductTemplate extends Component {
   static propTypes = {
@@ -71,59 +71,59 @@ export default class ProductTemplate extends Component {
     slug: PropTypes.string,
     date: PropTypes.string,
     producent: PropTypes.string,
-    hotProduct: PropTypes.bool,
+    hotProduct: PropTypes.string,
     images: PropTypes.arrayOf(
       PropTypes.shape({
         image: PropTypes.string,
-        caption: PropTypes.string
+        caption: PropTypes.string,
       })
-    )
+    ),
   };
 
   state = {
     photoIndex: 0,
     isOpen: false,
-    chosenVersion: ""
+    chosenVersion: '',
   };
 
-  componentDidMount() {
-    if (this.state.chosenVersion === "") {
-      this.setState({ chosenVersion: 0 });
+  componentDidMount () {
+    if (this.state.chosenVersion === '') {
+      this.setState({ chosenVersion: 0 })
     }
   }
 
   getProductImages = (coverImage, productImages = []) => {
-    let images = [];
+    let images = []
 
     if (!productImages || (productImages.length === 0 && coverImage)) {
-      images.push(coverImage);
+      images.push(coverImage)
 
-      return images;
+      return images
     }
 
     if (!productImages || (productImages.length === 0 && !coverImage)) {
-      return images;
+      return images
     }
 
-    images.push(coverImage);
+    images.push(coverImage)
 
-    return images.concat(productImages.map(image => image.image));
+    return images.concat(productImages.map(image => image.image))
   };
 
   onVersionChange = e => {
-    const value = e.target.value;
-    this.setState(prevState => ({ chosenVersion: value }));
+    const value = e.target.value
+    this.setState(prevState => ({ chosenVersion: value }))
   };
 
   setProductPrice = () => {
-    if (this.state.chosenVersion === "" || this.state.chosenVersion === 0) {
-      return this.props.version[0].price;
+    if (this.state.chosenVersion === '' || this.state.chosenVersion === 0) {
+      return this.props.version[0].price
     } else {
-      return this.props.version[this.state.chosenVersion].price;
+      return this.props.version[this.state.chosenVersion].price
     }
   };
 
-  render() {
+  render () {
     const {
       content,
       contentComponent,
@@ -139,17 +139,17 @@ export default class ProductTemplate extends Component {
       hotProduct,
       producent,
       images,
-      version
-    } = this.props;
+      version,
+    } = this.props
 
-    const { isOpen, photoIndex, chosenVersion } = this.state;
+    const { isOpen, photoIndex, chosenVersion } = this.state
 
-    const PostContent = contentComponent || Content;
+    const PostContent = contentComponent || Content
 
-    const ProductImages = this.getProductImages(cover, images);
+    const ProductImages = this.getProductImages(cover, images)
 
     return (
-      <section className="section">
+      <section className='section'>
         <SE0
           title={title}
           meta_title={meta_title}
@@ -157,24 +157,25 @@ export default class ProductTemplate extends Component {
           cover={cover}
           slug={slug}
         />
-        <div className="container">
+        <div className='container'>
           <div
-            className="columns is-mobile"
-            style={{ justifyContent: "space-around" }}
+            className='columns is-mobile'
+            style={{ justifyContent: 'space-around' }}
           >
-            <MainContent className="column is-full-mobile is-four-fifths">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <MainContent className='column is-full-mobile is-four-fifths'>
+              <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
                 {title}
               </h1>
-              <header className="columns">
-                <div className="column is-6">
+              <header className='columns'>
+                <div className='column is-6'>
                   <Cover onClick={() => this.setState({ isOpen: true })}>
                     <img src={cover} alt={title} />
                   </Cover>
                   {images && images.length > 0 ? (
                     <ProductImageWrapper>
-                      {images.map(image => (
+                      {images.map((image, index) => (
                         <ProductImage
+                          key={index + image.caption}
                           onClick={() => this.setState({ isOpen: true })}
                         >
                           <img src={image.image} alt={image.caption} />
@@ -183,7 +184,7 @@ export default class ProductTemplate extends Component {
                     </ProductImageWrapper>
                   ) : null}
                 </div>
-                <div className="column is-5">
+                <div className='column is-5'>
                   <ProductInfoCard
                     onVersionChange={this.onVersionChange}
                     title={title}
@@ -195,9 +196,9 @@ export default class ProductTemplate extends Component {
                   />
                 </div>
               </header>
-              <PostContent content={content} />
-              {Boolean(chosenVersion !== "" && version) && (
-                <div id="productForm">
+              <PostContent content={content} className='content' />
+              {Boolean(chosenVersion !== '' && version) && (
+                <div id='productForm'>
                   <ProductForm
                     title={title}
                     chosenVersion={version[chosenVersion]}
@@ -208,7 +209,7 @@ export default class ProductTemplate extends Component {
               <Divider />
               <Share title={title} slug={slug} excerpt={meta_desc} />
             </MainContent>
-            <SidebarColumn className="column is-one-fifth">
+            <SidebarColumn className='column is-one-fifth'>
               <Sidebar lastProducts={lastProducts} hotProducts={hotProducts} />
             </SidebarColumn>
           </div>
@@ -217,27 +218,25 @@ export default class ProductTemplate extends Component {
               mainSrc={ProductImages[photoIndex]}
               nextSrc={ProductImages[(photoIndex + 1) % ProductImages.length]}
               prevSrc={
-                ProductImages[
-                  (photoIndex + ProductImages.length - 1) % ProductImages.length
-                ]
+                ProductImages[(photoIndex + ProductImages.length - 1) % ProductImages.length]
               }
               onCloseRequest={() => this.setState({ isOpen: false })}
               onMovePrevRequest={() =>
                 this.setState({
                   photoIndex:
                     (photoIndex + ProductImages.length - 1) %
-                    ProductImages.length
+                    ProductImages.length,
                 })
               }
               onMoveNextRequest={() =>
                 this.setState({
-                  photoIndex: (photoIndex + 1) % ProductImages.length
+                  photoIndex: (photoIndex + 1) % ProductImages.length,
                 })
               }
             />
           )}
         </div>
       </section>
-    );
+    )
   }
 }

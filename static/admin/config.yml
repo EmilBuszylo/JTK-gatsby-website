@@ -26,6 +26,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Główny obraz", name="bigImage", widget: image }
           - {
               label: Slider,
               name: slider_captions,
@@ -63,24 +64,6 @@ collections:
               name: "templateKey",
               widget: "hidden",
               default: "services-page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Meta Title", name: "meta_title", widget: "string" }
-          - {
-              label: "Meta Description",
-              name: "meta_description",
-              widget: "text",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/test/index.md"
-        label: "Strona Test"
-        name: "test-page"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "test-page",
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta Title", name: "meta_title", widget: "string" }
@@ -169,8 +152,8 @@ collections:
               fields:
                 [
                   { label: Obraz, name: cover, widget: image },
-                  { label: Nazwa, name: name, widget: string },
-                  { label: Opis, name: description, widget: text },
+                  { label: Nazwa, name: name, widget: string},
+                  { label: Opis, name: description, widget: "markdown" },
                   { label: Adres www, name: link, widget: string },
                 ],
             }

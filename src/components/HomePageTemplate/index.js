@@ -1,10 +1,10 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import Offerings from '../Offerings';
-import PropTypes from 'prop-types';
-import Hero from '../Hero';
-import CategoriesBars from '../CategoryBars';
-import ProductCard from '../ProductCard';
+import React from 'react'
+import Helmet from 'react-helmet'
+import Offerings from '../Offerings'
+import PropTypes from 'prop-types'
+import Hero from '../Hero'
+import CategoriesBars from '../CategoryBars'
+import ProductCard from '../ProductCard'
 
 const HomePageTemplate = ({
   title,
@@ -14,6 +14,7 @@ const HomePageTemplate = ({
   slider_captions,
   hotProducts,
   categories,
+  bigImage,
 }) => (
   <div>
     <Helmet>
@@ -23,6 +24,7 @@ const HomePageTemplate = ({
     <Hero
       title={title}
       large
+      bigImage={bigImage}
       carousel={{
         isSlider: true,
         elements: slider_captions,
@@ -52,6 +54,7 @@ HomePageTemplate.propTypes = {
   }),
   categories: PropTypes.array,
   hotProducts: PropTypes.array,
+  bigImage: PropTypes.string,
 }
 
 export default HomePageTemplate

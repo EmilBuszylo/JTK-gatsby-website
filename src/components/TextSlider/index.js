@@ -1,20 +1,20 @@
-import React from "react";
-import "./styles.sass";
-import PropTypes from "prop-types";
-import Carousel from "react-light-carousel";
-import styled from "styled-components";
+import React from 'react'
+import './styles.sass'
+import PropTypes from 'prop-types'
+import Carousel from 'react-light-carousel'
+import styled from 'styled-components'
 
-import Logo from "../../../static/img/logo1.png";
+import Logo from '../../../static/img/logo.png'
 
-const Back = () => <span className="is-size-4">{"◀"}</span>;
-const Next = () => <span className="is-size-4">{"▶"}</span>;
+const Back = () => <span className='is-size-4'>{'◀'}</span>
+const Next = () => <span className='is-size-4'>{'▶'}</span>
 
 const SliderWrapper = styled.div`
   display: block;
   @media (max-width: 640px) {
     display: none;
   }
-`;
+`
 
 const LogoWrapper = styled.div`
   display: none;
@@ -23,7 +23,7 @@ const LogoWrapper = styled.div`
   @media (max-width: 640px) {
     display: block;
   }
-`;
+`
 
 const TextSlider = ({ config }) => {
   return (
@@ -38,18 +38,18 @@ const TextSlider = ({ config }) => {
         >
           {config.elements.map((element, index) => (
             <span key={element.title + index}>
-              <h2 className="title is-3 is-spaced">{element.title}</h2>
-              <p className="subtitle is-5 is-spaced">{element.caption}</p>
+              <h2 className='title is-3 is-spaced'>{element.title}</h2>
+              <p className='subtitle is-5 is-spaced'>{element.caption}</p>
             </span>
           ))}
         </Carousel>
       </SliderWrapper>
       <LogoWrapper>
-        <img src={Logo} alt="JTLS, klimatyzacje, systemy chłodnicze, logo" />
+        <img src={Logo} alt='JTLS, klimatyzacje, systemy chłodnicze, logo' />
       </LogoWrapper>
     </React.Fragment>
-  );
-};
+  )
+}
 
 TextSlider.propTypes = {
   config: PropTypes.shape({
@@ -57,10 +57,10 @@ TextSlider.propTypes = {
     elements: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string,
-        caption: PropTypes.string.isRequired
+        caption: PropTypes.string.isRequired,
       })
-    )
-  })
-};
+    ),
+  }),
+}
 
-export default TextSlider;
+export default TextSlider

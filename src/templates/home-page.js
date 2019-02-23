@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import HomePageTemplate from '../components/HomePageTemplate';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import HomePageTemplate from '../components/HomePageTemplate'
 
 class HomePage extends Component {
   render () {
@@ -14,6 +14,7 @@ class HomePage extends Component {
         meta_description={frontmatter.meta_description}
         description={frontmatter.description}
         offerings={frontmatter.offerings}
+        bigImage={frontmatter.bigImage}
         slider_captions={frontmatter.slider_captions}
         hotProducts={pageContext.hotProducts}
         categories={pageContext.productCategories}
@@ -39,6 +40,7 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
+        bigImage
         slider_captions {
           title
           caption

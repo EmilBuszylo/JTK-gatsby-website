@@ -1,6 +1,7 @@
 ---
 templateKey: home-page
 meta_title: Strona główna | JTLS
+bigImage: ''
 meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji
@@ -18,11 +19,10 @@ offerings:
         Montaż - chyba najważniejszy element klimatyzacji. Prawidłowo
         przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
         urządzeń. JTLS posiada niezbędne doświadczenie i uprawnienia do montażu
-        urządzeń chłodniczych zgodnie z tzw. ustawą F-gazową. 
+        urządzeń chłodniczych zgodnie z tzw. ustawą F-gazową.
     - image: /img/coffee-gear.png
       text: >
-        Ceny - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego 
+        Ceny - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego
         podajemy ceny przy każdym produkcie. Uwzględniają one standardowy
         montaż, którego opis znajdziesz pod linkiem:..................
 ---
-
