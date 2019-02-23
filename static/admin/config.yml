@@ -73,7 +73,7 @@ collections:
               widget: "text",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-                - file: "src/pages/uslugi/index.md"
+      - file: "src/pages/uslugi/index.md"
         label: "Strona Montaż"
         name: "assembly-page"
         fields:
@@ -91,9 +91,9 @@ collections:
               widget: "text",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-                - file: "src/pages/uslugi/index.md"
-        label: "Strona Usługi"
-        name: "service-page"
+      - file: "src/pages/uslugi/index.md",
+        label: "Strona Usługi",
+        name: "service-page",
         fields:
           - {
               label: "Template Key",
@@ -108,7 +108,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
-                      - {
+          - {
               label: Tematy,
               name: threads,
               widget: list,
@@ -132,10 +132,11 @@ collections:
                       ],
                   },
                 ],
+            },
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/firma/index.md"
-        label: "Strona o firmie"
-        name: "about"
+      - file: "src/pages/firma/index.md",
+        label: "Strona o firmie",
+        name: "about",
         fields:
           - {
               label: "Template Key",
