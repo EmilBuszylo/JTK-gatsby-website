@@ -96,10 +96,10 @@ const NavBar = ({ toggleNavbar, isActive }) => (
                 <DropdownItem className='navbar-item'>Produkty</DropdownItem>
                 <Dropdown className='navbar-dropdown'>
                   <DropdownSubItem className='navbar-item' to='/producenci'>
-                    Katalog producentów
+                    Producenci
                   </DropdownSubItem>
                   <DropdownSubItem className='navbar-item' to='/produkty'>
-                    Katalog wentylatorów
+                    Katalog klinatyzatorów
                   </DropdownSubItem>
                 </Dropdown>
               </div>
@@ -108,6 +108,12 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               </NavbarItem>
               <NavbarItem className='navbar-item' to='/uslugi'>
                 Usługi
+              </NavbarItem>
+              <NavbarItem className='navbar-item' to='/montaz'>
+                Montaż
+              </NavbarItem>
+              <NavbarItem className='navbar-item' to='/serwis'>
+                Serwis
               </NavbarItem>
               <NavbarItem className='navbar-item' to='/blog'>
                 Blog

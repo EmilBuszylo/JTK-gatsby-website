@@ -25,6 +25,7 @@ images:
     image: /img/kaisai.jpg
   - caption: zestaw
     image: /img/zestaw_klimatyzacja.jpg
+vat: Do ceny należy doliczyć 8% podatku vat z montażem lub 23% bez montażu
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

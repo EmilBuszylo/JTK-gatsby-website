@@ -20,6 +20,7 @@ version:
     price: '5000'
   - power: 5kW
     price: '7800'
+vat: Do ceny należy doliczyć 8% podatku vat z montażem lub 23% bez montażu
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu eros facilisis, tincidunt nisi quis, semper ligula. Sed mattis velit ut augue ultricies placerat. Ut sodales dapibus gravida. Aliquam lacus velit, egestas vel augue ac, bibendum congue ipsum. Maecenas ut sem id magna porttitor luctus eget id dui. Aenean fringilla molestie risus, ut faucibus orci euismod id. Nunc nulla orci, rutrum vehicula imperdiet vel, lobortis ut sapien.

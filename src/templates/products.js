@@ -1,37 +1,18 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import Link from 'gatsby-link';
+import React, { Component } from 'react'
+import styled from 'styled-components'
 
-import config from '../../data/config';
-import Helmet from 'react-helmet';
-import Hero from '../components/Hero';
-import ProductCard from '../components/ProductCard';
-import Sidebar from '../components/Sidebar';
-import PaginationLink from '../components/PaginationLink';
-import CategoryFilters from '../components/CategoryFilters';
+import config from '../../data/config'
+import Helmet from 'react-helmet'
+import Hero from '../components/Hero'
+import ProductCard from '../components/ProductCard'
+import Sidebar from '../components/Sidebar'
+import PaginationLink from '../components/PaginationLink'
+import CategoryFilters from '../components/CategoryFilters'
 
 const SidebarColumn = styled.div`
   @media (max-width: 1024px) {
     display: none !important;
   }
-`
-
-const MobileSearchWrapper = styled.div`
-  padding: 0 1.5rem 3rem 1.5rem;
-  @media (min-width: 1024px) {
-    display: none !important;
-  }
-`
-
-const Categories = styled.div`
-  margin: 0.5em 0 2.5em 0;
-  display: flex;
-  align-items: center;
-`
-
-const Tag = styled(Link)`
-  cursor: pointer;
-  margin-left: 0.5em;
 `
 
 export default class ProductsPage extends Component {
@@ -43,7 +24,7 @@ export default class ProductsPage extends Component {
     const { pageContext } = this.props
     const { group, index, first, last, additionalContext } = pageContext
     const previousUrl = index - 1 === 1 ? '' : (index - 1).toString()
-    const nextUrl = (index + 1).toString() + '/';
+    const nextUrl = (index + 1).toString() + '/'
 
     const websiteSchemaOrgJSONLD = {
       '@context': 'http://schema.org',

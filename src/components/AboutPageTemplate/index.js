@@ -8,7 +8,7 @@ const AboutPageTemplate = ({title, content, contentComponent}) => {
 
   return (
     <div>
-    <Hero title={title}/>
+      <Hero title={title} />
       <section className='section section--gradient'>
         <div className='container'>
           <div className='columns'>

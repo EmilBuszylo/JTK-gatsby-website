@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -16,14 +17,25 @@ const CardButton = styled(AnchorLink)`
   }
 `
 
-export const ProductInfoCard = ({title, onVersionChange, amount, date, hotProduct, producent, version}) =>
+const Distinct = styled.span`
+  color: #ff3860;
+  margin-left: .3em;
+`
+
+const NavLink = styled(Link)`
+  color: #ff3860;
+  margin-left: .3em;
+  text-decoration: underline;
+`
+
+export const ProductInfoCard = ({title, onVersionChange, amount, date, producent, version, vat}) =>
   (
     <div className='panel'>
       <InfoCardHeader className='panel-heading'>
         {title}
       </InfoCardHeader>
       <a className='panel-block'>
-                Cena: {amount} zł
+                Cena: {amount} zł<Distinct>*</Distinct>
       </a>
       <a className='panel-block'>
         <div className='field'>
@@ -45,16 +57,20 @@ export const ProductInfoCard = ({title, onVersionChange, amount, date, hotProduc
         </div>
       </a>
       <a className='panel-block'>
-                Producent: {producent}
+        Producent: {producent}
       </a>
       <a className='panel-block'>
-                Produkt dodano: {date}
+        Produkt dodano: {date}
       </a>
-      {Boolean(hotProduct) &&
-        <a className='panel-block has-text-danger has-text-centered'>
-            Produkt objęty promocją!
-        </a>
-      }
+      <a className='panel-block has-text-danger'>
+            * ze standardowym <NavLink to='/montaz'> montażem</NavLink>
+      </a>
+      <a className='panel-block'>
+        <div
+          className='content'
+          dangerouslySetInnerHTML={{ __html: vat }}
+        />
+      </a>
       <div className='panel-block'>
         <CardButton className='button is-link is-outlined is-fullwidth' href='#productForm'>
             Zapytaj o ten produkt
@@ -67,7 +83,6 @@ ProductInfoCard.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
   amount: PropTypes.string,
-  hotProduct: PropTypes.string,
 }
 
 export default ProductInfoCard

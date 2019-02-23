@@ -1,21 +1,20 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import {HTMLContent} from '../components/Content'
 import ProductTemplate from '../components/ProductTemplate'
 
 export default class ProductPage extends Component {
-
   static propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.object,
     }),
   }
 
-  render() {
-    const {pageContext, data} = this.props;
-    const {hotProducts,lastProducts } = pageContext;
-    const {markdownRemark: post} = data;
+  render () {
+    const { pageContext, data } = this.props
+    const { hotProducts, lastProducts } = pageContext
+    const { markdownRemark: post } = data
 
     return (
       <ProductTemplate
@@ -34,11 +33,11 @@ export default class ProductPage extends Component {
         version={post.frontmatter.version}
         hotProducts={hotProducts}
         lastProducts={lastProducts}
+        vat={post.frontmatter.vat}
       />
     )
   }
 }
-
 
 export const pageQuery = graphql`
   query ProduktByID($id: String!) {
@@ -65,6 +64,7 @@ export const pageQuery = graphql`
           image
         }
         producent
+        vat
       }
     }
   }

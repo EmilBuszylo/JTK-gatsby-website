@@ -1,23 +1,21 @@
-import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "gatsby";
+import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default class ContactForm extends Component {
-  render() {
-    const { topic, products, onTopicChange, threads } = this.props;
-
+  render () {
+    const { topic, products, onTopicChange, threads } = this.props
     return (
       <form>
-        <div className="field">
-          <label className="label" htmlFor="topic">
+        <div className='field'>
+          <label className='label' htmlFor='topic'>
             Temat
           </label>
-          <p className="control">
-            <span className="select">
+          <p className='control'>
+            <span className='select'>
               <select
-                name="topic"
-                id="topic"
+                name='topic'
+                id='topic'
                 required
                 onChange={e => onTopicChange(e)}
               >
@@ -26,19 +24,19 @@ export default class ContactForm extends Component {
                     {thread.thread}
                   </option>
                 ))}
-                <option value="product">Produkt/pakiet</option>
+                <option value='product'>Produkt/pakiet</option>
               </select>
             </span>
           </p>
         </div>
-        {topic === "product" ? (
-          <div className="field">
-            <label className="label" htmlFor="product">
+        {products && products.length && topic === 'product' ? (
+          <div className='field'>
+            <label className='label' htmlFor='product'>
               Temat
             </label>
-            <p className="control">
-              <span className="select">
-                <select name="product" id="product">
+            <p className='control'>
+              <span className='select'>
+                <select name='product' id='product'>
                   {products.map(({ node: product }) => (
                     <option
                       key={product.frontmatter.title}
@@ -52,84 +50,84 @@ export default class ContactForm extends Component {
             </p>
           </div>
         ) : null}
-        <div className="field">
-          <label className="label" htmlFor="email">
+        <div className='field'>
+          <label className='label' htmlFor='email'>
             Email
           </label>
-          <div className="control has-icons-left">
+          <div className='control has-icons-left'>
             <input
-              className="input"
-              name="email"
-              type="email"
-              id="email"
-              placeholder="Twój email"
+              className='input'
+              name='email'
+              type='email'
+              id='email'
+              placeholder='Twój email'
               required
             />
-            <span className="icon is-small is-left">
+            <span className='icon is-small is-left'>
               <FontAwesomeIcon icon={faEnvelope} />
             </span>
           </div>
         </div>
-        <div className="field">
-          <label className="label" htmlFor="tel">
+        <div className='field'>
+          <label className='label' htmlFor='tel'>
             Telefon kontaktowy
           </label>
-          <div className="control has-icons-left">
+          <div className='control has-icons-left'>
             <input
-              className="input"
-              name="tel"
-              id="tel"
-              type="tel"
-              placeholder="Nr telefonu"
+              className='input'
+              name='tel'
+              id='tel'
+              type='tel'
+              placeholder='Nr telefonu'
             />
-            <span className="icon is-small is-left">
+            <span className='icon is-small is-left'>
               <FontAwesomeIcon icon={faPhone} />
             </span>
           </div>
         </div>
-        <div className="field">
-          <label className="label" htmlFor="msg">
+        <div className='field'>
+          <label className='label' htmlFor='msg'>
             Wiadomość
           </label>
-          <div className="control">
+          <div className='control'>
             <textarea
-              className="textarea"
-              id="msg"
-              placeholder="Textarea"
+              className='textarea'
+              id='msg'
+              placeholder='Treść wiadomości'
               required
             />
           </div>
         </div>
-        <div className="field">
-          <div className="control">
-            <label className="checkbox">
-              <input type="checkbox" required /> akceptuję{" "}
-              <a href="/polityka-prywatnosci" target="_blank">
+        <div className='field'>
+          <div className='control'>
+            <label className='checkbox'>
+              <input type='checkbox' required /> akceptuję{' '}
+              <a href='/polityka-prywatnosci' target='_blank'>
                 Politykę Prywatności serwisu
               </a>
             </label>
           </div>
         </div>
-        <div className="field">
-          <div className="control">
-            <label className="checkbox">
-              <input type="checkbox" required /> zapoznałem się z{" "}
-              <a href="/rodo" target="_blank">
-                {" "}
-                RODO{" "}
+        <div className='field'>
+          <div className='control'>
+            <label className='checkbox'>
+              <input type='checkbox' required /> zapoznałem się z{' '}
+              <a href='/rodo' target='_blank'>
+                {' '}
+                RODO{' '}
               </a>
             </label>
           </div>
         </div>
-        <div className="field is-grouped">
-          <div className="control">
-            <button className="button is-link">Wyślij</button>
+        <div className='field is-grouped'>
+          <div className='control'>
+            <button className='button is-link'>Wyślij</button>
           </div>
-          <div className="control">
-            <button className="button is-text">Wyczyść</button>
+          <div className='control'>
+            <button className='button is-text'>Wyczyść</button>
           </div>
         </div>
       </form>
-    );
+    )
   }
 }

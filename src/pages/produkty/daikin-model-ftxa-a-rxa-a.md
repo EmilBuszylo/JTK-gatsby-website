@@ -5,7 +5,7 @@ meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
 meta_description: >-
   Stylish, Daikin, jednostka naścienna, klimatyzacja, komfort, montaż
-  klimatyzacji, najlepsza klimatyzacja Warszawa 
+  klimatyzacji, najlepsza klimatyzacja Warszawa
 date: 2019-11-02T13:39:00.000Z
 cover: /img/ftxa-at_detail_3.jpg
 tags:
@@ -22,21 +22,22 @@ images:
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
 version:
   - power: '2,00kW'
-    price: 9060 netto ze standardowym montażem
+    price: 9060 netto
   - power: '2,50kW'
-    price: 9370 netto ze standardowym montażem
+    price: 9370 netto
   - power: '3,4kW'
-    price: 10460 netto ze standardowym montażem
+    price: 10460 netto
   - power: '4,2kW'
-    price: 14940 netto ze standardowym montażem
+    price: 14940 netto
   - power: '5,0kW'
-    price: 16150 netto ze standardowym montażem
+    price: 16150 netto
+vat: Do ceny należy doliczyć 8% podatku vat z montażem lub 23% bez montażu
 ---
 # Daikin Stylish
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
 
-Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny lub imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania. 
+Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny lub imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
 
 Cechy produktu:
 

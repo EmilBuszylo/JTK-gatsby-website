@@ -72,6 +72,7 @@ export default class ProductTemplate extends Component {
     date: PropTypes.string,
     producent: PropTypes.string,
     hotProduct: PropTypes.string,
+    vat: PropTypes.string,
     images: PropTypes.arrayOf(
       PropTypes.shape({
         image: PropTypes.string,
@@ -140,6 +141,7 @@ export default class ProductTemplate extends Component {
       producent,
       images,
       version,
+      vat,
     } = this.props
 
     const { isOpen, photoIndex, chosenVersion } = this.state
@@ -193,6 +195,7 @@ export default class ProductTemplate extends Component {
                     date={date}
                     hotProduct={hotProduct}
                     producent={producent}
+                    vat={vat}
                   />
                 </div>
               </header>

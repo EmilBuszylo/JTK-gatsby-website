@@ -27,6 +27,7 @@ exports.createPages = ({actions, graphql, arg}) => {
                 power
                 price
               }
+              vat
               date(formatString: "DD.MM.YYYY")
             }
           }
@@ -40,7 +41,7 @@ exports.createPages = ({actions, graphql, arg}) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
-    const blogPosts = result.data.allMarkdownRemark.edges.filter( edge => edge.node.frontmatter.templateKey === 'article-page' || edge.node.frontmatter.templateKey === 'article-page2')
+    const blogPosts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'article-page' || edge.node.frontmatter.templateKey === 'article-page2')
     createPaginatedPages({
       edges: blogPosts,
       createPage: createPage,
@@ -73,7 +74,6 @@ exports.createPages = ({actions, graphql, arg}) => {
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
-        test: arg
       }, // This is optional and defaults to an empty object if not used
     })
 
@@ -92,11 +92,11 @@ exports.createPages = ({actions, graphql, arg}) => {
           lastProducts: products.slice(0, 4),
           productCategories: products.filter(product => product.node.frontmatter.categories)
             .map((product, index) => product.node.frontmatter.categories)
-            .reduce((a,b) => {
-              if (a.indexOf(b) < 0 ) a.push(b);
-              return a;
-            },[]),
-          poductsTitleList: products.map(product => product.node.frontmatter.title)
+            .reduce((a, b) => {
+              if (a.indexOf(b) < 0) a.push(b)
+              return a
+            }, []),
+          poductsTitleList: products.map(product => product.node.frontmatter.title),
         },
       })
     })

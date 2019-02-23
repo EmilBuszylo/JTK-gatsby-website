@@ -5,7 +5,7 @@ import {graphql} from 'gatsby'
 import {HTMLContent} from '../components/Content'
 import AboutPageTemplate from '../components/AboutPageTemplate'
 
-const ServicesPage = ({data}) => {
+const AssemblyPage = ({data}) => {
   const {markdownRemark: post} = data
 
   return (
@@ -23,14 +23,14 @@ const ServicesPage = ({data}) => {
   )
 }
 
-ServicesPage.propTypes = {
+AssemblyPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default ServicesPage
+export default AssemblyPage
 
 export const aboutPageQuery = graphql`
-  query ServicesPage($id: String!) {
+  query AssemblyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
