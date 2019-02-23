@@ -3,7 +3,8 @@ templateKey: service-page
 title: Serwis
 meta_title: JTLS serwis | Serwis naszych klimatyzacji
 meta_description: >-
-  Serwis klimatyzacji - skuteczny, bezproblemowy i szybki serwis klimatyzacji przez firmę JTLS
+  Serwis klimatyzacji - skuteczny, bezproblemowy i szybki serwis klimatyzacji
+  przez firmę JTLS
 threads:
   - thread: Przegląd
   - thread: Awaria
@@ -13,7 +14,7 @@ contacts:
   - contact: 777 666 777
     type: phone
 ---
-## Serwis - w czym możęmy pomóc ?
+## Serwis - w czym możemy pomóc ?
 
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
