@@ -13,8 +13,6 @@ contacts:
   - contact: 777 666 777
     type: phone
 ---
-
----
 ## Serwis - w czym możęmy pomóc ?
 
 Lorem Ipsum

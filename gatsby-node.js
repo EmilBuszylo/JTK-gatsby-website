@@ -74,6 +74,7 @@ exports.createPages = ({actions, graphql, arg}) => {
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
+        test: arg,
       }, // This is optional and defaults to an empty object if not used
     })
 

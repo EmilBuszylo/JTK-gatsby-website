@@ -26,7 +26,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
-          - { label: Główny obraz, name: bigImage, widget: image }
+          - { label: "Główny obraz", name="bigImage", widget: image }
           - {
               label: Slider,
               name: slider_captions,
@@ -73,7 +73,7 @@ collections:
               widget: "text",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/montaz/index.md"
+      - file: "src/pages/uslugi/index.md"
         label: "Strona Montaż"
         name: "assembly-page"
         fields:
@@ -91,8 +91,8 @@ collections:
               widget: "text",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/serwis/index.md"
-        label: "Strona Serwis"
+      - file: "src/pages/uslugi/index.md"
+        label: "Strona Usługi"
         name: "service-page"
         fields:
           - {
