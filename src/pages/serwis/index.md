@@ -16,7 +16,15 @@ contacts:
 ---
 ## Serwis - w czym możemy pomóc ?
 
-Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po prostu dlatego, że to ból..."
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce libero nulla, interdum vitae enim pharetra, eleifend pellentesque risus. Suspendisse nec tortor quis ante volutpat feugiat et eu enim. Aenean egestas gravida lectus, et dictum orci dictum eu. Fusce eleifend fringilla eros fermentum cursus. Sed vestibulum vel diam vel tempor. Sed blandit dui non porta malesuada. Donec elementum ornare rhoncus. Nunc sit amet placerat tortor, id aliquam augue. Nam feugiat, arcu vitae placerat maximus, purus arcu blandit libero, a porta ipsum massa sed urna.
+Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie. 
+
+W zakres czynności serwisowych wchodzi:
+
+1. Sprawdzenie parametrów pracy układu (pomiar ciśnień i temperatur w układzie)
+2. Sprawdzenie ewentualnych nieszczelności
+3. Wyczyszczenie skraplacza (agregatu) - ważne dla wydajności urządzenia
+4. Wyczyszczenie filtrów jednostki wewnętrznej
+5. Dezynfekcja wymiennika parownika jednostki wewnętrznej
+6. Wyczyszczenie tacy skroplin
+
+Wszystkie powyższe punkty wpływają bezpośrednio na pracę całego układu, co w dłuższej perspektywie przekłada się na zużycie energii przez urządzenie. Regularne czyszczenie jednostki wewnętrznej daje gwarancję, że na jej wymienniku nie zamieszka grzyb, wirus czy bakteria.
