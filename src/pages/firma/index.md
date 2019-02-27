@@ -9,6 +9,6 @@ meta_description: >-
 ---
 ## Kilka słów o nas
 
-JTLS to młoda firma odpowiadająca na potrzeby klienta, która stawia na wysoką jakość oferowanych usług i urządzeń. Wszelkie działania planujemy z myślą o kliencie, szanujemy Wasz czas i pieniądze. Ciągle się uczymy podnosząc swoje kompetencje na szkoleniach. Jesteśmy na bieżąco z wszelkimi nowinkami technicznymi dostępnymi na rynku klimatyzacji. Każdy nasz pracownik posiada państwowe certyfikaty uprawniające do montażu i serwisu klimatyzacji. 
+JTLS to młoda firma odpowiadająca na potrzeby klienta, która stawia na wysoką jakość oferowanych usług i urządzeń. Wszelkie działania planujemy z myślą o kliencie, szanujemy Wasz czas i pieniądze. Ciągle się uczymy podnosząc swoje kompetencje na szkoleniach. Jesteśmy na bieżąco z wszelkimi nowinkami technicznymi dostępnymi na rynku klimatyzacji. Co więcej, każdy nasz pracownik posiada państwowe certyfikaty uprawniające do montażu i serwisu klimatyzacji. 
 
 Wasz komfort i czas są dla nas priorytetem.
