@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Daikin STYLISH - czarne drewno
+title: FTXA-AT - Daikin STYLISH - czarne drewno
 meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
 meta_description: >-
@@ -22,7 +22,7 @@ images:
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
 version:
   - power: '2,00kW'
-    price: 9060 netto
+    price: 7760 lub 9060 netto
   - power: '2,50kW'
     price: 9370 netto
   - power: '3,4kW'
