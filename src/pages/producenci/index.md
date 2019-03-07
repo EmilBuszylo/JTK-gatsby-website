@@ -7,7 +7,7 @@ meta_description: >-
   systemy split i multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa
   jakość w dobrej cenie
 producents:
-  - cover: /img/daikin_5.jpg
+  - cover: /img/daikin20industries.png
     description: >-
       Marka premium - nikt nie ma takich rozwiązań jak Daikin, najwyższa
       innowacyjność, najwyższa jakość, świetne rozwiązania poprawiające komfort
@@ -24,7 +24,7 @@ producents:
       pracy. 
     link: 'https://pl.mitsubishielectric.com/pl/index.page'
     name: MItsubishi
-  - cover: /img/logo-lg.png
+  - cover: /img/lg-logo.jpg
     description: >-
       Mocny średniak - tym razem marka Koreańska, dająca dobre produkty o fajnym
       designie. Technika jak i jakość wykonania jest na dobrym poziomie. Nie
