@@ -31,7 +31,7 @@ version:
     price: 14940 netto
   - power: '5,0kW'
     price: 16150 netto
-vat: Do ceny należy doliczyć 8% podatku vat z montażem lub 23% bez montażu
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem
 ---
 # Daikin Stylish
 
@@ -51,4 +51,3 @@ Cechy produktu:
 * efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
 * 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
 * praca na ekologiczny czynnik R32
-*
