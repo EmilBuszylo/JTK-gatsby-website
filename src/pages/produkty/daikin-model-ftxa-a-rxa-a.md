@@ -22,15 +22,15 @@ images:
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
 version:
   - power: '2,00kW'
-    price: 7760 lub 9060 netto
+    price: 7760 netto lub 9060 netto
   - power: '2,50kW'
-    price: 9370 netto
+    price: 8070 netto lub 9370 netto
   - power: '3,4kW'
-    price: 10460 netto
+    price: 9160 netto lub 10460 netto
   - power: '4,2kW'
-    price: 14940 netto
+    price: 13640 netto lub 14940 netto
   - power: '5,0kW'
-    price: 16150 netto
+    price: 14850 netto lub 16150 netto
 vat: Do ceny należy doliczyć 8% podatku VAT z montażem
 ---
 # Daikin Stylish
