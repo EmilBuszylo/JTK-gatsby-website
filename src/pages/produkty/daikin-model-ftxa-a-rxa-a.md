@@ -20,6 +20,8 @@ images:
     image: /img/ftxa-at_detail_3.jpg
   - caption: Daikin broszura
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
+  - caption: klimatyzator Daikin FTXA–A + RXA–A
+    image: /img/ftxa-at_l.jpg
 version:
   - power: '2,00kW'
     price: 7760 netto lub 9060 netto
