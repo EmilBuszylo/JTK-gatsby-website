@@ -1,41 +1,61 @@
 ---
 templateKey: product-page
-title: Klimatyzator Kaisai
-slug: klimatyzator-kaisai
-date: 2018-03-29T03:55:49.370Z
-cover: /img/kaisai.jpg
-meta_title: Klimatyzator Kaisai
+title: 'FTXA-AS - Daikin STYLISH - srebrny '
+meta_title: Daikin model FTXA-AS/RXA-A
+slug: daikin-model-ftxa-a-rxa-a
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Stylish, Daikin, jednostka naścienna, klimatyzacja, komfort, montaż
+  klimatyzacji, najlepsza klimatyzacja Warszawa
+date: 2018-04-10T03:55:49.370Z
+cover: /img/daikin.png
 tags:
-  - lorem
-  - tests
+  - Daikin
+  - klimatyzacja
+  - stylish
+  - komfort
+  - klima
 categories: split
-hotProductsSelect: tak
-producent: Kaisai
+producent: Daikin
+hotProductsSelect: nie
+images:
+  - caption: klimatyzator Daikin FTXA–AS + RXA–A
+    image: /img/stylish-as.jpg
+  - caption: klimatyzator Daikin FTXA–AS + RXA–A
+    image: /img/stylish-as-2.png
+  - caption: klimatyzator Daikin FTXA–AS + RXA–A
+    image: /img/daikin.png
+  - caption: 'broszura Daikin FTXA–AS + RXA–A '
+    image: /img/ftxa-as-rxa-a_product-flyer_ecpen18-051_english-page-001.jpg
 version:
-  - power: 2kw
-    price: "1000"
-  - power: 2,5kw
-    price: "1200"
-  - power: 3,5kw
-    price: "1500"
-vat: Do ceny należy doliczyć 8% podatku vat z montażem lub 23% bez montażu
+  - power: '2,0 kW'
+    price: 'od 7600 netto lub 8900 netto '
+  - power: '2,5 kW'
+    price: 8020 netto lub 9320 netto
+  - power: '3,4 kW'
+    price: 9000 netto lub 10300 netto
+  - power: '4,2 kW'
+    price: '13320 netto lub 14620 netto '
+  - power: '5,0 kW'
+    price: 14530 netto lub 15830 netto
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem
 ---
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+# Daikin Stylish
 
-## Most Amazing Blogging Experience.
+Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny lub imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Cechy produktu:
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+* kompaktowy design
+* idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
+* inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
+* regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
+* technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
+* praktycznie niesłyszalna praca
+* kontrola pracy online poprzez wbudowany moduł wi-fi
+* efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
+* 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
+* praca na ekologiczny czynnik R32
