@@ -24,7 +24,11 @@ producent: Daikin
 hotProductsSelect: nie
 images:
   - caption: test
-    image: /img/zestaw_klimatyzacja.jpg
+    image: /img/ururu-sarara-5-600x600.jpg
+  - image: /img/ururu-sarara.jpg
+  - image: /img/ururu-sarara-3.png
+  - image: /img/ururu-sarara-2.jpg
+  - image: /img/klimatyzator-scienny-daikin-ururu-sarara-ftxz25n-rxz25n.jpg
 version:
   - power: '2,5 kW'
     price: od 9550 netto lub 10850 netto
