@@ -24,7 +24,7 @@ images:
     image: /img/ftxa-at_l.jpg
 version:
   - power: '2,00kW'
-    price: 7760 netto lub 9060 netto
+    price: od 7760 netto lub 9060 netto
   - power: '2,50kW'
     price: 8070 netto lub 9370 netto
   - power: '3,4kW'
