@@ -25,6 +25,9 @@ images:
   - image: /img/rxp.png
 version:
   - {}
+  - {}
+  - {}
+  - {}
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
