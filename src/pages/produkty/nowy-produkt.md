@@ -6,7 +6,7 @@ slug: daikin-model-ftxz-n-rxz-n
 meta_description: >-
   Ururu Sarara, Daikin, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji, nawilżanie, osuszanie, oczyszczanie powietrza, najlepsza
-  klimatyzacja Warszawa
+  klimatyzacja Warszawa.
 date: 2019-03-10T10:15:49.599Z
 cover: /img/ururu-sarara-3.png
 tags:
