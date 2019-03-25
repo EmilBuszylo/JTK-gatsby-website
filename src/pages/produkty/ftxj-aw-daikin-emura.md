@@ -21,7 +21,6 @@ categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - image: /img/emura-3.png
   - image: /img/rxj.png
   - image: /img/emura-2.png
   - image: /img/emura-1.png
