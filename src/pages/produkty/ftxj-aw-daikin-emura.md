@@ -16,6 +16,7 @@ tags:
   - klimatyzacja
   - komfort
   - klima
+  - RXJ
 categories: split
 producent: Daikin
 hotProductsSelect: nie
