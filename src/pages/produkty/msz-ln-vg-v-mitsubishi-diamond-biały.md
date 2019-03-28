@@ -20,7 +20,14 @@ hotProductsSelect: nie
 images:
   - {}
 version:
-  - {}
+  - power: '2,5kW'
+    price: 'od 6300 netto do 7600 netto '
+  - power: '3,5kW'
+    price: 7840 netto do 9140 netto
+  - power: '5,0kW'
+    price: 9330 netto do 10630 netto
+  - power: '6,0kW'
+    price: 10520 netto do 11820 netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
