@@ -7,7 +7,7 @@ meta_description: >-
   Diamond, Mitsubishi, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji, najlepsza klimatyzacja Warszawa
 date: 2019-03-28T20:11:29.103Z
-cover: /img/diamond-10.png
+cover: /img/diamond-15-perłowy.png
 tags:
   - Mitsubishi
   - Diamond
