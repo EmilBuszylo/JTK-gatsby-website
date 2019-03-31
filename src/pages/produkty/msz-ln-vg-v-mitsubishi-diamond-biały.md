@@ -7,7 +7,7 @@ meta_description: >-
   Diamond, Mitsubishi, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji, najlepsza klimatyzacja Warszawa
 date: 2019-03-28T20:11:29.103Z
-cover: /img/klimatyzator-scienny-mitsubishi-seria-m-msz-ln35vg-muz-ln35vghz-bialy.jpg
+cover: /img/diamond-10.png
 tags:
   - Mitsubishi
   - Diamond
@@ -18,7 +18,9 @@ categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
 images:
-  - {}
+  - image: /img/diamond-8.png
+  - image: /img/diamond-5.png
+  - image: /img/diamond-7.png
 version:
   - power: '2,5kW'
     price: 'od 6300 netto do 7600 netto '
