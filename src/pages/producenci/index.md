@@ -23,14 +23,14 @@ producents:
       sprzętu wysokiej jakości wykończenia, kilku bajerów i długiej niezawodnej
       pracy. 
     link: 'https://pl.mitsubishielectric.com/pl/index.page'
-    name: MItsubishi
+    name: Mitsubishi
   - cover: /img/lg-logo.jpg
     description: >-
-      Mocny średniak - tym razem marka Koreańska, dająca dobre produkty o fajnym
-      designie. Technika jak i jakość wykonania jest na dobrym poziomie. Nie
-      znajdziemy tu aż tylu technologicznych nowinek co u poprzedników, ale
+      Mocna, średnia półka - tym razem marka Koreańska, dająca dobre produkty o
+      fajnym designie. Technika jak i jakość wykonania jest na dobrym poziomie.
+      Nie znajdziemy tu aż tylu technologicznych nowinek co u poprzedników, ale
       nawet najbardziej wymagający znajdzie coś dla siebie. Jest to wybór dla
-      osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze. 
+      osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze.
     link: 'https://www.lg.com/pl/klimatyzacja'
     name: LG
 ---
