@@ -1,13 +1,13 @@
 ---
 templateKey: product-page
-title: MSZ-EF-VE B - MITSUBISHI PREMIUM - czarny
+title: MSZ-EF-VE W - MITSUBISHI PREMIUM - biały
 meta_title: Mitsubishi model MSZ-EF-VE B/MUZ-EF-VE
 slug: mitsubishi-model-premium
 meta_description: >-
-  Premium, Mitsubishi, jednostka naścienna, czarny kolor, klimatyzacja, komfort,
+  Premium, Mitsubishi, jednostka naścienna, biały kolor, klimatyzacja, komfort,
   montaż klimatyzacji, najlepsza klimatyzacja Warszawa, design.
-date: 2019-04-05T11:54:48.466Z
-cover: /img/premium-czarny-1.jpg
+date: 2019-04-05T16:41:20.902Z
+cover: /img/premium-biały-1.png
 tags:
   - Mitsubishi
   - Premium
@@ -20,11 +20,12 @@ categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
 images:
+  - image: /img/premium-biały-2.jpg
+  - image: /img/premium-biały-3.jpg
   - image: /img/premium-dane-techniczne.png
-  - image: /img/premium-czarny-2.jpg
 version:
   - power: '2,5kW'
-    price: '4,280 netto do 5580 netto'
+    price: od 4280 netto do 5580 netto
   - power: '3,5kW'
     price: 5140 netto do 6440 netto
   - power: '4,2kW'
