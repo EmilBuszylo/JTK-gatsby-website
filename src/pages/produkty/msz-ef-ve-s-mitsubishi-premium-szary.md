@@ -7,7 +7,7 @@ meta_description: >-
   Premium, Mitsubishi, jednostka naścienna, szary kolor, klimatyzacja, komfort,
   montaż klimatyzacji, najlepsza klimatyzacja Warszawa, design.
 date: 2019-04-05T17:03:04.239Z
-cover: /img/premium-szary-1.png
+cover: /img/premium-szary-2.jpg
 tags:
   - Mitsubishi
   - Premium
@@ -21,6 +21,7 @@ producent: Mitsubishi
 hotProductsSelect: nie
 images:
   - image: /img/premium-dane-techniczne.png
+  - image: /img/premium-szary-1.png
 version:
   - power: '2,5kW'
     price: od 4280 netto do 5580 netto
