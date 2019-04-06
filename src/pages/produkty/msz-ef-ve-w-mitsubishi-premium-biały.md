@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: MSZ-EF-VE W - MITSUBISHI PREMIUM - biały
-meta_title: Mitsubishi model MSZ-EF-VE B/MUZ-EF-VE
+meta_title: Mitsubishi model MSZ-EF-VE W/MUZ-EF-VE
 slug: mitsubishi-model-premium
 meta_description: >-
   Premium, Mitsubishi, jednostka naścienna, biały kolor, klimatyzacja, komfort,
