@@ -28,12 +28,14 @@ images:
   - image: /img/ururu-sarara-3.png
 version:
   - power: '2,5 kW'
-    price: od 9550 netto lub 10850 netto
-  - power: 3.5 kW
-    price: 12340 netto lub 13640 netto
-  - power: 5kW
-    price: 13250 netto lub 14550 netto
-vat: Do ceny należy doliczyć 8% podatku VAT z montażem
+    price: od 8540zł netto
+  - power: '3,5 kW'
+    price: od 10645zł netto
+  - power: '5,0kW'
+    price: od 11320zł netto
+vat: >-
+  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
+  dla firm stawka VAT wynosi 23%
 ---
 # Daikin URURU SARARA
 
