@@ -33,13 +33,13 @@ images:
     image: /img/pilot-emura-2.png
 version:
   - power: '2,3 kW'
-    price: od 6890
+    price: od 6890zł netto
   - power: '2,4 kW'
-    price: od 7180 netto
+    price: od 7180zł netto
   - power: '3,5 kW'
-    price: od 8600 netto
+    price: od 8600zł netto
   - power: '4,8 kW'
-    price: od 12085 netto
+    price: od 12085zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
