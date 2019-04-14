@@ -33,6 +33,14 @@ producents:
       osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze.
     link: 'https://www.lg.com/pl/klimatyzacja'
     name: LG
+  - cover: /img/gree-logo.png
+    description: >-
+      Średnia półka - marka pochodząca z Chin, która nie ma czego się wstydzić.
+      Świetny stosunek jakości do ceny czyni ten produkt jednym z bardziej
+      popularnych na naszym rynku. Firma Gree zdobywa rzesze fanów, dając dużo
+      za niewielkie pieniądze.
+    link: 'https://gree.pl/'
+    name: Gree
 ---
 ## Producenci - czyli z kim współpracujemy
 
