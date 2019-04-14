@@ -22,15 +22,15 @@ images:
     image: /img/ftxa-at_l.jpg
 version:
   - power: '2,00kW'
-    price: od 7180 netto
+    price: od 7180zł netto
   - power: '2,50kW'
-    price: od 7415 netto
+    price: od 7415zł netto
   - power: '3,4kW'
-    price: od 8240 netto
+    price: od 8240zł netto
   - power: '4,2kW'
-    price: 'od 9255 netto '
+    price: 'od 9255zł netto '
   - power: '5,0kW'
-    price: od 12553 netto
+    price: od 12553zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
