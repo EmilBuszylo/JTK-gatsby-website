@@ -27,4 +27,15 @@ W zakres czynności serwisowych wchodzi:
 5. Dezynfekcja wymiennika parownika jednostki wewnętrznej
 6. Wyczyszczenie tacy skroplin
 
-Wszystkie powyższe punkty wpływają bezpośrednio na pracę całego układu, co w dłuższej perspektywie przekłada się na zużycie energii przez urządzenie. Regularne czyszczenie jednostki wewnętrznej daje gwarancję, że na jej wymienniku nie zamieszka grzyb, wirus czy bakteria.
+Wszystkie powyższe punkty wpływają bezpośrednio na pracę całego układu, co w dłuższej perspektywie przekłada się na zużycie energii przez urządzenie. Regularne czyszczenie jednostki wewnętrznej daje gwarancję, że na jej wymienniku nie zamieszkają grzyby, wirusy czy bakterie.
+
+Dla utrzymania gwarancji, wszyscy producenci urządzeń, wymagają serwisu 2 razy w roku  wykonanego przez autoryzowanego partnera. 
+
+Umów się na przegląd za pomocą formularza kontaktowego. 
+
+Ceny przeglądów:
+
+* przegląd gwarancyjny 140zł netto/jednostka
+* przegląd pogwarancyjny 250zł netto/jednostka
+* przyjazd serwisu do diagnozy awarii (pogwarancyjne) 150zł netto
+* przejęcie gwarancji - cena do uzgodnienia w zależności od wielkości i stanu urządzenia
