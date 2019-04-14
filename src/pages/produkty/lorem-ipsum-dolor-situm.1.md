@@ -22,22 +22,22 @@ images:
     image: /img/stylish-as.jpg
   - caption: klimatyzator Daikin FTXA–AS + RXA–A
     image: /img/stylish-as-2.png
-  - caption: klimatyzator Daikin FTXA–AS + RXA–A
-    image: /img/daikin.png
   - caption: 'broszura Daikin FTXA–AS + RXA–A '
     image: /img/ftxa-as-rxa-a_product-flyer_ecpen18-051_english-page-001.jpg
 version:
   - power: '2,0 kW'
-    price: 'od 7600 netto lub 8900 netto '
+    price: od 7057 netto
   - power: '2,5 kW'
-    price: 8020 netto lub 9320 netto
+    price: od 7380 netto
   - power: '3,4 kW'
-    price: 9000 netto lub 10300 netto
+    price: od 8120 netto
   - power: '4,2 kW'
-    price: '13320 netto lub 14620 netto '
+    price: od 11395 netto
   - power: '5,0 kW'
-    price: 14530 netto lub 15830 netto
-vat: Do ceny należy doliczyć 8% podatku VAT z montażem
+    price: od 12320 netto
+vat: >-
+  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
+  dla firm stawka VAT wynosi 23%
 ---
 
 
