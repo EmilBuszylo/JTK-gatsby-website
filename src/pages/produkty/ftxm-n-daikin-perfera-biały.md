@@ -29,19 +29,19 @@ images:
     image: /img/rxm.png
 version:
   - power: '2,0 kW'
-    price: od 5830 netto lub 7130 netto
+    price: od 5790zł netto
   - power: '2,5 kW'
-    price: 6120 netto lub 7420 netto
+    price: od 6025zł netto
   - power: '3,4 kW'
-    price: 7750 netto lub 9050 netto
+    price: od 7340zł netto
   - power: '4,2 kW'
-    price: 8690 netto lub 9990 netto
+    price: od 8010zł netto
   - power: '5,0 kW'
-    price: 9230 netto lub 10530 netto
+    price: od 8610zł netto
   - power: '6,0 kW'
-    price: 11370 netto lub 12670 netto
+    price: od 10205 netto
   - power: '7,1 kW'
-    price: '14210 netto lub 15510 netto '
+    price: 'od 12450zł netto '
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
