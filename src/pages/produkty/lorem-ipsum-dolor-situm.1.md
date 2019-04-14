@@ -26,15 +26,15 @@ images:
     image: /img/ftxa-as-rxa-a_product-flyer_ecpen18-051_english-page-001.jpg
 version:
   - power: '2,0 kW'
-    price: od 7057 netto
+    price: od 7057zł netto
   - power: '2,5 kW'
-    price: od 7380 netto
+    price: od 7380zł netto
   - power: '3,4 kW'
-    price: od 8120 netto
+    price: od 8120zł netto
   - power: '4,2 kW'
-    price: od 11395 netto
+    price: od 11395zł netto
   - power: '5,0 kW'
-    price: od 12320 netto
+    price: od 12320zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
