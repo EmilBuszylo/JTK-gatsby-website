@@ -14,26 +14,26 @@ categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - caption: prezentacja klimatyzatora Daikin FTXA–A + RXA–A
+  - caption: prezentacja klimatyzatora Daikin FTXA–AT + RXA–A
     image: /img/ftxa-at_ip_1.jpg
-  - caption: klimatyzator Daikin FTXA–A + RXA–A
-    image: /img/ftxa-at_detail_3.jpg
   - caption: Daikin broszura
     image: /img/ftxa-at-rxa-a-rxa-b_product-flyer_ecpen19-052_english.jpg
-  - caption: klimatyzator Daikin FTXA–A + RXA–A
+  - caption: klimatyzator Daikin FTXA–AT + RXA–A
     image: /img/ftxa-at_l.jpg
 version:
   - power: '2,00kW'
-    price: od 7760 netto lub 9060 netto
+    price: od 7180 netto
   - power: '2,50kW'
-    price: 8070 netto lub 9370 netto
+    price: od 7415 netto
   - power: '3,4kW'
-    price: 9160 netto lub 10460 netto
+    price: od 8240 netto
   - power: '4,2kW'
-    price: 13640 netto lub 14940 netto
+    price: 'od 9255 netto '
   - power: '5,0kW'
-    price: 14850 netto lub 16150 netto
-vat: Do ceny należy doliczyć 8% podatku VAT z montażem
+    price: od 12553 netto
+vat: >-
+  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
+  dla firm stawka VAT wynosi 23%
 ---
 # Daikin Stylish
 
@@ -51,5 +51,5 @@ Cechy produktu:
 * praktycznie niesłyszalna praca
 * kontrola pracy online poprzez wbudowany moduł wi-fi
 * efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
-* 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
+* czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
 * praca na ekologiczny czynnik R32
