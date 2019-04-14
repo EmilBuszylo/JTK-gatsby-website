@@ -29,7 +29,7 @@ version:
   - power: '5,0kW'
     price: od 10 000zł netto
   - power: '6,0kW'
-    price: od 11160zł netto
+    price: od 11 160zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
