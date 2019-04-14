@@ -31,15 +31,15 @@ images:
     image: /img/pilot-ftxc.png
 version:
   - power: '2,0 kW'
-    price: 'od 2660 netto lub 3960 netto '
+    price: od 3060zł netto
   - power: '2,56 kW'
-    price: 2760 netto lub 4060 netto
+    price: od  3160zł netto
   - power: '3,5 kW'
-    price: 2900 netto lub 4200 netto
+    price: od 3300zł netto
   - power: '5,1 kW'
-    price: 5300 netto lub 6600 netto
+    price: od 5700zł netto
   - power: '6,23 kW'
-    price: 5450 netto lub 6750 netto
+    price: od 6900zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
@@ -48,7 +48,8 @@ vat: >-
 
 * Jednostki zewnętrzne Daikin są gustowne, mocne i można je w łatwy sposób zamontować na dachu czy tarasie lub po prostu umieścić na ścianie zewnętrznej
 * Jednostki zewnętrzne Daikin są wyposażone w wymiennik ciepła z zabezpieczeniem antykorozyjnym ('blue fin'), które zapewnia większą odporność na korozję 
-* Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu - matowe wykończenie
+* Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu
+* matowe wykończenie
 * Sterownik online (opcja): Sterowanie jednostką wewnętrzną z każdego miejsca za pośrednictwem aplikacji przez sieć lokalną lub Internet, podgląd zużycia energii
 * Sprawność sezonowa do A++ w trybie chłodzenia
 * Wybór produktu na czynnik chłodniczy R-32 zapewnia zmniejszenie oddziaływania na środowisko o 68% w porównaniu do czynnika chłodniczego R-410A i bezpośrednio prowadzi do obniżenia zużycia energii dzięki wysokiej efektywności energetycznej
