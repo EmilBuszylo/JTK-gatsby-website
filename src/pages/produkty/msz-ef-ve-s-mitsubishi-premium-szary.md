@@ -24,13 +24,13 @@ images:
   - image: /img/premium-szary-1.png
 version:
   - power: '2,5kW'
-    price: od 4280 netto do 5580 netto
+    price: od 5050zł netto
   - power: '3,5kW'
-    price: 5140 netto do 6440 netto
+    price: 'od 5915zł netto '
   - power: '4,2kW'
-    price: 6080 netto do 7380 netto
+    price: od 6950zł netto
   - power: '5,0kW'
-    price: 6620 netto do 7920 netto
+    price: od 7585zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
