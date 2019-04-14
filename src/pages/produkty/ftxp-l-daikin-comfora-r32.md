@@ -48,7 +48,8 @@ vat: >-
 
 * Jednostki zewnętrzne Daikin są gustowne, mocne i można je w łatwy sposób zamontować na dachu czy tarasie lub po prostu umieścić na ścianie zewnętrznej
 * Jednostki zewnętrzne Daikin są wyposażone w wymiennik ciepła z zabezpieczeniem antykorozyjnym ('blue fin'), które zapewnia większą odporność na korozję 
-* Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu - matowe wykończenie
+* Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu
+* matowe wykończenie
 * Sterownik online (opcja): Sterowanie jednostką wewnętrzną z każdego miejsca za pośrednictwem aplikacji przez sieć lokalną lub Internet, podgląd zużycia energii
 * Sprawność sezonowa do A++ w trybie chłodzenia
 * Wybór produktu na czynnik chłodniczy R-32 zapewnia zmniejszenie oddziaływania na środowisko o 68% w porównaniu do czynnika chłodniczego R-410A i bezpośrednio prowadzi do obniżenia zużycia energii dzięki wysokiej efektywności energetycznej
