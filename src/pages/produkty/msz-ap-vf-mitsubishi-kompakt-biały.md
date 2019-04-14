@@ -7,7 +7,7 @@ meta_description: >-
   Kompakt, Mitsubishi, jednostka naścienna, czarny kolor, klimatyzacja, komfort,
   design, montaż klimatyzacji, najlepsza klimatyzacja Warszawa.
 date: 2019-04-14T17:01:38.081Z
-cover: /img/mitsubishi-kompakt-msz-ap42vg-1553145399.jpg
+cover: /img/ap-2.jpg
 tags:
   - Mitsubishi
   - Kompakt
@@ -21,7 +21,7 @@ producent: Mitsubishi
 hotProductsSelect: nie
 images:
   - image: /img/393f44d34bf98d494b38ee47939d.jpg
-  - image: /img/ap-2.jpg
+  - image: /img/mitsubishi-kompakt-msz-ap42vg-1553145399.jpg
 version:
   - power: '2,5kW'
     price: od 4350zł netto
