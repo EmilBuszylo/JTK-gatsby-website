@@ -39,6 +39,8 @@ vat: >-
 ---
 # Daikin URURU SARARA
 
+Jedyna na świecie jednostka klimatyzacyjna, która dostarcza świeże powietrze z zewnątrz, nawilża je i oczyszcza w jednym!!! Prawdziwy cud techniki, niespotykany u żadnego innego producenta klimatyzacji. 
+
 * Unikalne połączenie nawilżania, osuszania, wentylacji, oczyszczania powietrza i ogrzewania oraz chłodzenia w jednym systemie
 * 3-obszarowy czujnik wykrywania ruchu: powietrze jest kierowane do strefy innej, niż ta w której w danej chwili znajduje się człowiek. Wykrywanie jest realizowane w 3 kierunkach: w lewo, w przód i w prawo. Jeżeli nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się w tryb energooszczędny
 * Sterownik online (opcja): Sterowanie jednostką wewnętrzną z każdego miejsca za pośrednictwem aplikacji przez sieć lokalną lub Internet, podgląd zużycia energii
