@@ -26,9 +26,9 @@ images:
   - image: /img/ma09ah1-nf1_src_2.jpg
 version:
   - power: '2,5kW'
-    price: od 8100zł netto
+    price: od 8000zł netto
   - power: '3,5kW'
-    price: 9400zł netto
+    price: 9300zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
