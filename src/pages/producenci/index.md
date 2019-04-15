@@ -33,7 +33,7 @@ producents:
       osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze.
     link: 'https://www.lg.com/pl/klimatyzacja'
     name: LG
-  - cover: /img/gree-logo.png
+  - cover: /img/pobrane.png
     description: >-
       Średnia półka - marka pochodząca z Chin, która nie ma czego się wstydzić.
       Świetny stosunek jakości do ceny czyni ten produkt jednym z bardziej
