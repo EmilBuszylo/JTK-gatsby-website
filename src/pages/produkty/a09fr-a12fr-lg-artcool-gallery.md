@@ -7,7 +7,7 @@ meta_description: >-
   LG, Artcool Gallery, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji, klimatyzacja jak obraz najlepsza klimatyzacja Warszawa.
 date: 2019-04-15T19:26:07.190Z
-cover: /img/ma09ah1-nf1_src_1.jpg
+cover: /img/ma09ah1-nf1_src_2.jpg
 tags:
   - LG
   - klimatyzacja
@@ -23,7 +23,7 @@ hotProductsSelect: nie
 images:
   - image: /img/ma09ah1-nf1_src_3.jpg
   - image: /img/ma09ah1-nf1_f_8_400_0.jpg
-  - image: /img/ma09ah1-nf1_src_2.jpg
+  - image: /img/ma09ah1-nf1_src_1.jpg
 version:
   - power: '2,5kW'
     price: od 8000zł netto
