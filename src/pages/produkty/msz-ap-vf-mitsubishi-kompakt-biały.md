@@ -35,43 +35,41 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-# **Kompaktowe urządzenia ścienne**
+# Kompaktowe urządzenia ścienne
+
+
 
 Urządzenie ścienne o niewielkich wymiarach znakomicie sprawdza się zarówno w małych, jak i dużych pomieszczeniach. Dzięki niewielkim wymiarom bez problemu integruje się zdowolnym wystrojem wnętrza.
 
-**Wskazanie zużycia energii**
+**
+Wskazanie zużycia energii
+**Jeśli urządzenie wewnętrzne wyposażone jest w opcjonalną kartę Wi-Fi MAC-567IF-E, w MELCloud można odczytać zużycie energii
 
-Jeśli urządzenie wewnętrzne wyposażone jest w opcjonalną kartę Wi-Fi MAC-567IF-E, w MELCloud można odczytać zużycie energii
+**Poziomy wylot powietrza
+**Zapewnia bardzo komfortowy rozdział powietrza, zwłaszcza w trybie chłodzenia
 
-**Poziomy wylot powietrza**
-
-Zapewnia bardzo komfortowy rozdział powietrza, zwłaszcza w trybie chłodzenia
-
-**Tryb nocny**
-
-Nowa funkcja, która podnosi komfort, automatycznie obniżając poziom hałasu urządzenia zewnętrznego o 3dB(A). Równocześnie dezaktywowana jest dioda LED na urządzeniu wewnętrznym, a w pilocie wyciszana jest akustyczna sygnalizacja wykonywania operacji
+**Tryb nocny
+**Nowa funkcja, która podnosi komfort, automatycznie obniżając poziom hałasu urządzenia zewnętrznego o 3dB(A). Równocześnie dezaktywowana jest dioda LED na urządzeniu wewnętrznym, a w pilocie wyciszana jest akustyczna sygnalizacja wykonywania operacji
 
 **Filtr z jonami srebra**
 
 Powłoka z zawartością jonów srebra pozwala na uzyskanie wysokiej czystości powietrza poprzez skuteczne usuwanie z pomieszczenia zapachów, bakterii i alergenów. Mycie filtra nie pogarsza skuteczności jego działania.
 
-**i-save**
+**i-save
+**Zapis preferowanego stanu roboczego
 
-Zapis preferowanego stanu roboczego
+**Elastyczność montażu
+**Dostępna wersja o wydajności chłodniczej 1,5 kW w przypadku Multi Split
 
-**Elastyczność montażu**
-
-Dostępna wersja o wydajności chłodniczej 1,5 kW w przypadku Multi Split
-
-**Prosty montaż nad otworem drzwiowym**
-
-
+**Prosty montaż nad otworem drzwiowym
+**
 
 ![](/img/grafik_nachtmodus_msz_ap.jpg)
 
 **Tryb nocny: **Obniżenie poziomu hałasu urządzenia zewnętrznego i dezaktywowanie diody LED na urządzeniu wewnętrznym.
 
-**Zalety:**
+**Zalety:
+**
 
 * SCOP do 4,8 / SEER do 8,6
 * Klasa efektywności energetycznej do A+++ / A++
