@@ -29,15 +29,15 @@ images:
     image: /img/stylish-aw-4.png
 version:
   - power: 2 kW
-    price: od 6815zł netto
+    price: od 6815
   - power: "2,5 kW"
-    price: od 7135zł netto
+    price: od 7135
   - power: "3,4 kW"
-    price: od 7800zł netto
+    price: od 7800
   - power: "4,2 kW"
-    price: od 11075zł netto
+    price: od 11075
   - power: "5,0 kW"
-    price: od 12035zł netto
+    price: od 12035
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

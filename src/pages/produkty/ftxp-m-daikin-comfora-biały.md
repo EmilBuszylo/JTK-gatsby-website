@@ -28,17 +28,17 @@ images:
     image: /img/rxp.png
 version:
   - power: "2,0 kW"
-    price: od 4495zł netto
+    price: od 4495
   - power: "2,5 kW"
-    price: od 4740zł netto
+    price: od 4740
   - power: "3,5 kW"
-    price: od 5460zł netto
+    price: od 5460
   - power: "5,0 kW"
-    price: od 7230zł netto
+    price: od 7230
   - power: "6,0 kW"
-    price: od 8155zł netto
+    price: od 8155
   - power: "7,1 kW"
-    price: od 11350zł netto
+    price: od 11350
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

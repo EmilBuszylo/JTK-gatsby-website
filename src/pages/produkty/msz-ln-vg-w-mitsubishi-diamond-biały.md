@@ -28,13 +28,13 @@ images:
   - image: /img/diamond-2.png
 version:
   - power: "2,5 kW"
-    price: od 6300zł netto
+    price: od 6300
   - power: "3,5 kW"
-    price: od 8030zł netto
+    price: od 8030
   - power: "5,0 kW"
-    price: od 9400zł netto
+    price: od 9400
   - power: "6,0 kW"
-    price: od 11 040zł netto
+    price: od 11 040
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

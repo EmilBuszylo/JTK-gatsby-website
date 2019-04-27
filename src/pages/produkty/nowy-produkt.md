@@ -29,11 +29,11 @@ images:
   - image: /img/ururu-sarara-3.png
 version:
   - power: "2,5 kW"
-    price: od 8540zł netto
+    price: od 8540
   - power: "3,5 kW"
-    price: od 10645zł netto
+    price: od 10645
   - power: "5,0kW"
-    price: od 11320zł netto
+    price: od 11320
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

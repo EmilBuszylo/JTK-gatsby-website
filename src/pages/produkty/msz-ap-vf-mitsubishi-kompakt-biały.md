@@ -25,13 +25,13 @@ images:
   - image: /img/mitsubishi-kompakt-msz-ap42vg-1553145399.jpg
 version:
   - power: "2,5kW"
-    price: od 4350zł netto
+    price: od 4350
   - power: "3,5kW"
-    price: od 4975zł netto
+    price: od 4975
   - power: "4,2kW"
-    price: od 6015zł netto
+    price: od 6015
   - power: "5,0kW"
-    price: od 6690zł netto
+    price: od 6690
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

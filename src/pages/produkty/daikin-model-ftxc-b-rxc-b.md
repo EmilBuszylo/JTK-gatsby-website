@@ -32,15 +32,15 @@ images:
     image: /img/pilot-ftxc.png
 version:
   - power: "2,0 kW"
-    price: od 3060zł netto
+    price: od 3060
   - power: "2,56 kW"
-    price: od  3160zł netto
+    price: od  3160
   - power: "3,5 kW"
-    price: od 3300zł netto
+    price: od 3300
   - power: "5,1 kW"
-    price: od 5700zł netto
+    price: od 5700
   - power: "6,23 kW"
-    price: od 6900zł netto
+    price: od 6900
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

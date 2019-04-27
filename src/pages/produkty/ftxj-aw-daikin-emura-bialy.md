@@ -29,13 +29,13 @@ images:
   - image: /img/wifi.png
 version:
   - power: "2,3 kW"
-    price: od 6535zł netto
+    price: od 6535
   - power: "2,4 kW"
-    price: od 6892zł netto
+    price: od 6892
   - power: "3,5 kW"
-    price: od 8190zł netto
+    price: od 8190
   - power: "4,8 kW"
-    price: od 11520zł netto
+    price: od 11520
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
