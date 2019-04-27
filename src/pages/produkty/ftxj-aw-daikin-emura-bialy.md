@@ -1,52 +1,47 @@
 ---
 templateKey: product-page
-title: FTXJ-AS - Daikin Emura - srebrny
-meta_title: Daikin model FTXJ-AS/RXJ-N
-slug: daikin-model-ftxj-as-rxj-n
+title: FTXJ-AW - Daikin Emura - biały
+meta_title: Daikin model FTXJ-AW/RXJ-N
+slug: daikin-model-ftxj-aw-rxj-n
 meta_description: >-
-  Klimatyzator Daikin Emura FTXJ-AS z agregatem RXJ-N jest to stylowa jednostka
-  naścienna, dająca niezwykły komfort w połączeniu z niebanalnym designem.
+  Klimatyzator Daikin Emura FTXJ-AW z agregatem RXJ-N jest to stylowa jednostka
+  naścienna, dająca niezwykły komfort w połączeniu z niebanalnym deignem.
   Świetne rozwiązanie dla wymagających od klimatyzacji czegoś więcej.
-date: 2019-03-24T19:54:21.508Z
-cover: /img/emira-srebrna-2.png
+date: 2019-03-11T18:42:38.465Z
+cover: /img/emura-3.png
 tags:
   - Daikin
   - Emura
-  - FTXJ-AS
+  - FTXJ
   - klimatyzacja
   - komfort
   - klima
-  - RXJ-N
+  - RXJ
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
+order: 5
 images:
-  - caption: "Jednostka Daikin FTXJ-AS "
-    image: /img/emura-srebrna-3.png
-  - caption: Jednostka Daikin FTXJ-AS
-    image: /img/emura-srebrna-5.png
-  - caption: Jednostka Daikin FTXJ-AS
-    image: /img/emura-srebrna-4.png
-  - caption: "Agregat Daikin RXJ-N "
-    image: /img/rxj-srebrna.png
-  - caption: Pilot
-    image: /img/pilot-emura-2.png
+  - image: /img/rxj.png
+  - image: /img/emura-2.png
+  - image: /img/emura-1.png
+  - image: /img/pilot.png
+  - image: /img/wifi.png
 version:
   - power: "2,3 kW"
-    price: od 6890zł netto
+    price: od 6535zł netto
   - power: "2,4 kW"
-    price: od 7180zł netto
+    price: od 6892zł netto
   - power: "3,5 kW"
-    price: od 8600zł netto
+    price: od 8190zł netto
   - power: "4,8 kW"
-    price: od 12085zł netto
+    price: od 11520zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
 
-# Daikin Emura Srebrna
+# Daikin Emura
 
 - Godne uwagi połączenie łatwo rozpoznawalnej konstrukcji i doskonałości technicznej z krystalicznie białym, matowym wykończeniem powierzchni
 - Wybór produktu na czynnik chłodniczy R-32 zapewnia zmniejszenie oddziaływania na środowisko o 68% w porównaniu do czynnika chłodniczego R-410A i bezpośrednio prowadzi do obniżenia zużycia energii dzięki wysokiej efektywności energetycznej

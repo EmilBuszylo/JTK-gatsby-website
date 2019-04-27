@@ -2,7 +2,7 @@
 templateKey: product-page
 title: FTXA-AW - Daikin STYLISH - biały
 meta_title: Daikin model FTXA-AW/RXA-A
-slug: daikin-model-ftxa-a-rxa-a
+slug: daikin-model-ftxa-a-rxa-a-bialy
 meta_description: >-
   Stylish, Daikin, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji, najlepsza klimatyzacja Warszawa
@@ -17,6 +17,7 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
+order: 2
 images:
   - caption: klimatyzator Daikin FTXA–AW + RXA–A
     image: /img/stylish-aw-2.png
@@ -29,19 +30,18 @@ images:
 version:
   - power: 2 kW
     price: od 6815zł netto
-  - power: '2,5 kW'
+  - power: "2,5 kW"
     price: od 7135zł netto
-  - power: '3,4 kW'
+  - power: "3,4 kW"
     price: od 7800zł netto
-  - power: '4,2 kW'
+  - power: "4,2 kW"
     price: od 11075zł netto
-  - power: '5,0 kW'
+  - power: "5,0 kW"
     price: od 12035zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-
 
 # Daikin Stylish
 
@@ -51,13 +51,13 @@ Jest to jednostka w której najnowsza technologia została opakowana w stylową 
 
 Cechy produktu:
 
-* kompaktowy design
-* idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
-* inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
-* regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
-* technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
-* praktycznie niesłyszalna praca
-* kontrola pracy online poprzez wbudowany moduł wi-fi
-* efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
-* 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
-* praca na ekologiczny czynnik R32
+- kompaktowy design
+- idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
+- inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
+- regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
+- technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
+- praktycznie niesłyszalna praca
+- kontrola pracy online poprzez wbudowany moduł wi-fi
+- efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
+- 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
+- praca na ekologiczny czynnik R32

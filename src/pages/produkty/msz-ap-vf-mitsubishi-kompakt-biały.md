@@ -19,25 +19,25 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
+order: 1
 images:
   - image: /img/393f44d34bf98d494b38ee47939d.jpg
   - image: /img/mitsubishi-kompakt-msz-ap42vg-1553145399.jpg
 version:
-  - power: '2,5kW'
+  - power: "2,5kW"
     price: od 4350zł netto
-  - power: '3,5kW'
+  - power: "3,5kW"
     price: od 4975zł netto
-  - power: '4,2kW'
+  - power: "4,2kW"
     price: od 6015zł netto
-  - power: '5,0kW'
+  - power: "5,0kW"
     price: od 6690zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
+
 # Kompaktowe urządzenia ścienne
-
-
 
 Urządzenie ścienne o niewielkich wymiarach znakomicie sprawdza się zarówno w małych, jak i dużych pomieszczeniach. Dzięki niewielkim wymiarom bez problemu integruje się zdowolnym wystrojem wnętrza.
 
@@ -71,7 +71,7 @@ Powłoka z zawartością jonów srebra pozwala na uzyskanie wysokiej czystości 
 **Zalety:
 **
 
-* SCOP do 4,8 / SEER do 8,6
-* Klasa efektywności energetycznej do A+++ / A++
-* Poziom hałasu od 19 dB(A)
-* Pilot bezprzewodowy z programatorem tygodniowym w standardzie
+- SCOP do 4,8 / SEER do 8,6
+- Klasa efektywności energetycznej do A+++ / A++
+- Poziom hałasu od 19 dB(A)
+- Pilot bezprzewodowy z programatorem tygodniowym w standardzie

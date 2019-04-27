@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
-import styled, { ThemeProvider } from 'styled-components';
+import React, { Component } from 'react'
+import Helmet from 'react-helmet'
+import styled, { ThemeProvider } from 'styled-components'
 
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import '../assets/sass/styles.sass';
-import config from '../../data/config';
-import 'react-image-lightbox/style.css';
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
+import '../assets/sass/styles.sass'
+import config from '../../data/config'
+import 'react-image-lightbox/style.css'
 
 const theme = {
   accentColor: '#389ae5',
@@ -31,6 +31,12 @@ class TemplateWrapper extends Component {
 
   toggleNavbar () {
     this.setState({ isActive: !this.state.isActive })
+  }
+
+  componentDidUpdate = (prevProps, prevState) => {
+    if (prevProps.location.pathname !== this.props.location.pathname) {
+      this.setState({ isActive: false })
+    }
   }
 
   render () {

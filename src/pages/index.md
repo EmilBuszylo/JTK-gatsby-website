@@ -1,12 +1,13 @@
 ---
 templateKey: home-page
 meta_title: Strona główna | JTLS
-bigImage: ''
+slug: home
+bigImage: ""
 meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji
 slider_captions:
-  - caption: ''
+  - caption: ""
     title: Klimatyzacja z montażem 8% VAT
   - caption: >-
       Jednostka Stylish marki Daikin o mocy 2,5kW teraz w promocji - 8900 zł

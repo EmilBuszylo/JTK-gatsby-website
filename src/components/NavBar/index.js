@@ -99,7 +99,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
                     Producenci
                   </DropdownSubItem>
                   <DropdownSubItem className='navbar-item' to='/produkty'>
-                    Katalog klinatyzatorów
+                    Katalog klimatyzatorów
                   </DropdownSubItem>
                 </Dropdown>
               </div>

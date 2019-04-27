@@ -1,6 +1,7 @@
 ---
 templateKey: contact-page
 title: Kontakt
+slug: kontakt
 meta_title: "Kontakt| Klimatyzacje, Jakub Traczyk"
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur

@@ -213,7 +213,7 @@ collections:
               fields:
                 [
                   { label: Obraz, name: cover, widget: image },
-                  { label: Nazwa, name: name, widget: string},
+                  { label: Nazwa, name: name, widget: string },
                   { label: Opis, name: description, widget: "markdown" },
                   { label: Adres www, name: link, widget: string },
                 ],
@@ -272,6 +272,7 @@ collections:
           widget: "hidden",
           default: "article-page",
         }
+      - { label: "Order", name: "order", widget: "number" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Title", name: "meta_title", widget: "string" }
       - { label: "Meta Description", name: "meta_description", widget: "text" }
@@ -292,6 +293,7 @@ collections:
           widget: "hidden",
           default: "product-page",
         }
+      - { label: "Order", name: "order", widget: "number" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Title", name: "meta_title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
@@ -329,8 +331,4 @@ collections:
               { label: Cena, name: price, widget: string },
             ],
         }
-      - {
-          label: Informacja o Vat,
-          name: vat,
-          widget: markdown
-      }
+      - { label: Informacja o Vat, name: vat, widget: markdown }

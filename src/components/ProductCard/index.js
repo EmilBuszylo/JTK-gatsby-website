@@ -14,7 +14,7 @@ const LinkButton = styled(Link)`
   text-align: center;
   border-color: transparent;
   color: #fff !important;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
   transition: all 0.1s linear;
 
   &:hover {
@@ -25,7 +25,6 @@ const LinkButton = styled(Link)`
 `
 
 const Card = styled.div`
-  min-height: 26rem;
   padding: 0.5rem;
 `
 
@@ -48,13 +47,6 @@ const CardInformations = styled.div`
   text-align: center;
 `
 
-const CardDescription = styled.div`
-  padding: 0.7rem .2rem;
-  margin-bottom: 0.5rem;
-  font-size: .9rem;
-  min-height: 6em;
-`
-
 const CardFooter = styled.footer`
   display: flex;
   flex-direction: column;
@@ -65,18 +57,19 @@ const CardFooter = styled.footer`
 
 const NavLink = styled(Link)`
   color: #ff3860;
-  margin-left: .3em;
+  margin-left: 0.3em;
   text-decoration: underline;
 `
 
 const StarDesc = styled.div`
-  padding: 0.5rem .2rem;
-  font-size: .8rem;
+  padding: 0.5rem 0.2rem;
+  font-size: 0.8rem;
   text-align: left;
   border-top: 0.05rem solid rgba(219, 219, 219, 0.8);
 `
 
 const ProductCard = ({ products, isHot, justify }) => {
+  console.log(products)
   return (
     <ProductsWrapper
       className='columns is-mobile is-multiline'
@@ -112,13 +105,10 @@ const ProductCard = ({ products, isHot, justify }) => {
                   className='title is-6 has-text-danger'
                   style={{ marginBottom: '.5rem' }}
                 >
-                  {product.frontmatter.version[0].price} zł
+                  {product.frontmatter.version[0].price} zł netto*
                 </p>
               </CardInformations>
               <CardFooter>
-                <CardDescription>
-                  <p>{product.excerpt}</p>
-                </CardDescription>
                 <LinkButton
                   className='button is-rounded has-text-centered'
                   to={product.fields.slug}
@@ -126,7 +116,7 @@ const ProductCard = ({ products, isHot, justify }) => {
                   Szczegóły →
                 </LinkButton>
                 <StarDesc>
-                * ze standardowym <NavLink to='/montaz'> montażem</NavLink>
+                  * ze standardowym <NavLink to='/montaz'> montażem</NavLink>
                 </StarDesc>
               </CardFooter>
             </Card>

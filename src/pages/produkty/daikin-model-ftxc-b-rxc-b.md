@@ -6,7 +6,7 @@ slug: daikin-model-ftxc-b-rxc-b
 meta_description: >-
   Klimatyzator Daikin Sensira Plus FTXC-B z agregatem RXC-B jest to jednostka
   naścienna, dająca niezwykły komfort za niewygórowane pieniądze. Wykończenie
-  matowym plastikiem o wysokiej jakości. 
+  matowym plastikiem o wysokiej jakości.
 date: 2019-03-11T20:42:50.138Z
 cover: /img/ftxc-3.png
 tags:
@@ -20,6 +20,7 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: tak
+order: 1
 images:
   - caption: Daikin FTXC-B Sensira Plus
     image: /img/ftxc-2.png
@@ -30,26 +31,27 @@ images:
   - caption: Pilot do jednostki FTXC-B
     image: /img/pilot-ftxc.png
 version:
-  - power: '2,0 kW'
+  - power: "2,0 kW"
     price: od 3060zł netto
-  - power: '2,56 kW'
+  - power: "2,56 kW"
     price: od  3160zł netto
-  - power: '3,5 kW'
+  - power: "3,5 kW"
     price: od 3300zł netto
-  - power: '5,1 kW'
+  - power: "5,1 kW"
     price: od 5700zł netto
-  - power: '6,23 kW'
+  - power: "6,23 kW"
     price: od 6900zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
+
 # Daikin Sensira Plus
 
-* Jednostki zewnętrzne Daikin są gustowne, mocne i można je w łatwy sposób zamontować na dachu czy tarasie lub po prostu umieścić na ścianie zewnętrznej
-* Jednostki zewnętrzne Daikin są wyposażone w wymiennik ciepła z zabezpieczeniem antykorozyjnym ('blue fin'), które zapewnia większą odporność na korozję 
-* Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu
-* matowe wykończenie
-* Sterownik online (opcja): Sterowanie jednostką wewnętrzną z każdego miejsca za pośrednictwem aplikacji przez sieć lokalną lub Internet, podgląd zużycia energii
-* Sprawność sezonowa do A++ w trybie chłodzenia
-* Wybór produktu na czynnik chłodniczy R-32 zapewnia zmniejszenie oddziaływania na środowisko o 68% w porównaniu do czynnika chłodniczego R-410A i bezpośrednio prowadzi do obniżenia zużycia energii dzięki wysokiej efektywności energetycznej
+- Jednostki zewnętrzne Daikin są gustowne, mocne i można je w łatwy sposób zamontować na dachu czy tarasie lub po prostu umieścić na ścianie zewnętrznej
+- Jednostki zewnętrzne Daikin są wyposażone w wymiennik ciepła z zabezpieczeniem antykorozyjnym ('blue fin'), które zapewnia większą odporność na korozję
+- Płaski, atrakcyjny panel przedni idealnie komponuje się z każdym wystrojem wnętrza i jest łatwiejszy w czyszczeniu
+- matowe wykończenie
+- Sterownik online (opcja): Sterowanie jednostką wewnętrzną z każdego miejsca za pośrednictwem aplikacji przez sieć lokalną lub Internet, podgląd zużycia energii
+- Sprawność sezonowa do A++ w trybie chłodzenia
+- Wybór produktu na czynnik chłodniczy R-32 zapewnia zmniejszenie oddziaływania na środowisko o 68% w porównaniu do czynnika chłodniczego R-410A i bezpośrednio prowadzi do obniżenia zużycia energii dzięki wysokiej efektywności energetycznej

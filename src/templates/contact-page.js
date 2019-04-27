@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import ContactPageTemplate from '../components/ContactPageTemplate';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import ContactPageTemplate from '../components/ContactPageTemplate'
 
 const ContactPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
@@ -15,10 +15,9 @@ const ContactPage = ({ data }) => {
       contacts={frontmatter.contacts}
       products={products}
       threads={frontmatter.threads}
-      contacts={frontmatter.contacts}
     />
   )
-};
+}
 
 ContactPage.propTypes = {
   data: PropTypes.shape({

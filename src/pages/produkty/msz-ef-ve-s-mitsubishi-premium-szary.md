@@ -2,7 +2,7 @@
 templateKey: product-page
 title: MSZ-EF-VE S - MITSUBISHI PREMIUM - szary
 meta_title: Mitsubishi model MSZ-EF-VE S/MUZ-EF-VE
-slug: mitsubishi-model-premium
+slug: mitsubishi-model-premium-szary
 meta_description: >-
   Premium, Mitsubishi, jednostka naścienna, szary kolor, klimatyzacja, komfort,
   montaż klimatyzacji, najlepsza klimatyzacja Warszawa, design.
@@ -19,22 +19,24 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
+order: 1
 images:
   - image: /img/premium-dane-techniczne.png
   - image: /img/premium-szary-1.png
 version:
-  - power: '2,5kW'
+  - power: "2,5kW"
     price: od 5050zł netto
-  - power: '3,5kW'
-    price: 'od 5915zł netto '
-  - power: '4,2kW'
+  - power: "3,5kW"
+    price: "od 5915zł netto "
+  - power: "4,2kW"
     price: od 6950zł netto
-  - power: '5,0kW'
+  - power: "5,0kW"
     price: od 7585zł netto
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
+
 # Mitsubishi PREMIUM
 
 **Technika w najpiękniejszej formie
@@ -42,17 +44,17 @@ vat: >-
 
 Smukła obudowa i trzy dostępne kolory — błyszczący biały, błyszczący czarny i matowy srebrny — umożliwiają harmonijną integrację z wystrojem wnętrza. Korzystny wpływ na poczucie harmonii ma także bardzo niski poziom hałasu wynoszący zaledwie 21 decybeli\*, co umożliwia montaż we wrażliwych na hałas pomieszczeniach mieszkalnych i gabinetach. Poprzez nowatorską technikę inwerterową dekoracyjne urządzenia ścienne Premium osiągają klasę efektywności energetycznej A+++\* w trybie chłodzenia i A++ w trybie grzania.
 
-\* dotyczy indeksów wydajności 25/35 
+\* dotyczy indeksów wydajności 25/35
 
 \*\* dotyczy indeksów wydajności 18/22/25/35, pomiar w odległości 1 m przed urządzeniem
 
 **Zalety:
 **
 
-* Wyjątkowo cicha praca 21 dB(A)
-* Zaprojektowano zgodnie z dyrektywą ErP
-* Do układów typu Single lub Multi Split
-* Interesujący design, obudowa w kolorze czarnym, białym i srebrnym
+- Wyjątkowo cicha praca 21 dB(A)
+- Zaprojektowano zgodnie z dyrektywą ErP
+- Do układów typu Single lub Multi Split
+- Interesujący design, obudowa w kolorze czarnym, białym i srebrnym
 
 **Zgodność z ErP
 **Urządzenia ścienne Premium osiągają najwyższą efektywność energetyczną. W trybie chłodzenia uzyskują najwyższe klasy efektywności energetycznej od A++ do A+++ z wartością SEER do 8,5, natomiast w trybie grzania klasy A+ do A++ z wartością SCOP do 4,7.

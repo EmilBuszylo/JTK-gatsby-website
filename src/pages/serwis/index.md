@@ -1,6 +1,7 @@
 ---
 templateKey: service-page
 title: Serwis
+slug: serwis
 meta_title: JTLS serwis | Serwis naszych klimatyzacji
 meta_description: >-
   Serwis klimatyzacji - skuteczny, bezproblemowy i szybki serwis klimatyzacji
@@ -14,9 +15,10 @@ contacts:
   - contact: 777 666 777
     type: phone
 ---
+
 ## Serwis - w czym możemy pomóc ?
 
-Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie. 
+Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie.
 
 W zakres czynności serwisowych wchodzi:
 
@@ -29,13 +31,13 @@ W zakres czynności serwisowych wchodzi:
 
 Wszystkie powyższe punkty wpływają bezpośrednio na pracę całego układu, co w dłuższej perspektywie przekłada się na zużycie energii przez urządzenie. Regularne czyszczenie jednostki wewnętrznej daje gwarancję, że na jej wymienniku nie zamieszkają grzyby, wirusy czy bakterie.
 
-Dla utrzymania gwarancji, wszyscy producenci urządzeń, wymagają serwisu 2 razy w roku  wykonanego przez autoryzowanego partnera. 
+Dla utrzymania gwarancji, wszyscy producenci urządzeń, wymagają serwisu 2 razy w roku wykonanego przez autoryzowanego partnera.
 
-Umów się na przegląd za pomocą formularza kontaktowego. 
+Umów się na przegląd za pomocą formularza kontaktowego.
 
 Ceny przeglądów:
 
-* przegląd gwarancyjny 140zł netto/jednostka
-* przegląd pogwarancyjny 250zł netto/jednostka
-* przyjazd serwisu do diagnozy awarii (pogwarancyjne) 150zł netto
-* przejęcie gwarancji - cena do uzgodnienia w zależności od wielkości i stanu urządzenia
+- przegląd gwarancyjny 140zł netto/jednostka
+- przegląd pogwarancyjny 250zł netto/jednostka
+- przyjazd serwisu do diagnozy awarii (pogwarancyjne) 150zł netto
+- przejęcie gwarancji - cena do uzgodnienia w zależności od wielkości i stanu urządzenia

@@ -35,7 +35,7 @@ export const ProductInfoCard = ({title, onVersionChange, amount, date, producent
         {title}
       </InfoCardHeader>
       <a className='panel-block'>
-                Cena: {amount} zł<Distinct>*</Distinct>
+                Cena: {amount} zł netto<Distinct>*</Distinct>
       </a>
       <a className='panel-block'>
         <div className='field'>

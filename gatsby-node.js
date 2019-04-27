@@ -1,14 +1,17 @@
 const _ = require('lodash')
 const path = require('path')
-const {createFilePath} = require('gatsby-source-filesystem')
+const { createFilePath } = require('gatsby-source-filesystem')
 const createPaginatedPages = require('gatsby-paginate')
 
-exports.createPages = ({actions, graphql, arg}) => {
-  const {createPage} = actions
+exports.createPages = ({ actions, graphql, arg }) => {
+  const { createPage } = actions
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000, sort: { order: DESC, fields: [frontmatter___date] }) {
+      allMarkdownRemark(
+        limit: 1000
+        sort: { order: ASC, fields: [frontmatter___order] }
+      ) {
         edges {
           node {
             excerpt(pruneLength: 60)
@@ -41,7 +44,11 @@ exports.createPages = ({actions, graphql, arg}) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
-    const blogPosts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'article-page' || edge.node.frontmatter.templateKey === 'article-page2')
+    const blogPosts = result.data.allMarkdownRemark.edges.filter(
+      edge =>
+        edge.node.frontmatter.templateKey === 'article-page' ||
+        edge.node.frontmatter.templateKey === 'article-page2'
+    )
     createPaginatedPages({
       edges: blogPosts,
       createPage: createPage,
@@ -51,7 +58,9 @@ exports.createPages = ({actions, graphql, arg}) => {
       context: {}, // This is optional and defaults to an empty object if not used
     })
 
-    const products = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'product-page')
+    const products = result.data.allMarkdownRemark.edges.filter(
+      edge => edge.node.frontmatter.templateKey === 'product-page'
+    )
     createPaginatedPages({
       edges: products,
       createPage: createPage,
@@ -60,11 +69,17 @@ exports.createPages = ({actions, graphql, arg}) => {
       pathPrefix: 'produkty', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
-        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
+        hotProducts: products
+          .filter(
+            product => product.node.frontmatter.hotProductsSelect === 'tak'
+          )
+          .slice(0, 4),
       }, // This is optional and defaults to an empty object if not used
     })
 
-    const productsByCategories = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.templateKey === 'product-page')
+    const productsByCategories = result.data.allMarkdownRemark.edges.filter(
+      edge => edge.node.frontmatter.templateKey === 'product-page'
+    )
     createPaginatedPages({
       edges: productsByCategories,
       createPage: createPage,
@@ -73,7 +88,11 @@ exports.createPages = ({actions, graphql, arg}) => {
       pathPrefix: 'produkty/kategoria/:slug', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
-        hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
+        hotProducts: products
+          .filter(
+            product => product.node.frontmatter.hotProductsSelect === 'tak'
+          )
+          .slice(0, 4),
         test: arg,
       }, // This is optional and defaults to an empty object if not used
     })
@@ -89,15 +108,22 @@ exports.createPages = ({actions, graphql, arg}) => {
         // additional data can be passed via context
         context: {
           id,
-          hotProducts: products.filter(product => product.node.frontmatter.hotProductsSelect === 'tak').slice(0, 4),
+          hotProducts: products
+            .filter(
+              product => product.node.frontmatter.hotProductsSelect === 'tak'
+            )
+            .slice(0, 4),
           lastProducts: products.slice(0, 4),
-          productCategories: products.filter(product => product.node.frontmatter.categories)
+          productCategories: products
+            .filter(product => product.node.frontmatter.categories)
             .map((product, index) => product.node.frontmatter.categories)
             .reduce((a, b) => {
               if (a.indexOf(b) < 0) a.push(b)
               return a
             }, []),
-          poductsTitleList: products.map(product => product.node.frontmatter.title),
+          poductsTitleList: products.map(
+            product => product.node.frontmatter.title
+          ),
         },
       })
     })
@@ -128,11 +154,11 @@ exports.createPages = ({actions, graphql, arg}) => {
   })
 }
 
-exports.onCreateNode = ({node, actions, getNode}) => {
-  const {createNodeField} = actions
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({node, getNode})
+    const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,

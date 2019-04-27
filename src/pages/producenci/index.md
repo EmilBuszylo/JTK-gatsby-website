@@ -1,6 +1,7 @@
 ---
 templateKey: producents-page
-title: 'Producenci '
+title: "Producenci "
+slug: producenci
 meta_title: Producenci | Katalog producentów
 meta_description: >-
   Katalog producentów - Montaż klimatyzacji Warszawa, najlepsza klimatyzacja,
@@ -13,16 +14,16 @@ producents:
       innowacyjność, najwyższa jakość, świetne rozwiązania poprawiające komfort
       a do tego fajny design. Marka pochodząca z Japonii, stawiająca na jakość i
       technologiczne nowinki. Sprzęt dla najbardziej wymagających klientów, dla
-      których komfort, jakość i bezawaryjność stoją na pierwszym miejscu. 
-    link: 'https://www.daikin.pl/pl_pl/customers.html'
+      których komfort, jakość i bezawaryjność stoją na pierwszym miejscu.
+    link: "https://www.daikin.pl/pl_pl/customers.html"
     name: Daikin
   - cover: /img/mitsubishi.jpg
     description: >-
       Wyższa półka - kolejny Japoński producent, stawiający na najwyższą jakość
       techniczną i stylowy design. Bardzo dobra marka dla ludzi wymagających od
       sprzętu wysokiej jakości wykończenia, kilku bajerów i długiej niezawodnej
-      pracy. 
-    link: 'https://pl.mitsubishielectric.com/pl/index.page'
+      pracy.
+    link: "https://pl.mitsubishielectric.com/pl/index.page"
     name: Mitsubishi
   - cover: /img/lg-logo.jpg
     description: >-
@@ -31,7 +32,7 @@ producents:
       Nie znajdziemy tu aż tylu technologicznych nowinek co u poprzedników, ale
       nawet najbardziej wymagający znajdzie coś dla siebie. Jest to wybór dla
       osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze.
-    link: 'https://www.lg.com/pl/klimatyzacja'
+    link: "https://www.lg.com/pl/klimatyzacja"
     name: LG
   - cover: /img/pobrane.png
     description: >-
@@ -39,9 +40,10 @@ producents:
       Świetny stosunek jakości do ceny czyni ten produkt jednym z bardziej
       popularnych na naszym rynku. Firma Gree zdobywa rzesze fanów, dając dużo
       za niewielkie pieniądze.
-    link: 'https://gree.pl/'
+    link: "https://gree.pl/"
     name: Gree
 ---
+
 ## Producenci - czyli z kim współpracujemy
 
 Branża klimatyzacji, jak każda inna, bogata jest w wielu producentów, tych lepszych i gorszych. My dla waszego i naszego bezpieczeństwa zdecydowaliśmy się na tych najlepszych. Z doświadczenia wiemy, że warto stawiać na jakość i pewne rozwiązania.
