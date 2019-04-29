@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '4'
 title: FTXA-AT - Daikin STYLISH - czarne drewno
 meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
@@ -13,7 +14,6 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
   - caption: prezentacja klimatyzatora Daikin FTXA–AT + RXA–A
     image: /img/ftxa-at_ip_1.jpg
@@ -22,15 +22,15 @@ images:
   - caption: klimatyzator Daikin FTXA–AT + RXA–A
     image: /img/ftxa-at_l.jpg
 version:
-  - power: "2,00kW"
+  - power: '2,00kW'
     price: od 7180
-  - power: "2,50kW"
+  - power: '2,50kW'
     price: od 7415
-  - power: "3,4kW"
+  - power: '3,4kW'
     price: od 8240
-  - power: "4,2kW"
-    price: "od 9255"
-  - power: "5,0kW"
+  - power: '4,2kW'
+    price: od 9255
+  - power: '5,0kW'
     price: od 12553
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
