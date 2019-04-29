@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
-title: "FTXA-AS - Daikin STYLISH - srebrny "
+order: '20'
+title: 'FTXA-AS - Daikin STYLISH - srebrny '
 meta_title: Daikin model FTXA-AS/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-srebrny
 meta_description: >-
@@ -17,24 +18,23 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
   - caption: klimatyzator Daikin FTXA–AS + RXA–A
     image: /img/stylish-as.jpg
   - caption: klimatyzator Daikin FTXA–AS + RXA–A
     image: /img/stylish-as-2.png
-  - caption: "broszura Daikin FTXA–AS + RXA–A "
+  - caption: 'broszura Daikin FTXA–AS + RXA–A '
     image: /img/ftxa-as-rxa-a_product-flyer_ecpen18-051_english-page-001.jpg
 version:
-  - power: "2,0 kW"
+  - power: '2,0 kW'
     price: od 7057
-  - power: "2,5 kW"
+  - power: '2,5 kW'
     price: od 7380
-  - power: "3,4 kW"
+  - power: '3,4 kW'
     price: od 8120
-  - power: "4,2 kW"
+  - power: '4,2 kW'
     price: od 11395
-  - power: "5,0 kW"
+  - power: '5,0 kW'
     price: od 12320
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
