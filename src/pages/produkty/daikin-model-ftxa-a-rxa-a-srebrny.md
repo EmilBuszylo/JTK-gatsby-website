@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '20'
+order: '8'
 title: 'FTXA-AS - Daikin STYLISH - srebrny '
 meta_title: Daikin model FTXA-AS/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-srebrny
