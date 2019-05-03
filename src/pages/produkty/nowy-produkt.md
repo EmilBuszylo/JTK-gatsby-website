@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
-title: "FTXZ-N - Daikin URURU SARARA "
+order: '4'
+title: 'FTXZ-N - Daikin URURU SARARA '
 meta_title: Daikin model FTXZ-N/RXZ-N
 slug: daikin-model-ftxz-n-rxz-n
 meta_description: >-
@@ -13,7 +14,7 @@ tags:
   - Daikin
   - klimatyzacja
   - Ururu
-  - ""
+  - ''
   - komfort
   - klima
   - Sarara
@@ -22,18 +23,17 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
   - caption: test
     image: /img/ururu-sarara-5-600x600.jpg
   - image: /img/ururu-sarara-3.png
 version:
-  - power: "2,5 kW"
-    price: od 8540
-  - power: "3,5 kW"
-    price: od 10645
-  - power: "5,0kW"
-    price: od 11320
+  - power: '2,5 kW'
+    price: 'od 8538,00'
+  - power: '3,5 kW'
+    price: 'od 10645,00'
+  - power: '5,0kW'
+    price: 'od 11316,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
