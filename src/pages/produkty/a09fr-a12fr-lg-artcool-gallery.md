@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '100'
+order: '18'
 title: A09FR/A12FR - LG ARTCOOL Gallery
 meta_title: LG model A09/12FR.NSF_A09/12FR.UL2
 slug: lg-model-A09FR/A12FR
