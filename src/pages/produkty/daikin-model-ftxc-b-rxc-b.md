@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '5'
+order: '1'
 title: FTXC-B - Daikin Sensira Plus - biały
 meta_title: Daikin model FTXC-B/RXC-B
 slug: daikin-model-ftxc-b-rxc-b
