@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '5'
 title: FTXJ-AS - Daikin Emura - srebrny
 meta_title: Daikin model FTXJ-AS/RXJ-N
 slug: daikin-model-ftxj-as-rxj-n
@@ -20,27 +21,26 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
-  - caption: "Jednostka Daikin FTXJ-AS "
+  - caption: 'Jednostka Daikin FTXJ-AS '
     image: /img/emura-srebrna-3.png
   - caption: Jednostka Daikin FTXJ-AS
     image: /img/emura-srebrna-5.png
   - caption: Jednostka Daikin FTXJ-AS
     image: /img/emura-srebrna-4.png
-  - caption: "Agregat Daikin RXJ-N "
+  - caption: 'Agregat Daikin RXJ-N '
     image: /img/rxj-srebrna.png
   - caption: Pilot
     image: /img/pilot-emura-2.png
 version:
-  - power: "2,3 kW"
-    price: od 6890
-  - power: "2,4 kW"
-    price: od 7180
-  - power: "3,5 kW"
-    price: od 8600
-  - power: "4,8 kW"
-    price: od 12085
+  - power: '2,3 kW'
+    price: 'od 6891,00'
+  - power: '2,4 kW'
+    price: 'od 7179,00'
+  - power: '3,5 kW'
+    price: 'od 8598,00'
+  - power: '4,8 kW'
+    price: 'od 12082,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
