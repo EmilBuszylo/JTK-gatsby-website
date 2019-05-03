@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '4'
+order: '8'
 title: FTXA-AT - Daikin STYLISH - czarne drewno
 meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
@@ -23,15 +23,15 @@ images:
     image: /img/ftxa-at_l.jpg
 version:
   - power: '2,00kW'
-    price: od 7180
+    price: 'od 7179,00'
   - power: '2,50kW'
-    price: od 7415
+    price: 'od 7414,00'
   - power: '3,4kW'
-    price: od 8240
+    price: 'od 8241,00'
   - power: '4,2kW'
-    price: od 9255
+    price: 'od 11638,00'
   - power: '5,0kW'
-    price: od 12553
+    price: 'od 12553,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
