@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '12'
 title: MSZ-LN-VG V - MITSUBISHI DIAMOND - perłowy
 meta_title: Mitsubishi model MSZ-LN-VG V/MUZ-LN-VG
 slug: mitsubishi-model-diamond-perlowy
@@ -17,20 +18,19 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
-order: 1
 images:
   - image: /img/diamond-8.png
   - image: /img/diamond-5.png
   - image: /img/diamond-7.png
 version:
-  - power: "2,5kW"
-    price: od 6620
-  - power: "3,5kW"
-    price: od 8430
-  - power: "5,0kW"
-    price: od 10 000
-  - power: "6,0kW"
-    price: od 11 160
+  - power: '2,5kW'
+    price: 'od 6620,00'
+  - power: '3,5kW'
+    price: 'od 8430,00'
+  - power: '5,0kW'
+    price: 'od 10000,00'
+  - power: '6,0kW'
+    price: 'od 11160,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
