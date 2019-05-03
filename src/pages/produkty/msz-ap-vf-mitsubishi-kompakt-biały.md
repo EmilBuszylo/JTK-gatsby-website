@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '17'
 title: MSZ-AP-VF - MITSUBISHI KOMPAKT - biały
 meta_title: Mitsubishi model MSZ-AP-VF /MUZ-AP-VG
 slug: mitsubishi-model-deluxe
@@ -19,19 +20,18 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
-order: 1
 images:
   - image: /img/393f44d34bf98d494b38ee47939d.jpg
   - image: /img/mitsubishi-kompakt-msz-ap42vg-1553145399.jpg
 version:
-  - power: "2,5kW"
-    price: od 4350
-  - power: "3,5kW"
-    price: od 4975
-  - power: "4,2kW"
-    price: od 6015
-  - power: "5,0kW"
-    price: od 6690
+  - power: '2,5kW'
+    price: 'od 4350,00'
+  - power: '3,5kW'
+    price: 'od 4975,00'
+  - power: '4,2kW'
+    price: 'od 6015,00'
+  - power: '5,0kW'
+    price: 'od 6690,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
