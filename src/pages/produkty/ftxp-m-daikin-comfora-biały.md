@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '2'
 title: FTXP-M - Daikin COMFORA - biały
 meta_title: Daikin model FTXP-M/RXP-M
 slug: daikin-model-ftxp-l-rxp-l
@@ -18,7 +19,6 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
   - caption: Daikin FTXP-M Comfora
     image: /img/ftxp-1.png
@@ -27,18 +27,18 @@ images:
   - caption: Agregat Daikin RXP-M
     image: /img/rxp.png
 version:
-  - power: "2,0 kW"
-    price: od 4495
-  - power: "2,5 kW"
-    price: od 4740
-  - power: "3,5 kW"
-    price: od 5460
-  - power: "5,0 kW"
-    price: od 7230
-  - power: "6,0 kW"
-    price: od 8155
-  - power: "7,1 kW"
-    price: od 11350
+  - power: '2,0 kW'
+    price: 'od 4496,00'
+  - power: '2,5 kW'
+    price: 'od 4740,00'
+  - power: '3,5 kW'
+    price: 'od 5463,00'
+  - power: '5,0 kW'
+    price: 'od 7231,00'
+  - power: '6,0 kW'
+    price: 'od 8154,00'
+  - power: '7,1 kW'
+    price: 'od 11272,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
