@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '10'
 title: MSZ-LN-VG B - MITSUBISHI DIAMOND - czarny
 meta_title: Mitsubishi model MSZ-LN-VG B/MUZ-LN-VG
 slug: mitsubishi-model-diamond-czarny
@@ -19,7 +20,6 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
-order: 9
 images:
   - image: /img/diamond-17-czarny.jpg
   - image: /img/diamond-2.png
@@ -27,14 +27,14 @@ images:
   - image: /img/diamond-5.png
   - image: /img/diamond-7.png
 version:
-  - power: "2,5 kW"
-    price: od 6630
-  - power: "3,5 kW"
-    price: od 8430
-  - power: "5,0 kW"
-    price: od 10 000
-  - power: "6,0 kW"
-    price: od 11 160
+  - power: '2,5 kW'
+    price: 'od 6630,00'
+  - power: '3,5 kW'
+    price: 'od 8430,00'
+  - power: '5,0 kW'
+    price: 'od 10000,00'
+  - power: '6,0 kW'
+    price: 'od 11160,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
