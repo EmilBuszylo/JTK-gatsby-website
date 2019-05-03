@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '3'
 title: FTXM-N - Daikin PERFERA - biały
 meta_title: Daikin model FTXM-N/RXM-N9
 slug: daikin-model-ftxm-n-rxm-n9
@@ -18,7 +19,6 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 1
 images:
   - caption: Daikin FTXM-N Perfera
     image: /img/perfera-1.png
@@ -29,20 +29,20 @@ images:
   - caption: Agregat RXM-N9
     image: /img/rxm.png
 version:
-  - power: "2,0 kW"
-    price: od 5790
-  - power: "2,5 kW"
-    price: od 6025
-  - power: "3,4 kW"
-    price: od 7340
-  - power: "4,2 kW"
-    price: od 8010
-  - power: "5,0 kW"
-    price: od 8610
-  - power: "6,0 kW"
-    price: od 1020
-  - power: "7,1 kW"
-    price: "od 12450 "
+  - power: '2,0 kW'
+    price: 'od 5785,00'
+  - power: '2,5 kW'
+    price: 'od 6020,00'
+  - power: '3,4 kW'
+    price: 'od 7336,00'
+  - power: '4,2 kW'
+    price: 'od 8006,00'
+  - power: '5,0 kW'
+    price: 'od 8607,00'
+  - power: '6,0 kW'
+    price: 'od 10201,00'
+  - power: '7,1 kW'
+    price: 'od 12448,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
