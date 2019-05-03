@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '14'
 title: MSZ-EF-VE B - MITSUBISHI PREMIUM - czarny
 meta_title: Mitsubishi model MSZ-EF-VE B/MUZ-EF-VE
 slug: mitsubishi-model-premium-czarny
@@ -19,19 +20,18 @@ tags:
 categories: split
 producent: Mitsubishi
 hotProductsSelect: nie
-order: 1
 images:
   - image: /img/premium-czarny-2.jpg
   - image: /img/premium-dane-techniczne.png
 version:
-  - power: "2,5kW"
-    price: od 5050
-  - power: "3,5kW"
-    price: od 5915
-  - power: "4,2kW"
-    price: od 6945
-  - power: "5,0kW"
-    price: od 7585
+  - power: '2,5kW'
+    price: 'od 5050,00'
+  - power: '3,5kW'
+    price: 'od 5915,00'
+  - power: '4,2kW'
+    price: 'od 6945,00'
+  - power: '5,0kW'
+    price: 'od 7585,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
