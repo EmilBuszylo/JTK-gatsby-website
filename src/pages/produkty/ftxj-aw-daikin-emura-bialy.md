@@ -1,5 +1,6 @@
 ---
 templateKey: product-page
+order: '4'
 title: FTXJ-AW - Daikin Emura - biały
 meta_title: Daikin model FTXJ-AW/RXJ-N
 slug: daikin-model-ftxj-aw-rxj-n
@@ -20,7 +21,6 @@ tags:
 categories: split
 producent: Daikin
 hotProductsSelect: nie
-order: 5
 images:
   - image: /img/rxj.png
   - image: /img/emura-2.png
@@ -28,14 +28,14 @@ images:
   - image: /img/pilot.png
   - image: /img/wifi.png
 version:
-  - power: "2,3 kW"
-    price: od 6535
-  - power: "2,4 kW"
-    price: od 6892
-  - power: "3,5 kW"
-    price: od 8190
-  - power: "4,8 kW"
-    price: od 11520
+  - power: '2,3 kW'
+    price: 'od 6534,00'
+  - power: '2,4 kW'
+    price: 'od 6891,00'
+  - power: '3,5 kW'
+    price: 'od 8189,00'
+  - power: '4,8 kW'
+    price: 'od 11516,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
