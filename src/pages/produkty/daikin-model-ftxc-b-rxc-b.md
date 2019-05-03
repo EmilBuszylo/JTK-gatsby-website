@@ -32,7 +32,7 @@ images:
     image: /img/pilot-ftxc.png
 version:
   - power: '2,0 kW'
-    price: od 3460
+    price: 'od 3460,00'
   - power: '2,56 kW'
     price: 'od  3527,50'
   - power: '3,5 kW'
