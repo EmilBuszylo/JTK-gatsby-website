@@ -8,7 +8,7 @@ meta_description: >-
   LG, Artcool Silver, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji Warszawa.
 date: 2019-05-03T20:10:15.025Z
-cover: /img/lg7170919fr-0.jpeg
+cover: /img/ac09sq-lg-nowe.png
 tags:
   - LG
   - Artcool Silver
@@ -18,7 +18,7 @@ categories: split
 producent: LG
 hotProductsSelect: nie
 images:
-  - {}
+  - image: /img/lg7170919fr-0.jpeg
 version:
   - power: '2,5kW'
     price: '4919,20'
