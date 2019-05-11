@@ -38,6 +38,5 @@ vat: >-
 * inteligentna diagnostyka
 * aktywna kontrola zużycia energii
 * wyświetlacz zużycia energii
-* jonizator powietrza plasmaster jonizer plus
 * podwójny filtr - oprócz standardowego, siatkowego filtra, posiada filtr 3M zatrzymujący najmniejsze cząsteczki dzięki ładunkom elektrostatycznym znajdującym się na jego powierzchni 
 * samoczyszczący się wymiennik ciepła - minimalizuje możliwość rozwijania się wirusów, bakterii i grzybów
