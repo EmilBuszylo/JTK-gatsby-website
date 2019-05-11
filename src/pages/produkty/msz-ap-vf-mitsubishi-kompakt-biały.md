@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '17'
+order: 17
 title: MSZ-AP-VF - MITSUBISHI KOMPAKT - biały
 meta_title: Mitsubishi model MSZ-AP-VF /MUZ-AP-VG
 slug: mitsubishi-model-deluxe

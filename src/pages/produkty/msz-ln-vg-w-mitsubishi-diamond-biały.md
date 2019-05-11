@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '13'
+order: 13
 title: MSZ-LN-VG W - MITSUBISHI DIAMOND - biały
 meta_title: Mitsubishi model MSZ-LN-VG W/MUZ-LN-VG
 slug: mitsubishi-model-diamond-bialy

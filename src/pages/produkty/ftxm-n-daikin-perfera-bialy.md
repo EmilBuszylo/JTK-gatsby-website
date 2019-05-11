@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '3'
+order: 3
 title: FTXM-N - Daikin PERFERA - biały
 meta_title: Daikin model FTXM-N/RXM-N9
 slug: daikin-model-ftxm-n-rxm-n9

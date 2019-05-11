@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '10'
+order: 10
 title: MSZ-LN-VG B - MITSUBISHI DIAMOND - czarny
 meta_title: Mitsubishi model MSZ-LN-VG B/MUZ-LN-VG
 slug: mitsubishi-model-diamond-czarny

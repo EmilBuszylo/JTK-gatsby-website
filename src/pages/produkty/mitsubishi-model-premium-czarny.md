@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '14'
+order: 14
 title: MSZ-EF-VE B - MITSUBISHI PREMIUM - czarny
 meta_title: Mitsubishi model MSZ-EF-VE B/MUZ-EF-VE
 slug: mitsubishi-model-premium-czarny

@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '5'
+order: 5
 title: FTXJ-AS - Daikin Emura - srebrny
 meta_title: Daikin model FTXJ-AS/RXJ-N
 slug: daikin-model-ftxj-as-rxj-n

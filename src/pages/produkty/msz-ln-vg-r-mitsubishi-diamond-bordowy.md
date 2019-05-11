@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '11'
+order: 11
 title: MSZ-LN-VG R - MITSUBISHI DIAMOND - bordowy
 meta_title: Mitsubishi model MSZ-LN-VG R/MUZ-LN-VG
 slug: mitsubishi-model-diamond-bordowy

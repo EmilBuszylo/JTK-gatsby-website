@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '19'
+order: 19
 title: AC09SQ/AC12SQ/AC18SQ - LG ARTCOOL Silver
 meta_title: LG ARTCOOL SILVER
 slug: LG ARTCOOL SILVER
@@ -30,8 +30,10 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
+
 # **LG ARTCOOL SILVER**
 
-**Ponadczasowy styl**
+**Ponadczasowy styl
+**
 
 Klasyczny styl klimatyzatora LG Artcool Silver doskonale wkomponuje się w każde wnętrze. Elegancki szary panel tworzy efekt odbicia lustrzanego otoczenia idealnie się w nie wpisując. Zastosowanie szkła podkreśla ponadczasowy styl i solidność urządzenia

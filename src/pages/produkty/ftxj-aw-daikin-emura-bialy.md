@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '4'
+order: 4
 title: FTXJ-AW - Daikin Emura - biały
 meta_title: Daikin model FTXJ-AW/RXJ-N
 slug: daikin-model-ftxj-aw-rxj-n

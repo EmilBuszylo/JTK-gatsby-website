@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '12'
+order: 12
 title: MSZ-LN-VG V - MITSUBISHI DIAMOND - perłowy
 meta_title: Mitsubishi model MSZ-LN-VG V/MUZ-LN-VG
 slug: mitsubishi-model-diamond-perlowy

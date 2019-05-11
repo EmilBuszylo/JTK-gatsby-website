@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '9'
+order: 9
 title: 'FTXZ-N - Daikin URURU SARARA '
 meta_title: Daikin model FTXZ-N/RXZ-N
 slug: daikin-model-ftxz-n-rxz-n

@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '16'
+order: 16
 title: MSZ-EF-VE W - MITSUBISHI PREMIUM - biały
 meta_title: Mitsubishi model MSZ-EF-VE W/MUZ-EF-VE
 slug: mitsubishi-model-premium-bialy

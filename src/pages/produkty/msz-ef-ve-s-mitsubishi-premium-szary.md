@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: '15'
+order: 15
 title: MSZ-EF-VE S - MITSUBISHI PREMIUM - szary
 meta_title: Mitsubishi model MSZ-EF-VE S/MUZ-EF-VE
 slug: mitsubishi-model-premium-szary
