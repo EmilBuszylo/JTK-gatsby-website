@@ -30,10 +30,13 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-
 # **LG ARTCOOL SILVER**
 
-**Ponadczasowy styl
-**
+**Udogodnienia:**
 
-Klasyczny styl klimatyzatora LG Artcool Silver doskonale wkomponuje się w każde wnętrze. Elegancki szary panel tworzy efekt odbicia lustrzanego otoczenia idealnie się w nie wpisując. Zastosowanie szkła podkreśla ponadczasowy styl i solidność urządzenia
+* wbudowane wifi
+* inteligentna diagnostyka
+* aktywna kontrola zużycia energii
+* wyświetlacz zużycia energii
+* podwójny filtr - oprócz standardowego, siatkowego filtra, posiada filtr 3M zatrzymujący najmniejsze cząsteczki dzięki ładunkom elektrostatycznym znajdującym się na jego powierzchni 
+* samoczyszczący się wymiennik ciepła - minimalizuje możliwość rozwijania się wirusów, bakterii i grzybów
