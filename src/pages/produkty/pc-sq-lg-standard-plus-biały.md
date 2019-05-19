@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 23
-title: PC-SQ - LG STANDARD PLUS - biały
+title: 'PC-SQ - LG STANDARD PLUS '
 meta_title: LG ARTCOOL MIRROR
 slug: LG ARTCOOL MIRROR
 meta_description: >-
