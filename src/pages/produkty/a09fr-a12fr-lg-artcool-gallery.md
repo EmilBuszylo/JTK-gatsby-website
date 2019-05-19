@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 18
-title: A09FR/A12FR - LG ARTCOOL Gallery
+title: A-FR - LG ARTCOOL Gallery
 meta_title: LG model A09/12FR.NSF_A09/12FR.UL2
 slug: lg-model-A09FR/A12FR
 meta_description: >-
@@ -33,7 +33,6 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-
 # LG ARTCOOL GALLERY
 
 Niespotykane u innych producentów rozwiązanie, dające połączenie obrazu i klimatyzacji. Idealne rozwiązanie dla tych, którzy cenią harmonię wnętrza. Urządzenie idealnie wpasuje się w każdy wystrój wnętrza dzięki wymiennym obrazom, które możesz dopasować do swojego aktualnego humoru.
