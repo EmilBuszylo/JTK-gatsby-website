@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 20
-title: AC09SQ/AC12SQ/AC18SQ - LG ARTCOOL Silver
+title: AC-SQ - LG ARTCOOL Silver
 meta_title: LG ARTCOOL SILVER
 slug: LG ARTCOOL SILVER
 meta_description: >-
