@@ -8,7 +8,7 @@ meta_description: >-
   LG, Artcool Mirror, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji Warszawa.
 date: 2019-05-11T16:45:47.683Z
-cover: /img/lg-artcool-m.jpg
+cover: /img/lg-artcool-2.jpg
 tags:
   - LG
   - klimatyzacja
