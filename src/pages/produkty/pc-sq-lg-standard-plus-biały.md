@@ -2,8 +2,8 @@
 templateKey: product-page
 order: 23
 title: 'PC-SQ - LG STANDARD PLUS '
-meta_title: LG ARTCOOL MIRROR
-slug: LG ARTCOOL MIRROR
+meta_title: LG STANDARD PLUS
+slug: LG STANDARD PLUS
 meta_description: >-
   LG, Standard Plus, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji Warszawa.
