@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 21
-title: AC09BQ/AC12BQ/AC18BQ - LG ARTCOOL Mirror
+title: AC-BQ - LG ARTCOOL Mirror
 meta_title: LG ARTCOOL MIRROR
 slug: LG ARTCOOL MIRROR
 meta_description: >-
