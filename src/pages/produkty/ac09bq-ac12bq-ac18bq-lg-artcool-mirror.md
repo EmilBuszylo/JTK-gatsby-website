@@ -8,7 +8,7 @@ meta_description: >-
   LG, Artcool Mirror, jednostka naścienna, klimatyzacja, komfort, montaż
   klimatyzacji Warszawa.
 date: 2019-05-11T16:45:47.683Z
-cover: /img/lg-artcool-2.jpg
+cover: /img/lg-artcool-mirror-14.jpg
 tags:
   - LG
   - klimatyzacja
@@ -19,7 +19,8 @@ categories: split
 producent: LG
 hotProductsSelect: nie
 images:
-  - image: /img/lg-artcool-mirror-2.png
+  - caption: Dane techniczne LG Artcool Mirror
+    image: /img/lg-artcool-mirror-2.png
   - image: /img/lg-artcool-mirror.png
 version:
   - power: '2,5kW'
