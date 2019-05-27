@@ -28,13 +28,13 @@ images:
     image: /img/standard-plus.png
 version:
   - power: '2,5 kW'
-    price: '3608,80'
+    price: 'od 3608,80'
   - power: '3,5 kW'
-    price: '3733,60'
+    price: 'od 3733,60'
   - power: '5,0 kW'
-    price: '4794,40'
+    price: 'od 4794,40'
   - power: '6,6 kW'
-    price: '5605,60'
+    price: 'od 5605,60'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
