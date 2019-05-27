@@ -24,13 +24,13 @@ images:
   - image: /img/lg-artcool-mirror.png
 version:
   - power: '2,5kW'
-    price: '4919,20'
+    price: 'od 4919,20'
   - power: '3,5kW'
-    price: '5168,80'
+    price: 'od 5168,80'
   - power: '5,0kW'
-    price: '5917,60'
+    price: 'od 5917,60'
   - power: '6,6kW'
-    price: '6791,20'
+    price: 'od 6791,20'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
