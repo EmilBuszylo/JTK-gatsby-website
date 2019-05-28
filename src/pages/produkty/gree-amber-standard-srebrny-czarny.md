@@ -28,7 +28,6 @@ images:
   - image: /img/amber_standard_silver_left-11-768x768.jpg
   - image: /img/amber-standard-silver-black.png
 version:
-  - {}
   - power: '2,7 kW'
     price: 'od 3637,30 '
   - power: '3,50 kW'
