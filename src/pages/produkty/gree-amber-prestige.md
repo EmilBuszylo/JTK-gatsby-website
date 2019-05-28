@@ -9,7 +9,7 @@ meta_description: >-
   urządzenia. Klimatyzator Amber Prestige to najwyższej klasy urządzenie firmy
   Gree. 
 date: 2019-05-27T19:33:45.592Z
-cover: /img/amber.png
+cover: /img/amber-2.1.png
 tags:
   - Gree
   - klima
