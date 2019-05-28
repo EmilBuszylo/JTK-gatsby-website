@@ -9,7 +9,7 @@ meta_description: >-
   urządzenia. Klimatyzator Amber Prestige to najwyższej klasy urządzenie firmy
   Gree. 
 date: 2019-05-27T19:33:45.592Z
-cover: /img/amber-prestige-ico.jpg
+cover: /img/amber.png
 tags:
   - Gree
   - klima
@@ -21,7 +21,10 @@ categories: split
 producent: Gree
 hotProductsSelect: tak
 images:
-  - image: /img/amber-prestige.png
+  - caption: Gree Amber Prestige parametry
+    image: /img/amber-prestige.png
+  - caption: Gree Amber Prestige
+    image: /img/amber-prestige-ico.jpg
 version:
   - power: '2,7 kW'
     price: 'od 4676,10 '
