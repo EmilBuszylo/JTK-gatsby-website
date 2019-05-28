@@ -9,7 +9,7 @@ meta_description: >-
   urządzenia. Klimatyzatory Amber Standard jedne z najlepszych urządzeń firmy
   Gree, teraz dostępne w nowych kolorach - srebrnym i czarnym.  
 date: 2019-05-28T19:29:45.040Z
-cover: /img/amber_standard_black_left-14.jpg
+cover: /img/amber_black_przod.jpg
 tags:
   - Gree
   - klimatyzacja
@@ -23,7 +23,7 @@ categories: split
 producent: Gree
 hotProductsSelect: tak
 images:
-  - image: /img/amber_black_przod.jpg
+  - image: /img/amber_standard_black_left-14.jpg
   - image: /img/amber_standard_silver_front-13.jpg
   - image: /img/amber_standard_silver_left-11-768x768.jpg
   - image: /img/amber-standard-silver-black.png
