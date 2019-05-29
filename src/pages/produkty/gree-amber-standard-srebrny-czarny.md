@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 27
+order: 28
 title: Gree Amber Standard - srebrny/czarny
 meta_title: Gree Amber Standard - srebrny/czarny
 slug: Gree Amber Standard - srebrny/czarny
