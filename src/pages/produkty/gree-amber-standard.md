@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 26
+order: 27
 title: Gree Amber Standard
 meta_title: Gree Amber Standard
 slug: Gree Amber Standard
