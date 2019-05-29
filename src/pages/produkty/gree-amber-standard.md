@@ -9,7 +9,8 @@ meta_description: >-
   urządzenia. Klimatyzator Amber Standard to jedno z najlepszych urządzeń firmy
   Gree. 
 date: 2019-05-28T19:07:28.788Z
-cover: /img/amber-2.3.png
+cover: >-
+  /img/gree-amber-inverter-2-7-kw-klima-szett-a-gwh09yc-k6dna1a-wifi-3d-legaram-a32.jpg
 tags:
   - Gree
   - klimatyzacja
