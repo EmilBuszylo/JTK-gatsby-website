@@ -8,7 +8,7 @@ meta_description: >-
   Klimatyzacja firmy Gree to komfort w dobrej cenie, ciche i niezawodne
   urządzenia. Klimatyzator U-Crown to najwyższej klasy urządzenie firmy Gree.
 date: 2019-05-28T21:31:15.753Z
-cover: /img/u-crown-2.jpg
+cover: /img/23835_0.jpg
 tags:
   - Gree
   - klimatyzacja
