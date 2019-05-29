@@ -25,6 +25,8 @@ images:
     image: /img/amber-prestige.png
   - caption: Gree Amber Prestige
     image: /img/amber-prestige-ico.jpg
+  - caption: Gree Amber Prestige
+    image: /img/gree-gwh09yd-auto_width_1000.jpg
 version:
   - power: '2,7 kW'
     price: 'od 4676,10 '
