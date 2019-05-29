@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 25
+order: 26
 title: 'Gree Amber Prestige '
 meta_title: 'Gree Amber Prestige '
 slug: 'Gree Amber Prestige '
