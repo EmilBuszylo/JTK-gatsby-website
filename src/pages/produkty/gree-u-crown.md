@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 28
+order: 25
 title: Gree U-Crown
 meta_title: Gree U-Crown
 slug: Gree U-Crown
