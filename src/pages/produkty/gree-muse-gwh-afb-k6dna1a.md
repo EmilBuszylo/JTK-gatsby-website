@@ -20,6 +20,7 @@ producent: Gree
 hotProductsSelect: nie
 images:
   - image: /img/muse-front.jpg
+  - image: /img/muse.png
 version:
   - power: '2,5 kW'
     price: 'od 3073,38 '
