@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 29
-title: Gree Muse GWH-AFB-K6DNA1A
+title: 'Gree Muse '
 meta_title: 'Gree Muse '
 slug: Gree Muse GWH-AFB-K6DNA1A
 meta_description: >-
