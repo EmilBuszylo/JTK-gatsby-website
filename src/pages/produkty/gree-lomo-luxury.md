@@ -21,6 +21,7 @@ producent: Gree
 hotProductsSelect: nie
 images:
   - image: /img/lomo-luxury-ico.jpg
+  - image: /img/luxury.png
 version:
   - power: '2,6 kW'
     price: 'od 3221,78'
