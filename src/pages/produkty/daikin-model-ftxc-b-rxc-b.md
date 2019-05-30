@@ -30,6 +30,7 @@ images:
     image: /img/rxc.png
   - caption: Pilot do jednostki FTXC-B
     image: /img/pilot-ftxc.png
+  - image: /img/kk.png
 version:
   - power: '2,0 kW'
     price: 'od 3460,00'
