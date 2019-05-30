@@ -37,3 +37,7 @@ vat: >-
 # Gree Muse
 
 MUSE to jedna z tegorocznych nowości w serii standard w ofercie Gree. Niewielkie wymiary i wysokie parametry pracy to istotne zalety tego modelu. Obsługa przez WiFi, 4 stopnie pracy wentylatora oraz funkcja Smart Flow sprawiają, że obsługa tego urządzenia jest bajecznie komfortowa.
+
+Link do strony producenta:
+
+https://gree.pl/produkt/muse-r32/
