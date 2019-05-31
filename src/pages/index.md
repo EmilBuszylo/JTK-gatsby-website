@@ -20,7 +20,7 @@ offerings:
         przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
         urządzeń. JTLS posiada niezbędne doświadczenie i uprawnienia do montażu
         klimatyzacji zgodnie z tzw. ustawą F-gazową.
-    - image: /img/coffee-gear.png
+    - image: /img/pies-i-upal2662.jpg
       text: >
         Ceny - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego
         podajemy ceny przy każdym produkcie. Uwzględniają one standardowy
