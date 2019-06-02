@@ -27,13 +27,13 @@ images:
   - image: /img/diamond-14-bordo.jpg
 version:
   - power: '2,5 kW'
-    price: 'od 6630,00'
+    price: 'od 7204,44'
   - power: '3,5 kW'
-    price: 'od 8425,00'
+    price: 'od 8639,67'
   - power: '5,0 kW'
-    price: 'od 10000,00'
+    price: 'od 10038,57'
   - power: '6,0 kW'
-    price: 'od 11160,00'
+    price: 'od 11164,95'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
