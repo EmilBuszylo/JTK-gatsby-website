@@ -34,6 +34,12 @@ version:
     price: 'od 10038,57'
   - power: '6,0 kW'
     price: 'od 11164,95'
+  - power: '2,5 kW Hyper Heat'
+    price: 'od 8385,33'
+  - power: '3,5 kW Hyper Heat'
+    price: 'od 9766,06'
+  - power: '5,0 kW Hyper Heat'
+    price: 'od 11491,97'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
