@@ -26,13 +26,13 @@ images:
   - image: /img/premium-dane-techniczne.png
 version:
   - power: '2,5kW'
-    price: 'od 5050,00'
+    price: 'od 5315,02'
   - power: '3,5kW'
-    price: 'od 5915,00'
+    price: 'od 6132,56'
   - power: '4,2kW'
-    price: 'od 6950,00'
+    price: 'od 6986,43'
   - power: '5,0kW'
-    price: 'od 7585,00'
+    price: 'od 7583,29'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
