@@ -37,7 +37,7 @@ version:
     price: 'od 111640,95'
   - power: '2,5 kW Hyper Heat'
     price: 'od 8385,33'
-  - power: '2,5 kW Hyper Heat'
+  - power: '3,5 kW Hyper Heat'
     price: 'od 9766,06'
   - power: '5,0 kW Hyper Heat'
     price: 'od 11491,97'
