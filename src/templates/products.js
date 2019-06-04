@@ -18,7 +18,7 @@ const SidebarColumn = styled.div`
 export default class ProductsPage extends Component {
   state = {
     category: 'all',
-  };
+  }
 
   render () {
     const { pageContext } = this.props

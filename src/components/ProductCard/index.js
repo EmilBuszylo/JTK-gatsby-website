@@ -69,7 +69,6 @@ const StarDesc = styled.div`
 `
 
 const ProductCard = ({ products, isHot, justify }) => {
-  console.log(products)
   return (
     <ProductsWrapper
       className='columns is-mobile is-multiline'
@@ -90,12 +89,14 @@ const ProductCard = ({ products, isHot, justify }) => {
           >
             <Card className='card'>
               <header className='card-image'>
-                <figure className='image is-2by1'>
-                  <img
-                    src={product.frontmatter.cover}
-                    alt='Placeholder image'
-                  />
-                </figure>
+                <Link to={product.fields.slug}>
+                  <figure className='image is-2by1'>
+                    <img
+                      src={product.frontmatter.cover}
+                      alt='Placeholder image'
+                    />
+                  </figure>
+                </Link>
               </header>
               <CardInformations>
                 <h3 className='title is-6' style={{ margin: '.5rem 0' }}>

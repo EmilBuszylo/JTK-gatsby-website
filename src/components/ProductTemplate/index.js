@@ -79,13 +79,13 @@ export default class ProductTemplate extends Component {
         caption: PropTypes.string,
       })
     ),
-  };
+  }
 
   state = {
     photoIndex: 0,
     isOpen: false,
     chosenVersion: '',
-  };
+  }
 
   componentDidMount () {
     if (this.state.chosenVersion === '') {
@@ -109,12 +109,12 @@ export default class ProductTemplate extends Component {
     images.push(coverImage)
 
     return images.concat(productImages.map(image => image.image))
-  };
+  }
 
   onVersionChange = e => {
     const value = e.target.value
     this.setState(prevState => ({ chosenVersion: value }))
-  };
+  }
 
   setProductPrice = () => {
     if (this.state.chosenVersion === '' || this.state.chosenVersion === 0) {
@@ -122,7 +122,7 @@ export default class ProductTemplate extends Component {
     } else {
       return this.props.version[this.state.chosenVersion].price
     }
-  };
+  }
 
   render () {
     const {
@@ -205,6 +205,7 @@ export default class ProductTemplate extends Component {
                   <ProductForm
                     title={title}
                     chosenVersion={version[chosenVersion]}
+                    version={version}
                   />
                 </div>
               )}
@@ -221,7 +222,9 @@ export default class ProductTemplate extends Component {
               mainSrc={ProductImages[photoIndex]}
               nextSrc={ProductImages[(photoIndex + 1) % ProductImages.length]}
               prevSrc={
-                ProductImages[(photoIndex + ProductImages.length - 1) % ProductImages.length]
+                ProductImages[
+                  (photoIndex + ProductImages.length - 1) % ProductImages.length
+                ]
               }
               onCloseRequest={() => this.setState({ isOpen: false })}
               onMovePrevRequest={() =>

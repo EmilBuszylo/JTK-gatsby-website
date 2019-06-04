@@ -1,6 +1,5 @@
-import React, {Component} from 'react'
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 import Link from 'gatsby-link'
 
 const Categories = styled.div`
@@ -11,42 +10,45 @@ const Categories = styled.div`
 
 const Tag = styled(Link)`
   cursor: pointer;
-  margin-left: .5em;
+  margin-left: 0.5em;
 `
 
-const CategoryFilters = ({category}) => {
-
-    return (
-      <div>
-        <Categories>
-            Kategorie:
-            <div className="tags">
-            <Tag
-                className={`tag ${!category ? 'is-primary' : 'is-light'} is-medium`}
-                to='/produkty'
-            >
-                Wszystkie
-            </Tag>
-            <Tag
-                className={`tag ${category === 'split' ? 'is-primary' : 'is-light'} is-medium`}
-                to='/produkty/kategoria/split'
-            >
-                Split
-            </Tag>
-            <Tag
-                className={`tag ${category === 'multi-split' ? 'is-primary' : 'is-light'} is-medium`}
-                to='/produkty/kategoria/multi-split'
-            >
-                Multi split
-            </Tag>
-            </div>
-        </Categories>
-      </div>
-    )
+const CategoryFilters = ({ category }) => {
+  return (
+    <div>
+      <Categories>
+        Kategorie:
+        <div className='tags'>
+          <Tag
+            className={`tag ${!category ? 'is-primary' : 'is-light'} is-medium`}
+            to='/produkty'
+          >
+            Wszystkie
+          </Tag>
+          <Tag
+            className={`tag ${
+              category === 'split' ? 'is-primary' : 'is-light'
+            } is-medium`}
+            to='/produkty/kategoria/split'
+          >
+            Split
+          </Tag>
+          <Tag
+            className={`tag ${
+              category === 'multi-split' ? 'is-primary' : 'is-light'
+            } is-medium`}
+            to='/produkty/kategoria/multi-split'
+          >
+            Multi split
+          </Tag>
+        </div>
+      </Categories>
+    </div>
+  )
 }
 
 CategoryFilters.defaultProps = {
-    category: null
+  category: null,
 }
 
-export default CategoryFilters;
+export default CategoryFilters
