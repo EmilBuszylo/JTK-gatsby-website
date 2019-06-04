@@ -18,14 +18,14 @@ tags:
   - Multi
   - klima
   - jakość
-categories: Multi split
+categories: multi-split
 producent: Daikin
 hotProductsSelect: nie
 images:
   - image: /img/multi.png
   - image: /img/multi-3.png
 version:
-  - power: ''
+  - power: 4 kW - 9 kW
     price: Wycena indywidualna
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
