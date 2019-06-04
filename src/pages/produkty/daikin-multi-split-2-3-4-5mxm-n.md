@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 9
+order: 10
 title: Daikin Multi Split 2/3/4/5MXM-N
 meta_title: Daikin Multi Split 2/3/4/5MXM-N
 slug: Daikin Multi Split 2/3/4/5MXM-N
