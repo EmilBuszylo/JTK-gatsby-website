@@ -12,7 +12,7 @@ Wszystkie ceny podanych urządzeń zawierają standardowy montaż.
 
 **Co to jest standardowy montaż?**
 
-* jest to montaż do 5mb instalacji miedzianej czyli tzw. 'przez ścianę'
+* jest to montaż do 4mb instalacji miedzianej czyli tzw. 'przez ścianę'
 * montaż, gdzie maskowania nie przekraczają 3mb
 * montaż uwzględnia wyprowadzenie skroplin grawitacyjnie na zewnątrz (balkon, taras itd.) lub do syfonu przygotowanej wcześniej instalacji
 * montaż do wysokości 4m z drabiny - powyżej tej wysokości lub w miejscu wymagającym zastosowania podnośnika/rusztowania wycena nie obowiązuje
@@ -35,7 +35,7 @@ Wszystkie ceny podanych urządzeń zawierają standardowy montaż.
 
 **Kiedy należy przewidzieć montaż niestandardowy?**
 
-* jeżeli instalacja przekracza 5mb
+* jeżeli instalacja przekracza 4mb
 * potrzebne jest wykonanie bruzd pod instalacje (elektryczne, chłodnicze, skropliny)
 * potrzebne jest wykonanie instalacji elektrycznej do rozdzielni powyżej 3mb
 * miejsce montażu agregatu jest powyżej 4m wysokości lub z wykorzystaniem podnośnika/rusztowania
