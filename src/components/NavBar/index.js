@@ -30,6 +30,12 @@ const DropdownSubItem = styled(Link)`
     color: #ffffff;
     border-color: transparent;
   }
+
+  &:focus {
+    background-color: ${props => props.theme.accentColor} !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+  }
   @media (max-width: 1023px) {
     color: #4a4a4a !important;
   }
@@ -41,6 +47,11 @@ const NavbarItem = styled(Link)`
     background-color: ${props => props.theme.accentColorHover} !important;
     color: #ffffff;
     border-color: transparent;
+  }
+  &:focus {
+    background-color: ${props => props.theme.accentColorHover} !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
   }
   @media (max-width: 1023px) {
     color: #4a4a4a !important;
