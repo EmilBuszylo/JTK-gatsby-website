@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 order: 33
-title: Multi Split Gree Free Match
+title: Gree Multi Split Free Match
 meta_title: Multi Split Gree Free Match
 slug: Multi Split Gree Free Match
 meta_description: >-
