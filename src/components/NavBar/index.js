@@ -47,6 +47,10 @@ const NavbarItem = styled(Link)`
   }
 `
 
+const LogoItem = styled.img`
+  max-height: 3rem !important;
+`
+
 const Dropdown = styled.div`
   background-color: ${props => props.theme.accentColorHover} !important;
   @media (max-width: 1024px) {
@@ -71,7 +75,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
         <section className='container'>
           <div className='navbar-brand'>
             <Link to='/' className='navbar-item'>
-              <img
+              <LogoItem
                 src={Logo}
                 alt='JTLS, klimatyzacje, systemy chłodnicze, logo'
               />

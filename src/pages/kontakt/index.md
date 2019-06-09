@@ -2,7 +2,7 @@
 templateKey: contact-page
 title: Kontakt
 slug: kontakt
-meta_title: "Kontakt| Klimatyzacje, Jakub Traczyk"
+meta_title: JTLS | Kontakt
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

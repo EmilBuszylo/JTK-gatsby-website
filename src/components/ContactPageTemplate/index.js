@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React, { Component } from 'react'
+import Helmet from 'react-helmet'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-import Hero from '../Hero';
-import ContactForm from '../ContactForm';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Hero from '../Hero'
+import ContactForm from '../ContactForm'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Divider = styled.hr`
   height: 1px;
@@ -20,7 +20,7 @@ const TagsSection = styled.section`
 export default class ContactPageTemplate extends Component {
   state = {
     topic: '',
-  };
+  }
 
   onTopicChange = e => {
     const value = e.target.value
@@ -28,7 +28,7 @@ export default class ContactPageTemplate extends Component {
     if (value === 'product') {
       this.setState(prevState => ({ topic: value }))
     }
-  };
+  }
 
   render () {
     const {
@@ -54,6 +54,7 @@ export default class ContactPageTemplate extends Component {
               topic={this.state.topic}
               onTopicChange={this.onTopicChange}
               threads={threads}
+              page='kontakt'
             />
           </div>
         </section>
@@ -103,7 +104,6 @@ export default class ContactPageTemplate extends Component {
 
 ContactPageTemplate.propTypes = {
   title: PropTypes.string,
-  subtitle: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
   contacts: PropTypes.array,
