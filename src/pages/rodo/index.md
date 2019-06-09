@@ -1,15 +1,13 @@
 ---
 templateKey: rodo-page
 title: Polityka RODO
-skug: rodo
 meta_title: RODO
 meta_description: |
   RODO-ochrona danych osobowych
 ---
-
 ## RODO
 
-**Administratorem Pana/Pani danych osobowych jest**: JTLS Technika s.c z siedzibą w Warszawie, ul. Pokorna 2/1050; 00-199 Warszawa; NIP: 525278523 REGON: 382903766; tel. ...............; e-mail: ................; ...................; (dalej JTLS albo Administrator).
+**Administratorem Pana/Pani danych osobowych jest**: JTLS Technika s.c z siedzibą w Warszawie, ul. Pokorna 2/1050; 00-199 Warszawa; NIP: 525278523 REGON: 382903766; tel. ...............; e-mail: ochronadanych@jtlsklima.pl; (dalej JTLS albo Administrator).
 
 **Ma Pan/Pani prawo dostępu do swoich danych, ich sprostowania, żądania ich usunięcia**, prawo ograniczenia przetwarzania i prawo przenoszenia danych. Przysługuje Pani/Panu prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2; 00-193 Warszawa; tel. 22 531 03 00), jeżeli dane są przetwarzane niezgodnie z wymogami prawnymi.
 
