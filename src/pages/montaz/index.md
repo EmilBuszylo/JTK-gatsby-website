@@ -27,7 +27,7 @@ Wszystkie ceny podanych urządzeń zawierają standardowy montaż.
 * połączenie obu jednostek przewodem sterującym
 * posadowienie jednostki zewnętrznej na specjalnej konstrukcji
 * wytworzenie próżni w instalacji chłodniczej
-* próba szczelności Azotem
+* próba szczelności 
 * napełnienie instalacji czynnikiem chłodniczym
 * sprawdzenie ciśnień w układzie
 * uruchomienie i test pracy klimatyzatora
