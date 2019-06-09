@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 25
+order: 24
 title: LG Multi Split
 meta_title: LG Multi Split
 slug: LG Multi Split
@@ -17,7 +17,7 @@ tags:
   - komfort
   - k  klimatyzacja
   - klima
-categories: multi-split
+categories: multi split
 producent: LG
 hotProductsSelect: nie
 images:
