@@ -9,6 +9,7 @@ meta_description: >-
 threads:
   - thread: Przegląd
   - thread: Awaria
+  - thread: Inne
 contacts:
   - contact: klimatyzacjeTraczyk@gmail.com
     type: mail

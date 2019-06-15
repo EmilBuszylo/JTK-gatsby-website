@@ -51,25 +51,6 @@ export default class ProductForm extends Component {
     }))
   }
 
-  mapFormTopics = data => {
-    switch (data.topic) {
-      case 'produkt':
-        data.topic = 'produkt'
-        return data
-      case 'Usterki/problemy':
-        data.topic = 'awaria'
-        return data
-      case 'Obsługa':
-        data.topic = 'przeglad'
-        return data
-      case 'Inne':
-        data.topic = 'inne'
-        return data
-      default:
-        break
-    }
-  }
-
   onSubmit = (e, formData) => {
     e.preventDefault()
     axios.defaults.headers.post['Content-Type'] =

@@ -34,28 +34,6 @@ export default class ContactForm extends Component {
     }
   }
 
-  mapFormTopics = data => {
-    switch (data.topic) {
-      case 'produkt':
-        data.topic = 'produkt'
-        return data
-      case 'Usterki/problemy':
-        data.topic = 'awaria'
-        return data
-      case 'Obsługa':
-        data.topic = 'przeglad'
-        return data
-      case 'Inne':
-        data.topic = 'inne'
-        return data
-      case 'Przegląd':
-        data.topic = 'przeglad'
-        return data
-      default:
-        break
-    }
-  }
-
   onSubmit = (e, formData) => {
     const { threads } = this.props
     e.preventDefault()
@@ -64,7 +42,6 @@ export default class ContactForm extends Component {
 
     let data = formData
     data.page = this.props.page
-    this.mapFormTopics(data)
 
     axios({
       method: 'post',

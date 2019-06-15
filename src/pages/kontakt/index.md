@@ -9,8 +9,8 @@ meta_description: >-
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
 threads:
-  - thread: Obsługa
-  - thread: Usterki/problemy
+  - thread: Przegląd
+  - thread: Awaria
   - thread: Inne
 contacts:
   - contact: klimatyzacjeTraczyk@gmail.com
