@@ -3,13 +3,12 @@ templateKey: contact-page
 title: Kontakt
 meta_title: JTLS | Kontakt
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Skontaktuj się z nami w sprawie serwisu, doboru i montażu klimatyzacji do
+  swojego domu i biura w Warszawie i okolicach. Oględziny i wycenę wykonamy
+  bezpłatnie w promieniu 20km od Warszawy. 
 threads:
-  - thread: Obsługa
-  - thread: Usterki/problemy
+  - thread: Produkt
+  - thread: Awarie/przeglądy
   - thread: Inne
 contacts:
   - contact: biuro@jtlsklima.pl
