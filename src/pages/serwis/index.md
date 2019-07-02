@@ -1,29 +1,28 @@
 ---
 templateKey: service-page
 title: Serwis
-slug: serwis
 meta_title: JTLS serwis | Serwis naszych klimatyzacji
 meta_description: >-
   Serwis klimatyzacji - skuteczny, bezproblemowy i szybki serwis klimatyzacji
-  przez firmę JTLS
+  przez firmę JTLS Technika s.c. Skontaktuj się z nami poprzez formularz
+  kontaktowy.
 threads:
   - thread: Przegląd
   - thread: Awaria
   - thread: Inne
 contacts:
-  - contact: klimatyzacjeTraczyk@gmail.com
+  - contact: serwis@jtlsklima.pl
     type: mail
-  - contact: 777 666 777
+  - contact: 883 779 380
     type: phone
 ---
-
 ## Serwis - w czym możemy pomóc ?
 
 Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie.
 
 W zakres czynności serwisowych wchodzi:
 
-1. Sprawdzenie parametrów pracy układu (pomiar ciśnień i temperatur w układzie)
+1. Sprawdzenie parametrów pracy układu 
 2. Sprawdzenie ewentualnych nieszczelności
 3. Wyczyszczenie skraplacza (agregatu) - ważne dla wydajności urządzenia
 4. Wyczyszczenie filtrów jednostki wewnętrznej
@@ -38,7 +37,7 @@ Umów się na przegląd za pomocą formularza kontaktowego.
 
 Ceny przeglądów:
 
-- przegląd gwarancyjny 140zł netto/jednostka
-- przegląd pogwarancyjny 250zł netto/jednostka
-- przyjazd serwisu do diagnozy awarii (pogwarancyjne) 150zł netto
-- przejęcie gwarancji - cena do uzgodnienia w zależności od wielkości i stanu urządzenia
+* przegląd gwarancyjny 140zł netto/jednostka
+* przegląd pogwarancyjny 250zł netto/jednostka
+* przyjazd serwisu do diagnozy awarii (pogwarancyjne) 150zł netto
+* przejęcie gwarancji - cena do uzgodnienia w zależności od wielkości i stanu urządzenia
