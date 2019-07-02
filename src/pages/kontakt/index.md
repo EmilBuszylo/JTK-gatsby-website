@@ -12,9 +12,9 @@ threads:
   - thread: Usterki/problemy
   - thread: Inne
 contacts:
-  - contact: klimatyzacjeTraczyk@gmail.com
+  - contact: biuro@jtlsklima.pl
     type: mail
-  - contact: 777 666 777
+  - contact: 883 779 380
     type: phone
 ---
 
