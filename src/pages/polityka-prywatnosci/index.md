@@ -13,7 +13,7 @@ Odwiedzając naszą stronę internetową, powierzasz Nam swoje dane osobowe do w
 
 Treść zapisów oparliśmy na **Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27.04.2016r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE** (dalej zwane „RODO”). W dalszej części będziemy konkretnie wskazywać przepisy prawne na których się opieramy. Dla Ciebie najważniejsze jest zapoznanie się z tymi zapisami, gdzie informujemy o podstawach prawnych przetwarzania danych osobowych, sposobach ich zbierania i wykorzystywania. 
 
-## Czym są dane osobowe? 
+## Czym są dane osobowe?
 
 Są to dane informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej. 
 
@@ -35,9 +35,9 @@ Jako Administrator Danych nie pozyskujemy, nie przetwarzamy i nie wykorzystujemy
 
 Waszym Administratorem danych osobowych jest firma JTLS Technika s.c. z siedzibą w Warszawie przy ul. Pokornej 2/1050, 00-199 Warszawa; NIP 5252785523, REGON 382903766.
 
-Kontakt z Nami, Administratorem, jest możliwy poprzez adres korespondencyjny – JTLS Technika s.c. z siedzibą w Warszawie przy ul. Pokornej 2/1050, 00-199 Warszawa jak również poprzez adres e-mail biuro@jtlsklima.pl
+Kontakt z Nami, Administratorem, jest możliwy poprzez adres korespondencyjny – JTLS Technika s.c. z siedzibą w Warszawie przy ul. Pokornej 2/1050, 00-199 Warszawa jak również poprzez adres e-mail  **ochronadanych@jtlsklima.pl**
 
-Dbanmy o to, by dane były zbierane tylko w zakresie niezbędnym do wskazanego celu i tylko przez okres w jakim jest to niezbędne.
+Dbamy o to, by dane były zbierane tylko w zakresie niezbędnym do wskazanego celu i tylko przez okres w jakim jest to niezbędne.
 
 ## Rodzaj danych osobowych
 
@@ -49,7 +49,7 @@ W pozostałym zakresie podanie danych jest dobrowolne, jednakże w zależności 
 
 ## Zakres, okres i cele przetwarzania danych osobowych
 
-Przetwarzamy Wasze dane osobowe w zakresie: imię, nazwisko , adres poczty elektronicznej, adres korespondencyjny, numer telefonu/faxu, treści wiadomości zarządzania stroną www w zakresie adresu IP. Informacje, które gromadzimy w związku z korzystaniem z naszych usług, mogą być przetwarzane w sposób zautomatyzowanym (w tym w formie profilowania), jednakże nie będzie to pociągało osoby fizycznej do żanych skutków prawnych lub w podobny sposób istotnie wpływać na jej sytuację. W przypadku profilowania wskazujemy, że:
+Przetwarzamy Wasze dane osobowe w zakresie: imię, nazwisko , adres poczty elektronicznej, adres korespondencyjny, numer telefonu/faxu, treści wiadomości zarządzania stroną www w zakresie adresu IP. Informacje, które gromadzimy w związku z korzystaniem z naszych usług, mogą być przetwarzane w sposób zautomatyzowanym (w tym w formie profilowania), jednakże nie będzie to pociągało osoby fizycznej do żadnych skutków prawnych lub w podobny sposób istotnie wpływać na jej sytuację. W przypadku profilowania wskazujemy, że:
 
 •	na potrzeby profilowania nie przetwarzamy żadnych danych sensytywnych,
 
@@ -67,7 +67,7 @@ W pozostałym zakresie podanie danych jest dobrowolne, jednakże w zależności 
 
 \- analizy profilu osób odwiedzających Naszą stronę www, pod kryterium  płci, wieku, czy regionu do którego dotarliśmy
 
-\- analizy działania serwera strony i ewentualnych awaii 
+\- analizy działania serwera strony i ewentualnych awarii 
 
 \- dostosowania treści strony dla preferencji użytkownika
 
@@ -111,7 +111,7 @@ Okres przetwarzania może być przedłużony w granicach prawa w przypadku, gdy 
 
 Po okresie przetwarzania dane będą usuwane lub zanonimizowane.
 
-## Cookies 
+## Cookies
 
 Pliki Cookies (ciasteczka) to mały fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z powrotem przy następnych wejściach na witrynę. Używane jest głównie do utrzymywania sesji np. poprzez wygenerowanie i odesłanie tymczasowego identyfikatora po logowaniu. Może być jednak wykorzystywane szerzej poprzez zapamiętanie dowolnych danych, które można zakodować jako ciąg znaków. Dzięki temu użytkownik nie musi wpisywać tych samych informacji za każdym razem, gdy powróci na tę stronę lub przejdzie z jednej strony na inną
 
@@ -153,7 +153,7 @@ i przedstawicielom, którzy muszą mieć do nich dostęp, aby przetwarzać je na
 
 z zakończeniem współpracy.
 
-## Skargi, pytania 
+## Skargi, pytania
 
 Wszelkie pytania, skargi, wątpliwości dotyczące treści niniejszej Polityki prywatności należy kierować na adres **ochronadanych@jtlsklima.pl** lub pisemnie na adres
 
