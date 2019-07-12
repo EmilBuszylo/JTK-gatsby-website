@@ -1,16 +1,20 @@
 ---
 templateKey: article-page
-meta_title: Nowy testowy wpis
-meta_description: Nowy testowy wpis
-title: Nowy testowy wpis
-slug: nowy-testowy-wpis
-date: 2019-02-02T12:23:17.511Z
-cover: /img/klimatyzacja.png
-order: 2
+order: 1
+title: Jak dobrać klimatyzację do swojego domu?
+meta_title: 'Jak dobrać klimatyzację? '
+meta_description: >-
+  Dzisiejszy wpis ma na celu wskazanie kilku punktów, które jasno pozwolą na
+  samodzielny dobór mocy i rodzaju klimatyzatora dla Waszego domu. Zachęcam do
+  lektury. 
+slug: jak-dobrać-klimatyzację
+date: 2019-07-12T11:16:00.000Z
+cover: /img/ftxa-at_ip_1.jpg
 tags:
   - wpis
 ---
+Cześć!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a accumsan est, nec dignissim purus. Nam a ultrices magna, sit amet interdum libero. Quisque tincidunt finibus accumsan. Duis euismod semper nibh in imperdiet. Fusce ac porta mauris. Integer eu nibh sed velit dignissim imperdiet. Sed molestie viverra augue vel consequat. Pellentesque sodales lectus tortor.
+Coraz cieplejsze lata, większa zamożność polaków, a także gigantyczne okna w nowych mieszkaniach sprawiają, że klimatyzacja powoli staje się standardem. Kiedyś dobro luksusowe, zarezerwowane dla najbogatszych, dziś jest w zasięgu dla każdego 'Kowalskiego'. 
 
-Etiam in elit quis sem consectetur cursus sit amet a ligula. Etiam blandit ante suscipit consequat eleifend. Cras mi sem, consectetur ac venenatis quis, malesuada ac nulla. Nam est velit, sollicitudin ac pulvinar ac, vehicula sed nunc. Maecenas sed ligula at dui tristique vulputate. Praesent dapibus elit tellus, in dignissim arcu pharetra convallis. Vestibulum dignissim maximus arcu, eget faucibus nulla laoreet id. Vestibulum mollis enim a efficitur aliquet. Nam eleifend eros a eros imperdiet, eu tincidunt ligula pulvinar. Donec non condimentum sem, vel pretium lacus. Phasellus volutpat vestibulum ultrices. Nunc pharetra efficitur rutrum. Sed lobortis turpis sed imperdiet venenatis. Etiam nisl mauris, finibus sodales ultricies ac, congue non dolor. Nullam dapibus, nisl id tincidunt congue, felis lorem malesuada mi, placerat fermentum tellus elit sit amet nulla.
+Stając przed wyborem klimatyzatora należy zastanowić się nad kilkoma ważnymi punktami, które wpływają nie tylko
