@@ -27,11 +27,11 @@ images:
     image: /img/daiseikai-9_1.jpg
 version:
   - power: '2,5kW'
-    price: od 8347
+    price: 'od 8347,00'
   - power: '3,5kW'
-    price: od 8782
+    price: 'od 8782,00'
   - power: '4,5kW'
-    price: od 10100
+    price: 'od 10100,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
