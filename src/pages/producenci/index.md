@@ -24,6 +24,14 @@ producents:
       pracy.
     link: 'https://pl.mitsubishielectric.com/pl/index.page'
     name: Mitsubishi
+  - cover: /img/toshiba-eps-vector-logo.png
+    description: >-
+      Japońska solidność - kolejny producent z kraju kwitnącej wiśni. Świetny
+      stosunek ceny do jakości. W produktach tego producenta trudno szukać
+      wyszukanych kształtów czy kolorów, ale jeżeli cenisz solidność i technikę
+      to są to produkty dla Ciebie.
+    link: 'https://www.toshiba-hvac.pl/'
+    name: Toshiba
   - cover: /img/lg-logo.jpg
     description: >-
       Mocna, średnia półka - tym razem marka Koreańska, dająca dobre produkty o
@@ -41,14 +49,6 @@ producents:
       za niewielkie pieniądze.
     link: 'https://gree.pl/'
     name: Gree
-  - cover: /img/toshiba-eps-vector-logo.png
-    description: >-
-      Japońska solidność - kolejny producent z kraju kwitnącej wiśni. Świetny
-      stosunek ceny do jakości. W produktach tego producenta trudno szukać
-      wyszukanych kształtów czy kolorów, ale jeżeli cenisz solidność i technikę
-      to są to produkty dla Ciebie.
-    link: 'https://www.toshiba-hvac.pl/'
-    name: Toshiba
 ---
 
 ## Producenci - czyli z kim współpracujemy
