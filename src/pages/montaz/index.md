@@ -19,7 +19,7 @@ Wszystkie ceny podanych urządzeń zawierają standardowy montaż.
 * zasilanie wykonane jest z najbliższego gniazdka 230V
 * montaż nie uwzględnia wykonania bruzd
 
-**Co objęte jest standardowym montażem? **
+**Co objęte jest standardowym montażem?** 
 
 * zabezpieczenie miejsca wykonania prac (kartony, folie ochronne itp.)
 * wykonanie przebicia przez ścianę i zabezpieczenie jej
@@ -47,13 +47,15 @@ Montaże **NIESTANDARDOWE** wyceniane są indywidualnie w zależności od klimat
 
 **Usługi dodatkowe:**
 
-• Dodatkowy metr instalacji wraz z kablem oraz korytem – 80zł netto
+• Dodatkowy metr instalacji wraz z kablem oraz korytem – 100zł netto
 
 • Dodatkowy metr instalacji wraz z kablem bez koryta w bruździe – 60zł netto
 
 • Wykucie metra bruzdy w cegle w celu schowania instalacji w ścianę – 60zł netto
 
-• Wykucie metra bruzdy w betonie – 180zł netto
+• Wykucie metra bruzdy w betonie – 190zł netto
+
+• Przewiert przez ścianę żelbetową - 150zł netto 
 
 • Przeróbki elektryczne – do uzgodnienia na miejscu
 
@@ -67,19 +69,19 @@ Montaże **NIESTANDARDOWE** wyceniane są indywidualnie w zależności od klimat
 
 • Rusztowanie - do uzgodnienia
 
-• Dodatkowy przyjazd (montaż na dwa razy) - 100zł netto
+• Dodatkowy przyjazd (montaż na dwa razy) - 200zł netto
 
-• Demontaż klimatyzatora - 100 zł netto za jednostkę
+• Demontaż klimatyzatora - 200 zł netto za jednostkę
 
 • Prace na dachu / montaż z okna - 150 zł netto
 
-• Utylizacja urządzenia - 100zł netto
+• Utylizacja urządzenia - 200zł netto
 
 • Przegląd gwarancyjny urządzenia 140zł netto
 
 • Wszelkie naprawy budowlane należy wykonać we własnym zakresie.
 
-**Do powyższych cen należy dodać: **
+**Do powyższych cen należy dodać:** 
 
 • 8 % VAT dla klientów indywidualnych pod warunkiem montażu w domu o powierzchni do 300m2 lub w mieszkaniu w budownictwie zbiorowym do 150m2
 
