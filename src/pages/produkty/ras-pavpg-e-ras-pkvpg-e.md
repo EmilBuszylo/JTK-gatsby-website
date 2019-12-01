@@ -1,8 +1,8 @@
 ---
 templateKey: product-page
 order: 34
-title: RAS-PAVPG-E / RAS-PKVPG-E
-meta_title: TOSHIBA DAISEIKAI 9
+title: Toshiba Daiseikai 9
+meta_title: TOSHIBA DAISEIKAI 9 RAS-PAVPG-E / RAS-PKVPG-E
 slug: TOSHIBA DAISEIKAI 9
 meta_description: >-
   Toshiba Daiseikai 9, jednostka naścienna, klimatyzacja, komfort, montaż
