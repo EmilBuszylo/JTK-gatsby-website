@@ -21,12 +21,16 @@ tags:
   - cena/jakość
 categories: split
 producent: Gree
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
-  - image: /img/amber_standard_black_left-14.jpg
-  - image: /img/amber_standard_silver_front-13.jpg
-  - image: /img/amber_standard_silver_left-11-768x768.jpg
-  - image: /img/amber-standard-silver-black.png
+  - caption: Gree Amber Standard Black
+    image: /img/amber_standard_black_left-14.jpg
+  - caption: Gree Amber Standard Silver
+    image: /img/amber_standard_silver_front-13.jpg
+  - caption: Gree Amber Standard Silver
+    image: /img/amber_standard_silver_left-11-768x768.jpg
+  - caption: Gree Amber Standard Black Silver
+    image: /img/amber-standard-silver-black.png
 version:
   - power: '2,7 kW'
     price: 'od 3637,30 '
