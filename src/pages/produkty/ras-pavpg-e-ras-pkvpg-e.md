@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 18
+order: 34
 title: RAS-PAVPG-E / RAS-PKVPG-E
 meta_title: TOSHIBA DAISEIKAI 9
 slug: TOSHIBA DAISEIKAI 9
