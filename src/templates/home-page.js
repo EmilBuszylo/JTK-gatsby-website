@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import HomePageTemplate from '../components/HomePageTemplate'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import HomePageTemplate from '../components/HomePageTemplate';
 
 class HomePage extends Component {
-  render () {
-    const { frontmatter } = this.props.data.markdownRemark
-    const { pageContext } = this.props
+  render() {
+    const { frontmatter } = this.props.data.markdownRemark;
+    const { pageContext } = this.props;
+
+    const categories = pageContext.productCategories.filter(
+      (category, index) => {
+        let currentCategory = category.replace(' ', '-');
+
+        return pageContext.productCategories.indexOf(currentCategory) == index;
+      }
+    );
     return (
       <HomePageTemplate
         title={frontmatter.title}
@@ -17,9 +25,9 @@ class HomePage extends Component {
         bigImage={frontmatter.bigImage}
         slider_captions={frontmatter.slider_captions}
         hotProducts={pageContext.hotProducts}
-        categories={pageContext.productCategories}
+        categories={categories}
       />
-    )
+    );
   }
 }
 
@@ -29,9 +37,9 @@ HomePage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default HomePage
+export default HomePage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
@@ -54,4 +62,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

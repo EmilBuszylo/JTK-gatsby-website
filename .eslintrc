@@ -1,10 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "standard",
-    "standard-trailing-commas",
-    "standard-react"
-  ],
+  "extends": ["react-app"],
   "globals": {
     "graphql": true,
     "__PATH_PREFIX__": true
