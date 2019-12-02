@@ -1,6 +1,6 @@
-const config = require('./data/config')
+const config = require('./data/config');
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
   siteMetadata: {
@@ -11,7 +11,7 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/icons/icon-512x512.png`,
+      image_url: `${config.siteUrl + pathPrefix}/img/logo.png`,
       author: config.userName,
       copyright: config.copyright,
     },
@@ -87,7 +87,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: config.googleTagManagerID,
+        id: 'GTM-T5RMVJF',
         includeInDevelopment: false,
       },
     },
@@ -102,13 +102,8 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: `/icons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/icons/icon-512x512.png`,
-            sizes: `512x512`,
+            src: `/img/logo.png`,
+            sizes: `200x194`,
             type: `image/png`,
           },
         ],
@@ -118,11 +113,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = config.siteTitle
-          return ret
+        setup(ref) {
+          const ret = ref.query.site.siteMetadata.rssMetadata;
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.generator = config.siteTitle;
+          return ret;
         },
         query: `
                 {
@@ -143,8 +138,8 @@ module.exports = {
               `,
         feeds: [
           {
-            serialize (ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
+            serialize(ctx) {
+              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
               return ctx.query.allMarkdownRemark.edges
                 .filter(
                   edge => edge.node.frontmatter.templateKey === 'article-page'
@@ -158,7 +153,7 @@ module.exports = {
                   url: rssMetadata.site_url + edge.node.fields.slug,
                   guid: rssMetadata.site_url + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                }))
+                }));
             },
             query: `
                     {
@@ -207,4 +202,4 @@ module.exports = {
     },
     `gatsby-plugin-netlify`,
   ],
-}
+};

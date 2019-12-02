@@ -10,32 +10,29 @@ const ListBlock = styled.div`
   padding: 0 0 1rem 1rem;
   border-left: 1px solid #ebebeb;
   max-width: 15rem;
-`
+`;
 
 const ListTitle = styled.h4`
   background-color: #4ba4e7;
   color: #ffffff !important;
   padding: 1em;
   margin-bottom: 0 !important;
-`
+`;
 
 const Sidebar = ({ lastProducts, hotProducts }) => {
   return (
-    <section style={{maxWidth: '15rem'}}>
-      {/* <ListBlock>
-        Searcher
-      </ListBlock> */}
+    <section style={{ maxWidth: '15rem' }}>
       <ListBlock>
         <ListTitle className="title is-5">Polecane:</ListTitle>
-        <ProductsList products={hotProducts} condition='hot' itemsNum={3}/>
+        <ProductsList products={hotProducts} condition="hot" itemsNum={3} />
       </ListBlock>
       <ListBlock className="has-text-centered">
         <ListTitle className="title is-5">Najnowsze:</ListTitle>
-        <ProductsList products={lastProducts} condition='date' itemsNum={3}/>
+        <ProductsList products={lastProducts} condition="date" itemsNum={3} />
       </ListBlock>
     </section>
-  )
-}
+  );
+};
 
 Sidebar.propTypes = {
   lastProducts: PropTypes.array,
