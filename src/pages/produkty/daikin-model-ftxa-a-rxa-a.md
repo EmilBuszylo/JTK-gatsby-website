@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 8
+order: 3
 title: FTXA-AT - Daikin STYLISH - czarne drewno
 meta_title: Daikin model FTXA-A/RXA-A
 slug: daikin-model-ftxa-a-rxa-a
