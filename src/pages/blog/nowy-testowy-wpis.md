@@ -11,7 +11,17 @@ slug: jak-dobrać-klimatyzację
 date: 2019-12-04T19:00:00.000Z
 cover: /img/ftxa-at_ip_1.jpg
 tags:
-  - wpis
+  - klimatyzacja
+  - jak dobrać klimatyzację
+  - jaką klimatyzację wybrać
+  - blog
+  - porady
+  - klima
+  - komfort
+  - Daikin
+  - Mitsubishi
+  - Gree
+  - Toshiba
 ---
 Cześć!
 
@@ -39,8 +49,6 @@ Producent urządzenia. Producentów klimatyzacji jest bardzo dużo, szczególnie
 
 Czynników wyboru jest wiele, a zagłębiając się w szczegóły poszczególnych jednostek, można spędzić wiele godzin na analizach i dalej nie wiedzieć jakiego wyboru dokonać. Jeżeli jesteś w takiej sytuacji, warto skontaktować się z nami.  Chętnie doradzimy rozwiązanie dopasowane do Twoich potrzeb. 
 
-
-
 Pozdrawiam,
 
-JT
+J.
