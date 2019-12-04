@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 6
+order: 1
 title: FTXA-AW - Daikin STYLISH - biały
 meta_title: Daikin model FTXA-AW/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-bialy
@@ -17,7 +17,7 @@ tags:
   - klima
 categories: split
 producent: Daikin
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: klimatyzator Daikin FTXA–AW + RXA–A
     image: /img/stylish-aw-2.png
