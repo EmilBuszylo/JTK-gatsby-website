@@ -6,11 +6,11 @@ meta_description: >-
   najwyższa jakość usługi montażu klimatyzacji
 bigImage: /img/architektura.jpg
 slider_captions:
-  - caption: ''
-    title: Klimatyzacja z montażem 8% VAT
+  - caption: Zadzwoń i zapytaj o klimatyzację do swojego domu!
+    title: '603033183 '
   - caption: >-
-      Jednostka Stylish marki Daikin o mocy 2,5kW teraz w promocji - 8900 zł
-      netto z montażem!
+      Ceny posezonowe już w ofercie! Nie czekaj do lata, załóż klimatyzację już
+      dziś!
     title: Promocja
 offerings:
   blurbs:
