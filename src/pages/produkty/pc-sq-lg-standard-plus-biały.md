@@ -18,7 +18,7 @@ tags:
   - najlepsza klimatyzacja
 categories: split
 producent: LG
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: LG Standard Plus
     image: /img/standard-plus-3.png
