@@ -25,7 +25,7 @@ tags:
 ---
 Cześć!
 
-Coraz cieplejsze lata, większa zamożność polaków, a także gigantyczne okna w nowych mieszkaniach sprawiają, że klimatyzacja powoli staje się standardem. Kiedyś dobro luksusowe, zarezerwowane dla najbogatszych, dziś jest w zasięgu dla każdego. 
+Coraz cieplejsze lata, większa zamożność Polaków, a także gigantyczne okna w nowych mieszkaniach sprawiają, że klimatyzacja powoli staje się standardem. Kiedyś dobro luksusowe, zarezerwowane dla najbogatszych, dziś jest w zasięgu dla każdego. 
 
 Stając przed wyborem klimatyzatora należy zastanowić się nad kilkoma ważnymi punktami, które wpływają nie tylko na jego moc, ale także wyposażenie, a sumarycznie na jego cenę. 
 
