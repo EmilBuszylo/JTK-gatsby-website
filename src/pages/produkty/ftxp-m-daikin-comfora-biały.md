@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 2
+order: 7
 title: FTXP-M - Daikin COMFORA - biały
 meta_title: Daikin model FTXP-M/RXP-M
 slug: daikin-model-ftxp-l-rxp-l
