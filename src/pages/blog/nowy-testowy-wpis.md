@@ -35,4 +35,4 @@ Lokalizacja urządzenia. Klimatyzatora nie zamontujemy wszędzie, każdy produkt
 
 Punkt 4:
 
-Producent urządzenia. Producentów klimatyzacji jest bardzo dużo, szczególnie tych z Azji, którzy skutecznie opanowali rynek. Największe doświadczenie mają Japończycy, którzy od około 100lat zajmują się produkcją klimatyzatorów do domów. Producenci z Chin czy Korei Południowej, próbują odrobić lekcje i nadrobić lata doświadczenie w lepszy i gorszy sposób.
+Producent urządzenia. Producentów klimatyzacji jest bardzo dużo, szczególnie tych z Azji, którzy skutecznie opanowali rynek. Największe doświadczenie mają Japończycy, którzy od około 100lat zajmują się produkcją klimatyzatorów do domów. Producenci z Chin czy Korei Południowej, próbują odrobić lekcje i nadrobić lata doświadczenia kolegów z kraju kwitnącej wiśni.  Rynek klimatyzacji porównać można z rynkiem producentów samochodów. Są tu takie marki jak Daikin, Mitsubishi Electric, Fujitsu, Toshiba - czyli tak zwana górna półka, LG, Samsung - czyli teoretycznie średnia półka, Gree, Haier, Midea, MDV - czyli niższa półka
