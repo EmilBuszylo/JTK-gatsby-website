@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 1
+order: 8
 title: FTXC-B - Daikin Sensira Plus - biały
 meta_title: Daikin model FTXC-B/RXC-B
 slug: daikin-model-ftxc-b-rxc-b
@@ -30,7 +30,8 @@ images:
     image: /img/rxc.png
   - caption: Pilot do jednostki FTXC-B
     image: /img/pilot-ftxc.png
-  - image: /img/kk.png
+  - caption: dane techniczne
+    image: /img/kk.png
 version:
   - power: '2,0 kW'
     price: 'od 3460,00'
