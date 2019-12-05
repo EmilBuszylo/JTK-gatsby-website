@@ -24,16 +24,17 @@ categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - caption: test
+  - caption: Daikin Ururu Sarara
     image: /img/ururu-sarara-5-600x600.jpg
-  - image: /img/ururu-sarara-3.png
+  - caption: Daikin Ururu Sarara
+    image: /img/ururu-sarara-3.png
 version:
   - power: '2,5 kW'
-    price: 'od 8538,00'
+    price: 'od 8891,19'
   - power: '3,5 kW'
-    price: 'od 10645,00'
+    price: 'od 11101,86'
   - power: '5,0kW'
-    price: 'od 11316,00'
+    price: 'od 11805,25'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
