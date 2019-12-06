@@ -1,10 +1,10 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
-import PropTypes from 'prop-types'
-import Hero from '../Hero'
-import CategoriesBars from '../CategoryBars'
-import ProductCard from '../ProductCard'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Offerings from '../Offerings';
+import PropTypes from 'prop-types';
+import Hero from '../Hero';
+import CategoriesBars from '../CategoryBars';
+import ProductCard from '../ProductCard';
 
 const HomePageTemplate = ({
   title,
@@ -15,11 +15,12 @@ const HomePageTemplate = ({
   hotProducts,
   categories,
   bigImage,
+  contentComponent,
 }) => (
   <div>
     <Helmet>
       <title>{meta_title}</title>
-      <meta name='description' content={meta_description} />
+      <meta name="description" content={meta_description} />
     </Helmet>
     <Hero
       title={title}
@@ -30,20 +31,23 @@ const HomePageTemplate = ({
         elements: slider_captions,
       }}
     />
-    <section className='section'>
+    <section className="section">
       <div
-        className='container hot-products-container'
+        className="container hot-products-container"
         style={{ padding: '3rem 0' }}
       >
         <ProductCard products={hotProducts} isHot />
       </div>
     </section>
-    <section className='section' style={{ backgroundColor: '#dbe0e4' }}>
-      <Offerings gridItems={offerings.blurbs} />
+    <section className="section" style={{ backgroundColor: '#dbe0e4' }}>
+      <Offerings
+        gridItems={offerings.blurbs}
+        contentComponent={contentComponent}
+      />
     </section>
     <CategoriesBars categories={categories} />
   </div>
-)
+);
 
 HomePageTemplate.propTypes = {
   title: PropTypes.string,
@@ -55,6 +59,6 @@ HomePageTemplate.propTypes = {
   categories: PropTypes.array,
   hotProducts: PropTypes.array,
   bigImage: PropTypes.string,
-}
+};
 
-export default HomePageTemplate
+export default HomePageTemplate;

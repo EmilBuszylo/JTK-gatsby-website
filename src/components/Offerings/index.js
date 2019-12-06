@@ -1,22 +1,48 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled, { css } from 'styled-components';
 
-const Offerings = ({ gridItems }) => (
-  <div className='container hot-products-container'>
-    {gridItems.map((item, index) => (
-      <div className='section' key={item.text + index}>
-        <div className="columns is-tablet is-centered">
-          <div className="column is-three-quarters-desktop">
-            <p className="content">{item.text}</p>
+import Content from '../Content';
+
+const ContentBlock = styled.div`
+  flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')};
+  align-items: center;
+`;
+
+const ContentDivider = styled.div`
+  width: 90%;
+  height: 1px;
+  background: #aaa;
+  opacity: 0.9;
+  margin: 32px auto;
+`;
+
+const Offerings = ({ gridItems, contentComponent }) => {
+  const PageContent = contentComponent || Content;
+
+  return (
+    <div className="container hot-products-container">
+      {gridItems.map((item, index) => (
+        <>
+          <div className="section" key={item.text + index}>
+            <ContentBlock
+              reverse={index % 2 ? true : false}
+              className="columns is-tablet is-centered"
+            >
+              <div className="column is-three-quarters-desktop">
+                <PageContent className="content" content={item.text} />
+              </div>
+              <div className="column">
+                <img alt="" src={item.image} />
+              </div>
+            </ContentBlock>
           </div>
-          <div className="column">
-            <img alt='' src={item.image} />
-          </div>
-        </div>
-      </div>
-    ))}
-</div>
-)
+          {index === 0 && <ContentDivider />}
+        </>
+      ))}
+    </div>
+  );
+};
 
 Offerings.propTypes = {
   gridItems: PropTypes.arrayOf(
@@ -25,6 +51,6 @@ Offerings.propTypes = {
       text: PropTypes.string,
     })
   ),
-}
+};
 
 export default Offerings;

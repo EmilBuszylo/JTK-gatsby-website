@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import HomePageTemplate from '../components/HomePageTemplate';
+import { HTMLContent } from '../components/Content';
 
 class HomePage extends Component {
   render() {
@@ -26,6 +27,7 @@ class HomePage extends Component {
         slider_captions={frontmatter.slider_captions}
         hotProducts={pageContext.hotProducts}
         categories={categories}
+        contentComponent={HTMLContent}
       />
     );
   }
