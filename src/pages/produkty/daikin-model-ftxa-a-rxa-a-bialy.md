@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 6
+order: 1
 title: FTXA-AW - Daikin STYLISH - biały
 meta_title: Daikin model FTXA-AW/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-bialy
@@ -17,7 +17,7 @@ tags:
   - klima
 categories: split
 producent: Daikin
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: klimatyzator Daikin FTXA–AW + RXA–A
     image: /img/stylish-aw-2.png
@@ -28,16 +28,16 @@ images:
   - caption: Inteligentne oko
     image: /img/stylish-aw-4.png
 version:
-  - power: 2 kW
-    price: 'od 6813,00'
+  - power: '2,0 kW'
+    price: 'od 7082,46'
   - power: '2,5 kW'
-    price: 'od 7135,00'
+    price: 'od 7420,45'
   - power: '3,4 kW'
-    price: 'od 7797,00'
+    price: 'od 8114,71'
   - power: '4,2 kW'
-    price: 'od 11072,00'
+    price: 'od 11549,47'
   - power: '5,0 kW'
-    price: 'od 12030,00'
+    price: 'od 12554,32'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

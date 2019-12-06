@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-order: 7
+order: 2
 title: 'FTXA-AS - Daikin STYLISH - srebrny '
 meta_title: Daikin model FTXA-AS/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-srebrny
@@ -27,15 +27,15 @@ images:
     image: /img/ftxa-as-rxa-a_product-flyer_ecpen18-051_english-page-001.jpg
 version:
   - power: '2,0 kW'
-    price: 'od 7057,00'
+    price: 'od 7338,24'
   - power: '2,5 kW'
-    price: 'od 7379,00'
+    price: 'od 7676,23'
   - power: '3,4 kW'
-    price: 'od 8119,00'
+    price: 'od 8452,71'
   - power: '4,2 kW'
-    price: 'od 11394,00'
+    price: 'od 11887,47'
   - power: '5,0 kW'
-    price: 'od 12318,00'
+    price: 'od 12855,78'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
