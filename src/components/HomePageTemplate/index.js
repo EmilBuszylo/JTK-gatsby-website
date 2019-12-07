@@ -31,6 +31,12 @@ const HomePageTemplate = ({
         elements: slider_captions,
       }}
     />
+    <section
+      className="container"
+      style={{ marginBottom: '-3rem', padding: '3rem 1.5rem 0rem' }}
+    >
+      <h3 className="title is-2 has-text-centered">Polecane produkty</h3>
+    </section>
     <section className="section">
       <div
         className="container hot-products-container"
