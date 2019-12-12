@@ -62,7 +62,7 @@ export default class ProductForm extends Component {
 
     axios({
       method: 'post',
-      url: 'https://serwer1924674.home.pl/jtlsPhpMailer',
+      url: 'https://serwer1924674.home.pl/jtlsPhpMailer/index.php',
       data: qs.stringify(data),
       crossdomain: true,
       headers: { 'content-type': 'application/x-www-form-urlencoded' },

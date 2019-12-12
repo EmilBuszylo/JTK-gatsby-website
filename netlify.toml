@@ -1,3 +1,7 @@
+[[headers]]
+for = "/"
+[headers.values]
+Access-Control-Allow-Origin = "*"
 [build]
   publish = "public"
   command = "gatsby build"
