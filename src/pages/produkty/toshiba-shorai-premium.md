@@ -5,8 +5,9 @@ title: Toshiba Shorai Premium
 meta_title: TOSHIBA SHORAI PREMIUM
 slug: TOSHIBA SHORAI PREMIUM
 meta_description: >-
-  Toshiba Shorai Premium, jednostka naścienna, klimatyzacja, komfort, montaż
-  klimatyzacji, najlepsza klimatyzacja Warszawa.
+  Toshiba Shorai Premium to jeden z najwyższych modeli tego japońskiego
+  producenta. Jednostka naścienna klimatyzacji dająca komfort i oczyszczanie
+  powietrza. Estetyczny montaż klimatyzacji, najlepsza klimatyzacja w Warszawie.
 date: 2019-12-01T18:19:43.298Z
 cover: /img/ras_premium-shorai-ion_b-j2kvrg_closed-blue-led-left-side.png
 tags:
