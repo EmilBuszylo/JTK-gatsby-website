@@ -15,7 +15,7 @@ tags:
   - Multi
   - multi-split
   - komfort
-  - k  klimatyzacja
+  - klimatyzacja
   - klima
 categories: multi-split
 producent: LG
