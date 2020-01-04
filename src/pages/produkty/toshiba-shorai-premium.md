@@ -5,9 +5,10 @@ title: Toshiba Shorai Premium
 meta_title: TOSHIBA SHORAI PREMIUM
 slug: TOSHIBA SHORAI PREMIUM
 meta_description: >-
-  Toshiba Shorai Premium, jednostka naścienna, klimatyzacja, komfort, montaż
-  klimatyzacji, najlepsza klimatyzacja Warszawa.
-date: 2019-12-01T18:19:43.298Z
+  Toshiba Shorai Premium to jeden z najwyższych modeli tego japońskiego
+  producenta. Jednostka naścienna klimatyzacji dająca komfort i oczyszczanie
+  powietrza. Estetyczny montaż klimatyzacji, najlepsza klimatyzacja w Warszawie.
+date: 2020-01-04T09:37:43.298Z
 cover: /img/ras_premium-shorai-ion_b-j2kvrg_closed-blue-led-left-side.png
 tags:
   - Toshiba
@@ -39,40 +40,20 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-Jednostka ścienna Shorai Premium to jeden z najnowszych systemów Toshiba z czynnikiem chłodniczym R32, który stanowi doskonałe połączenie designu i technologii ze zwiększonym usuwaniem zanieczyszczeń z powietrza.
+Jednostka ścienna Shorai Premium to  jeden z najnowszych systemów Toshiba  z czynnikiem chłodniczym R32, który stanowi doskonałe połączenie designu i technologii ze zwiększonym usuwaniem zanieczyszczeń z powietrza.
 
-Wysoka wydajność energetyczna: A ++ w trybie chłodzenia
+Wysoka wydajność energetyczna: A ++ w trybie chłodzenia we wszystkich modelach, A + lub A ++ w trybie grzania.
 
-we wszystkich modelach, A + lub A ++ w trybie grzania.
+Funkcja plazmowego jonizatora poprawia jakość powietrza w pomieszczeniu usuwając nieprzyjemne zapachy, wychwytując i neutralizując bakterie, alergeny i wirusy.
 
-Funkcja plazmowego jonizatora poprawia jakość powietrza
+Nowoczesny, minimalistyczny design, dzięki któremu system dyskretnie wtapia się w wystrój wnętrz.
 
-w pomieszczeniu usuwając nieprzyjemne zapachy,
+Czerwone lub niebieskie kontrolki LED informujące o działaniu w trybie grzania lub chłodzenia.
 
-wychwytując i neutralizując bakterie, alergeny i wirusy.
+Funkcja Smart Airflow z możliwością ustawienia 6 kierunków nawiewu powietrza, użyteczna szczególnie w dużych pomieszczeniach (dostępna w wielkościach 18, 22 i 24).
 
-Nowoczesny, minimalistyczny design, dzięki któremu
+Możliwość demontażu tacy skroplin dla łatwiejszej konserwacji i utrzymania.
 
-system dyskretnie wtapia się w wystrój wnętrz.
+Zasilanie elektryczne do wyboru: poprzez jednostkę zewnętrzną lub wewnętrzną.
 
-Czerwone lub niebieskie kontrolki LED informujące
-
-o działaniu w trybie grzania lub chłodzenia.
-
-Funkcja Smart Airflow z możliwością ustawienia 6 kierunków
-
-nawiewu powietrza, użyteczna szczególnie w dużych
-
-pomieszczeniach (dostępna w wielkościach 18, 22 i 24).
-
-Możliwość demontażu tacy skroplin dla łatwiejszej
-
-konserwacji i utrzymania.
-
-Zasilanie elektryczne do wyboru: poprzez jednostkę
-
-zewnętrzną lub wewnętrzną.
-
-Możliwość zdalnego sterowania systemem za pośrednictwem
-
-Wi-Fi poprzez aplikację „Toshiba Home AC Control”.
+Możliwość zdalnego sterowania systemem za pośrednictwem Wi-Fi poprzez aplikację „Toshiba Home AC Control”.
