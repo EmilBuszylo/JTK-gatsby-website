@@ -18,8 +18,8 @@ offerings:
       text: >-
         **Montaż** - chyba najważniejszy element klimatyzacji. Prawidłowo
         przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
-        urządzeń. **JTLS** posiada niezbędne doświadczenie i uprawnienia do
-        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
+        urządzeń. **JTLS** **Technika s.c.** posiada niezbędne doświadczenie i
+        uprawnienia do montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
     - image: /img/pies-i-upal2662.jpg
       text: >-
         **Ceny** - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas,
