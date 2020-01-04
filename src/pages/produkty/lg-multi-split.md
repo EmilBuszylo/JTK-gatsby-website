@@ -15,13 +15,12 @@ tags:
   - Multi
   - multi-split
   - komfort
-  - k  klimatyzacja
+  - klimatyzacja
   - klima
-categories: multi split
+categories: multi-split
 producent: LG
 hotProductsSelect: nie
-images:
-  - {}
+images: []
 version:
   - power: '4,1 kW - 15,5 kW'
     price: Wycena indywidualna
