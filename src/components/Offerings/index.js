@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import Content from '../Content';
 
@@ -23,8 +23,8 @@ const Offerings = ({ gridItems, contentComponent }) => {
   return (
     <div className="container hot-products-container">
       {gridItems.map((item, index) => (
-        <>
-          <div className="section" key={item.text + index}>
+        <div key={item.text + index}>
+          <div className="section">
             <ContentBlock
               reverse={index % 2 ? true : false}
               className="columns is-tablet is-centered"
@@ -38,7 +38,7 @@ const Offerings = ({ gridItems, contentComponent }) => {
             </ContentBlock>
           </div>
           {index === 0 && <ContentDivider />}
-        </>
+        </div>
       ))}
     </div>
   );

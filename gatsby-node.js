@@ -1,10 +1,10 @@
-const _ = require('lodash')
-const path = require('path')
-const { createFilePath } = require('gatsby-source-filesystem')
-const createPaginatedPages = require('gatsby-paginate')
+const _ = require('lodash');
+const path = require('path');
+const { createFilePath } = require('gatsby-source-filesystem');
+const createPaginatedPages = require('gatsby-paginate');
 
 exports.createPages = ({ actions, graphql, arg }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
   return graphql(`
     {
@@ -39,16 +39,16 @@ exports.createPages = ({ actions, graphql, arg }) => {
     }
   `).then(result => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
+      result.errors.forEach(e => console.error(e.toString()));
+      return Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges;
     const blogPosts = result.data.allMarkdownRemark.edges.filter(
       edge =>
         edge.node.frontmatter.templateKey === 'article-page' ||
         edge.node.frontmatter.templateKey === 'article-page2'
-    )
+    );
     createPaginatedPages({
       edges: blogPosts,
       createPage: createPage,
@@ -56,16 +56,16 @@ exports.createPages = ({ actions, graphql, arg }) => {
       pageLength: 6, // This is optional and defaults to 10 if not used
       pathPrefix: 'blog', // This is optional and defaults to an empty string if not used
       context: {}, // This is optional and defaults to an empty object if not used
-    })
+    });
 
     const products = result.data.allMarkdownRemark.edges.filter(
       edge => edge.node.frontmatter.templateKey === 'product-page'
-    )
+    );
     createPaginatedPages({
       edges: products,
       createPage: createPage,
       pageTemplate: 'src/templates/products.js',
-      pageLength: 20, // This is optional and defaults to 10 if not used
+      pageLength: 21, // This is optional and defaults to 10 if not used
       pathPrefix: 'produkty', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
@@ -75,17 +75,19 @@ exports.createPages = ({ actions, graphql, arg }) => {
           )
           .slice(0, 4),
       }, // This is optional and defaults to an empty object if not used
-    })
+    });
 
     const productsByCategories = result.data.allMarkdownRemark.edges.filter(
-      edge => edge.node.frontmatter.templateKey === 'product-page'
-    )
+      edge =>
+        edge.node.frontmatter.templateKey === 'product-page' &&
+        edge.node.frontmatter.categories === 'split'
+    );
     createPaginatedPages({
       edges: productsByCategories,
       createPage: createPage,
       pageTemplate: 'src/templates/categories.js',
-      pageLength: 20, // This is optional and defaults to 10 if not used
-      pathPrefix: 'produkty/kategoria/:slug', // This is optional and defaults to an empty string if not used
+      pageLength: 21, // This is optional and defaults to 10 if not used
+      pathPrefix: 'produkty/kategoria/split', // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products
@@ -95,10 +97,32 @@ exports.createPages = ({ actions, graphql, arg }) => {
           .slice(0, 4),
         test: arg,
       }, // This is optional and defaults to an empty object if not used
-    })
+    });
+
+    const multiSplitproducts = result.data.allMarkdownRemark.edges.filter(
+      edge =>
+        edge.node.frontmatter.templateKey === 'product-page' &&
+        edge.node.frontmatter.categories === 'multi-split'
+    );
+    createPaginatedPages({
+      edges: multiSplitproducts,
+      createPage: createPage,
+      pageTemplate: 'src/templates/categories.js',
+      pageLength: 21, // This is optional and defaults to 10 if not used
+      pathPrefix: 'produkty/kategoria/multi-split', // This is optional and defaults to an empty string if not used
+      context: {
+        lastProducts: products.slice(0, 4),
+        hotProducts: products
+          .filter(
+            product => product.node.frontmatter.hotProductsSelect === 'tak'
+          )
+          .slice(0, 4),
+        test: arg,
+      }, // This is optional and defaults to an empty object if not used
+    });
 
     posts.forEach(edge => {
-      const id = edge.node.id
+      const id = edge.node.id;
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -118,30 +142,30 @@ exports.createPages = ({ actions, graphql, arg }) => {
             .filter(product => product.node.frontmatter.categories)
             .map((product, index) => product.node.frontmatter.categories)
             .reduce((a, b) => {
-              if (a.indexOf(b) < 0) a.push(b)
-              return a
+              if (a.indexOf(b) < 0) a.push(b);
+              return a;
             }, []),
           poductsTitleList: products.map(
             product => product.node.frontmatter.title
           ),
         },
-      })
-    })
+      });
+    });
 
     // Tag pages:
-    let tags = []
+    let tags = [];
     // Iterate through each post, putting all found tags into `tags`
     posts.forEach(edge => {
       if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
+        tags = tags.concat(edge.node.frontmatter.tags);
       }
-    })
+    });
     // Eliminate duplicate tags
-    tags = _.uniq(tags)
+    tags = _.uniq(tags);
 
     // Make tag pages
     tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
+      const tagPath = `/tags/${_.kebabCase(tag)}/`;
 
       createPage({
         path: tagPath,
@@ -149,20 +173,20 @@ exports.createPages = ({ actions, graphql, arg }) => {
         context: {
           tag,
         },
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
-}
+};

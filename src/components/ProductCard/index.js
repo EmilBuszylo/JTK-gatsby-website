@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import styled from 'styled-components'
+import React from 'react';
+import { Link } from 'gatsby';
+import styled from 'styled-components';
 
 const ProductsWrapper = styled.div`
   justify-content: ${props => props.justify || 'center'};
   @media (max-width: 1024px) {
     justify-content: center;
   }
-`
+`;
 
 const LinkButton = styled(Link)`
   background-color: ${props => props.theme.accentColor} !important;
@@ -22,11 +22,11 @@ const LinkButton = styled(Link)`
     color: #ffffff;
     border-color: transparent;
   }
-`
+`;
 
 const Card = styled.div`
   padding: 0.5rem;
-`
+`;
 
 const Column = styled.div`
   min-width: ${props => (props.isHot ? '15rem' : '14rem')};
@@ -35,7 +35,7 @@ const Column = styled.div`
   @media (max-width: 1024px) {
     width: 90%;
   }
-`
+`;
 
 const CardInformations = styled.div`
   height: 6rem;
@@ -45,7 +45,7 @@ const CardInformations = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-`
+`;
 
 const CardFooter = styled.footer`
   display: flex;
@@ -53,25 +53,25 @@ const CardFooter = styled.footer`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-`
+`;
 
 const NavLink = styled(Link)`
   color: #ff3860;
   margin-left: 0.3em;
   text-decoration: underline;
-`
+`;
 
 const StarDesc = styled.div`
   padding: 0.5rem 0.2rem;
   font-size: 0.8rem;
   text-align: left;
   border-top: 0.05rem solid rgba(219, 219, 219, 0.8);
-`
+`;
 
 const ProductCard = ({ products, isHot, justify }) => {
   return (
     <ProductsWrapper
-      className='columns is-mobile is-multiline'
+      className="columns is-mobile is-multiline"
       justify={justify || 'center'}
     >
       {products
@@ -84,26 +84,26 @@ const ProductCard = ({ products, isHot, justify }) => {
             key={
               product.frontmatter.title + product.frontmatter.version[0].price
             }
-            className='column is-narrow'
+            className="column is-narrow"
             isHot={isHot}
           >
-            <Card className='card'>
-              <header className='card-image'>
+            <Card className="card">
+              <header className="card-image">
                 <Link to={product.fields.slug}>
-                  <figure className='image is-2by1'>
+                  <figure className="image is-2by1">
                     <img
                       src={product.frontmatter.cover}
-                      alt='Placeholder image'
+                      alt="Placeholder image"
                     />
                   </figure>
                 </Link>
               </header>
               <CardInformations>
-                <h3 className='title is-6' style={{ margin: '.5rem 0' }}>
+                <h3 className="title is-6" style={{ margin: '.5rem 0' }}>
                   {product.frontmatter.title}
                 </h3>
                 <p
-                  className='title is-6 has-text-danger'
+                  className="title is-6 has-text-danger"
                   style={{ marginBottom: '.5rem' }}
                 >
                   {product.frontmatter.version[0].price} zł netto*
@@ -111,20 +111,20 @@ const ProductCard = ({ products, isHot, justify }) => {
               </CardInformations>
               <CardFooter>
                 <LinkButton
-                  className='button is-rounded has-text-centered'
+                  className="button is-rounded has-text-centered"
                   to={product.fields.slug}
                 >
                   Szczegóły →
                 </LinkButton>
                 <StarDesc>
-                  * ze standardowym <NavLink to='/montaz'> montażem</NavLink>
+                  * ze standardowym <NavLink to="/montaz"> montażem</NavLink>
                 </StarDesc>
               </CardFooter>
             </Card>
           </Column>
         ))}
     </ProductsWrapper>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;

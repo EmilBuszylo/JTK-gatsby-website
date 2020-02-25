@@ -73,7 +73,6 @@ export default class ProductForm extends Component {
         }
       })
       .catch(response => {
-        console.log(response);
         this.setState(prevState => ({ isSend: false, withError: true }));
       })
       .finally(() => {

@@ -58,7 +58,6 @@ export default class ContactForm extends Component {
         }
       })
       .catch(response => {
-        console.log(response);
         this.setState(prevState => ({ isSend: false, withError: true }));
       })
       .finally(() => {
