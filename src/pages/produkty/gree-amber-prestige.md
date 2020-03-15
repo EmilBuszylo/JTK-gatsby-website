@@ -19,7 +19,7 @@ tags:
   - Prestige
 categories: split
 producent: Gree
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: Gree Amber Prestige parametry
     image: /img/amber-prestige.png
