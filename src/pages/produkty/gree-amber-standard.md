@@ -20,7 +20,7 @@ tags:
   - Amber Standard
 categories: split
 producent: Gree
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: Gree Amber Standard
     image: /img/amber-standard.png
