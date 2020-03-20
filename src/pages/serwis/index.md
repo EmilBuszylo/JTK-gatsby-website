@@ -1,11 +1,11 @@
 ---
 templateKey: service-page
 title: Serwis
-meta_title: JTLS serwis | Serwis naszych klimatyzacji
+meta_title: Klimatyzacja Warszawa | Serwis naszych klimatyzacji
 meta_description: >-
-  Serwis klimatyzacji - skuteczny, bezproblemowy i szybki serwis klimatyzacji
-  przez firmę JTLS Technika s.c. Skontaktuj się z nami poprzez formularz
-  kontaktowy.
+  Serwis klimatyzacji Warszawa - skuteczny, bezproblemowy i szybki serwis
+  klimatyzacji przez firmę JTLS Technika s.c. Skontaktuj się z nami poprzez
+  formularz kontaktowy.
 threads:
   - thread: Przegląd
   - thread: Awaria
