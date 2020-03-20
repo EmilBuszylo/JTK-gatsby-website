@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-meta_title: Strona główna | JTLS
+meta_title: Klimatyzacja Warszawa | JTLS Technika s.c.
 meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji
