@@ -3,8 +3,8 @@ templateKey: services-page
 title: Usługi
 meta_title: Klimatyzacja Warszawa | Nasze usługi | Montaż klimatyzacji
 meta_description: >-
-  Montaż klimatyzacji - najtańszy i najlepszy montaż w Warszawie, najlepsza cena
-  na montaż klimatyzacji, super jakość za rozsądne pieniądze
+  Montaż klimatyzacji Warszawa - najtańszy i najlepszy montaż w Warszawie,
+  najlepsza cena na montaż klimatyzacji, super jakość za rozsądne pieniądze
 ---
 ## Usługi - czyli co dla Was możemy zrobić
 
