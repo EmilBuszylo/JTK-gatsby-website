@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: O firmie
-meta_title: O firmie | JTLS
+meta_title: Klimatyzacja Warszawa | JTLS Technika s.c.
 meta_description: >-
   Montaż klimatyzacji Warszawa, najlepsza klimatyzacja, systemy split i
   multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa jakość w dobrej
