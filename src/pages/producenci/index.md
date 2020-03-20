@@ -1,7 +1,7 @@
 ---
 templateKey: producents-page
 title: 'Producenci '
-meta_title: Producenci | Katalog producentów
+meta_title: Producenci | Klimatyzacja Warszawa
 meta_description: >-
   Katalog producentów - Montaż klimatyzacji Warszawa, najlepsza klimatyzacja,
   systemy split i multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa
