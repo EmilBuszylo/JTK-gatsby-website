@@ -17,7 +17,7 @@ tags:
   - ''
 categories: split
 producent: LG
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: Dane techniczne LG Artcool Mirror
     image: /img/lg-artcool-mirror-2.png
