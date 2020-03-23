@@ -19,18 +19,21 @@ categories: split
 producent: LG
 hotProductsSelect: nie
 images:
-  - image: /img/deluxe-2.png
-  - image: /img/deluxe.png
-  - image: /img/deluxe-4.jpg
+  - caption: LG Deluxe
+    image: /img/deluxe-2.png
+  - caption: LG Deluxe
+    image: /img/deluxe.png
+  - caption: LG Deluxe
+    image: /img/deluxe-4.jpg
 version:
   - power: '2,5 kW'
-    price: 'od 4045,60'
+    price: 'od 4756,00'
   - power: '3,5 kW'
-    price: 'od 4170,40'
+    price: 'od 4900,00'
   - power: '5,0 kW'
-    price: 'od 5356,00'
+    price: 'od 5980,00'
   - power: '6,0 kW'
-    price: 'od 6229,60'
+    price: 'od 6988,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
