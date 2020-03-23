@@ -8,9 +8,7 @@ bigImage: /img/architektura.jpg
 slider_captions:
   - caption: Zadzwoń i zapytaj o klimatyzację do swojego domu!
     title: 883 779 380
-  - caption: >-
-      Ceny posezonowe już w ofercie! Nie czekaj do lata, załóż klimatyzację już
-      dziś!
+  - caption: 'Promocyjne ceny tylko do końca marca!! Nie czekaj! '
     title: Promocja
 offerings:
   blurbs:
