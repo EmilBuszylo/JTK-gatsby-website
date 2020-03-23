@@ -30,9 +30,7 @@ Jonizator plazmowy to rodzaj wyładowania plazmowego, w którym elektrony o duż
 
 Masywne wyładowanie streamerów uderza w wirusy, rozkładając i fragmentując ich białka powierzchniowe, które są następnie niszczone przez utlenianie. Wyładowanie streamera rozkłada się następnie na bezpieczne atomy azotu i tlenu oraz cząsteczki wody.
 
-## 
-
-Przykłady wyników po rozkładzie
+## Przykłady wyników po rozkładzie
 
 Poniżej podano niektóre z nieprzyjemnych cząstek powstających w powietrzu, które często stanowią poważne zagrożenie dla zdrowia. Oczyszczacz powietrza lub klimatyzator je odfiltrowuje, naraża je na rozkład przez masowe wyładowanie strumieniowe i czyni powietrze bezpiecznym.
 
