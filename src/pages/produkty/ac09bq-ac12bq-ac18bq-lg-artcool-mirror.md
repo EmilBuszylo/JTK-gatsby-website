@@ -17,20 +17,21 @@ tags:
   - ''
 categories: split
 producent: LG
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: Dane techniczne LG Artcool Mirror
     image: /img/lg-artcool-mirror-2.png
-  - image: /img/lg-artcool-mirror.png
+  - caption: LG Artcool Mirror
+    image: /img/lg-artcool-mirror.png
 version:
   - power: '2,5kW'
-    price: 'od 4919,20'
+    price: 'od 5476,00'
   - power: '3,5kW'
-    price: 'od 5168,80'
+    price: 'od 5764,00'
   - power: '5,0kW'
-    price: 'od 5917,60'
+    price: 'od 6628,00'
   - power: '6,6kW'
-    price: 'od 6791,20'
+    price: 'od 7636,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
