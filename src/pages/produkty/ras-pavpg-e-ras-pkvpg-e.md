@@ -21,7 +21,7 @@ tags:
   - najlepsza klimatyzacja
 categories: split
 producent: Toshiba
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: Daiseikai 9
     image: /img/daiseikai-9_1.jpg
