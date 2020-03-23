@@ -18,14 +18,15 @@ categories: split
 producent: LG
 hotProductsSelect: nie
 images:
-  - image: /img/lg7170919fr-0.jpeg
+  - caption: LG Artcool Silver
+    image: /img/lg7170919fr-0.jpeg
 version:
   - power: '2,5kW'
-    price: 'od 4919,20'
+    price: 'od 5476,00'
   - power: '3,5kW'
-    price: 'od 5168,80'
+    price: 'od 5764,00'
   - power: '5,0kW'
-    price: 'od 5917,60'
+    price: 'od 6628,00'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
