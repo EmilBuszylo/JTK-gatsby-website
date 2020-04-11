@@ -33,13 +33,13 @@ images:
     image: /img/amber-standard-silver-black.png
 version:
   - power: '2,7 kW'
-    price: 'od 3637,30 '
+    price: 'od 3674,67'
   - power: '3,50 kW'
-    price: 'od 3785,70'
+    price: 'od 3905,22'
   - power: '5,30 kW'
-    price: 'od 4527,70'
+    price: 'od 4673,72'
   - power: '7,0 kW'
-    price: 'od 5121,30 '
+    price: 'od 5134,82'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
