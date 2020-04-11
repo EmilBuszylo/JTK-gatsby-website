@@ -7,7 +7,7 @@ slug: Gree Amber Standard
 meta_description: >-
   Klimatyzacja firmy Gree to komfort w dobrej cenie, ciche i niezawodne
   urządzenia. Klimatyzator Amber Standard to jedno z najlepszych urządzeń firmy
-  Gree. 
+  Gree.  Najlepszy montaż klimatyzacji w Warszawie. 
 date: 2019-05-28T19:07:28.788Z
 cover: >-
   /img/gree-amber-inverter-2-7-kw-klima-szett-a-gwh09yc-k6dna1a-wifi-3d-legaram-a32.jpg
@@ -26,13 +26,13 @@ images:
     image: /img/amber-standard.png
 version:
   - power: '2,7 kW'
-    price: 'od 3488,90'
+    price: 'od 3674,67'
   - power: '3,5 kW'
-    price: 'od 3711,50'
+    price: 'od 3905,22'
   - power: '5,3 kW'
-    price: 'od 4453,50 '
+    price: 'od 4673,72'
   - power: '7,0 kW'
-    price: 'od 4972,90 '
+    price: 'od 5134,82'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
