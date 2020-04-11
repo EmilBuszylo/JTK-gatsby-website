@@ -19,16 +19,17 @@ categories: split
 producent: Gree
 hotProductsSelect: nie
 images:
-  - image: /img/bora.png
+  - caption: Gree Bora
+    image: /img/bora.png
 version:
   - power: '2,5 kW'
-    price: 'od 2924,98'
+    price: 'od 3102,06'
   - power: '3,2 kW'
-    price: 'od 3073,38'
+    price: 'od 3252,86'
   - power: '4,6 kW'
-    price: 'od 3889,58'
+    price: 'od 4257,66'
   - power: '6,16 kW'
-    price: 'od 4557,38'
+    price: 'od 4710,06'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
