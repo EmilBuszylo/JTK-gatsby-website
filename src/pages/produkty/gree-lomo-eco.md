@@ -19,17 +19,19 @@ categories: split
 producent: Gree
 hotProductsSelect: nie
 images:
-  - image: /img/lomo-eco.png
-  - image: /img/lomo-economic-1-ico.jpg
+  - caption: Gree Lomo Eco
+    image: /img/lomo-eco.png
+  - caption: Gree Lomo Eco
+    image: /img/lomo-economic-1-ico.jpg
 version:
   - power: '2,6 kW'
-    price: 'od 2850,78'
+    price: 'od 2951,26'
   - power: '3,2 kW'
-    price: 'od 2999,18'
+    price: 'od 3102,06'
   - power: '4,6 kW'
-    price: 'od 3741,18'
+    price: 'od 3956,06'
   - power: '6,16 kW'
-    price: 'od 4408,98'
+    price: 'od 4634,66'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
