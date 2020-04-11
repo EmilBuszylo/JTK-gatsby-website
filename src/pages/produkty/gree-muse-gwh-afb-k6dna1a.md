@@ -19,17 +19,19 @@ categories: split
 producent: Gree
 hotProductsSelect: nie
 images:
-  - image: /img/muse-front.jpg
-  - image: /img/muse.png
+  - caption: Gree Muse
+    image: /img/muse-front.jpg
+  - caption: Gree Muse
+    image: /img/muse.png
 version:
   - power: '2,5 kW'
-    price: 'od 3073,38 '
+    price: 'od 3136,72'
   - power: '3,2 kW'
-    price: 'od 3221,78'
+    price: 'od 3290,42'
   - power: '4,6 kW'
-    price: 'od 4114,18'
+    price: 'od 4212,62'
   - power: '6,16 kW'
-    price: 'od 4631,58'
+    price: 'od 4673,72'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
