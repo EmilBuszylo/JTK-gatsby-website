@@ -20,15 +20,17 @@ categories: split
 producent: Gree
 hotProductsSelect: nie
 images:
-  - image: /img/u-crown-3-ico.jpg
-  - image: /img/u-crown.png
+  - caption: Gree U-Crown
+    image: /img/u-crown-3-ico.jpg
+  - caption: Gree U-Crown
+    image: /img/u-crown.png
 version:
   - power: '2,6 kW'
-    price: 'od 5003,00'
+    price: 'od 4845,25'
   - power: '3,5 kW'
-    price: 'od 5213,00'
+    price: 'od 5135,25'
   - power: '5,3 kW'
-    price: 'od 5423,00'
+    price: 'od 5352,75'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
