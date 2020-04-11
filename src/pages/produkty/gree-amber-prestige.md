@@ -7,7 +7,7 @@ slug: 'Gree Amber Prestige '
 meta_description: >-
   Klimatyzacja firmy Gree to komfort w dobrej cenie, ciche i niezawodne
   urządzenia. Klimatyzator Amber Prestige to najwyższej klasy urządzenie firmy
-  Gree. 
+  Gree. Najlepszy montaż klimatyzacji Warszawa. 
 date: 2019-05-27T19:33:45.592Z
 cover: /img/gree-gwh09yd-1200x700.jpg
 tags:
@@ -29,13 +29,13 @@ images:
     image: /img/gree-gwh09yd-auto_width_1000.jpg
 version:
   - power: '2,7 kW'
-    price: 'od 4676,10 '
+    price: 'od 4835,10 '
   - power: '3,53 kW'
-    price: 'od 4898,70'
+    price: 'od 5065,65'
   - power: '5,30 kW'
-    price: 'od 5269,70'
+    price: 'od 5603,60'
   - power: '7,03 kW'
-    price: 'od 5640,70'
+    price: 'od 6064,70'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
