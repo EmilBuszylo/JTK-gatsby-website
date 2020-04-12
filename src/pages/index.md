@@ -8,8 +8,8 @@ bigImage: /img/shutterstock_1527211334_16_9_compressed.jpg
 slider_captions:
   - caption: Zadzwoń i zapytaj o klimatyzację do swojego domu!
     title: 883 779 380
-  - caption: Nie czekaj na upały! Zadzwoń już dziś!
-    title: Promocja
+  - caption: Zadzwoń już dziś!
+    title: 'Nie czekaj na upały! '
 offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg
