@@ -4,7 +4,7 @@ meta_title: Klimatyzacja Warszawa | JTLS Technika s.c.
 meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji.
-bigImage: /img/shutterstock_1527211334_custom.jpg
+bigImage: /img/shutterstock_1527211334_16_9_compressed.jpg
 slider_captions:
   - caption: Zadzwoń i zapytaj o klimatyzację do swojego domu!
     title: 883 779 380
