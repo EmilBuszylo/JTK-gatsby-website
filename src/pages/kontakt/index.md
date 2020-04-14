@@ -1,7 +1,7 @@
 ---
 templateKey: contact-page
 title: Kontakt
-meta_title: JTLS | Kontakt
+meta_title: Klimatyzacja Warszawa | Kontakt
 meta_description: >-
   Skontaktuj się z nami w sprawie serwisu, doboru i montażu klimatyzacji do
   swojego domu i biura w Warszawie i okolicach. Oględziny i wycenę wykonamy
