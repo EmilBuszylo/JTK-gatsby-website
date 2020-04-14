@@ -14,18 +14,18 @@ offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg
       text: >-
-        **Montaż - chyba najważniejszy element klimatyzacji. Prawidłowo
+        Montaż - chyba najważniejszy element klimatyzacji. Prawidłowo
         przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
         urządzeń. Nasza firma posiada niezbędne doświadczenie i uprawnienia do
-        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.**
+        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
 
 
-        **Zapraszamy do kontaktu** <https://jtlsklima.pl/kontakt>
+        Zapraszamy do kontaktu <https://jtlsklima.pl/kontakt>
     - image: /img/pies-i-upal2662.jpg
       text: >-
-        **Ceny - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego
+        Ceny - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego
         podajemy ceny przy każdym produkcie. Uwzględniają one standardowy
-        montaż, którego opis znajdziesz pod linkiem**
+        montaż, którego opis znajdziesz pod linkiem
         <https://jtlsklima.pl/montaz>
 ---
 
