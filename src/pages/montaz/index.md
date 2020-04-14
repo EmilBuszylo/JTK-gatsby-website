@@ -6,7 +6,7 @@ meta_description: >-
   Montaż klimatyzacji Warszawa - skuteczny, bezproblemowy i szybki montaż
   klimatyzacji przez firmę JTLS Technika s.c.
 ---
-![](/img/shutterstock_1289075521_copress_webpage.jpg)
+![](/img/shutterstock_1289075521-min.jpg)
 
 ## Montaż - szybko i skutecznie
 
