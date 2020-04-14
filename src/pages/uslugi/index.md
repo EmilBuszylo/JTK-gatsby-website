@@ -6,6 +6,8 @@ meta_description: >-
   Montaż klimatyzacji Warszawa - najtańszy i najlepszy montaż w Warszawie,
   najlepsza cena na montaż klimatyzacji, super jakość za rozsądne pieniądze
 ---
+![](/img/shutterstock_1527211334_16_9_compressed.jpg)
+
 ## Usługi - czyli co dla Was możemy zrobić
 
 Zajmujemy się, przede wszystkim, montażem klimatyzacji na terenie Warszawy i jej okolic. Zanim jednak zamontujemy urządzenie, doradzamy w prawidłowym wyborze urządzeń. Staramy się odpowiedzieć na Wasze potrzeby i skierować na produkt spełniający Wasze wymagania.
