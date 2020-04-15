@@ -1,73 +1,20 @@
-import React from 'react';
-import { Link, graphql, StaticQuery } from 'gatsby';
-import SearchBox from '../SearchBox';
-import styled from 'styled-components';
-import Logo from '../../../static/img/logo.png';
-
-const NavBarWrapper = styled.nav`
-  background-color: #389ae5 !important;
-  z-index: 110 !important;
-`;
-
-const DropdownItem = styled.a`
-  color: #fff !important;
-
-  &:hover {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`;
-
-const DropdownSubItem = styled(Link)`
-  color: #fff !important;
-
-  &:hover {
-    background-color: ${props => props.theme.accentColor} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-
-  &:focus {
-    background-color: ${props => props.theme.accentColor} !important;
-    color: #ffffff !important;
-    border-color: transparent !important;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`;
-
-const NavbarItem = styled(Link)`
-  color: #fff !important;
-  &:hover {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-  &:focus {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff !important;
-    border-color: transparent !important;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`;
-
-const LogoItem = styled.img`
-  max-height: 3rem !important;
-`;
-
-const Dropdown = styled.div`
-  background-color: ${props => props.theme.accentColorHover} !important;
-  @media (max-width: 1024px) {
-    background-color: #fff !important;
-  }
-`;
+import React from "react";
+import { Link, graphql, StaticQuery } from "gatsby";
+import SearchBox from "../SearchBox";
+import Logo from "../../../static/img/logo.png";
+import {
+  NavBarWrapper,
+  Container,
+  NavbarBand,
+  NavbarEnd,
+  NavbarItem,
+  NavbarLink,
+  NavbarMenu,
+  LogoItem,
+  Dropdown,
+  DropdownItem,
+  DropdownSubItem,
+} from "./styled";
 
 const NavBar = ({ toggleNavbar, isActive }) => (
   <StaticQuery
@@ -83,16 +30,25 @@ const NavBar = ({ toggleNavbar, isActive }) => (
         className="navbar is-fixed-top"
         aria-label="main navigation"
       >
-        <section className="container">
-          <div className="navbar-brand">
+        <Container className="container">
+          <NavbarBand className="navbar-brand">
             <Link to="/" className="navbar-item">
               <LogoItem
                 src={Logo}
                 alt="JTLS, klimatyzacje, systemy chłodnicze"
               />
             </Link>
+            <NavbarLink className="navbar-item" href="tel:+48883779380">
+              +48 883 779 380
+            </NavbarLink>
+            <NavbarLink
+              className="navbar-item"
+              href="mailto:biuro@jtlsklima.pl"
+            >
+              biuro@jtlsklima.pl
+            </NavbarLink>
             <button
-              className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
+              className={`button navbar-burger ${isActive ? "is-active" : ""}`}
               data-target="navMenu"
               onClick={toggleNavbar}
             >
@@ -100,12 +56,12 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               <span />
               <span />
             </button>
-          </div>
-          <div
-            className={`navbar-menu ${isActive ? 'is-active' : ''}`}
+          </NavbarBand>
+          <NavbarMenu
+            className={`navbar-menu ${isActive ? "is-active" : ""}`}
             id="navMenu"
           >
-            <div className="navbar-end">
+            <NavbarEnd className="navbar-end">
               <SearchBox searchIndex={data.siteSearchIndex.index} />
               <div className="navbar-item has-dropdown is-hoverable">
                 <DropdownItem className="navbar-item">Produkty</DropdownItem>
@@ -136,9 +92,9 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               <NavbarItem className="navbar-item" to="/kontakt">
                 Kontakt
               </NavbarItem>
-            </div>
-          </div>
-        </section>
+            </NavbarEnd>
+          </NavbarMenu>
+        </Container>
       </NavBarWrapper>
     )}
   />
