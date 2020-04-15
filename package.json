@@ -56,6 +56,7 @@
     "react-helmet": "^5.2.0",
     "react-image-lightbox": "^5.1.0",
     "react-light-carousel": "^1.2.1",
+    "react-markdown": "^4.3.1",
     "react-share": "^2.4.0",
     "styled-components": "^4.4.1",
     "uglifyjs-webpack-plugin": "^2.0.1"

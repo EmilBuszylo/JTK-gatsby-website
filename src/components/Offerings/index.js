@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
-import Content from '../Content';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { MdContent } from "../MdContent";
+import Content from "../Content";
 
 const ContentBlock = styled.div`
-  flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')};
+  flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")};
   align-items: center;
 `;
 
@@ -19,7 +19,7 @@ const ContentDivider = styled.div`
 
 const Offerings = ({ gridItems, contentComponent }) => {
   const PageContent = contentComponent || Content;
-
+  console.log(gridItems);
   return (
     <div className="container hot-products-container">
       {gridItems.map((item, index) => (
@@ -30,7 +30,7 @@ const Offerings = ({ gridItems, contentComponent }) => {
               className="columns is-tablet is-centered"
             >
               <div className="column is-three-quarters-desktop">
-                <PageContent className="content" content={item.text} />
+                <MdContent className="content" md={item.text} />
               </div>
               <div className="column">
                 <img alt="" src={item.image} />
