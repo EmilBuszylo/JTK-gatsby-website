@@ -5,7 +5,7 @@ meta_title: Klimatyzacja Warszawa | Kontakt
 meta_description: >-
   Skontaktuj się z nami w sprawie serwisu, doboru i montażu klimatyzacji do
   swojego domu i biura w Warszawie i okolicach. Oględziny i wycenę wykonamy
-  bezpłatnie w promieniu 20km od Warszawy. 
+  bezpłatnie w promieniu 20km od Warszawy.
 threads:
   - thread: Produkt
   - thread: Awarie/przeglądy
@@ -17,3 +17,6 @@ contacts:
     type: phone
 ---
 
+## Zapraszamy do kontaktu
+
+Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie.
