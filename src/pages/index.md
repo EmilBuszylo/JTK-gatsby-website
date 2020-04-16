@@ -10,6 +10,18 @@ slider_captions:
     title: 883 779 380
   - caption: Zadzwoń już dziś!
     title: "Nie czekaj na upały! "
+welcomeSections:
+  sections:
+    - title: Przykładowy tytuł sekcji
+      subtitle: Przykładowy podtytuł, który przeważnie zawiera trochę wiecej treści
+      buttonText: Sprawdź!
+      buttonLink: https://jtlsklima.pl/kontakt
+      isExternal: false
+      text: >-
+        **Montaż** - chyba najważniejszy element klimatyzacji. Prawidłowo
+        przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
+        urządzeń. Nasza firma posiada niezbędne doświadczenie i uprawnienia do
+        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
 offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg

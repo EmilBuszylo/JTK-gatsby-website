@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { MdContent } from "../MdContent";
-import Content from "../Content";
 
 const ContentBlock = styled.div`
   flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")};
@@ -18,7 +17,6 @@ const ContentDivider = styled.div`
 `;
 
 const Offerings = ({ gridItems, contentComponent }) => {
-  const PageContent = contentComponent || Content;
   console.log(gridItems);
   return (
     <div className="container hot-products-container">

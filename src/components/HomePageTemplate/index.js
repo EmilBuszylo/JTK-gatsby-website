@@ -1,10 +1,11 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import Offerings from '../Offerings';
-import PropTypes from 'prop-types';
-import Hero from '../Hero';
-import CategoriesBars from '../CategoryBars';
-import ProductCard from '../ProductCard';
+import React from "react";
+import Helmet from "react-helmet";
+import Offerings from "../Offerings";
+import PropTypes from "prop-types";
+import Hero from "../Hero";
+import CategoriesBars from "../CategoryBars";
+import ProductCard from "../ProductCard";
+import { WelcomeSection } from "../WelcomeSection";
 
 const HomePageTemplate = ({
   title,
@@ -16,6 +17,7 @@ const HomePageTemplate = ({
   categories,
   bigImage,
   contentComponent,
+  welcomeSections,
 }) => (
   <div>
     <Helmet>
@@ -31,21 +33,26 @@ const HomePageTemplate = ({
         elements: slider_captions,
       }}
     />
+    {welcomeSections &&
+      welcomeSections.sections.length > 0 &&
+      welcomeSections.sections.map(section => (
+        <WelcomeSection section={section} />
+      ))}
     <section
       className="container"
-      style={{ marginBottom: '-3rem', padding: '3rem 1.5rem 0rem' }}
+      style={{ marginBottom: "-3rem", padding: "3rem 1.5rem 0rem" }}
     >
       <h3 className="title is-2 has-text-centered">Polecane produkty</h3>
     </section>
     <section className="section">
       <div
         className="container hot-products-container"
-        style={{ padding: '3rem 0' }}
+        style={{ padding: "3rem 0" }}
       >
         <ProductCard products={hotProducts} isHot />
       </div>
     </section>
-    <section className="section" style={{ backgroundColor: '#dbe0e4' }}>
+    <section className="section" style={{ backgroundColor: "#dbe0e4" }}>
       <Offerings
         gridItems={offerings.blurbs}
         contentComponent={contentComponent}
@@ -61,6 +68,9 @@ HomePageTemplate.propTypes = {
   meta_description: PropTypes.string,
   offerings: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  welcomeSections: PropTypes.shape({
+    sections: PropTypes.array,
   }),
   categories: PropTypes.array,
   hotProducts: PropTypes.array,
