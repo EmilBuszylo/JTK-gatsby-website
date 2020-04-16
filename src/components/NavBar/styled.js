@@ -109,3 +109,17 @@ export const Dropdown = styled.div`
     background-color: #fff !important;
   }
 `;
+
+export const MobileContactWrapper = styled.div`
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  @media (min-width: 1023px) {
+    display: none !important;
+  }
+`;
+
+export const ContactElement = styled.a`
+  margin: 0.4em 1em;
+  font-size: 0.9em !important;
+`;

@@ -2,6 +2,8 @@ import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import SearchBox from "../SearchBox";
 import Logo from "../../../static/img/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   NavBarWrapper,
   Container,
@@ -14,6 +16,8 @@ import {
   Dropdown,
   DropdownItem,
   DropdownSubItem,
+  MobileContactWrapper,
+  ContactElement,
 } from "./styled";
 
 const NavBar = ({ toggleNavbar, isActive }) => (
@@ -63,6 +67,28 @@ const NavBar = ({ toggleNavbar, isActive }) => (
           >
             <NavbarEnd className="navbar-end">
               <SearchBox searchIndex={data.siteSearchIndex.index} />
+              <MobileContactWrapper>
+                <ContactElement
+                  href="mailto:biuro@jtlsklima.pl"
+                  className="tag is-info"
+                >
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    style={{ marginRight: ".5em" }}
+                  />
+                  biuro@jtlsklima.pl
+                </ContactElement>
+                <ContactElement
+                  href="tel:48 883 779 380"
+                  className="tag is-info"
+                >
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    style={{ marginRight: ".5em" }}
+                  />
+                  +48 883 779 380
+                </ContactElement>
+              </MobileContactWrapper>
               <div className="navbar-item has-dropdown is-hoverable">
                 <DropdownItem className="navbar-item">Produkty</DropdownItem>
                 <Dropdown className="navbar-dropdown">
