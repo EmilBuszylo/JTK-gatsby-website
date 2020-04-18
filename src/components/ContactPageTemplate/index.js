@@ -32,6 +32,7 @@ export default class ContactPageTemplate extends Component {
       contacts,
       body,
       contentComponent,
+      bigImage,
     } = this.props;
 
     const PageContent = contentComponent || Content;
@@ -42,7 +43,7 @@ export default class ContactPageTemplate extends Component {
           <title>{meta_title}</title>
           <meta name="description" content={meta_description} />
         </Helmet>
-        <Hero title={title} />
+        <Hero title={title} bigImage={bigImage} />
         <section className="section">
           <div className="container">
             <PageContent className="content" content={body} />
@@ -109,4 +110,5 @@ ContactPageTemplate.propTypes = {
   contacts: PropTypes.array,
   body: PropTypes.string,
   contentComponent: PropTypes.func,
+  bigImage: PropTypes.string,
 };

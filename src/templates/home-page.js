@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import HomePageTemplate from '../components/HomePageTemplate';
-import { HTMLContent } from '../components/Content';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import HomePageTemplate from "../components/HomePageTemplate";
+import { HTMLContent } from "../components/Content";
 
 class HomePage extends Component {
   render() {
@@ -11,11 +11,13 @@ class HomePage extends Component {
 
     const categories = pageContext.productCategories.filter(
       (category, index) => {
-        let currentCategory = category.replace(' ', '-');
+        let currentCategory = category.replace(" ", "-");
 
         return pageContext.productCategories.indexOf(currentCategory) == index;
       }
     );
+
+    console.log(frontmatter.bigImage.childImageSharp);
     return (
       <HomePageTemplate
         title={frontmatter.title}
@@ -50,14 +52,26 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        bigImage
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         slider_captions {
           title
           caption
         }
         offerings {
           blurbs {
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             text
           }
         }

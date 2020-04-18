@@ -1,7 +1,8 @@
-const _ = require('lodash');
-const path = require('path');
-const { createFilePath } = require('gatsby-source-filesystem');
-const createPaginatedPages = require('gatsby-paginate');
+const _ = require("lodash");
+const path = require("path");
+const { createFilePath } = require("gatsby-source-filesystem");
+const createPaginatedPages = require("gatsby-paginate");
+const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 
 exports.createPages = ({ actions, graphql, arg }) => {
   const { createPage } = actions;
@@ -21,11 +22,21 @@ exports.createPages = ({ actions, graphql, arg }) => {
             }
             frontmatter {
               title
-              cover
               templateKey
               hotProductsSelect
               tags
               categories
+              cover {
+                childImageSharp {
+                  fluid(maxWidth: 233, maxHeight: 116, quality: 90) {
+                    src
+                    srcSet
+                    sizes
+                    base64
+                    aspectRatio
+                  }
+                }
+              }
               version {
                 power
                 price
@@ -46,32 +57,32 @@ exports.createPages = ({ actions, graphql, arg }) => {
     const posts = result.data.allMarkdownRemark.edges;
     const blogPosts = result.data.allMarkdownRemark.edges.filter(
       edge =>
-        edge.node.frontmatter.templateKey === 'article-page' ||
-        edge.node.frontmatter.templateKey === 'article-page2'
+        edge.node.frontmatter.templateKey === "article-page" ||
+        edge.node.frontmatter.templateKey === "article-page2"
     );
     createPaginatedPages({
       edges: blogPosts,
       createPage: createPage,
-      pageTemplate: 'src/templates/blog.js',
+      pageTemplate: "src/templates/blog.js",
       pageLength: 6, // This is optional and defaults to 10 if not used
-      pathPrefix: 'blog', // This is optional and defaults to an empty string if not used
+      pathPrefix: "blog", // This is optional and defaults to an empty string if not used
       context: {}, // This is optional and defaults to an empty object if not used
     });
 
     const products = result.data.allMarkdownRemark.edges.filter(
-      edge => edge.node.frontmatter.templateKey === 'product-page'
+      edge => edge.node.frontmatter.templateKey === "product-page"
     );
     createPaginatedPages({
       edges: products,
       createPage: createPage,
-      pageTemplate: 'src/templates/products.js',
+      pageTemplate: "src/templates/products.js",
       pageLength: 20, // This is optional and defaults to 10 if not used
-      pathPrefix: 'produkty', // This is optional and defaults to an empty string if not used
+      pathPrefix: "produkty", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products
           .filter(
-            product => product.node.frontmatter.hotProductsSelect === 'tak'
+            product => product.node.frontmatter.hotProductsSelect === "tak"
           )
           .slice(0, 4),
       }, // This is optional and defaults to an empty object if not used
@@ -79,20 +90,20 @@ exports.createPages = ({ actions, graphql, arg }) => {
 
     const productsByCategories = result.data.allMarkdownRemark.edges.filter(
       edge =>
-        edge.node.frontmatter.templateKey === 'product-page' &&
-        edge.node.frontmatter.categories === 'split'
+        edge.node.frontmatter.templateKey === "product-page" &&
+        edge.node.frontmatter.categories === "split"
     );
     createPaginatedPages({
       edges: productsByCategories,
       createPage: createPage,
-      pageTemplate: 'src/templates/categories.js',
+      pageTemplate: "src/templates/categories.js",
       pageLength: 20, // This is optional and defaults to 10 if not used
-      pathPrefix: 'produkty/kategoria/split', // This is optional and defaults to an empty string if not used
+      pathPrefix: "produkty/kategoria/split", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products
           .filter(
-            product => product.node.frontmatter.hotProductsSelect === 'tak'
+            product => product.node.frontmatter.hotProductsSelect === "tak"
           )
           .slice(0, 4),
         test: arg,
@@ -101,20 +112,20 @@ exports.createPages = ({ actions, graphql, arg }) => {
 
     const multiSplitproducts = result.data.allMarkdownRemark.edges.filter(
       edge =>
-        edge.node.frontmatter.templateKey === 'product-page' &&
-        edge.node.frontmatter.categories === 'multi-split'
+        edge.node.frontmatter.templateKey === "product-page" &&
+        edge.node.frontmatter.categories === "multi-split"
     );
     createPaginatedPages({
       edges: multiSplitproducts,
       createPage: createPage,
-      pageTemplate: 'src/templates/categories.js',
+      pageTemplate: "src/templates/categories.js",
       pageLength: 20, // This is optional and defaults to 10 if not used
-      pathPrefix: 'produkty/kategoria/multi-split', // This is optional and defaults to an empty string if not used
+      pathPrefix: "produkty/kategoria/multi-split", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
         hotProducts: products
           .filter(
-            product => product.node.frontmatter.hotProductsSelect === 'tak'
+            product => product.node.frontmatter.hotProductsSelect === "tak"
           )
           .slice(0, 4),
         test: arg,
@@ -134,7 +145,7 @@ exports.createPages = ({ actions, graphql, arg }) => {
           id,
           hotProducts: products
             .filter(
-              product => product.node.frontmatter.hotProductsSelect === 'tak'
+              product => product.node.frontmatter.hotProductsSelect === "tak"
             )
             .slice(0, 4),
           lastProducts: products.slice(0, 4),
@@ -180,7 +191,7 @@ exports.createPages = ({ actions, graphql, arg }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
-
+  fmImagesToRelative(node);
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
     createNodeField({

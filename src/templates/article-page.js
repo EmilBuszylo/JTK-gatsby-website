@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {graphql} from 'gatsby'
-import {HTMLContent} from '../components/Content'
-import ArticleTemplate from '../components/ArticleTemplate'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import { HTMLContent } from "../components/Content";
+import ArticleTemplate from "../components/ArticleTemplate";
 
-const ArticlePage = ({data}) => {
-  const {markdownRemark: post} = data
+const ArticlePage = ({ data }) => {
+  const { markdownRemark: post } = data;
   return (
     <ArticleTemplate
       content={post.html}
@@ -17,16 +17,16 @@ const ArticlePage = ({data}) => {
       title={post.frontmatter.title}
       slug={post.fields.slug}
     />
-  )
-}
+  );
+};
 
 ArticlePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
-}
+};
 
-export default ArticlePage
+export default ArticlePage;
 
 export const pageQuery = graphql`
   query ArticleByID($id: String!) {
@@ -34,16 +34,22 @@ export const pageQuery = graphql`
       id
       html
       fields {
-            slug
-          }
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        cover
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 1600, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         meta_title
         meta_description
         tags
       }
     }
   }
-`
+`;

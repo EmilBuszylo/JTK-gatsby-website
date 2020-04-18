@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import { HeroPlace, HeroBody, Overlay } from "./styled";
 import Carousel from "../TextSlider";
 
 import background from "../../../static/img/architektura.jpg";
 
 const Hero = ({ title, large, carousel, bigImage }) => {
+  const isImageSharp =
+    bigImage && bigImage.childImageSharp && bigImage.childImageSharp.fluid.src;
   if (background) {
     return (
       <HeroPlace
@@ -13,7 +16,7 @@ const Hero = ({ title, large, carousel, bigImage }) => {
           large ? "is-large" : "is-medium"
         }`}
         style={{
-          background: `url('${bigImage || background}') center bottom`,
+          background: `url('${isImageSharp || background}') center bottom`,
           backgroundSize: "cover",
           position: "relative",
           zIndex: "0",

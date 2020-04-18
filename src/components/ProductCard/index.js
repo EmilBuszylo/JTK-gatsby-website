@@ -1,9 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from 'styled-components';
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
+import GatsbyImage from "gatsby-image";
 
 const ProductsWrapper = styled.div`
-  justify-content: ${props => props.justify || 'center'};
+  justify-content: ${props => props.justify || "center"};
   @media (max-width: 1024px) {
     justify-content: center;
   }
@@ -29,7 +30,7 @@ const Card = styled.div`
 `;
 
 const Column = styled.div`
-  min-width: ${props => (props.isHot ? '15rem' : '14rem')};
+  min-width: ${props => (props.isHot ? "15rem" : "14rem")};
   max-width: 18rem;
   width: 25%;
   @media (max-width: 1024px) {
@@ -69,14 +70,15 @@ const StarDesc = styled.div`
 `;
 
 const ProductCard = ({ products, isHot, justify }) => {
+  console.log(products);
   return (
     <ProductsWrapper
       className="columns is-mobile is-multiline"
-      justify={justify || 'center'}
+      justify={justify || "center"}
     >
       {products
         .filter(product =>
-          isHot ? product.node.frontmatter.hotProductsSelect === 'tak' : 'tak'
+          isHot ? product.node.frontmatter.hotProductsSelect === "tak" : "tak"
         )
         .slice(isHot ? (4, 0) : 0)
         .map(({ node: product }) => (
@@ -90,21 +92,20 @@ const ProductCard = ({ products, isHot, justify }) => {
             <Card className="card">
               <header className="card-image">
                 <Link to={product.fields.slug}>
-                  <figure className="image is-2by1">
-                    <img
-                      src={product.frontmatter.cover}
-                      alt="Placeholder image"
-                    />
-                  </figure>
+                  <GatsbyImage
+                    fluid={product.frontmatter.cover.childImageSharp.fluid}
+                    {...product.frontmatter.cover.childImageSharp}
+                    alt=""
+                  />
                 </Link>
               </header>
               <CardInformations>
-                <h3 className="title is-6" style={{ margin: '.5rem 0' }}>
+                <h3 className="title is-6" style={{ margin: ".5rem 0" }}>
                   {product.frontmatter.title}
                 </h3>
                 <p
                   className="title is-6 has-text-danger"
-                  style={{ marginBottom: '.5rem' }}
+                  style={{ marginBottom: ".5rem" }}
                 >
                   {product.frontmatter.version[0].price} zł netto*
                 </p>

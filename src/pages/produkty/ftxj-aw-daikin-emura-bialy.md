@@ -25,17 +25,16 @@ images:
   - image: /img/rxj.png
   - image: /img/emura-2.png
   - image: /img/emura-1.png
-  - image: /img/pilot.png
   - image: /img/wifi.png
 version:
-  - power: '2,3 kW'
-    price: 'od 6534,00'
-  - power: '2,4 kW'
-    price: 'od 6891,00'
-  - power: '3,5 kW'
-    price: 'od 8189,00'
-  - power: '4,8 kW'
-    price: 'od 11516,00'
+  - power: "2,3 kW"
+    price: "od 6534,00"
+  - power: "2,4 kW"
+    price: "od 6891,00"
+  - power: "3,5 kW"
+    price: "od 8189,00"
+  - power: "4,8 kW"
+    price: "od 11516,00"
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%

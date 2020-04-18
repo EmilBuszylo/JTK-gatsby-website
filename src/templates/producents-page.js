@@ -17,13 +17,14 @@ const ProducentsPage = ({ data }) => {
         title={post.frontmatter.title}
         producents={post.frontmatter.producents}
         content={post.html}
+        bigImage={post.frontmatter.bigImage}
       />
     </div>
   );
 };
 
 ProducentsPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default ProducentsPage;
@@ -36,8 +37,21 @@ export const ProducentsPageQuery = graphql`
         title
         meta_title
         meta_description
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         producents {
-          cover
+          cover {
+            childImageSharp {
+              fluid(maxWidth: 270, quality: 85) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           name
           description
           link

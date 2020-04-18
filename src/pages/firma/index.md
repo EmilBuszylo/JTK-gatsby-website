@@ -7,7 +7,9 @@ meta_description: >-
   multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa jakość w dobrej
   cenie
 bigImage: ""
----![](/img/shutterstock_1049574899-min.jpg)
+---
+
+![](/img/shutterstock_1049574899-min.jpg)
 
 ## Kilka słów o nas
 
