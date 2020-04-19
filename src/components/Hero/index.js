@@ -1,45 +1,41 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import React from "react";
+import PropTypes from "prop-types";
+import { HeroPlace, HeroBody, Overlay } from "./styled";
+import Carousel from "../TextSlider";
 
-import Carousel from '../TextSlider'
+import background from "../../../static/img/architektura.jpg";
 
-import background from '../../../static/img/architektura.jpg'
-
-const Overlay = styled.span`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  zIndex: 1;
-  background: rgba(0,0,0,.4);
-`
-
-const Hero = ({title, large, carousel, bigImage}) => {
+const Hero = ({ title, large, carousel, bigImage }) => {
   if (background) {
     return (
-      <section className={`hero is-info has-bg-image ${large ? 'is-large' : 'is-medium'}`}
-        style={{ background: `url('${bigImage || background}') center bottom`, backgroundSize: 'cover', position: 'relative', zIndex: '0' }}
+      <HeroPlace
+        className={`hero is-info has-bg-image ${
+          large ? "is-large" : "is-medium"
+        }`}
+        style={{
+          background: `url('${bigImage || background}') center bottom`,
+          backgroundSize: "cover",
+          position: "relative",
+          zIndex: "0",
+        }}
       >
-        <div className='hero-body' style={{zIndex: '2'}}>
-          <div className='container has-text-centered'>
-            {carousel.isSlider
-              ? <div className='container container__slider'>
+        <HeroBody className="hero-body" style={{ zIndex: "2" }}>
+          <div className="container has-text-centered">
+            {carousel.isSlider ? (
+              <div className="container container__slider">
                 <Carousel config={carousel} />
               </div>
-              : <h1 className='title is-1'>
-                {title}
-              </h1>
-            }
+            ) : (
+              <h1 className="title is-1">{title}</h1>
+            )}
           </div>
-        </div>
+        </HeroBody>
         <Overlay />
-      </section>
-    )
+      </HeroPlace>
+    );
   }
-  return null
-}
+  return null;
+};
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
@@ -54,7 +50,7 @@ Hero.propTypes = {
     ),
   }),
   bigImage: PropTypes.string,
-}
+};
 
 Hero.defaultProps = {
   large: false,
@@ -62,6 +58,6 @@ Hero.defaultProps = {
     isSlider: false,
     elements: [],
   },
-}
+};
 
-export default Hero
+export default Hero;

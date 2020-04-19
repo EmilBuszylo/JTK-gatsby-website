@@ -1,73 +1,24 @@
-import React from 'react'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import SearchBox from '../SearchBox'
-import styled from 'styled-components'
-import Logo from '../../../static/img/logo.png'
-
-const NavBarWrapper = styled.nav`
-  background-color: #389ae5 !important;
-  z-index: 110 !important;
-`
-
-const DropdownItem = styled.a`
-  color: #fff !important;
-
-  &:hover {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`
-
-const DropdownSubItem = styled(Link)`
-  color: #fff !important;
-
-  &:hover {
-    background-color: ${props => props.theme.accentColor} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-
-  &:focus {
-    background-color: ${props => props.theme.accentColor} !important;
-    color: #ffffff !important;
-    border-color: transparent !important;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`
-
-const NavbarItem = styled(Link)`
-  color: #fff !important;
-  &:hover {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff;
-    border-color: transparent;
-  }
-  &:focus {
-    background-color: ${props => props.theme.accentColorHover} !important;
-    color: #ffffff !important;
-    border-color: transparent !important;
-  }
-  @media (max-width: 1023px) {
-    color: #4a4a4a !important;
-  }
-`
-
-const LogoItem = styled.img`
-  max-height: 3rem !important;
-`
-
-const Dropdown = styled.div`
-  background-color: ${props => props.theme.accentColorHover} !important;
-  @media (max-width: 1024px) {
-    background-color: #fff !important;
-  }
-`
+import React from "react";
+import { Link, graphql, StaticQuery } from "gatsby";
+import SearchBox from "../SearchBox";
+import Logo from "../../../static/img/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  NavBarWrapper,
+  Container,
+  NavbarBand,
+  NavbarEnd,
+  NavbarItem,
+  NavbarLink,
+  NavbarMenu,
+  LogoItem,
+  Dropdown,
+  DropdownItem,
+  DropdownSubItem,
+  MobileContactWrapper,
+  ContactElement,
+} from "./styled";
 
 const NavBar = ({ toggleNavbar, isActive }) => (
   <StaticQuery
@@ -80,68 +31,99 @@ const NavBar = ({ toggleNavbar, isActive }) => (
     `}
     render={data => (
       <NavBarWrapper
-        className='navbar is-fixed-top'
-        aria-label='main navigation'
+        className="navbar is-fixed-top"
+        aria-label="main navigation"
       >
-        <section className='container'>
-          <div className='navbar-brand'>
-            <Link to='/' className='navbar-item'>
+        <Container className="container">
+          <NavbarBand className="navbar-brand">
+            <Link to="/" className="navbar-item">
               <LogoItem
                 src={Logo}
-                alt='JTLS, klimatyzacje, systemy chłodnicze, logo'
+                alt="JTLS, klimatyzacje, systemy chłodnicze"
               />
             </Link>
+            <NavbarLink className="navbar-item" href="tel:+48883779380">
+              +48 883 779 380
+            </NavbarLink>
+            <NavbarLink
+              className="navbar-item"
+              href="mailto:biuro@jtlsklima.pl"
+            >
+              biuro@jtlsklima.pl
+            </NavbarLink>
             <button
-              className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
-              data-target='navMenu'
+              className={`button navbar-burger ${isActive ? "is-active" : ""}`}
+              data-target="navMenu"
               onClick={toggleNavbar}
             >
               <span />
               <span />
               <span />
             </button>
-          </div>
-          <div
-            className={`navbar-menu ${isActive ? 'is-active' : ''}`}
-            id='navMenu'
+          </NavbarBand>
+          <NavbarMenu
+            className={`navbar-menu ${isActive ? "is-active" : ""}`}
+            id="navMenu"
           >
-            <div className='navbar-end'>
+            <NavbarEnd className="navbar-end">
               <SearchBox searchIndex={data.siteSearchIndex.index} />
-              <div className='navbar-item has-dropdown is-hoverable'>
-                <DropdownItem className='navbar-item'>Produkty</DropdownItem>
-                <Dropdown className='navbar-dropdown'>
-                  <DropdownSubItem className='navbar-item' to='/producenci'>
+              <MobileContactWrapper>
+                <ContactElement
+                  href="mailto:biuro@jtlsklima.pl"
+                  className="tag is-info"
+                >
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    style={{ marginRight: ".5em" }}
+                  />
+                  biuro@jtlsklima.pl
+                </ContactElement>
+                <ContactElement
+                  href="tel:48 883 779 380"
+                  className="tag is-info"
+                >
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    style={{ marginRight: ".5em" }}
+                  />
+                  +48 883 779 380
+                </ContactElement>
+              </MobileContactWrapper>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <DropdownItem className="navbar-item">Produkty</DropdownItem>
+                <Dropdown className="navbar-dropdown">
+                  <DropdownSubItem className="navbar-item" to="/producenci">
                     Producenci
                   </DropdownSubItem>
-                  <DropdownSubItem className='navbar-item' to='/produkty'>
+                  <DropdownSubItem className="navbar-item" to="/produkty">
                     Katalog klimatyzatorów
                   </DropdownSubItem>
                 </Dropdown>
               </div>
-              <NavbarItem className='navbar-item' to='/firma'>
+              <NavbarItem className="navbar-item" to="/firma">
                 O firmie
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/uslugi'>
+              <NavbarItem className="navbar-item" to="/uslugi">
                 Usługi
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/montaz'>
+              <NavbarItem className="navbar-item" to="/montaz">
                 Montaż
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/serwis'>
+              <NavbarItem className="navbar-item" to="/serwis">
                 Serwis
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/blog'>
+              <NavbarItem className="navbar-item" to="/blog">
                 Blog
               </NavbarItem>
-              <NavbarItem className='navbar-item' to='/kontakt'>
+              <NavbarItem className="navbar-item" to="/kontakt">
                 Kontakt
               </NavbarItem>
-            </div>
-          </div>
-        </section>
+            </NavbarEnd>
+          </NavbarMenu>
+        </Container>
       </NavBarWrapper>
     )}
   />
-)
+);
 
-export default NavBar
+export default NavBar;

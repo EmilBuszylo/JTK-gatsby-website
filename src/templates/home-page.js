@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import HomePageTemplate from '../components/HomePageTemplate';
-import { HTMLContent } from '../components/Content';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import HomePageTemplate from "../components/HomePageTemplate";
+import { HTMLContent } from "../components/Content";
 
 class HomePage extends Component {
   render() {
@@ -11,7 +11,7 @@ class HomePage extends Component {
 
     const categories = pageContext.productCategories.filter(
       (category, index) => {
-        let currentCategory = category.replace(' ', '-');
+        let currentCategory = category.replace(" ", "-");
 
         return pageContext.productCategories.indexOf(currentCategory) == index;
       }
@@ -28,6 +28,7 @@ class HomePage extends Component {
         hotProducts={pageContext.hotProducts}
         categories={categories}
         contentComponent={HTMLContent}
+        welcomeSections={frontmatter.welcomeSections}
       />
     );
   }
@@ -54,6 +55,16 @@ export const pageQuery = graphql`
         slider_captions {
           title
           caption
+        }
+        welcomeSections {
+          sections {
+            title
+            subtitle
+            buttonText
+            buttonLink
+            isExternal
+            text
+          }
         }
         offerings {
           blurbs {
