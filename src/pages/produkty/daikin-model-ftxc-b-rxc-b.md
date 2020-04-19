@@ -8,7 +8,7 @@ meta_description: >-
   Klimatyzator Daikin Sensira Plus FTXC-B z agregatem RXC-B jest to jednostka
   naścienna, dająca niezwykły komfort za niewygórowane pieniądze. Wykończenie
   matowym plastikiem o wysokiej jakości.
-date: 2019-03-11T20:42:50.138Z
+date: 2020-04-19T19:42:50.138Z
 cover: /img/ftxc-3.png
 tags:
   - Daikin
