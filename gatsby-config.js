@@ -177,7 +177,17 @@ module.exports = {
                             frontmatter {
                               title
                               templateKey
-                              cover
+                              cover {
+                                childImageSharp {
+                                  fluid(maxWidth: 233, maxHeight: 116, quality: 90) {
+                                    src
+                                    srcSet
+                                    sizes
+                                    base64
+                                    aspectRatio
+                                  }
+                                }
+                              }
                               date(formatString: "MMMM DD, YYYY")
                               tags
                             }
