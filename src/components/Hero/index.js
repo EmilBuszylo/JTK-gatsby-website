@@ -16,7 +16,7 @@ const Hero = ({ title, large, carousel, bigImage }) => {
           large ? "is-large" : "is-medium"
         }`}
         style={{
-          background: `url('${isImageSharp || background}') center bottom`,
+          background: `url('${isImageSharp || background}') center center`,
           backgroundSize: "cover",
           position: "relative",
           zIndex: "0",
