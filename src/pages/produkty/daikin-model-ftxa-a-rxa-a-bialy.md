@@ -42,7 +42,6 @@ vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-
 # Daikin Stylish
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
@@ -51,13 +50,15 @@ Jest to jednostka w której najnowsza technologia została opakowana w stylową 
 
 Cechy produktu:
 
-- kompaktowy design
-- idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
-- inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
-- regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
-- technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
-- praktycznie niesłyszalna praca
-- kontrola pracy online poprzez wbudowany moduł wi-fi
-- efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
-- 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
-- praca na ekologiczny czynnik R32
+* kompaktowy design
+* idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
+* inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
+* regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
+* technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
+* praktycznie niesłyszalna praca
+* kontrola pracy online poprzez wbudowany moduł wi-fi
+* efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
+* 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
+* praca na ekologiczny czynnik R32
+
+Więcej na stronie producenta: https://www.daikin.pl/pl_pl/products/FTXA-AW---RXA-A.html
