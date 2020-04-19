@@ -20,11 +20,25 @@ categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - caption: '2'
-    image: /img/czarny-1.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-6.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-4.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-3.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-7.png
 version:
-  - power: '2'
-    price: '2'
+  - power: '2,00kW'
+    price: 'od 6874,10'
+  - power: '2,50kW'
+    price: 'od 7202,54'
+  - power: '3,40kW'
+    price: 'od 7868,80'
+  - power: '4,50kW'
+    price: 'od 11162,58'
+  - power: '5,00kW'
+    price: 'od 12129,14'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
@@ -33,7 +47,7 @@ vat: >-
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
 
-Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny lub imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
+Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny, czarny mat oraz imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
 
 Cechy produktu:
 
