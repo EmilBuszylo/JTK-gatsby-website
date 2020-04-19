@@ -18,5 +18,3 @@ contacts:
 ---
 
 ## Zapraszamy do kontaktu
-
-Serwis klimatyzacji jest chyba najważniejszą czynnością jakiej należy pilnować po zakupie klimatyzacji. Regularne sprawdzanie parametrów pracy urządzenia oraz jego czyszczenie, zaoszczędzi Twoje pieniądze oraz pozytywnie wpłynie na Twoje samopoczucie.

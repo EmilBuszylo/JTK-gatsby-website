@@ -12,16 +12,13 @@ slider_captions:
     title: "Nie czekaj na upały! "
 welcomeSections:
   sections:
-    - title: Przykładowy tytuł sekcji
-      subtitle: Przykładowy podtytuł, który przeważnie zawiera trochę wiecej treści
+    - title: Myślisz o klimatyzacji w domu?
+      subtitle: Klimatyzacja do domu lub mieszkania musi spełniać odpowiednie wymagania, takie jak wydajność, cicha praca jednostki wewnętrznej i zewnętrznej, energooszczędność, komfort, wysoka jakość powietrza i fajny wygląd. Dla każdego użytkownika inne aspekty są najważniejsze, dlatego każde zlecenie traktujemy indywidualnie.
       buttonText: Sprawdź!
-      buttonLink: https://jtlsklima.pl/kontakt
+      buttonLink: https://jtlsklima.pl/produkty
       isExternal: false
       text: >-
-        **Montaż** - chyba najważniejszy element klimatyzacji. Prawidłowo
-        przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
-        urządzeń. Nasza firma posiada niezbędne doświadczenie i uprawnienia do
-        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
+        Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością. Pamiętaj, że przy wyborze odpowiedniego rozwiązania możesz liczyć na naszą pomoc. Doradztwo, oględziny lokalu i dobór urządzenia jest gratis! Sprawdź jakie urządzenia oferujemy z montażem!
 offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg
