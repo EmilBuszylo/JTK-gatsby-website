@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import GatsbyImage from "gatsby-image";
 import { MdContent } from "../MdContent";
 
 export const Wrapper = styled.div`
@@ -31,7 +32,7 @@ export const FeaturedImageWrapper = styled.div`
   }
 `;
 
-export const FeaturedImage = styled.img`
+export const FeaturedImage = styled(GatsbyImage)`
   position: absolute;
   width: auto;
   height: 100%;

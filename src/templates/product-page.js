@@ -1,20 +1,20 @@
-import React, {Component} from 'react'
-import PropTypes from 'prop-types'
-import {graphql} from 'gatsby'
-import {HTMLContent} from '../components/Content'
-import ProductTemplate from '../components/ProductTemplate'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import { HTMLContent } from "../components/Content";
+import ProductTemplate from "../components/ProductTemplate";
 
 export default class ProductPage extends Component {
   static propTypes = {
     data: PropTypes.shape({
       markdownRemark: PropTypes.object,
     }),
-  }
+  };
 
-  render () {
-    const { pageContext, data } = this.props
-    const { hotProducts, lastProducts } = pageContext
-    const { markdownRemark: post } = data
+  render() {
+    const { pageContext, data } = this.props;
+    const { hotProducts, lastProducts } = pageContext;
+    const { markdownRemark: post } = data;
 
     return (
       <ProductTemplate
@@ -35,7 +35,7 @@ export default class ProductPage extends Component {
         lastProducts={lastProducts}
         vat={post.frontmatter.vat}
       />
-    )
+    );
   }
 }
 
@@ -45,12 +45,18 @@ export const pageQuery = graphql`
       id
       html
       fields {
-            slug
-          }
+        slug
+      }
       frontmatter {
         date(formatString: "DD.MM.YYYY")
         title
-        cover
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         meta_title
         meta_description
         version {
@@ -61,11 +67,17 @@ export const pageQuery = graphql`
         tags
         images {
           caption
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1200, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         producent
         vat
       }
     }
   }
-`
+`;

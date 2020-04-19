@@ -12,18 +12,19 @@ export default class ProducentsPageTemplate extends Component {
         cover: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         link: PropTypes.string.isRequired,
-        description: PropTypes.string.isRequired
+        description: PropTypes.string.isRequired,
       }).isRequired
     ).isRequired,
-    content: PropTypes.string.isRequired
+    content: PropTypes.string.isRequired,
+    bigImage: PropTypes.string,
   };
 
   render() {
-    const { title, producents, content } = this.props;
+    const { title, producents, content, bigImage } = this.props;
 
     return (
       <div>
-        <Hero title={title} />
+        <Hero title={title} bigImage={bigImage} />
         <div className="section">
           <div className="container">
             <div

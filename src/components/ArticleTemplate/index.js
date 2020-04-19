@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
+import GatsbyImage from "gatsby-image";
 
 import Content from "../Content";
 import SE0 from "../SEO";
@@ -22,7 +23,7 @@ const ArticleTemplate = ({
   meta_desc,
   tags,
   title,
-  slug
+  slug,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -41,7 +42,11 @@ const ArticleTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <img src={cover} alt={title} />
+            <GatsbyImage
+              fluid={cover.childImageSharp.fluid}
+              {...cover.childImageSharp}
+              alt={title}
+            />
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -73,7 +78,7 @@ ArticleTemplate.propTypes = {
   meta_title: PropTypes.string,
   meta_desc: PropTypes.string,
   title: PropTypes.string,
-  slug: PropTypes.string
+  slug: PropTypes.string,
 };
 
 export default ArticleTemplate;

@@ -16,6 +16,8 @@ class HomePage extends Component {
         return pageContext.productCategories.indexOf(currentCategory) == index;
       }
     );
+
+    console.log(frontmatter.bigImage.childImageSharp);
     return (
       <HomePageTemplate
         title={frontmatter.title}
@@ -51,7 +53,13 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        bigImage
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         slider_captions {
           title
           caption
@@ -68,7 +76,13 @@ export const pageQuery = graphql`
         }
         offerings {
           blurbs {
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             text
           }
         }

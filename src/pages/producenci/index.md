@@ -1,11 +1,12 @@
 ---
 templateKey: producents-page
-title: 'Producenci '
+title: "Producenci "
 meta_title: Producenci | Klimatyzacja Warszawa
 meta_description: >-
   Katalog producentów - Montaż klimatyzacji Warszawa, najlepsza klimatyzacja,
   systemy split i multi-split, jednostki marki LG, Daikin, Mitsubishi, najwyższa
   jakość w dobrej cenie
+bigImage: ""
 producents:
   - cover: /img/daikin20industries.png
     description: >-
@@ -14,7 +15,7 @@ producents:
       a do tego fajny design. Marka pochodząca z Japonii, stawiająca na jakość i
       technologiczne nowinki. Sprzęt dla najbardziej wymagających klientów, dla
       których komfort, jakość i bezawaryjność stoją na pierwszym miejscu.
-    link: 'https://www.daikin.pl/pl_pl/customers.html'
+    link: "https://www.daikin.pl/pl_pl/customers.html"
     name: Daikin
   - cover: /img/mitsubishi.jpg
     description: >-
@@ -22,7 +23,7 @@ producents:
       techniczną i stylowy design. Bardzo dobra marka dla ludzi wymagających od
       sprzętu wysokiej jakości wykończenia, kilku bajerów i długiej niezawodnej
       pracy.
-    link: 'https://pl.mitsubishielectric.com/pl/index.page'
+    link: "https://pl.mitsubishielectric.com/pl/index.page"
     name: Mitsubishi
   - cover: /img/toshiba-eps-vector-logo.png
     description: >-
@@ -30,7 +31,7 @@ producents:
       stosunek ceny do jakości. W produktach tego producenta trudno szukać
       wyszukanych kształtów czy kolorów, ale jeżeli cenisz solidność i technikę
       to są to produkty dla Ciebie.
-    link: 'https://www.toshiba-hvac.pl/'
+    link: "https://www.toshiba-hvac.pl/"
     name: Toshiba
   - cover: /img/lg-logo.jpg
     description: >-
@@ -39,7 +40,7 @@ producents:
       Nie znajdziemy tu aż tylu technologicznych nowinek co u poprzedników, ale
       nawet najbardziej wymagający znajdzie coś dla siebie. Jest to wybór dla
       osób chcących posiadać sprawdzone klimatyzatory za umiarkowane pieniądze.
-    link: 'https://www.lg.com/pl/klimatyzacja'
+    link: "https://www.lg.com/pl/klimatyzacja"
     name: LG
   - cover: /img/pobrane.png
     description: >-
@@ -47,7 +48,7 @@ producents:
       Świetny stosunek jakości do ceny czyni ten produkt jednym z bardziej
       popularnych na naszym rynku. Firma Gree zdobywa rzesze fanów, dając dużo
       za niewielkie pieniądze.
-    link: 'https://gree.pl/'
+    link: "https://gree.pl/"
     name: Gree
 ---
 

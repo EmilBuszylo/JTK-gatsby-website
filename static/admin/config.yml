@@ -111,6 +111,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/montaz/index.md"
         label: "Strona Montaż"
@@ -129,6 +130,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/serwis/index.md"
         label: "Strona Serwis"
@@ -147,6 +149,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - {
               label: Tematy,
               name: threads,
@@ -190,6 +193,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/rodo/index.md"
         label: "Strona RODO"
@@ -208,6 +212,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/polityka-prywatnosci/index.md"
         label: "Strona Polityka prywatności"
@@ -226,6 +231,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/producenci/index.md"
         label: "Strona producenci"
@@ -244,6 +250,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: Producenci,
@@ -274,7 +281,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - {
               label: Tematy,
               name: threads,
