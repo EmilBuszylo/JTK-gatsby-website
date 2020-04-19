@@ -274,6 +274,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: Tematy,
               name: threads,
