@@ -33,20 +33,13 @@ welcomeSections:
 offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg
-      text: >-
-        **Montaż** - chyba najważniejszy element klimatyzacji. Prawidłowo
-        przeprowadzony montaż to podstawa do długiej i bezawaryjnej pracy
-        urządzeń. Nasza firma posiada niezbędne doświadczenie i uprawnienia do
-        montażu klimatyzacji zgodnie z tzw. ustawą F-gazową.
-
-
-        Zapraszamy do kontaktu:
-        [jtlsklima.pl/kontakt](https://jtlsklima.pl/kontakt)
+      text: "**Montaż** - chyba najważniejszy element klimatyzacji. Prawidłowo przeprowadzony jest podstawą do długiej i bezawaryjnej pracy urządzeń. Nasza firma posiada niezbędne doświadczenie i uprawnienia do montażu klimatyzacji zgodnie z tzw. ustawą F-gazową. Przy montażu nasi monterzy używają niezbędnych narzędzi i postępują zgodnie ze sztuką instalatorską.  Do wykonywanych przez nas czynności m.in. należą:\n\n* próba szczelności\r\n* wytworzenie próżni w instalacji chłodniczej\r\n* napełnienie instalacji czynnikiem chłodniczym\r\n* sprawdzenie ciśnień w układzie\r\n* uruchomienie i test pracy klimatyzatora\n\nUrządzenia klimatyzacyjne mogą zakupić i montować tylko firmy posiadające uprawnienia f-gazowe. \n\nZapraszamy do kontaktu: [jtlsklima.pl/kontakt](https://jtlsklima.pl/kontakt)"
     - image: /img/pies-i-upal2662.jpg
       text: >-
-        **Ceny** - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas,
-        dlatego podajemy ceny przy każdym produkcie. Uwzględniają one
-        standardowy montaż, którego opis znajdziesz pod linkiem
-        [jtlsklima.pl/montaz](https://jtlsklima.pl/montaz)
+        **Ceny** - u nas nie ma ukrytych kosztów, z góry wiesz ile zapłacisz za
+        urządzenie ze standardowym montażem. Dbamy o Wasz czas, dlatego podajemy
+        ceny przy każdym produkcie. Uwzględniają one standardowy montaż, którego
+        opis znajdziesz pod linkiem
+        [jtlsklima.pl/montaz](https://jtlsklima.pl/montaz) .
 ---
 
