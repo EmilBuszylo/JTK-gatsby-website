@@ -15,11 +15,11 @@ categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - caption: prezentacja klimatyzatora Daikin FTXA–AT + RXA–A
+  - caption: Daikin FTXA–BT + RXA–A
     image: /img/drewno-4.png
-  - caption: Daikin broszura
+  - caption: Daikin FTXA–BT + RXA–A
     image: /img/drewno-3.png
-  - caption: klimatyzator Daikin FTXA–BT + RXA–A
+  - caption: Daikin FTXA–BT + RXA–A
     image: /img/drewno-2.png
 version:
   - power: '2,00kW'
