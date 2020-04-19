@@ -70,7 +70,6 @@ const StarDesc = styled.div`
 `;
 
 const ProductCard = ({ products, isHot, justify }) => {
-  console.log(products);
   return (
     <ProductsWrapper
       className="columns is-mobile is-multiline"

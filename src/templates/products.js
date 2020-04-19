@@ -33,7 +33,6 @@ export default class ProductsPage extends Component {
       name: config.siteTitle,
       alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
     };
-    console.log(group);
     return (
       <div>
         <Helmet>

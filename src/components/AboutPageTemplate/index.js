@@ -5,7 +5,6 @@ import Hero from "../Hero";
 
 const AboutPageTemplate = ({ title, content, contentComponent, bigImage }) => {
   const PageContent = contentComponent || Content;
-  console.log(bigImage);
   return (
     <div>
       <Hero title={title} bigImage={bigImage} />

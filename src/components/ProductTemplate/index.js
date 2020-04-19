@@ -148,7 +148,6 @@ export default class ProductTemplate extends Component {
     const { isOpen, photoIndex, chosenVersion } = this.state;
 
     const PostContent = contentComponent || Content;
-    console.log(cover, { images });
     const ProductImages = this.getProductImages(cover, images);
     return (
       <section className="section">

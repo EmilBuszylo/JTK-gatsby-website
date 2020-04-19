@@ -17,7 +17,6 @@ class HomePage extends Component {
       }
     );
 
-    console.log(frontmatter.bigImage.childImageSharp);
     return (
       <HomePageTemplate
         title={frontmatter.title}
