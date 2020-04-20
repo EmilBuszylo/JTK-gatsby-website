@@ -94,6 +94,73 @@ collections:
                   },
                 ],
             }
+          - {
+              label: Sekcje nad belkami z kategoriami,
+              name: imageBoxSections,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Sekcja,
+                    name: sections,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Obraz, name: image, widget: file },
+                        {
+                          label: Tekst na zdjęciu,
+                          name: imageText,
+                          widget: markdown,
+                        },
+                        {
+                          label: Tekst pzycisku na zdjęciu,
+                          name: imageButtonText,
+                          widget: string,
+                        },
+                        {
+                          label: Link przycisku na zdjęciu Link,
+                          name: imageButtonLink,
+                          widget: string,
+                        },
+                        {
+                          label: Is external link ?,
+                          name: imageIsExternal,
+                          widget: "select",
+                          options:
+                            [
+                              { label: "Tak", value: true },
+                              { label: "Nie", value: false },
+                            ],
+                        },
+                        {
+                          label: Tekst na zdjęciu,
+                          name: whiteBoardText,
+                          widget: markdown,
+                        },
+                        {
+                          label: Tekst pzycisku na białym tle,
+                          name: whiteBoardButtonText,
+                          widget: string,
+                        },
+                        {
+                          label: Link przycisku na białym tle,
+                          name: whiteBoardButtonLink,
+                          widget: string,
+                        },
+                        {
+                          label: Is external link ?,
+                          name: whiteBoardIsExternal,
+                          widget: "select",
+                          options:
+                            [
+                              { label: "Tak", value: true },
+                              { label: "Nie", value: false },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"

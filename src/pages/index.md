@@ -36,4 +36,17 @@ offerings:
         podajemy ceny przy każdym produkcie. Uwzględniają one standardowy
         montaż, którego opis znajdziesz pod linkiem
         [jtlsklima.pl/montaz](https://jtlsklima.pl/montaz)
+imageBoxSections:
+  sections:
+    - image: /img/shutterstock_1527211334_custom.jpg
+      imageText: >-
+        Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością.
+      imageButtonText: Dowiedz się więcej !
+      imageButtonLink: https://jtlsklima.pl/produkty
+      imageIsExternal: false
+      whiteBoardText: >-
+        Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością.
+      whiteBoardButtonText: Dowiedz się więcej !
+      whiteBoardButtonLink: https://jtlsklima.pl/produkty
+      whiteBoardIsExternal: false
 ---

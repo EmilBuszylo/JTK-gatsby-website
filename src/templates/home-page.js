@@ -30,6 +30,7 @@ class HomePage extends Component {
         categories={categories}
         contentComponent={HTMLContent}
         welcomeSections={frontmatter.welcomeSections}
+        imageBoxSections={frontmatter.imageBoxSections}
       />
     );
   }
@@ -54,7 +55,7 @@ export const pageQuery = graphql`
         meta_description
         bigImage {
           childImageSharp {
-            fluid(maxWidth: 2200, quality: 90) {
+            fluid(maxWidth: 2200, quality: 80) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -83,6 +84,25 @@ export const pageQuery = graphql`
               }
             }
             text
+          }
+        }
+        imageBoxSections {
+          sections {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 70) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            imageText
+            imageButtonText
+            imageButtonLink
+            imageIsExternal
+            whiteBoardText
+            whiteBoardButtonText
+            whiteBoardButtonLink
+            whiteBoardIsExternal
           }
         }
       }

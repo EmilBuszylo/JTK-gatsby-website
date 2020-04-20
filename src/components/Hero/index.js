@@ -52,7 +52,7 @@ Hero.propTypes = {
       })
     ),
   }),
-  bigImage: PropTypes.string,
+  bigImage: PropTypes.object,
 };
 
 Hero.defaultProps = {
