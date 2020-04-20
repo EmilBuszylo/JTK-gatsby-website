@@ -4,10 +4,10 @@ order: 2
 title: "FTXA-BS - Daikin STYLISH - srebrny "
 meta_title: Daikin StylishFTXA-BS/RXA-A
 slug: daikin-model-ftxa-bs-rxa-a-srebrny
-meta_description: "Daikin Stylish to jednostka najwyższej klasy. Kompaktowe
+meta_description: Daikin Stylish to jednostka najwyższej klasy. Kompaktowe
   wymiary, świetne wykończenie i wysokie parametry efektywności to tylko kilka z
   jej zalet. Najlepsze rozwiązanie pod względem komfortu. Montaż klimatyzacji
-  Warszawa. "
+  Warszawa.
 date: 2020-04-20T13:11:46.426Z
 cover: /img/srebrny-6.png
 tags:
