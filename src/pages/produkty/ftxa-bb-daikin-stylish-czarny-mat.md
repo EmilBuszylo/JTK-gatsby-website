@@ -4,10 +4,9 @@ order: 3
 title: FTXA-BB - Daikin STYLISH - czarny mat
 meta_title: FTXA-BB - Daikin STYLISH - czarny mat
 slug: FTXA-BB - Daikin STYLISH - czarny mat
-meta_description: >-
-  Daikin Stylish, klimatyzacja najwyższej jakości, niepowtarzalny styl,
-  funkcjonalność i niezawodność. Klimatyzacja do domu i mieszkania. Najlepszy
-  montaż w Warszawie. 
+meta_description: Daikin Stylish, klimatyzacja najwyższej jakości,
+  niepowtarzalny styl, funkcjonalność i niezawodność. Klimatyzacja do domu i
+  mieszkania. Najlepszy montaż w Warszawie.
 date: 2020-04-19T12:46:13.497Z
 cover: /img/czarny-1.png
 tags:
@@ -15,7 +14,7 @@ tags:
   - Stylish
   - Komfort
   - Klimatyzacja
-  - ''
+  - ""
 categories: split
 producent: Daikin
 hotProductsSelect: nie
@@ -29,19 +28,18 @@ images:
   - caption: Daikin Stylish FTXA-BB / RXA-A
     image: /img/czarny-7.png
 version:
-  - power: '2,00kW'
-    price: 'od 6874,10'
-  - power: '2,50kW'
-    price: 'od 7202,54'
-  - power: '3,40kW'
-    price: 'od 7868,80'
-  - power: '4,50kW'
-    price: 'od 11162,58'
-  - power: '5,00kW'
-    price: 'od 12129,14'
-vat: >-
-  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
-  dla firm stawka VAT wynosi 23%
+  - power: 2,00kW
+    price: od 6874,10
+  - power: 2,50kW
+    price: od 7202,54
+  - power: 3,40kW
+    price: od 7868,80
+  - power: 4,50kW
+    price: od 11162,58
+  - power: 5,00kW
+    price: od 12129,14
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
+  indywidualnego, dla firm stawka VAT wynosi 23%
 ---
 # Daikin Stylish
 
