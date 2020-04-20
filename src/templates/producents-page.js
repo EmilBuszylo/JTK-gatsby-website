@@ -39,7 +39,7 @@ export const ProducentsPageQuery = graphql`
         meta_description
         bigImage {
           childImageSharp {
-            fluid(maxWidth: 2200, quality: 90) {
+            fluid(maxWidth: 2200, quality: 80) {
               ...GatsbyImageSharpFluid
             }
           }
