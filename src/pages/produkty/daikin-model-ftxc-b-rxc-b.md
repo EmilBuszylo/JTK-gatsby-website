@@ -4,10 +4,9 @@ order: 8
 title: FTXC-B - Daikin Sensira Plus - biały
 meta_title: Daikin model FTXC-B/RXC-B
 slug: daikin-model-ftxc-b-rxc-b
-meta_description: >-
-  Klimatyzator Daikin Sensira Plus FTXC-B z agregatem RXC-B jest to jednostka
-  naścienna, dająca niezwykły komfort za niewygórowane pieniądze. Wykończenie
-  matowym plastikiem o wysokiej jakości.
+meta_description: Klimatyzator Daikin Sensira Plus FTXC-B z agregatem RXC-B jest
+  to jednostka naścienna, dająca niezwykły komfort za niewygórowane pieniądze.
+  Wykończenie matowym plastikiem o wysokiej jakości.
 date: 2020-04-19T19:42:50.138Z
 cover: /img/ftxc-3.png
 tags:
@@ -17,7 +16,9 @@ tags:
   - RXC-B
   - komfort
   - klima
-  - jakość/cena
+  - jakość
+  - cicha praca
+  - Sensira Plus
 categories: split
 producent: Daikin
 hotProductsSelect: tak
@@ -33,21 +34,20 @@ images:
   - caption: dane techniczne
     image: /img/ftxc-b_kk-1.jpg
 version:
-  - power: '2,0 kW'
-    price: 'od 3588,25'
-  - power: '2,56 kW'
-    price: 'od  3689,50'
-  - power: '3,5 kW'
-    price: 'od 3867,00'
-  - power: '5,0 kW'
-    price: 'od 5956,96'
-  - power: '6,23 kW'
-    price: 'od 6368,50'
-  - power: '7,1kW'
-    price: 'od 7089,25'
-vat: >-
-  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
-  dla firm stawka VAT wynosi 23%
+  - power: 2,0 kW
+    price: od 3588,25
+  - power: 2,56 kW
+    price: od  3689,50
+  - power: 3,5 kW
+    price: od 3867,00
+  - power: 5,0 kW
+    price: od 5956,96
+  - power: 6,23 kW
+    price: od 6368,50
+  - power: 7,1kW
+    price: od 7089,25
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
+  indywidualnego, dla firm stawka VAT wynosi 23%
 ---
 # Daikin Sensira Plus
 
