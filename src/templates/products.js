@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { graphql } from "gatsby";
 
 import config from "../../data/config";
 import Helmet from "react-helmet";
@@ -8,6 +9,14 @@ import ProductCard from "../components/ProductCard";
 import Sidebar from "../components/Sidebar";
 import PaginationLink from "../components/PaginationLink";
 import CategoryFilters from "../components/CategoryFilters";
+import { HTMLContent } from "../components/Content";
+import Content from "../components/Content";
+
+import {
+  LinkButton,
+  GatsbyLinkButton,
+  Divider,
+} from "../components/WelcomeSection/styled";
 
 const SidebarColumn = styled.div`
   @media (max-width: 1024px) {
@@ -21,10 +30,12 @@ export default class ProductsPage extends Component {
   };
 
   render() {
+    const { frontmatter } = this.props.data.markdownRemark;
     const { pageContext } = this.props;
     const { group, index, first, last, additionalContext } = pageContext;
     const previousUrl = index - 1 === 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString() + "/";
+    const PostContent = HTMLContent || Content;
 
     const websiteSchemaOrgJSONLD = {
       "@context": "http://schema.org",
@@ -33,16 +44,41 @@ export default class ProductsPage extends Component {
       name: config.siteTitle,
       alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
     };
+
+    console.log(frontmatter);
     return (
       <div>
         <Helmet>
-          <title>Produkty</title>
-          {/* Schema.org tags */}
-          <script type="application/ld+json">
-            {JSON.stringify(websiteSchemaOrgJSONLD)}
-          </script>
+          <title>{frontmatter.meta_title}</title>
+          <meta name="description" content={frontmatter.meta_description} />
         </Helmet>
         <Hero title="Produkty" />
+        {/* welcome section */}
+        <section className="section">
+          <div className="container has-text-centered">
+            <h3 className="title is-2 ">{frontmatter.title}</h3>
+            <PostContent
+              className="content"
+              content={this.props.data.markdownRemark.html}
+            />
+            {frontmatter.isExternal ? (
+              <LinkButton
+                className="button is-rounded has-text-centered"
+                href={frontmatter.buttonLink}
+              >
+                {frontmatter.buttonText}
+              </LinkButton>
+            ) : (
+              <GatsbyLinkButton
+                className="button is-rounded has-text-centered"
+                to={frontmatter.buttonLink.replace("https://jtlsklima.pl/", "")}
+              >
+                {frontmatter.buttonText}
+              </GatsbyLinkButton>
+            )}
+          </div>
+        </section>
+        <Divider />
         <section className="section">
           <div className="container">
             <div
@@ -88,3 +124,26 @@ export default class ProductsPage extends Component {
     );
   }
 }
+
+export const pageQuery = graphql`
+  query ProductsPage {
+    markdownRemark(fields: { slug: { eq: "/products/" } }) {
+      html
+      frontmatter {
+        meta_title
+        meta_description
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        title
+        buttonText
+        buttonLink
+        isExternal
+      }
+    }
+  }
+`;
