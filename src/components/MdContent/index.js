@@ -389,5 +389,6 @@ const Wrapper = styled.div`
 
   strong {
     font-weight: bold;
+    color: inherit;
   }
 `;

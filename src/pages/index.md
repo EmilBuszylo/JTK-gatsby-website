@@ -40,13 +40,19 @@ imageBoxSections:
   sections:
     - image: /img/shutterstock_1527211334_custom.jpg
       imageText: >-
+        **Wybór klimatyzacji**
+
+
         Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością.
       imageButtonText: Dowiedz się więcej !
       imageButtonLink: https://jtlsklima.pl/produkty
       imageIsExternal: false
       whiteBoardText: >-
-        Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością.
-      whiteBoardButtonText: Dowiedz się więcej !
-      whiteBoardButtonLink: https://jtlsklima.pl/produkty
+        **Klimatyzacja do biura**
+
+
+        klimatyzacja w miejscu pracy, w którym często spędzamy po 8-9 godzin w ciągu dnia, jest elementem niezbędnym do efektywnej pracy. Nie pozwól by upał utrudniał Tobie i Twoim pracownikom w podejmowaniu kluczowych decyzji.
+      whiteBoardButtonText: Zachęcamy do kontaktu !
+      whiteBoardButtonLink: https://jtlsklima.pl/kontakt
       whiteBoardIsExternal: false
 ---

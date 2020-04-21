@@ -76,7 +76,7 @@ exports.createPages = ({ actions, graphql, arg }) => {
       edges: products,
       createPage: createPage,
       pageTemplate: "src/templates/products.js",
-      pageLength: 20, // This is optional and defaults to 10 if not used
+      pageLength: 16, // This is optional and defaults to 10 if not used
       pathPrefix: "produkty", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
@@ -97,7 +97,7 @@ exports.createPages = ({ actions, graphql, arg }) => {
       edges: productsByCategories,
       createPage: createPage,
       pageTemplate: "src/templates/categories.js",
-      pageLength: 20, // This is optional and defaults to 10 if not used
+      pageLength: 16, // This is optional and defaults to 10 if not used
       pathPrefix: "produkty/kategoria/split", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
@@ -119,7 +119,7 @@ exports.createPages = ({ actions, graphql, arg }) => {
       edges: multiSplitproducts,
       createPage: createPage,
       pageTemplate: "src/templates/categories.js",
-      pageLength: 20, // This is optional and defaults to 10 if not used
+      pageLength: 16, // This is optional and defaults to 10 if not used
       pathPrefix: "produkty/kategoria/multi-split", // This is optional and defaults to an empty string if not used
       context: {
         lastProducts: products.slice(0, 4),
