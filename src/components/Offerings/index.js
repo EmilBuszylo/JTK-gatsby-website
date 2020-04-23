@@ -49,7 +49,7 @@ const Offerings = ({ gridItems }) => {
 Offerings.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.string,
+      image: PropTypes.object,
       text: PropTypes.string,
     })
   ),
