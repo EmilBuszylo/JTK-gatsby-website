@@ -161,6 +161,34 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/products.md"
+        label: "Produkty"
+        name: "products"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "products",
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - { label: Główny obraz, name: bigImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Button Text, name: buttonText, widget: string }
+          - { label: Button Link, name: buttonLink, widget: string }
+          - {
+              label: Is external link,
+              name: isExternal,
+              widget: "select",
+              options:
+                [{ label: "Tak", value: true }, { label: "Nie", value: false }],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"
