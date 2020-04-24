@@ -36,7 +36,6 @@ export default class ProductsPage extends Component {
     const previousUrl = index - 1 === 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString() + "/";
     const PostContent = HTMLContent || Content;
-
     const websiteSchemaOrgJSONLD = {
       "@context": "http://schema.org",
       "@type": "WebSite",
@@ -44,6 +43,9 @@ export default class ProductsPage extends Component {
       name: config.siteTitle,
       alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
     };
+
+    const lastProducts = additionalContext && additionalContext.lastProducts;
+    const hotProducts = additionalContext && additionalContext.hotProducts;
 
     return (
       <div>
@@ -112,8 +114,8 @@ export default class ProductsPage extends Component {
               </div>
               <SidebarColumn className="column is-one-fifth">
                 <Sidebar
-                  lastProducts={additionalContext.lastProducts}
-                  hotProducts={additionalContext.hotProducts}
+                  lastProducts={lastProducts}
+                  hotProducts={hotProducts}
                 />
               </SidebarColumn>
             </div>

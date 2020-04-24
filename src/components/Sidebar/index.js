@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-import ProductsList from '../ProductsShortList';
+import ProductsList from "../ProductsShortList";
 
 const ListBlock = styled.div`
   text-align: center;
@@ -21,15 +21,19 @@ const ListTitle = styled.h4`
 
 const Sidebar = ({ lastProducts, hotProducts }) => {
   return (
-    <section style={{ maxWidth: '15rem' }}>
-      <ListBlock>
-        <ListTitle className="title is-5">Polecane:</ListTitle>
-        <ProductsList products={hotProducts} condition="hot" itemsNum={3} />
-      </ListBlock>
-      <ListBlock className="has-text-centered">
-        <ListTitle className="title is-5">Najnowsze:</ListTitle>
-        <ProductsList products={lastProducts} condition="date" itemsNum={3} />
-      </ListBlock>
+    <section style={{ maxWidth: "15rem" }}>
+      {hotProducts && (
+        <ListBlock>
+          <ListTitle className="title is-5">Polecane:</ListTitle>
+          <ProductsList products={hotProducts} condition="hot" itemsNum={3} />
+        </ListBlock>
+      )}
+      {lastProducts && (
+        <ListBlock className="has-text-centered">
+          <ListTitle className="title is-5">Najnowsze:</ListTitle>
+          <ProductsList products={lastProducts} condition="date" itemsNum={3} />
+        </ListBlock>
+      )}
     </section>
   );
 };
