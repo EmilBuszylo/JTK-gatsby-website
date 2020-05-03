@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import Lightbox from 'react-image-lightbox';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import Lightbox from "react-image-lightbox";
+import styled from "styled-components";
+import GatsbyImage from "gatsby-image";
 
-import Share from '../Share';
-import PropTypes from 'prop-types';
-import Content from '../Content';
-import SE0 from '../SEO';
-import Sidebar from '../Sidebar';
-import ProductForm from '../ProductForm';
-import ProductInfoCard from '../ProductInfoCard';
-import TagsList from '../TagsList';
+import Share from "../Share";
+import PropTypes from "prop-types";
+import Content from "../Content";
+import SE0 from "../SEO";
+import Sidebar from "../Sidebar";
+import ProductForm from "../ProductForm";
+import ProductInfoCard from "../ProductInfoCard";
+import TagsList from "../TagsList";
 
 const SidebarColumn = styled.div`
   @media (max-width: 1023px) {
@@ -84,11 +85,11 @@ export default class ProductTemplate extends Component {
   state = {
     photoIndex: 0,
     isOpen: false,
-    chosenVersion: '',
+    chosenVersion: "",
   };
 
   componentDidMount() {
-    if (this.state.chosenVersion === '') {
+    if (this.state.chosenVersion === "") {
       this.setState({ chosenVersion: 0 });
     }
   }
@@ -117,7 +118,7 @@ export default class ProductTemplate extends Component {
   };
 
   setProductPrice = () => {
-    if (this.state.chosenVersion === '' || this.state.chosenVersion === 0) {
+    if (this.state.chosenVersion === "" || this.state.chosenVersion === 0) {
       return this.props.version[0].price;
     } else {
       return this.props.version[this.state.chosenVersion].price;
@@ -147,7 +148,6 @@ export default class ProductTemplate extends Component {
     const { isOpen, photoIndex, chosenVersion } = this.state;
 
     const PostContent = contentComponent || Content;
-
     const ProductImages = this.getProductImages(cover, images);
     return (
       <section className="section">
@@ -157,13 +157,13 @@ export default class ProductTemplate extends Component {
           meta_desc={meta_desc}
           cover={cover}
           slug={slug}
-          type={'product'}
+          type={"product"}
           price={this.setProductPrice()}
         />
         <div className="container">
           <div
             className="columns is-mobile"
-            style={{ justifyContent: 'space-around' }}
+            style={{ justifyContent: "space-around" }}
           >
             <MainContent className="column is-full-mobile is-four-fifths">
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
@@ -172,7 +172,7 @@ export default class ProductTemplate extends Component {
               <header className="columns">
                 <div className="column is-6">
                   <Cover onClick={() => this.setState({ isOpen: true })}>
-                    <img src={cover} alt={title} />
+                    <img src={cover.childImageSharp.fluid.src} alt={title} />
                   </Cover>
                   {images && images.length > 0 ? (
                     <ProductImageWrapper>
@@ -181,7 +181,10 @@ export default class ProductTemplate extends Component {
                           key={index + image.caption}
                           onClick={() => this.setState({ isOpen: true })}
                         >
-                          <img src={image.image} alt={image.caption} />
+                          <img
+                            src={image.image.childImageSharp.fluid.src}
+                            alt={image.caption}
+                          />
                         </ProductImage>
                       ))}
                     </ProductImageWrapper>
@@ -201,7 +204,7 @@ export default class ProductTemplate extends Component {
                 </div>
               </header>
               <PostContent content={content} className="content" />
-              {Boolean(chosenVersion !== '' && version) && (
+              {Boolean(chosenVersion !== "" && version) && (
                 <div id="productForm">
                   <ProductForm
                     title={title}

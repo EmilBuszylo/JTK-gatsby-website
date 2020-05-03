@@ -16,6 +16,7 @@ class HomePage extends Component {
         return pageContext.productCategories.indexOf(currentCategory) == index;
       }
     );
+
     return (
       <HomePageTemplate
         title={frontmatter.title}
@@ -29,6 +30,7 @@ class HomePage extends Component {
         categories={categories}
         contentComponent={HTMLContent}
         welcomeSections={frontmatter.welcomeSections}
+        imageBoxSections={frontmatter.imageBoxSections}
       />
     );
   }
@@ -51,7 +53,13 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        bigImage
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         slider_captions {
           title
           caption
@@ -68,8 +76,33 @@ export const pageQuery = graphql`
         }
         offerings {
           blurbs {
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             text
+          }
+        }
+        imageBoxSections {
+          sections {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 70) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            imageText
+            imageButtonText
+            imageButtonLink
+            imageIsExternal
+            whiteBoardText
+            whiteBoardButtonText
+            whiteBoardButtonLink
+            whiteBoardIsExternal
           }
         }
       }

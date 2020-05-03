@@ -18,6 +18,7 @@ const ContactPage = ({ data }) => {
       threads={frontmatter.threads}
       body={html}
       contentComponent={HTMLContent}
+      bigImage={frontmatter.bigImage}
     />
   );
 };
@@ -40,6 +41,13 @@ export const contactPageQuery = graphql`
         title
         meta_title
         meta_description
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         threads {
           thread
         }

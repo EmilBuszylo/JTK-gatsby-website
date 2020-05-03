@@ -94,6 +94,101 @@ collections:
                   },
                 ],
             }
+          - {
+              label: Sekcje nad belkami z kategoriami,
+              name: imageBoxSections,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Sekcja,
+                    name: sections,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Obraz, name: image, widget: file },
+                        {
+                          label: Tekst na zdjęciu,
+                          name: imageText,
+                          widget: markdown,
+                        },
+                        {
+                          label: Tekst pzycisku na zdjęciu,
+                          name: imageButtonText,
+                          widget: string,
+                        },
+                        {
+                          label: Link przycisku na zdjęciu Link,
+                          name: imageButtonLink,
+                          widget: string,
+                        },
+                        {
+                          label: Is external link ?,
+                          name: imageIsExternal,
+                          widget: "select",
+                          options:
+                            [
+                              { label: "Tak", value: true },
+                              { label: "Nie", value: false },
+                            ],
+                        },
+                        {
+                          label: Tekst na zdjęciu,
+                          name: whiteBoardText,
+                          widget: markdown,
+                        },
+                        {
+                          label: Tekst pzycisku na białym tle,
+                          name: whiteBoardButtonText,
+                          widget: string,
+                        },
+                        {
+                          label: Link przycisku na białym tle,
+                          name: whiteBoardButtonLink,
+                          widget: string,
+                        },
+                        {
+                          label: Is external link ?,
+                          name: whiteBoardIsExternal,
+                          widget: "select",
+                          options:
+                            [
+                              { label: "Tak", value: true },
+                              { label: "Nie", value: false },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "src/pages/products.md"
+        label: "Produkty"
+        name: "products"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "products",
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - { label: Główny obraz, name: bigImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Button Text, name: buttonText, widget: string }
+          - { label: Button Link, name: buttonLink, widget: string }
+          - {
+              label: Is external link,
+              name: isExternal,
+              widget: "select",
+              options:
+                [{ label: "Tak", value: true }, { label: "Nie", value: false }],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/uslugi/index.md"
         label: "Strona Usługi"
         name: "services-page"
@@ -111,6 +206,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/montaz/index.md"
         label: "Strona Montaż"
@@ -129,6 +225,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/serwis/index.md"
         label: "Strona Serwis"
@@ -147,6 +244,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - {
               label: Tematy,
               name: threads,
@@ -190,6 +288,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/rodo/index.md"
         label: "Strona RODO"
@@ -208,6 +307,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/polityka-prywatnosci/index.md"
         label: "Strona Polityka prywatności"
@@ -226,6 +326,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/producenci/index.md"
         label: "Strona producenci"
@@ -244,6 +345,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: Producenci,
@@ -274,7 +376,7 @@ collections:
               name: "meta_description",
               widget: "text",
             }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: Główny obraz, name: bigImage, widget: image }
           - {
               label: Tematy,
               name: threads,

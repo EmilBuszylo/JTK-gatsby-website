@@ -6,6 +6,7 @@ meta_description: >-
   Skontaktuj się z nami w sprawie serwisu, doboru i montażu klimatyzacji do
   swojego domu i biura w Warszawie i okolicach. Oględziny i wycenę wykonamy
   bezpłatnie w promieniu 20km od Warszawy.
+bigImage: ""
 threads:
   - thread: Produkt
   - thread: Awarie/przeglądy

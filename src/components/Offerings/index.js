@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import GatsbyImage from "gatsby-image";
 import styled from "styled-components";
 import { MdContent } from "../MdContent";
 
@@ -16,8 +17,7 @@ const ContentDivider = styled.div`
   margin: 32px auto;
 `;
 
-const Offerings = ({ gridItems, contentComponent }) => {
-  console.log(gridItems);
+const Offerings = ({ gridItems }) => {
   return (
     <div className="container hot-products-container">
       {gridItems.map((item, index) => (
@@ -31,7 +31,11 @@ const Offerings = ({ gridItems, contentComponent }) => {
                 <MdContent className="content" md={item.text} />
               </div>
               <div className="column">
-                <img alt="" src={item.image} />
+                <GatsbyImage
+                  fluid={item.image.childImageSharp.fluid}
+                  {...item.image.childImageSharp}
+                  alt=""
+                />
               </div>
             </ContentBlock>
           </div>
@@ -45,7 +49,7 @@ const Offerings = ({ gridItems, contentComponent }) => {
 Offerings.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.string,
+      image: PropTypes.object,
       text: PropTypes.string,
     })
   ),

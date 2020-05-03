@@ -18,13 +18,14 @@ const PrivacyPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        bigImage={post.frontmatter.bigImage}
       />
     </div>
   );
 };
 
 PrivacyPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default PrivacyPage;
@@ -37,6 +38,13 @@ export const PrivacyPageQuery = graphql`
         title
         meta_title
         meta_description
+        bigImage {
+          childImageSharp {
+            fluid(maxWidth: 2200, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

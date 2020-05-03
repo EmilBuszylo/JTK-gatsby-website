@@ -4,7 +4,9 @@ title: Polityka RODO
 meta_title: RODO
 meta_description: |
   RODO-ochrona danych osobowych
+bigImage: ""
 ---
+
 ## RODO
 
 **Administratorem Pana/Pani danych osobowych jest**: JTLS Technika s.c z siedzibą w Warszawie, ul. Pokorna 2/1050; 00-199 Warszawa; NIP: 525278523 REGON: 382903766; tel. 883 779 380; e-mail: ochronadanych@jtlsklima.pl; (dalej JTLS albo Administrator).

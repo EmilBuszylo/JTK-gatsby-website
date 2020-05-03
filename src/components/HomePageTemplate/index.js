@@ -6,6 +6,7 @@ import Hero from "../Hero";
 import CategoriesBars from "../CategoryBars";
 import ProductCard from "../ProductCard";
 import { WelcomeSection } from "../WelcomeSection";
+import { ImageBoxSection } from "../ImageBoxSection";
 
 const HomePageTemplate = ({
   title,
@@ -18,6 +19,7 @@ const HomePageTemplate = ({
   bigImage,
   contentComponent,
   welcomeSections,
+  imageBoxSections,
 }) => (
   <div>
     <Helmet>
@@ -36,7 +38,7 @@ const HomePageTemplate = ({
     {welcomeSections &&
       welcomeSections.sections.length > 0 &&
       welcomeSections.sections.map(section => (
-        <WelcomeSection section={section} />
+        <WelcomeSection section={section} key={section.title} />
       ))}
     <section
       className="container"
@@ -58,6 +60,15 @@ const HomePageTemplate = ({
         contentComponent={contentComponent}
       />
     </section>
+    {imageBoxSections &&
+      imageBoxSections.sections.length > 0 &&
+      imageBoxSections.sections.map((section, index) => (
+        <ImageBoxSection
+          section={section}
+          key={`imageBoxSection-${index}`}
+          revers={index % 2 !== 0}
+        />
+      ))}
     <CategoriesBars categories={categories} />
   </div>
 );
@@ -74,7 +85,7 @@ HomePageTemplate.propTypes = {
   }),
   categories: PropTypes.array,
   hotProducts: PropTypes.array,
-  bigImage: PropTypes.string,
+  bigImage: PropTypes.object,
 };
 
 export default HomePageTemplate;

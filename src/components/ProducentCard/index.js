@@ -14,7 +14,11 @@ const ProducentCard = ({ data }) => {
   return (
     <Wrapper>
       <FeaturedImageWrapper>
-        <FeaturedImage src={data.cover} alt={data.name} />
+        <FeaturedImage
+          fluid={data.cover.childImageSharp.fluid}
+          alt={data.name}
+          {...data.cover.childImageSharp}
+        />
       </FeaturedImageWrapper>
       <CardContent>
         <h3 className="title is-5">{data.name}</h3>
