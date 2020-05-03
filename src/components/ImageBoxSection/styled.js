@@ -17,7 +17,8 @@ export const WhiteBox = styled.div`
   width: 100%;
   flex: 0 0 1;
   padding: 1em;
-  height: 45vh;
+  height: 100%;
+  min-height: 45vh;
 
   display: flex;
   justify-content: center;
@@ -26,6 +27,7 @@ export const WhiteBox = styled.div`
   padding: 2em;
 
   @media (min-width: 640px) {
+    height: 45vh;
     width: 50%;
     flex: 0 0 50%;
   }
@@ -35,7 +37,8 @@ export const ImageBoxWrapper = styled.div`
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 45vh;
+  height: 100%;
+  min-height: 45vh;
   min-height: 380px;
   flex: 0 0 1;
   display: flex;
@@ -47,6 +50,7 @@ export const ImageBoxWrapper = styled.div`
   @media (min-width: 640px) {
     width: 50%;
     flex: 0 0 50%;
+    height: 45vh;
   }
 
   &:after {
