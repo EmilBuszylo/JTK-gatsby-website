@@ -43,7 +43,7 @@ const Footer = () => {
       <div className="container">
         <Navbar>
           <NavLinksGroup>
-            <a className="navbar-item" href="tel:48 883 779 380">
+            <a className="navbar-item" href="tel:+48883779380">
               <LeftIcon>
                 <FontAwesomeIcon icon={faPhone} />
               </LeftIcon>
