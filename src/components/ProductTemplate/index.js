@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import styled from "styled-components";
-import GatsbyImage from "gatsby-image";
 
 import Share from "../Share";
 import PropTypes from "prop-types";
@@ -107,9 +106,9 @@ export default class ProductTemplate extends Component {
       return images;
     }
 
-    images.push(coverImage);
-
-    return images.concat(productImages.map(image => image.image));
+    return images.concat(
+      productImages.map(image => image.image.childImageSharp.fluid.src)
+    );
   };
 
   onVersionChange = e => {
@@ -146,7 +145,6 @@ export default class ProductTemplate extends Component {
     } = this.props;
 
     const { isOpen, photoIndex, chosenVersion } = this.state;
-
     const PostContent = contentComponent || Content;
     const ProductImages = this.getProductImages(cover, images);
     return (
@@ -155,7 +153,7 @@ export default class ProductTemplate extends Component {
           title={title}
           meta_title={meta_title}
           meta_desc={meta_desc}
-          cover={cover}
+          cover={cover.childImageSharp.fluid.src}
           slug={slug}
           type={"product"}
           price={this.setProductPrice()}
