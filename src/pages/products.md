@@ -5,7 +5,7 @@ meta_description: >-
   Klimatyzacja Warszawa i okolice, montaż i serwis, najlepsi producenci,
   najwyższa jakość usługi montażu klimatyzacji. Lista najlepszych klimatyzatorów w warszawie.
 bigImage: /img/shutterstock_1399172867-min.jpg
-title: Montaż w cenie uprzedzeń!
+title: Montaż w cenie urządzeń!
 buttonText: Sprawdź!
 buttonLink: https://jtlsklima.pl/montaz
 isExternal: false

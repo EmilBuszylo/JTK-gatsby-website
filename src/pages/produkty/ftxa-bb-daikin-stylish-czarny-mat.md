@@ -1,37 +1,43 @@
 ---
 templateKey: product-page
 order: 3
-title: FTXA-BT - Daikin STYLISH - czarne drewno
-meta_title: Daikin model FTXA-BT/RXA-A
-slug: daikin-model-ftxa-bt-rxa-a
-meta_description: Stylish, Daikin, jednostka naścienna, klimatyzacja do domu,
-  komfort, montaż klimatyzacji, najlepsza klimatyzacja Warszawa, klimatyzator do
-  mieszkania.
-date: 2020-04-19T12:39:00.000Z
-cover: /img/drewno-1.png
+title: FTXA-BB - Daikin STYLISH - czarny mat
+meta_title: FTXA-BB - Daikin STYLISH - czarny mat
+slug: FTXA-BB - Daikin STYLISH - czarny mat
+meta_description: Daikin Stylish, klimatyzacja najwyższej jakości,
+  niepowtarzalny styl, funkcjonalność i niezawodność. Klimatyzacja do domu i
+  mieszkania. Najlepszy montaż w Warszawie.
+date: 2020-04-19T12:46:13.497Z
+cover: /img/czarny-1.png
 tags:
   - Daikin
+  - Stylish
+  - Komfort
+  - Klimatyzacja
+  - ""
 categories: split
 producent: Daikin
 hotProductsSelect: nie
 images:
-  - caption: Daikin FTXA–BT + RXA–A
-    image: /img/drewno-4.png
-  - caption: Daikin FTXA–BT + RXA–A
-    image: /img/drewno-3.png
-  - caption: Daikin FTXA–BT + RXA–A
-    image: /img/drewno-2.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-6.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-4.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-3.png
+  - caption: Daikin Stylish FTXA-BB / RXA-A
+    image: /img/czarny-7.png
 version:
   - power: 2,00kW
-    price: od 7466,13
+    price: od 6874,10
   - power: 2,50kW
-    price: od 7712,77
-  - power: 3,4kW
-    price: od 8580,60
-  - power: 4,2kW
-    price: od 12143,25
-  - power: 5,0kW
-    price: od 13102,42
+    price: od 7202,54
+  - power: 3,40kW
+    price: od 7868,80
+  - power: 4,50kW
+    price: od 11162,58
+  - power: 5,00kW
+    price: od 12129,14
 vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
   indywidualnego, dla firm stawka VAT wynosi 23%
 ---
@@ -39,7 +45,7 @@ vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
 
-Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny lub imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
+Jest to jednostka w której najnowsza technologia została opakowana w stylową obudowę. Do wyboru kolor biały, srebrny, czarny mat oraz imitacja czarnego drewna. Jednostki o mocy od 2kW do 5kW w trybie chłodzenia lub grzania.
 
 Cechy produktu:
 
@@ -56,4 +62,4 @@ Cechy produktu:
 
 Więcej informacji na stronie producenta:
 
-https://www.daikin.pl/pl_pl/products/FTXA-BT.html
+https://www.daikin.pl/pl_pl/products/FTXA-BB---RXA-A.html

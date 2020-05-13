@@ -29,20 +29,19 @@ images:
     image: /img/stylish-aw-4.png
 version:
   - power: '2,0 kW'
-    price: 'od 7082,46'
+    price: 'od 6808,41'
   - power: '2,5 kW'
-    price: 'od 7420,45'
+    price: 'od 7127,46'
   - power: '3,4 kW'
-    price: 'od 8114,71'
+    price: 'od 7793,73'
   - power: '4,2 kW'
-    price: 'od 11549,47'
+    price: 'od 11068,74'
   - power: '5,0 kW'
-    price: 'od 12554,32'
+    price: 'od 12016,53'
 vat: >-
   Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
   dla firm stawka VAT wynosi 23%
 ---
-
 # Daikin Stylish
 
 Jednostka o nazwie STYLISH została stworzona dla najbardziej wymagających klientów. Jest to flagowy produkt Japońskiej firmy Daikin, lidera jakości i niezawodności.
@@ -51,13 +50,15 @@ Jest to jednostka w której najnowsza technologia została opakowana w stylową 
 
 Cechy produktu:
 
-- kompaktowy design
-- idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
-- inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
-- regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
-- technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
-- praktycznie niesłyszalna praca
-- kontrola pracy online poprzez wbudowany moduł wi-fi
-- efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
-- 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
-- praca na ekologiczny czynnik R32
+* kompaktowy design
+* idealne rozprowadzenie strumienia powietrza dzięki efektowi Coandy
+* inteligentny czujnik temperatury: temperatura nawiewu jest automatycznie dostosowywana to temperatury otoczenia
+* regulacja wilgotności w pomieszczeniu poprzez dodatkowy wymiennik ciepła
+* technologia Daikin Flash Streamer – oczyszczanie powietrza jak w oczyszczaczu, zabija do 99% wirusów i bakterii
+* praktycznie niesłyszalna praca
+* kontrola pracy online poprzez wbudowany moduł wi-fi
+* efektywność energetyczna aż do A+++ w trybie grzania i chłodzenia
+* 2-obszarowy czujnik inteligentne oko: powietrze jest kierowane do strefy innej, niż ta, w której w danym momencie znajduje się człowiek. Jeżeli w pomieszczeniu nie zostanie wykryta żadna osoba, urządzenie automatycznie przełączy się na ustawienie energooszczędne.
+* praca na ekologiczny czynnik R32
+
+Więcej na stronie producenta: https://www.daikin.pl/pl_pl/products/FTXA-AW---RXA-A.html
