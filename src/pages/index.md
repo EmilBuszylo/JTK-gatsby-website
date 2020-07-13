@@ -26,7 +26,7 @@ welcomeSections:
         sposobów na montaż klimatyzatora, na ścianie, przy podłodze, a także w
         suficie podwieszanym. Doradztwo, oględziny lokalu i dobór urządzenia
         jest gratis! Sprawdź jakie urządzenia oferujemy z montażem!
-      title: Myślisz o klimatyzacji w domu?
+      title: <h1>Myślisz o klimatyzacji w domu?</h1>
 offerings:
   blurbs:
     - image: /img/shutterstock_749942077_compress.jpg
@@ -55,28 +55,27 @@ offerings:
 
         Zapraszamy do kontaktu: [jtlsklima.pl/kontakt](https://jtlsklima.pl/kontakt)
     - image: /img/pies-i-upal2662.jpg
-      text: >-
-        **Ceny** - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas, dlatego
-        podajemy ceny przy każdym produkcie. Uwzględniają one standardowy
-        montaż, którego opis znajdziesz pod linkiem
-        [jtlsklima.pl/montaz](https://jtlsklima.pl/montaz)
+      text: "**Ceny** - u nas nie ma ukrytych cen i kosztów. Dbamy o Wasz czas,
+        dlatego podajemy ceny przy każdym produkcie. Uwzględniają one
+        standardowy montaż, którego opis znajdziesz pod linkiem
+        [jtlsklima.pl/montaz](https://jtlsklima.pl/montaz)"
 imageBoxSections:
   sections:
-    - image: /img/shutterstock_1527211334_custom.jpg
+    - imageButtonLink: https://jtlsklima.pl/produkty
       imageText: >-
         **Wybór klimatyzacji**
 
 
         Pamiętaj, że montaż klimatyzacji to inwestycja na lata, z której korzystasz Ty i Twoi bliscy. Przy podejmowaniu decyzji o odpowiedniej jednostce, kieruj się komfortem i funkcjonalnością.
-      imageButtonText: Dowiedz się więcej !
-      imageButtonLink: https://jtlsklima.pl/produkty
-      imageIsExternal: false
+      whiteBoardButtonLink: https://jtlsklima.pl/kontakt
       whiteBoardText: >-
         **Klimatyzacja do biura**
 
 
         klimatyzacja w miejscu pracy, w którym często spędzamy po 8-9 godzin w ciągu dnia, jest elementem niezbędnym do efektywnej pracy. Nie pozwól by upał utrudniał Tobie i Twoim pracownikom w podejmowaniu kluczowych decyzji.
-      whiteBoardButtonText: Zachęcamy do kontaktu !
-      whiteBoardButtonLink: https://jtlsklima.pl/kontakt
+      imageIsExternal: false
       whiteBoardIsExternal: false
+      imageButtonText: Dowiedz się więcej !
+      image: /img/shutterstock_1527211334_custom.jpg
+      whiteBoardButtonText: Zachęcamy do kontaktu !
 ---
