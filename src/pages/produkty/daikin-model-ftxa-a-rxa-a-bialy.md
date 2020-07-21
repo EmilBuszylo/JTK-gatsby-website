@@ -4,9 +4,8 @@ order: 1
 title: FTXA-AW - Daikin STYLISH - biały
 meta_title: Daikin model FTXA-AW/RXA-A
 slug: daikin-model-ftxa-a-rxa-a-bialy
-meta_description: >-
-  Stylish, Daikin, jednostka naścienna, klimatyzacja, komfort, montaż
-  klimatyzacji, najlepsza klimatyzacja Warszawa
+meta_description: Stylish, Daikin, jednostka naścienna, klimatyzacja, komfort,
+  montaż klimatyzacji, najlepsza klimatyzacja Warszawa
 date: 2018-03-10T04:55:49.370Z
 cover: /img/stylish-aw.png
 tags:
@@ -17,7 +16,7 @@ tags:
   - klima
 categories: split
 producent: Daikin
-hotProductsSelect: tak
+hotProductsSelect: nie
 images:
   - caption: klimatyzator Daikin FTXA–AW + RXA–A
     image: /img/stylish-aw-2.png
@@ -28,19 +27,18 @@ images:
   - caption: Inteligentne oko
     image: /img/stylish-aw-4.png
 version:
-  - power: '2,0 kW'
-    price: 'od 6808,41'
-  - power: '2,5 kW'
-    price: 'od 7127,46'
-  - power: '3,4 kW'
-    price: 'od 7793,73'
-  - power: '4,2 kW'
-    price: 'od 11068,74'
-  - power: '5,0 kW'
-    price: 'od 12016,53'
-vat: >-
-  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
-  dla firm stawka VAT wynosi 23%
+  - power: 2,0 kW
+    price: od 6808,41
+  - power: 2,5 kW
+    price: od 7127,46
+  - power: 3,4 kW
+    price: od 7793,73
+  - power: 4,2 kW
+    price: od 11068,74
+  - power: 5,0 kW
+    price: od 12016,53
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
+  indywidualnego, dla firm stawka VAT wynosi 23%
 ---
 # Daikin Stylish
 
