@@ -4,9 +4,9 @@ order: 31
 title: Gree Lomo Eco
 meta_title: Gree Lomo Eco
 slug: Gree Lomo Eco
-meta_description: >-
-  Klimatyzacja firmy Gree to komfort w dobrej cenie, doceniany za niezawodne
-  urządzenia. Klimatyzator Lomo Eco to  budżetowe urządzenie firmy Gree. 
+meta_description: "Klimatyzacja firmy Gree to komfort w dobrej cenie, doceniany
+  za niezawodne urządzenia. Klimatyzator Lomo Eco to  budżetowe urządzenie firmy
+  Gree. "
 date: 2019-05-30T20:26:35.454Z
 cover: /img/klimatyzator-scienny-gree-lomo-eco0.png
 tags:
@@ -17,24 +17,23 @@ tags:
   - ekonomia
 categories: split
 producent: Gree
-hotProductsSelect: nie
+hotProductsSelect: tak
 images:
   - caption: Gree Lomo Eco
     image: /img/lomo-eco.png
   - caption: Gree Lomo Eco
     image: /img/lomo-economic-1-ico.jpg
 version:
-  - power: '2,6 kW'
-    price: 'od 2951,26'
-  - power: '3,2 kW'
-    price: 'od 3102,06'
-  - power: '4,6 kW'
-    price: 'od 3956,06'
-  - power: '6,16 kW'
-    price: 'od 4634,66'
-vat: >-
-  Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta indywidualnego,
-  dla firm stawka VAT wynosi 23%
+  - power: 2,6 kW
+    price: od 2951,26
+  - power: 3,2 kW
+    price: od 3102,06
+  - power: 4,6 kW
+    price: od 3956,06
+  - power: 6,16 kW
+    price: od 4634,66
+vat: Do ceny należy doliczyć 8% podatku VAT z montażem dla klienta
+  indywidualnego, dla firm stawka VAT wynosi 23%
 ---
 # Lomo Eco
 
